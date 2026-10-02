@@ -10,6 +10,7 @@ const matches = [...html.matchAll(/<script[^>]*type="module"[^>]*>[\s\S]*?<\/scr
 if (matches.length !== 1) throw new Error('Expected exactly one upstream app script');
 html = html.replace(matches[0][0], () => '<script type="module">' + app.replaceAll('</script', '<\\/script') + '</script>');
 html = html.replace(/<title>[\s\S]*?<\/title>/, '<title>老祖法宝模拟器 · 觉醒版</title>');
+html = html.replace('机制与公式见 docs/GAME_DATA.md。本工具不修改游戏、不与服务端交互。', '战力目标为法宝模型分，非游戏面板总战力。机制与限制见此版本源码中的 README。本工具不修改游戏、不与服务端交互。');
 html = html.replace('<div id="app"></div>', `<div style="padding:10px 16px;text-align:center;border-bottom:1px solid #dec9ab;background:#fff7e8;color:#604833;font-size:13px">觉醒版 · 数据快照 2609241624 · 体系限定已收录 · 觉醒配置 78/80<br>鲲·剑、共工·剑暂无官方觉醒配置。求解结果为当前最高解。<details><summary>来源与版本</summary>原作者 <a href="https://github.com/fradwow/laozu-solver" target="_blank" rel="noopener">fradwow/laozu-solver</a>，更新 2026-10-02。<a href="https://github.com/hekunwang/laozu-solver" target="_blank" rel="noopener">此版本源码</a>。使用已保存游戏资源；觉醒尚未与实时游戏面板逐件核对。</details></div><div id="app"></div>`);
 fs.writeFileSync(path.join(root, 'index.html'), html);
 console.log('Built standalone offline page:', path.join(root, 'index.html'));
