@@ -1,0 +1,39 @@
+{
+  "resourceVersion": "2609241624",
+  "builtForDate": "2026-10-02",
+  "upstream": "https://github.com/fradwow/laozu-solver",
+  "sourceSnapshot": "live-2609241624-daily",
+  "sourceHashes": {
+    "Attribute.json": "ca64fe80c02ab3c23192c6acb908c856f9c04309986e11e7f1ef86faf6d104ec",
+    "Teacher.json": "a8026b3826492b94860444ee3d68d391710185c726aa1228eeb5b196393a1c54",
+    "TeacherAwakenEffect.json": "501675bb979a977419c606e6499b302b60b19a26574ea005ab9ccaef83e14ba0",
+    "TeacherAwakening.json": "679f4563001085de0433251ae6a175f56c7018062c37cb3312e6abe0e3916499",
+    "WanderingEquip.json": "b89587ebff3fdeb029a9fe7e8648ba0a92ed8c78eb555461d65be4cc18e64cd5",
+    "WanderingEquipSkill.json": "31ce2d1c7765d3f908c3daaabee7db0778788d958ba7f27c347b19c2171173ba"
+  },
+  "counts": {
+    "equips": 375,
+    "skills": 269,
+    "awakeningComplete": 78,
+    "awakeningTotal": 80
+  },
+  "missing": {
+    "250305": [
+      {
+        "level": 1,
+        "effectId": "官方快照未配置觉醒"
+      }
+    ],
+    "250306": [
+      {
+        "level": 1,
+        "effectId": "官方快照未配置觉醒"
+      }
+    ]
+  },
+  "notes": [
+    "原版形状修正与截图识别模板保留",
+    "缺失的官方效果不会猜补",
+    "只优化法宝属性战力，不模拟战斗或证明全局最优"
+  ]
+}

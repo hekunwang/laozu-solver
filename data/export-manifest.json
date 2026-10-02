@@ -1,0 +1,45 @@
+{
+  "source": "live-2609241624-daily/text-assets-data",
+  "tables": {
+    "WanderingEquip": {
+      "file": "-4833120086416829051-WanderingEquip",
+      "rows": 385,
+      "sha256": "5b32e8a1acadaf0ab8ec03faf46344bb5525fc20a72e398d073d807c7285423d"
+    },
+    "WanderingEquipSlot": {
+      "file": "-1326809531308283760-WanderingEquipSlot",
+      "rows": 163,
+      "sha256": "b735b5fe6c426f2d7e1658da26b5171a8dcc6033822358e74d096b36bc73ac8b"
+    },
+    "WanderingEquipSkill": {
+      "file": "8798056100292098181-WanderingEquipSkill",
+      "rows": 313,
+      "sha256": "e1f0c52f22bef54863f371b713f032364ddf340a240d3f7e24a2a477ed788d5f"
+    },
+    "Teacher": {
+      "file": "-3522409001809722970-Teacher",
+      "rows": 80,
+      "sha256": "d5ed207353d1c6e5b47a6319a329cecf5a46e00f0f9a1196215c4bf17d659ea1"
+    },
+    "TeacherAwakening": {
+      "file": "-7884253873344861855-TeacherAwakening",
+      "rows": 400,
+      "sha256": "b58749b55b2e25ec4957652f14142a635405fddc0b0a82229f3a53bf9df3bb31"
+    },
+    "TeacherAwakeningLevel": {
+      "file": "-7133239195774968083-TeacherAwakeningLevel",
+      "rows": 100,
+      "sha256": "d5046b4513d5fde6ca8103feabf4257749f30b39540995031d039dfbabf6fb14"
+    },
+    "TeacherAwakenEffect": {
+      "file": "-3319907647202158888-TeacherAwakenEffect",
+      "rows": 222,
+      "sha256": "6a26af8dba9df36980396801a6d91c3c612ae0c19aff038d32b1b97c9b27f09d"
+    },
+    "Attribute": {
+      "file": "8790558368658632-Attribute",
+      "rows": 465,
+      "sha256": "7db535773cd805ca43d46a94e169d2a6695689b85c77b49265c659227fd5f3c3"
+    }
+  }
+}

@@ -1,0 +1,4050 @@
+[
+  {
+    "iID": 1011,
+    "iType": 1008,
+    "szName": "蕴金戒1",
+    "szDesc": "使相邻金系装备伤害增加2%",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2025,
+      200
+    ]
+  },
+  {
+    "iID": 1012,
+    "iType": 1008,
+    "szName": "蕴金戒2",
+    "szDesc": "使相邻金系装备伤害增加4%",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2025,
+      400
+    ]
+  },
+  {
+    "iID": 1013,
+    "iType": 1008,
+    "szName": "蕴金戒3",
+    "szDesc": "使相邻金系装备伤害增加6%",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2025,
+      600
+    ]
+  },
+  {
+    "iID": 1014,
+    "iType": 1008,
+    "szName": "蕴金戒4",
+    "szDesc": "使相邻金系装备伤害增加10%",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 1035,
+    "iType": 1005,
+    "szName": "金3-1",
+    "szDesc": "每有一件相邻金系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 1135,
+    "iType": 1005,
+    "szName": "金3-2",
+    "szDesc": "每有一件相邻金系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 1041,
+    "iType": 1007,
+    "szName": "重金破阵矛1",
+    "szDesc": "每有一件相邻金系装备给本装备提供7.5%暴击伤害",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2027,
+      750
+    ]
+  },
+  {
+    "iID": 1042,
+    "iType": 1007,
+    "szName": "重金破阵矛2",
+    "szDesc": "每有一件相邻金系装备给本装备提供7.5%暴击伤害",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2027,
+      750
+    ]
+  },
+  {
+    "iID": 1043,
+    "iType": 1007,
+    "szName": "重金破阵矛3",
+    "szDesc": "每有一件相邻金系装备给本装备提供7.5%暴击伤害",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2027,
+      750
+    ]
+  },
+  {
+    "iID": 1044,
+    "iType": 1007,
+    "szName": "重金破阵矛4",
+    "szDesc": "每有一件相邻金系装备给本装备提供15%暴击伤害",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2027,
+      1500
+    ]
+  },
+  {
+    "iID": 1045,
+    "iType": 1007,
+    "szName": "三尖两刃",
+    "szDesc": "每有一件相邻金系装备给本装备提供15%暴击伤害",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2027,
+      1500
+    ]
+  },
+  {
+    "iID": 1046,
+    "iType": 1007,
+    "szName": "如意金箍棒",
+    "szDesc": "每有一件相邻金系装备给本装备提供15%暴击伤害",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2027,
+      1500
+    ]
+  },
+  {
+    "iID": 1061,
+    "iType": 1007,
+    "szName": "玄金碎甲剑1",
+    "szDesc": "每有一件相邻金系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 1062,
+    "iType": 1007,
+    "szName": "玄金碎甲剑2",
+    "szDesc": "每有一件相邻金系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 1063,
+    "iType": 1007,
+    "szName": "玄金碎甲剑3",
+    "szDesc": "每有一件相邻金系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 1064,
+    "iType": 1007,
+    "szName": "玄金碎甲剑4",
+    "szDesc": "每有一件相邻金系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 1065,
+    "iType": 1007,
+    "szName": "龙渊七星",
+    "szDesc": "每有一件相邻金系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 1081,
+    "iType": 1005,
+    "szName": "曜金战身刀1",
+    "szDesc": "每有一件相邻金系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 1082,
+    "iType": 1005,
+    "szName": "曜金战身刀2",
+    "szDesc": "每有一件相邻金系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 1083,
+    "iType": 1005,
+    "szName": "曜金战身刀3",
+    "szDesc": "每有一件相邻金系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 1084,
+    "iType": 1005,
+    "szName": "曜金战身刀4",
+    "szDesc": "每有一件相邻金系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 1085,
+    "iType": 1005,
+    "szName": "强攻",
+    "szDesc": "每有一件相邻金系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2011,
+    "iType": 1006,
+    "szName": "枯荣种1",
+    "szDesc": "使相邻木系装备生命值提高20%",
+    "arrParam": [
+      4,
+      2006,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2012,
+    "iType": 1006,
+    "szName": "枯荣种2",
+    "szDesc": "使相邻木系装备生命值提高30%",
+    "arrParam": [
+      4,
+      2006,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2013,
+    "iType": 1006,
+    "szName": "枯荣种3",
+    "szDesc": "使相邻木系装备生命值提高40%",
+    "arrParam": [
+      4,
+      2006,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2014,
+    "iType": 1006,
+    "szName": "枯荣种4",
+    "szDesc": "使相邻木系装备生命值提高50%",
+    "arrParam": [
+      4,
+      2006,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2035,
+    "iType": 1005,
+    "szName": "木3-1",
+    "szDesc": "每有一件相邻木系装备给本装备提供60%生命值加成",
+    "arrParam": [
+      4,
+      2006,
+      6000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2135,
+    "iType": 1005,
+    "szName": "木3-2",
+    "szDesc": "每有一件相邻木系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2041,
+    "iType": 1007,
+    "szName": "木灵玉如意1",
+    "szDesc": "每有一件相邻木系装备给本装备提供5%治疗加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      4,
+      2045,
+      500
+    ]
+  },
+  {
+    "iID": 2042,
+    "iType": 1007,
+    "szName": "木灵玉如意2",
+    "szDesc": "每有一件相邻木系装备给本装备提供5%治疗加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      4,
+      2045,
+      500
+    ]
+  },
+  {
+    "iID": 2043,
+    "iType": 1007,
+    "szName": "木灵玉如意3",
+    "szDesc": "每有一件相邻木系装备给本装备提供5%治疗加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      4,
+      2045,
+      500
+    ]
+  },
+  {
+    "iID": 2044,
+    "iType": 1007,
+    "szName": "木灵玉如意4",
+    "szDesc": "每有一件相邻木系装备给本装备提供10%治疗加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      4,
+      2045,
+      1000
+    ]
+  },
+  {
+    "iID": 2045,
+    "iType": 1007,
+    "szName": "青阳唤春",
+    "szDesc": "每有一件相邻木系装备给本装备提供10%治疗加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      4,
+      2045,
+      1000
+    ]
+  },
+  {
+    "iID": 2046,
+    "iType": 1005,
+    "szName": "青帝剑",
+    "szDesc": "每有一件相邻木系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2061,
+    "iType": 1005,
+    "szName": "千瘴断魂琴1",
+    "szDesc": "每有一件相邻木系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2062,
+    "iType": 1005,
+    "szName": "千瘴断魂琴2",
+    "szDesc": "每有一件相邻木系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2063,
+    "iType": 1005,
+    "szName": "千瘴断魂琴3",
+    "szDesc": "每有一件相邻木系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2064,
+    "iType": 1005,
+    "szName": "千瘴断魂琴4",
+    "szDesc": "每有一件相邻木系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2065,
+    "iType": 1005,
+    "szName": "五毒俱全",
+    "szDesc": "每有一件相邻木系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2081,
+    "iType": 1005,
+    "szName": "噬元大丽花1",
+    "szDesc": "每有一件相邻木系装备给本装备提供20%生命值加成",
+    "arrParam": [
+      4,
+      2006,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2082,
+    "iType": 1005,
+    "szName": "噬元大丽花2",
+    "szDesc": "每有一件相邻木系装备给本装备提供20%生命值加成",
+    "arrParam": [
+      4,
+      2006,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2083,
+    "iType": 1005,
+    "szName": "噬元大丽花3",
+    "szDesc": "每有一件相邻木系装备给本装备提供20%生命值加成",
+    "arrParam": [
+      4,
+      2006,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2084,
+    "iType": 1005,
+    "szName": "噬元大丽花4",
+    "szDesc": "每有一件相邻木系装备给本装备提供40%生命值加成",
+    "arrParam": [
+      4,
+      2006,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 2085,
+    "iType": 1005,
+    "szName": "通幽震魄",
+    "szDesc": "每有一件相邻木系装备给本装备提供50%生命值加成",
+    "arrParam": [
+      4,
+      2006,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3011,
+    "iType": 1006,
+    "szName": "流水散1",
+    "szDesc": "使相邻水系装备防御增加40%",
+    "arrParam": [
+      8,
+      2005,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3012,
+    "iType": 1006,
+    "szName": "流水散2",
+    "szDesc": "使相邻水系装备防御增加60%",
+    "arrParam": [
+      8,
+      2005,
+      6000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3013,
+    "iType": 1006,
+    "szName": "流水散3",
+    "szDesc": "使相邻水系装备防御增加80%",
+    "arrParam": [
+      8,
+      2005,
+      8000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3014,
+    "iType": 1006,
+    "szName": "流水散4",
+    "szDesc": "使相邻水系装备防御增加100%",
+    "arrParam": [
+      8,
+      2005,
+      10000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3035,
+    "iType": 1005,
+    "szName": "水3-1",
+    "szDesc": "每有一件相邻水系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      8,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3135,
+    "iType": 1005,
+    "szName": "水3-2",
+    "szDesc": "每有一件相邻水系装备给本装备提供80%生命值加成",
+    "arrParam": [
+      8,
+      2006,
+      8000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3041,
+    "iType": 1005,
+    "szName": "霜华千影剑1",
+    "szDesc": "每有一件相邻水系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      8,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3042,
+    "iType": 1005,
+    "szName": "霜华千影剑2",
+    "szDesc": "每有一件相邻水系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      8,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3043,
+    "iType": 1005,
+    "szName": "霜华千影剑3",
+    "szDesc": "每有一件相邻水系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      8,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3044,
+    "iType": 1005,
+    "szName": "霜华千影剑4",
+    "szDesc": "每有一件相邻水系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      8,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3045,
+    "iType": 1005,
+    "szName": "月华清影",
+    "szDesc": "每有一件相邻水系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      8,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3046,
+    "iType": 1005,
+    "szName": "万载玄冰（共工）",
+    "szDesc": "每有一件相邻水系装备给本装备提供50%攻击力加成",
+    "arrParam": [
+      8,
+      2004,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3061,
+    "iType": 1007,
+    "szName": "冰魄凝神甲1",
+    "szDesc": "每有一件相邻水系装备给本装备提供10%护盾值加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      8,
+      2069,
+      1000
+    ]
+  },
+  {
+    "iID": 3062,
+    "iType": 1007,
+    "szName": "冰魄凝神甲2",
+    "szDesc": "每有一件相邻水系装备给本装备提供10%护盾值加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      8,
+      2069,
+      1000
+    ]
+  },
+  {
+    "iID": 3063,
+    "iType": 1007,
+    "szName": "冰魄凝神甲3",
+    "szDesc": "每有一件相邻水系装备给本装备提供10%护盾值加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      8,
+      2069,
+      1000
+    ]
+  },
+  {
+    "iID": 3064,
+    "iType": 1007,
+    "szName": "冰魄凝神甲4",
+    "szDesc": "每有一件相邻水系装备给本装备提供10%护盾值加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      8,
+      2069,
+      1000
+    ]
+  },
+  {
+    "iID": 3065,
+    "iType": 1007,
+    "szName": "封神奇卷",
+    "szDesc": "每有一件相邻水系装备给本装备提供10%护盾值加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      8,
+      2069,
+      1000
+    ]
+  },
+  {
+    "iID": 3081,
+    "iType": 1005,
+    "szName": "急冻流星锤1",
+    "szDesc": "每有一件相邻水系装备给本装备提供50%防御加成",
+    "arrParam": [
+      8,
+      2005,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3082,
+    "iType": 1005,
+    "szName": "急冻流星锤2",
+    "szDesc": "每有一件相邻水系装备给本装备提供50%防御加成",
+    "arrParam": [
+      8,
+      2005,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3083,
+    "iType": 1005,
+    "szName": "急冻流星锤3",
+    "szDesc": "每有一件相邻水系装备给本装备提供50%防御加成",
+    "arrParam": [
+      8,
+      2005,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3084,
+    "iType": 1005,
+    "szName": "急冻流星锤4",
+    "szDesc": "每有一件相邻水系装备给本装备提供100%防御加成",
+    "arrParam": [
+      8,
+      2005,
+      10000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3085,
+    "iType": 1005,
+    "szName": "玄冥坠星",
+    "szDesc": "每有一件相邻水系装备给本装备提供100%防御加成",
+    "arrParam": [
+      8,
+      2005,
+      10000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 3095,
+    "iType": 1005,
+    "szName": "弱水涓扇",
+    "szDesc": "每有一件相邻水系装备给本装备提供50%攻击加成",
+    "arrParam": [
+      8,
+      2004,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4011,
+    "iType": 1008,
+    "szName": "炎脉髓1",
+    "szDesc": "使相邻火系装备伤害增加2%",
+    "arrParam": [],
+    "arrFlashParam": [
+      16,
+      2025,
+      200
+    ]
+  },
+  {
+    "iID": 4012,
+    "iType": 1008,
+    "szName": "炎脉髓2",
+    "szDesc": "使相邻火系装备伤害增加4%",
+    "arrParam": [],
+    "arrFlashParam": [
+      16,
+      2025,
+      400
+    ]
+  },
+  {
+    "iID": 4013,
+    "iType": 1008,
+    "szName": "炎脉髓3",
+    "szDesc": "使相邻火系装备伤害增加6%",
+    "arrParam": [],
+    "arrFlashParam": [
+      16,
+      2025,
+      600
+    ]
+  },
+  {
+    "iID": 4014,
+    "iType": 1008,
+    "szName": "炎脉髓4",
+    "szDesc": "使相邻火系装备伤害增加8%",
+    "arrParam": [],
+    "arrFlashParam": [
+      16,
+      2025,
+      800
+    ]
+  },
+  {
+    "iID": 4035,
+    "iType": 1005,
+    "szName": "火3-1",
+    "szDesc": "每有一件相邻火系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4135,
+    "iType": 1005,
+    "szName": "火3-2",
+    "szDesc": "每有一件相邻火系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4021,
+    "iType": 1007,
+    "szName": "炽影破锋刃1",
+    "szDesc": "每有一件相邻火系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      16,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 4022,
+    "iType": 1007,
+    "szName": "炽影破锋刃2",
+    "szDesc": "每有一件相邻火系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      16,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 4023,
+    "iType": 1007,
+    "szName": "炽影破锋刃3",
+    "szDesc": "每有一件相邻火系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      16,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 4024,
+    "iType": 1007,
+    "szName": "炽影破锋刃4",
+    "szDesc": "每有一件相邻火系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      16,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 4045,
+    "iType": 1007,
+    "szName": "烈阳灼心",
+    "szDesc": "每有一件相邻火系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      16,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 4046,
+    "iType": 1005,
+    "szName": "永劫焚罪",
+    "szDesc": "每有一件相邻火系装备给本装备提供50%攻击力",
+    "arrParam": [
+      16,
+      2004,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4031,
+    "iType": 1005,
+    "szName": "至阳风火轮1",
+    "szDesc": "每有一件相邻火系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4032,
+    "iType": 1005,
+    "szName": "至阳风火轮2",
+    "szDesc": "每有一件相邻火系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4033,
+    "iType": 1005,
+    "szName": "至阳风火轮3",
+    "szDesc": "每有一件相邻火系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4034,
+    "iType": 1005,
+    "szName": "至阳风火轮4",
+    "szDesc": "每有一件相邻火系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4065,
+    "iType": 1005,
+    "szName": "燃欲燎魂",
+    "szDesc": "每有一件相邻火系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4081,
+    "iType": 1005,
+    "szName": "拜火焚星鼓1",
+    "szDesc": "相邻每件火系法宝提供0.5%强化汲取",
+    "arrParam": [
+      16,
+      2047,
+      10000,
+      2049,
+      50
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4082,
+    "iType": 1005,
+    "szName": "拜火焚星鼓2",
+    "szDesc": "相邻每件火系法宝提供0.5%强化汲取",
+    "arrParam": [
+      16,
+      2047,
+      10000,
+      2049,
+      50
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4083,
+    "iType": 1005,
+    "szName": "拜火焚星鼓3",
+    "szDesc": "相邻每件火系法宝提供0.5%强化汲取",
+    "arrParam": [
+      16,
+      2047,
+      10000,
+      2049,
+      50
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4084,
+    "iType": 1005,
+    "szName": "拜火焚星鼓4",
+    "szDesc": "相邻每件火系法宝提供1%强化汲取",
+    "arrParam": [
+      16,
+      2047,
+      10000,
+      2049,
+      100
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4085,
+    "iType": 1005,
+    "szName": "南明离炎",
+    "szDesc": "相邻每件火系法宝提供1%强化汲取",
+    "arrParam": [
+      16,
+      2047,
+      10000,
+      2049,
+      100
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 4115,
+    "iType": 1005,
+    "szName": "乾坤浑天",
+    "szDesc": "每有一件相邻火系装备给本装备提供50%攻击力",
+    "arrParam": [
+      16,
+      2004,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 5011,
+    "iType": 1008,
+    "szName": "玄黄令1",
+    "szDesc": "使相邻土系装备伤害增加2%",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      200
+    ]
+  },
+  {
+    "iID": 5012,
+    "iType": 1008,
+    "szName": "玄黄令2",
+    "szDesc": "使相邻土系装备伤害增加4%",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      400
+    ]
+  },
+  {
+    "iID": 5013,
+    "iType": 1008,
+    "szName": "玄黄令3",
+    "szDesc": "使相邻土系装备伤害增加6%",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      600
+    ]
+  },
+  {
+    "iID": 5014,
+    "iType": 1008,
+    "szName": "玄黄令4",
+    "szDesc": "使相邻土系装备伤害增加8%",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      800
+    ]
+  },
+  {
+    "iID": 5035,
+    "iType": 1005,
+    "szName": "土3-1",
+    "szDesc": "每有一件相邻土系装备给本装备提供100%防御加成",
+    "arrParam": [
+      32,
+      2005,
+      10000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 5135,
+    "iType": 1005,
+    "szName": "土3-2",
+    "szDesc": "每有一件相邻土系装备给本装备提供100%防御加成",
+    "arrParam": [
+      32,
+      2005,
+      10000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 5021,
+    "iType": 1007,
+    "szName": "坤元生息铠1",
+    "szDesc": "每有一件相邻土系装备给本装备提供5%治疗加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2045,
+      500
+    ]
+  },
+  {
+    "iID": 5022,
+    "iType": 1007,
+    "szName": "坤元生息铠2",
+    "szDesc": "每有一件相邻土系装备给本装备提供5%治疗加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2045,
+      500
+    ]
+  },
+  {
+    "iID": 5023,
+    "iType": 1007,
+    "szName": "坤元生息铠3",
+    "szDesc": "每有一件相邻土系装备给本装备提供5%治疗加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2045,
+      500
+    ]
+  },
+  {
+    "iID": 5024,
+    "iType": 1007,
+    "szName": "坤元生息铠4",
+    "szDesc": "每有一件相邻土系装备给本装备提供10%治疗加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2045,
+      1000
+    ]
+  },
+  {
+    "iID": 5065,
+    "iType": 1007,
+    "szName": "五色炼天",
+    "szDesc": "每有一件相邻土系装备给本装备提供10%治疗加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2045,
+      1000
+    ]
+  },
+  {
+    "iID": 5031,
+    "iType": 1007,
+    "szName": "憾地震魄锤1",
+    "szDesc": "每有一件相邻土系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 5032,
+    "iType": 1007,
+    "szName": "憾地震魄锤2",
+    "szDesc": "每有一件相邻土系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 5033,
+    "iType": 1007,
+    "szName": "憾地震魄锤3",
+    "szDesc": "每有一件相邻土系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 5034,
+    "iType": 1007,
+    "szName": "憾地震魄锤4",
+    "szDesc": "每有一件相邻土系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 5045,
+    "iType": 1007,
+    "szName": "十方大山",
+    "szDesc": "每有一件相邻土系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 5115,
+    "iType": 1005,
+    "szName": "庚辰龙脉",
+    "szDesc": "每有一件相邻土系装备给本装备提供100%防御加成",
+    "arrParam": [
+      32,
+      2005,
+      10000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 5081,
+    "iType": 1007,
+    "szName": "崩山裂魂枪1",
+    "szDesc": "每有一件相邻土系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 5082,
+    "iType": 1007,
+    "szName": "崩山裂魂枪2",
+    "szDesc": "每有一件相邻土系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 5083,
+    "iType": 1007,
+    "szName": "崩山裂魂枪3",
+    "szDesc": "每有一件相邻土系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 5084,
+    "iType": 1007,
+    "szName": "崩山裂魂枪4",
+    "szDesc": "每有一件相邻土系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 5085,
+    "iType": 1007,
+    "szName": "霸王崩山",
+    "szDesc": "每有一件相邻土系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 6011,
+    "iType": 1008,
+    "szName": "雷灵珠1",
+    "szDesc": "使相邻雷系装备伤害增加2%",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2025,
+      200
+    ]
+  },
+  {
+    "iID": 6012,
+    "iType": 1008,
+    "szName": "雷灵珠2",
+    "szDesc": "使相邻雷系装备伤害增加4%",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2025,
+      400
+    ]
+  },
+  {
+    "iID": 6013,
+    "iType": 1008,
+    "szName": "雷灵珠3",
+    "szDesc": "使相邻雷系装备伤害增加6%",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2025,
+      600
+    ]
+  },
+  {
+    "iID": 6014,
+    "iType": 1008,
+    "szName": "雷灵珠4",
+    "szDesc": "使相邻雷系装备伤害增加8%",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2025,
+      800
+    ]
+  },
+  {
+    "iID": 6035,
+    "iType": 1005,
+    "szName": "雷3-1",
+    "szDesc": "每有一件相邻邪系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      64,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 6135,
+    "iType": 1005,
+    "szName": "雷3-2",
+    "szDesc": "每有一件相邻邪系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      64,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 6021,
+    "iType": 1007,
+    "szName": "玄阴霹雳袋1",
+    "szDesc": "每有一件相邻雷系装备给本装备提供5%强化汲取",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2047,
+      10000,
+      2049,
+      500
+    ]
+  },
+  {
+    "iID": 6022,
+    "iType": 1007,
+    "szName": "玄阴霹雳袋2",
+    "szDesc": "每有一件相邻雷系装备给本装备提供5%强化汲取",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2047,
+      10000,
+      2049,
+      500
+    ]
+  },
+  {
+    "iID": 6023,
+    "iType": 1007,
+    "szName": "玄阴霹雳袋3",
+    "szDesc": "每有一件相邻雷系装备给本装备提供5%强化汲取",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2047,
+      10000,
+      2049,
+      500
+    ]
+  },
+  {
+    "iID": 6024,
+    "iType": 1007,
+    "szName": "玄阴霹雳袋4",
+    "szDesc": "每有一件相邻雷系装备给本装备提供10%强化汲取",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2047,
+      10000,
+      2049,
+      1000
+    ]
+  },
+  {
+    "iID": 6045,
+    "iType": 1005,
+    "szName": "感电",
+    "szDesc": "每有一件相邻雷系装备给本装备提供50%攻击力加成",
+    "arrParam": [
+      64,
+      2004,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 6031,
+    "iType": 1007,
+    "szName": "鸣雷诛邪剑1",
+    "szDesc": "每有一件相邻雷系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 6032,
+    "iType": 1007,
+    "szName": "鸣雷诛邪剑2",
+    "szDesc": "每有一件相邻雷系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 6033,
+    "iType": 1007,
+    "szName": "鸣雷诛邪剑3",
+    "szDesc": "每有一件相邻雷系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 6034,
+    "iType": 1007,
+    "szName": "鸣雷诛邪剑4",
+    "szDesc": "每有一件相邻雷系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 6025,
+    "iType": 1007,
+    "szName": "阳雷裂空",
+    "szDesc": "每有一件相邻雷系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 6065,
+    "iType": 1007,
+    "szName": "阴雷回响",
+    "szDesc": "每有一件相邻雷系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 6081,
+    "iType": 1005,
+    "szName": "雷元乌龙旗1",
+    "szDesc": "每有一件相邻雷系装备给本装备提供50%生命值加成",
+    "arrParam": [
+      64,
+      2006,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 6082,
+    "iType": 1005,
+    "szName": "雷元乌龙旗2",
+    "szDesc": "每有一件相邻雷系装备给本装备提供50%生命值加成",
+    "arrParam": [
+      64,
+      2006,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 6083,
+    "iType": 1005,
+    "szName": "雷元乌龙旗3",
+    "szDesc": "每有一件相邻雷系装备给本装备提供50%生命值加成",
+    "arrParam": [
+      64,
+      2006,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 6084,
+    "iType": 1005,
+    "szName": "雷元乌龙旗4",
+    "szDesc": "每有一件相邻雷系装备给本装备提供100%生命值加成",
+    "arrParam": [
+      64,
+      2006,
+      10000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 6085,
+    "iType": 1005,
+    "szName": "雷神",
+    "szDesc": "每有一件相邻雷系装备给本装备提供100%生命值加成",
+    "arrParam": [
+      64,
+      2006,
+      10000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7011,
+    "iType": 1008,
+    "szName": "邪源珠1",
+    "szDesc": "使相邻邪系装备伤害增加2%",
+    "arrParam": [],
+    "arrFlashParam": [
+      128,
+      2025,
+      200
+    ]
+  },
+  {
+    "iID": 7012,
+    "iType": 1008,
+    "szName": "邪源珠2",
+    "szDesc": "使相邻邪系装备伤害增加4%",
+    "arrParam": [],
+    "arrFlashParam": [
+      128,
+      2025,
+      400
+    ]
+  },
+  {
+    "iID": 7013,
+    "iType": 1008,
+    "szName": "邪源珠3",
+    "szDesc": "使相邻邪系装备伤害增加6%",
+    "arrParam": [],
+    "arrFlashParam": [
+      128,
+      2025,
+      600
+    ]
+  },
+  {
+    "iID": 7014,
+    "iType": 1008,
+    "szName": "邪源珠4",
+    "szDesc": "使相邻邪系装备伤害增加8%",
+    "arrParam": [],
+    "arrFlashParam": [
+      128,
+      2025,
+      800
+    ]
+  },
+  {
+    "iID": 7035,
+    "iType": 1005,
+    "szName": "邪3-1",
+    "szDesc": "每有一件相邻邪系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7135,
+    "iType": 1005,
+    "szName": "邪3-2",
+    "szDesc": "每有一件相邻邪系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7041,
+    "iType": 1007,
+    "szName": "血灵钻魂枪1",
+    "szDesc": "每有一件相邻邪系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7042,
+    "iType": 1007,
+    "szName": "血灵钻魂枪2",
+    "szDesc": "每有一件相邻邪系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7043,
+    "iType": 1007,
+    "szName": "血灵钻魂枪3",
+    "szDesc": "每有一件相邻邪系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7044,
+    "iType": 1007,
+    "szName": "血灵钻魂枪4",
+    "szDesc": "每有一件相邻邪系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7045,
+    "iType": 1007,
+    "szName": "邪5-1",
+    "szDesc": "每有一件相邻邪系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7061,
+    "iType": 1005,
+    "szName": "欢愉蚀骨刃1",
+    "szDesc": "每有一件相邻邪系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7062,
+    "iType": 1005,
+    "szName": "欢愉蚀骨刃2",
+    "szDesc": "每有一件相邻邪系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7063,
+    "iType": 1005,
+    "szName": "欢愉蚀骨刃3",
+    "szDesc": "每有一件相邻邪系装备给本装备提供20%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      2000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7064,
+    "iType": 1005,
+    "szName": "欢愉蚀骨刃4",
+    "szDesc": "每有一件相邻邪系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7065,
+    "iType": 1005,
+    "szName": "邪5-2",
+    "szDesc": "每有一件相邻邪系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 7081,
+    "iType": 1007,
+    "szName": "炼魂万千幡1",
+    "szDesc": "每有一件相邻邪系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      128,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 7082,
+    "iType": 1007,
+    "szName": "炼魂万千幡2",
+    "szDesc": "每有一件相邻邪系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      128,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 7083,
+    "iType": 1007,
+    "szName": "炼魂万千幡3",
+    "szDesc": "每有一件相邻邪系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      128,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 7084,
+    "iType": 1007,
+    "szName": "炼魂万千幡4",
+    "szDesc": "每有一件相邻邪系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      128,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 7085,
+    "iType": 1007,
+    "szName": "邪5-3",
+    "szDesc": "每有一件相邻邪系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      128,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 8011,
+    "iType": 1006,
+    "szName": "大力丸1",
+    "szDesc": "使相邻体系装备防御增加40%",
+    "arrParam": [
+      256,
+      2005,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8012,
+    "iType": 1006,
+    "szName": "大力丸2",
+    "szDesc": "使相邻体系装备防御增加60%",
+    "arrParam": [
+      256,
+      2005,
+      6000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8013,
+    "iType": 1006,
+    "szName": "大力丸3",
+    "szDesc": "使相邻体系装备防御增加80%",
+    "arrParam": [
+      256,
+      2005,
+      8000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8014,
+    "iType": 1006,
+    "szName": "大力丸4",
+    "szDesc": "使相邻体系装备防御增加100%",
+    "arrParam": [
+      256,
+      2005,
+      10000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8075,
+    "iType": 1005,
+    "szName": "体3-1",
+    "szDesc": "每有一件相邻体系装备给本装备提供60%生命值加成",
+    "arrParam": [
+      256,
+      2006,
+      6000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8085,
+    "iType": 1005,
+    "szName": "体3-2",
+    "szDesc": "每有一件相邻体系装备给本装备提供100%防御加成",
+    "arrParam": [
+      256,
+      2005,
+      10000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8041,
+    "iType": 1005,
+    "szName": "罡体不破甲1",
+    "szDesc": "每有一件相邻体修装备给本装备提供30%生命值加成",
+    "arrParam": [
+      256,
+      2006,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8042,
+    "iType": 1005,
+    "szName": "罡体不破甲2",
+    "szDesc": "每有一件相邻体修装备给本装备提供30%生命值加成",
+    "arrParam": [
+      256,
+      2006,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8043,
+    "iType": 1005,
+    "szName": "罡体不破甲3",
+    "szDesc": "每有一件相邻体修装备给本装备提供30%生命值加成",
+    "arrParam": [
+      256,
+      2006,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8044,
+    "iType": 1005,
+    "szName": "罡体不破甲4",
+    "szDesc": "每有一件相邻体修装备给本装备提供60%生命值加成",
+    "arrParam": [
+      256,
+      2006,
+      6000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8025,
+    "iType": 1005,
+    "szName": "体5-1",
+    "szDesc": "每有一件相邻体修装备给本装备提供60%生命值加成",
+    "arrParam": [
+      256,
+      2006,
+      6000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8105,
+    "iType": 1005,
+    "szName": "无相无我",
+    "szDesc": "每有一件相邻体修装备给本装备提供60%生命值加成",
+    "arrParam": [
+      256,
+      2006,
+      6000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8061,
+    "iType": 1005,
+    "szName": "百炼成金锤1",
+    "szDesc": "每有一件相邻体系装备给本装备提供50%防御加成",
+    "arrParam": [
+      256,
+      2005,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8062,
+    "iType": 1005,
+    "szName": "百炼成金锤2",
+    "szDesc": "每有一件相邻体系装备给本装备提供50%防御加成",
+    "arrParam": [
+      256,
+      2005,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8063,
+    "iType": 1005,
+    "szName": "百炼成金锤3",
+    "szDesc": "每有一件相邻体系装备给本装备提供50%防御加成",
+    "arrParam": [
+      256,
+      2005,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8064,
+    "iType": 1005,
+    "szName": "百炼成金锤4",
+    "szDesc": "每有一件相邻体系装备给本装备提供50%防御加成",
+    "arrParam": [
+      256,
+      2005,
+      5000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8045,
+    "iType": 1005,
+    "szName": "体5-2",
+    "szDesc": "每有一件相邻体系装备给本装备提供100%防御加成",
+    "arrParam": [
+      256,
+      2005,
+      10000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 8081,
+    "iType": 1007,
+    "szName": "无相渡敌钵1",
+    "szDesc": "每有一件相邻体系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      256,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 8082,
+    "iType": 1007,
+    "szName": "无相渡敌钵2",
+    "szDesc": "每有一件相邻体系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      256,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 8083,
+    "iType": 1007,
+    "szName": "无相渡敌钵3",
+    "szDesc": "每有一件相邻体系装备给本装备提供5%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      256,
+      2025,
+      500
+    ]
+  },
+  {
+    "iID": 8084,
+    "iType": 1007,
+    "szName": "无相渡敌钵4",
+    "szDesc": "每有一件相邻体系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      256,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 8065,
+    "iType": 1007,
+    "szName": "体5-3",
+    "szDesc": "每有一件相邻体系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      256,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 10101,
+    "iType": 1005,
+    "szName": "三尖两刃",
+    "szDesc": "每有一件相邻金系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10201,
+    "iType": 1005,
+    "szName": "如意金箍棒",
+    "szDesc": "每有一件相邻金系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10301,
+    "iType": 1005,
+    "szName": "龙渊七星",
+    "szDesc": "每有一件相邻金系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10401,
+    "iType": 1007,
+    "szName": "金锋无影",
+    "szDesc": "每有一件相邻金系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      2,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 10501,
+    "iType": 1005,
+    "szName": "金辉裂穹",
+    "szDesc": "每有一件相邻金系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10502,
+    "iType": 1006,
+    "szName": "金辉裂穹",
+    "szDesc": "使相邻金系装备攻防血增加8%",
+    "arrParam": [
+      2,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10503,
+    "iType": 1006,
+    "szName": "金辉裂穹",
+    "szDesc": "使相邻金系装备攻防血增加15%",
+    "arrParam": [
+      2,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10601,
+    "iType": 1005,
+    "szName": "北斗天罡枪",
+    "szDesc": "每有一件相邻金系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10602,
+    "iType": 1006,
+    "szName": "北斗天罡枪",
+    "szDesc": "使相邻金系装备攻防血增加8%",
+    "arrParam": [
+      2,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10603,
+    "iType": 1006,
+    "szName": "北斗天罡枪",
+    "szDesc": "使相邻金系装备攻防血增加15%",
+    "arrParam": [
+      2,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10701,
+    "iType": 1005,
+    "szName": "断虹残影",
+    "szDesc": "每有一件相邻金系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10702,
+    "iType": 1006,
+    "szName": "断虹残影",
+    "szDesc": "使相邻金系装备攻防血增加8%",
+    "arrParam": [
+      2,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10703,
+    "iType": 1006,
+    "szName": "断虹残影",
+    "szDesc": "使相邻金系装备攻防血增加15%",
+    "arrParam": [
+      2,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10801,
+    "iType": 1005,
+    "szName": "朔气飞星",
+    "szDesc": "每有一件相邻金系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      2,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10802,
+    "iType": 1006,
+    "szName": "朔气飞星",
+    "szDesc": "使相邻金系装备攻防血增加8%",
+    "arrParam": [
+      2,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 10803,
+    "iType": 1006,
+    "szName": "朔气飞星",
+    "szDesc": "使相邻金系装备攻防血增加15%",
+    "arrParam": [
+      2,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20101,
+    "iType": 1005,
+    "szName": "青阳唤春",
+    "szDesc": "每有一件相邻木系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20201,
+    "iType": 1007,
+    "szName": "太昊司春",
+    "szDesc": "每有一件相邻木系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      4,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 20301,
+    "iType": 1007,
+    "szName": "五毒俱全",
+    "szDesc": "每有一件相邻木系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      4,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 20401,
+    "iType": 1005,
+    "szName": "限时木毒橙",
+    "szDesc": "每有一件相邻木系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20501,
+    "iType": 1007,
+    "szName": "通幽震魄",
+    "szDesc": "每有一件相邻木系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      4,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 20601,
+    "iType": 1005,
+    "szName": "蕴剑葫芦",
+    "szDesc": "每有一件相邻木系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20602,
+    "iType": 1006,
+    "szName": "蕴剑葫芦",
+    "szDesc": "使相邻木系装备攻防血增加8%",
+    "arrParam": [
+      4,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20603,
+    "iType": 1006,
+    "szName": "蕴剑葫芦",
+    "szDesc": "使相邻木系装备攻防血增加15%",
+    "arrParam": [
+      4,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20701,
+    "iType": 1005,
+    "szName": "青枝栖日",
+    "szDesc": "每有一件相邻木系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20702,
+    "iType": 1006,
+    "szName": "青枝栖日",
+    "szDesc": "使相邻木系装备攻防血增加8%",
+    "arrParam": [
+      4,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20703,
+    "iType": 1006,
+    "szName": "青枝栖日",
+    "szDesc": "使相邻木系装备攻防血增加15%",
+    "arrParam": [
+      4,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20801,
+    "iType": 1005,
+    "szName": "灵泽衔瑞",
+    "szDesc": "每有一件相邻木系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20802,
+    "iType": 1006,
+    "szName": "灵泽衔瑞",
+    "szDesc": "使相邻木系装备攻防血增加8%",
+    "arrParam": [
+      4,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20803,
+    "iType": 1006,
+    "szName": "灵泽衔瑞",
+    "szDesc": "使相邻木系装备攻防血增加15%",
+    "arrParam": [
+      4,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20901,
+    "iType": 1005,
+    "szName": "限时木毒紫",
+    "szDesc": "每有一件相邻木系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      4,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20902,
+    "iType": 1006,
+    "szName": "限时木毒紫",
+    "szDesc": "使相邻木系装备攻防血增加8%",
+    "arrParam": [
+      4,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 20903,
+    "iType": 1006,
+    "szName": "限时木毒紫",
+    "szDesc": "使相邻木系装备攻防血增加15%",
+    "arrParam": [
+      4,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 21001,
+    "iType": 1005,
+    "szName": "掌天奇韵",
+    "szDesc": "每有一件相邻木系装备给本装备提供30%生命值加成",
+    "arrParam": [
+      4,
+      2006,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 21002,
+    "iType": 1006,
+    "szName": "掌天奇韵",
+    "szDesc": "使相邻木系装备攻防血增加8%",
+    "arrParam": [
+      4,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 21003,
+    "iType": 1006,
+    "szName": "掌天奇韵",
+    "szDesc": "使相邻木系装备攻防血增加15%",
+    "arrParam": [
+      4,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 30101,
+    "iType": 1007,
+    "szName": "月华清影",
+    "szDesc": "每有一件相邻水系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      8,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 30201,
+    "iType": 1007,
+    "szName": "万载玄冰",
+    "szDesc": "每有一件相邻水系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      8,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 30301,
+    "iType": 1005,
+    "szName": "封神奇卷",
+    "szDesc": "每有一件相邻水系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      8,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 30401,
+    "iType": 1005,
+    "szName": "弱水涓扇",
+    "szDesc": "每有一件相邻水系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      8,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 30501,
+    "iType": 1007,
+    "szName": "玄冥坠星",
+    "szDesc": "每有一件相邻水系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      8,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 30601,
+    "iType": 1005,
+    "szName": "凌波惊鸿",
+    "szDesc": "每有一件相邻水系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      8,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 30602,
+    "iType": 1006,
+    "szName": "凌波惊鸿",
+    "szDesc": "使相邻水系装备攻防血增加8%",
+    "arrParam": [
+      8,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 30603,
+    "iType": 1006,
+    "szName": "凌波惊鸿",
+    "szDesc": "使相邻水系装备攻防血增加15%",
+    "arrParam": [
+      8,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 30701,
+    "iType": 1005,
+    "szName": "冰魄华盖",
+    "szDesc": "每有一件相邻水系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      8,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 30702,
+    "iType": 1006,
+    "szName": "冰魄华盖",
+    "szDesc": "使相邻水系装备攻防血增加8%",
+    "arrParam": [
+      8,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 30703,
+    "iType": 1006,
+    "szName": "冰魄华盖",
+    "szDesc": "使相邻水系装备攻防血增加15%",
+    "arrParam": [
+      8,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 30801,
+    "iType": 1007,
+    "szName": "玄水护心",
+    "szDesc": "每有一件相邻水系装备给本装备提供10%护盾值加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      8,
+      2069,
+      1000
+    ]
+  },
+  {
+    "iID": 30802,
+    "iType": 1006,
+    "szName": "玄水护心",
+    "szDesc": "使相邻水系装备攻防血增加8%",
+    "arrParam": [
+      8,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 30803,
+    "iType": 1006,
+    "szName": "玄水护心",
+    "szDesc": "使相邻水系装备攻防血增加15%",
+    "arrParam": [
+      8,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 30901,
+    "iType": 1007,
+    "szName": "晴水华盖",
+    "szDesc": "每有一件相邻水系装备给本装备提供10%护盾值加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      8,
+      2069,
+      1000
+    ]
+  },
+  {
+    "iID": 30902,
+    "iType": 1006,
+    "szName": "晴水华盖",
+    "szDesc": "使相邻水系装备攻防血增加8%",
+    "arrParam": [
+      8,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 30903,
+    "iType": 1006,
+    "szName": "晴水华盖",
+    "szDesc": "使相邻水系装备攻防血增加15%",
+    "arrParam": [
+      8,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 31001,
+    "iType": 1005,
+    "szName": "沧溟凝冰",
+    "szDesc": "每有一件相邻水系装备给本装备提供75%防御加成",
+    "arrParam": [
+      8,
+      2005,
+      7500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 31002,
+    "iType": 1006,
+    "szName": "沧溟凝冰",
+    "szDesc": "使相邻水系装备攻防血增加8%",
+    "arrParam": [
+      8,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 31003,
+    "iType": 1006,
+    "szName": "沧溟凝冰",
+    "szDesc": "使相邻水系装备攻防血增加15%",
+    "arrParam": [
+      8,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40101,
+    "iType": 1007,
+    "szName": "燃欲燎魂",
+    "szDesc": "每有一件相邻火系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      16,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 40201,
+    "iType": 1005,
+    "szName": "乾坤浑天",
+    "szDesc": "相邻每件火系法宝提供1%强化汲取",
+    "arrParam": [
+      16,
+      2047,
+      10000,
+      2049,
+      100
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40301,
+    "iType": 1005,
+    "szName": "烈阳灼心",
+    "szDesc": "每有一件相邻火系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40401,
+    "iType": 1007,
+    "szName": "永劫焚罪",
+    "szDesc": "每有一件相邻火系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      16,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 40501,
+    "iType": 1005,
+    "szName": "南明离炎",
+    "szDesc": "每有一件相邻火系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40601,
+    "iType": 1005,
+    "szName": "燧火传薪",
+    "szDesc": "每有一件相邻火系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40602,
+    "iType": 1006,
+    "szName": "燧火传薪",
+    "szDesc": "使相邻火系装备攻防血增加8%",
+    "arrParam": [
+      16,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40603,
+    "iType": 1006,
+    "szName": "燧火传薪",
+    "szDesc": "使相邻火系装备攻防血增加15%",
+    "arrParam": [
+      16,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40701,
+    "iType": 1005,
+    "szName": "食为天鼎",
+    "szDesc": "每有一件相邻火系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40702,
+    "iType": 1006,
+    "szName": "食为天鼎",
+    "szDesc": "使相邻火系装备攻防血增加8%",
+    "arrParam": [
+      16,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40703,
+    "iType": 1006,
+    "szName": "食为天鼎",
+    "szDesc": "使相邻火系装备攻防血增加15%",
+    "arrParam": [
+      16,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40801,
+    "iType": 1005,
+    "szName": "日巡灼恶",
+    "szDesc": "每有一件相邻火系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40802,
+    "iType": 1006,
+    "szName": "日巡灼恶",
+    "szDesc": "使相邻火系装备攻防血增加8%",
+    "arrParam": [
+      16,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40803,
+    "iType": 1006,
+    "szName": "日巡灼恶",
+    "szDesc": "使相邻火系装备攻防血增加15%",
+    "arrParam": [
+      16,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40901,
+    "iType": 1005,
+    "szName": "无间辟邪",
+    "szDesc": "每有一件相邻火系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40902,
+    "iType": 1006,
+    "szName": "无间辟邪",
+    "szDesc": "使相邻火系装备攻防血增加8%",
+    "arrParam": [
+      16,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 40903,
+    "iType": 1006,
+    "szName": "无间辟邪",
+    "szDesc": "使相邻火系装备攻防血增加15%",
+    "arrParam": [
+      16,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 41001,
+    "iType": 1005,
+    "szName": "祭火律令",
+    "szDesc": "每有一件相邻火系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      16,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 41002,
+    "iType": 1006,
+    "szName": "祭火律令",
+    "szDesc": "使相邻火系装备攻防血增加8%",
+    "arrParam": [
+      16,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 41003,
+    "iType": 1006,
+    "szName": "祭火律令",
+    "szDesc": "使相邻火系装备攻防血增加15%",
+    "arrParam": [
+      16,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50101,
+    "iType": 1005,
+    "szName": "十方大山",
+    "szDesc": "每有一件相邻土系装备给本装备提供100%防御加成",
+    "arrParam": [
+      32,
+      2005,
+      10000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50201,
+    "iType": 1007,
+    "szName": "庚辰龙脉",
+    "szDesc": "每有一件相邻土系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      32,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 50301,
+    "iType": 1005,
+    "szName": "五色炼天",
+    "szDesc": "每有一件相邻土系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      32,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50401,
+    "iType": 1005,
+    "szName": "泰山压顶",
+    "szDesc": "每有一件相邻土系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      32,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50501,
+    "iType": 1005,
+    "szName": "灵獐啸岩",
+    "szDesc": "每有一件相邻土系装备给本装备提供75%防御加成",
+    "arrParam": [
+      32,
+      2005,
+      7500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50502,
+    "iType": 1006,
+    "szName": "灵獐啸岩",
+    "szDesc": "使相邻土系装备攻防血增加8%",
+    "arrParam": [
+      32,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50503,
+    "iType": 1006,
+    "szName": "灵獐啸岩",
+    "szDesc": "使相邻土系装备攻防血增加15%",
+    "arrParam": [
+      32,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50601,
+    "iType": 1005,
+    "szName": "九州定海",
+    "szDesc": "每有一件相邻土系装备给本装备提供75%防御加成",
+    "arrParam": [
+      32,
+      2005,
+      7500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50602,
+    "iType": 1006,
+    "szName": "九州定海",
+    "szDesc": "使相邻土系装备攻防血增加8%",
+    "arrParam": [
+      32,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50603,
+    "iType": 1006,
+    "szName": "九州定海",
+    "szDesc": "使相邻土系装备攻防血增加15%",
+    "arrParam": [
+      32,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50701,
+    "iType": 1005,
+    "szName": "遁地奇行",
+    "szDesc": "每有一件相邻土系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      32,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50702,
+    "iType": 1006,
+    "szName": "遁地奇行",
+    "szDesc": "使相邻土系装备攻防血增加8%",
+    "arrParam": [
+      32,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50703,
+    "iType": 1006,
+    "szName": "遁地奇行",
+    "szDesc": "使相邻土系装备攻防血增加15%",
+    "arrParam": [
+      32,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50801,
+    "iType": 1005,
+    "szName": "逐日镇岳",
+    "szDesc": "每有一件相邻土系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      32,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50802,
+    "iType": 1006,
+    "szName": "逐日镇岳",
+    "szDesc": "使相邻土系装备攻防血增加8%",
+    "arrParam": [
+      32,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 50803,
+    "iType": 1006,
+    "szName": "逐日镇岳",
+    "szDesc": "使相邻土系装备攻防血增加15%",
+    "arrParam": [
+      32,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60101,
+    "iType": 1005,
+    "szName": "阳雷裂空",
+    "szDesc": "每有一件相邻雷系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      64,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60201,
+    "iType": 1007,
+    "szName": "纠罚神雷(橙)",
+    "szDesc": "每有一件相邻雷系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 60301,
+    "iType": 1005,
+    "szName": "阴雷回响",
+    "szDesc": "每有一件相邻雷系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      64,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60401,
+    "iType": 1007,
+    "szName": "五雷号令",
+    "szDesc": "每有一件相邻雷系装备给本装备提供10%护盾值加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      64,
+      2069,
+      1000
+    ]
+  },
+  {
+    "iID": 60501,
+    "iType": 1005,
+    "szName": "惊雷兽吼",
+    "szDesc": "每有一件相邻雷系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      64,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60502,
+    "iType": 1006,
+    "szName": "惊雷兽吼",
+    "szDesc": "使相邻雷系装备攻防血增加8%",
+    "arrParam": [
+      64,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60503,
+    "iType": 1006,
+    "szName": "惊雷兽吼",
+    "szDesc": "使相邻雷系装备攻防血增加15%",
+    "arrParam": [
+      64,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60601,
+    "iType": 1005,
+    "szName": "免罪阳雷(紫)",
+    "szDesc": "每有一件相邻雷系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      64,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60602,
+    "iType": 1006,
+    "szName": "免罪阳雷(紫)",
+    "szDesc": "使相邻雷系装备攻防血增加8%",
+    "arrParam": [
+      64,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60603,
+    "iType": 1006,
+    "szName": "免罪阳雷(紫)",
+    "szDesc": "使相邻雷系装备攻防血增加15%",
+    "arrParam": [
+      64,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60701,
+    "iType": 1005,
+    "szName": "截雷断运",
+    "szDesc": "每有一件相邻雷系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      64,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60702,
+    "iType": 1006,
+    "szName": "截雷断运",
+    "szDesc": "使相邻雷系装备攻防血增加8%",
+    "arrParam": [
+      64,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60703,
+    "iType": 1006,
+    "szName": "截雷断运",
+    "szDesc": "使相邻雷系装备攻防血增加15%",
+    "arrParam": [
+      64,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60801,
+    "iType": 1005,
+    "szName": "九霄镇魔",
+    "szDesc": "每有一件相邻雷系装备给本装备提供30%生命值加成",
+    "arrParam": [
+      64,
+      2006,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60802,
+    "iType": 1006,
+    "szName": "九霄镇魔",
+    "szDesc": "使相邻雷系装备攻防血增加8%",
+    "arrParam": [
+      64,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 60803,
+    "iType": 1006,
+    "szName": "九霄镇魔",
+    "szDesc": "使相邻雷系装备攻防血增加15%",
+    "arrParam": [
+      64,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 70101,
+    "iType": 1007,
+    "szName": "凶神戮世",
+    "szDesc": "每有一件相邻邪系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      128,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 70201,
+    "iType": 1007,
+    "szName": "合欢极乐",
+    "szDesc": "每有一件相邻邪系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      128,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 70301,
+    "iType": 1005,
+    "szName": "酆都帝律",
+    "szDesc": "每有一件相邻邪系装备给本装备提供40%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      4000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 70401,
+    "iType": 1005,
+    "szName": "煞魔血叉",
+    "szDesc": "每有一件相邻邪系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 70402,
+    "iType": 1006,
+    "szName": "煞魔血叉",
+    "szDesc": "使相邻邪系装备攻防血增加8%",
+    "arrParam": [
+      128,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 70403,
+    "iType": 1006,
+    "szName": "煞魔血叉",
+    "szDesc": "使相邻邪系装备攻防血增加15%",
+    "arrParam": [
+      128,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 70501,
+    "iType": 1005,
+    "szName": "剖心夺爱",
+    "szDesc": "每有一件相邻邪系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 70502,
+    "iType": 1006,
+    "szName": "剖心夺爱",
+    "szDesc": "使相邻邪系装备攻防血增加8%",
+    "arrParam": [
+      128,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 70503,
+    "iType": 1006,
+    "szName": "剖心夺爱",
+    "szDesc": "使相邻邪系装备攻防血增加15%",
+    "arrParam": [
+      128,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 70601,
+    "iType": 1005,
+    "szName": "勾魂索命",
+    "szDesc": "每有一件相邻邪系装备给本装备提供30%攻击力加成",
+    "arrParam": [
+      128,
+      2004,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 70602,
+    "iType": 1006,
+    "szName": "勾魂索命",
+    "szDesc": "使相邻邪系装备攻防血增加8%",
+    "arrParam": [
+      128,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 70603,
+    "iType": 1006,
+    "szName": "勾魂索命",
+    "szDesc": "使相邻邪系装备攻防血增加15%",
+    "arrParam": [
+      128,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80101,
+    "iType": 1007,
+    "szName": "真武神镯",
+    "szDesc": "每有一件相邻体系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      256,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 80201,
+    "iType": 1007,
+    "szName": "无相无我",
+    "szDesc": "每有一件相邻体系装备给本装备提供10%护盾值加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      256,
+      2069,
+      1000
+    ]
+  },
+  {
+    "iID": 80301,
+    "iType": 1007,
+    "szName": "巨灵擎天",
+    "szDesc": "每有一件相邻体系装备给本装备提供10%伤害加成",
+    "arrParam": [],
+    "arrFlashParam": [
+      256,
+      2025,
+      1000
+    ]
+  },
+  {
+    "iID": 80401,
+    "iType": 1005,
+    "szName": "佛门宝杵",
+    "szDesc": "每有一件相邻体系装备给本装备提供60%生命值加成",
+    "arrParam": [
+      256,
+      2006,
+      6000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80501,
+    "iType": 1005,
+    "szName": "天骄伟冠",
+    "szDesc": "每有一件相邻体系装备给本装备提供30%生命值加成",
+    "arrParam": [
+      256,
+      2006,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80502,
+    "iType": 1006,
+    "szName": "天骄伟冠",
+    "szDesc": "使相邻体系装备攻防血增加8%",
+    "arrParam": [
+      256,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80503,
+    "iType": 1006,
+    "szName": "天骄伟冠",
+    "szDesc": "使相邻体系装备攻防血增加15%",
+    "arrParam": [
+      256,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80601,
+    "iType": 1005,
+    "szName": "鸣玉无极",
+    "szDesc": "每有一件相邻体系装备给本装备提供30%生命值加成",
+    "arrParam": [
+      256,
+      2006,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80602,
+    "iType": 1006,
+    "szName": "鸣玉无极",
+    "szDesc": "使相邻体系装备攻防血增加8%",
+    "arrParam": [
+      256,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80603,
+    "iType": 1006,
+    "szName": "鸣玉无极",
+    "szDesc": "使相邻体系装备攻防血增加15%",
+    "arrParam": [
+      256,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80701,
+    "iType": 1005,
+    "szName": "丑将破阵",
+    "szDesc": "每有一件相邻体系装备给本装备提供75%防御加成",
+    "arrParam": [
+      256,
+      2005,
+      7500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80702,
+    "iType": 1006,
+    "szName": "丑将破阵",
+    "szDesc": "使相邻体系装备攻防血增加8%",
+    "arrParam": [
+      256,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80703,
+    "iType": 1006,
+    "szName": "丑将破阵",
+    "szDesc": "使相邻体系装备攻防血增加15%",
+    "arrParam": [
+      256,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80801,
+    "iType": 1005,
+    "szName": "酒祖酿厄",
+    "szDesc": "每有一件相邻体系装备给本装备提供30%生命值加成",
+    "arrParam": [
+      256,
+      2006,
+      3000
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80802,
+    "iType": 1006,
+    "szName": "酒祖酿厄",
+    "szDesc": "使相邻体系装备攻防血增加8%",
+    "arrParam": [
+      256,
+      2004,
+      800,
+      2005,
+      800,
+      2006,
+      800
+    ],
+    "arrFlashParam": []
+  },
+  {
+    "iID": 80803,
+    "iType": 1006,
+    "szName": "酒祖酿厄",
+    "szDesc": "使相邻体系装备攻防血增加15%",
+    "arrParam": [
+      256,
+      2004,
+      1500,
+      2005,
+      1500,
+      2006,
+      1500
+    ],
+    "arrFlashParam": []
+  }
+]

@@ -1,0 +1,8 @@
+# Local screenshots and research evidence are not part of the public app.
+taptap-*
+verification-*
+export-official-tables.py
+.DS_Store
+__pycache__/
+*.pyc
+.venv/

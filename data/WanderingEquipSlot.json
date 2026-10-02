@@ -1,0 +1,16266 @@
+[
+  {
+    "iLayoutID": 10101,
+    "szName": "金戒",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10102,
+    "szName": "分金刀",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10103,
+    "szName": "重金短矛",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10104,
+    "szName": "重金破阵矛",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10105,
+    "szName": "玄金重剑",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10106,
+    "szName": "玄金碎甲剑",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10107,
+    "szName": "曜金寸刀",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10108,
+    "szName": "曜金战身刀",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10109,
+    "szName": "蕴金枪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20101,
+    "szName": "金辉裂穹",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20102,
+    "szName": "三尖两刃",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20103,
+    "szName": "残虹断影",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20104,
+    "szName": "龙渊七星",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20105,
+    "szName": "朔气飞星",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20106,
+    "szName": "金锋无影",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20107,
+    "szName": "金翎荡云",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20108,
+    "szName": "亢金贯甲",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20109,
+    "szName": "北斗天罡枪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20110,
+    "szName": "如意金箍棒",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      2,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10201,
+    "szName": "枯荣种",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10202,
+    "szName": "老山参",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10203,
+    "szName": "木灵护臂（正式版）",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10204,
+    "szName": "木灵玉如意",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      4,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      4,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10205,
+    "szName": "噬元喷菇",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10206,
+    "szName": "千瘴断魂琴",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10207,
+    "szName": "千瘴短笛",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      4,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10208,
+    "szName": "噬元大丽花",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10209,
+    "szName": "静心木鱼",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20201,
+    "szName": "千嶂不破",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20202,
+    "szName": "青阳唤春",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      4,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20203,
+    "szName": "灵泽衔瑞",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20204,
+    "szName": "通幽震魄",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20205,
+    "szName": "掌天奇韵",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20206,
+    "szName": "五毒俱全",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20207,
+    "szName": "木3-1御",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20208,
+    "szName": "木3-2乐",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      4,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20209,
+    "szName": "木4格剑",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20210,
+    "szName": "木5格剑",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      4,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10301,
+    "szName": "流水散",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10302,
+    "szName": "净魂刃",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10303,
+    "szName": "霜华轻剑",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10304,
+    "szName": "霜华千影剑",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      8,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      8,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10305,
+    "szName": "冰魄护肩",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10306,
+    "szName": "冰魄凝神甲",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10307,
+    "szName": "急冻瓜锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      8,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10308,
+    "szName": "急冻流星锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10309,
+    "szName": "净魂锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20301,
+    "szName": "凌波惊鸿",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      8,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      8,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20302,
+    "szName": "月华清影",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20303,
+    "szName": "玄水护心",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20304,
+    "szName": "封神奇卷",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      8,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20305,
+    "szName": "沧溟凝冰",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20306,
+    "szName": "玄冥坠星",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20307,
+    "szName": "水3-1剑",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20308,
+    "szName": "水3-2御",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20309,
+    "szName": "冰魄华盖",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20310,
+    "szName": "万载玄冰",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      8,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20311,
+    "szName": "晴水华盖",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20312,
+    "szName": "弱水涓扇",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      9,
+      9,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      8,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      8,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10401,
+    "szName": "炎脉髓",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10402,
+    "szName": "燎魂唢呐",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10403,
+    "szName": "至阳火鉴",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10404,
+    "szName": "至阳风火轮",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10405,
+    "szName": "炽影长刀",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10406,
+    "szName": "炽影破锋刃",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10407,
+    "szName": "拜火铃铛",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      16,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10408,
+    "szName": "拜火焚星鼓",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      16,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      16,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10409,
+    "szName": "燎魂刀",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20401,
+    "szName": "燧火传薪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20402,
+    "szName": "燃欲燎魂",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      16,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      16,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      16,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20403,
+    "szName": "赤霄斩浪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20404,
+    "szName": "烈阳灼心",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      16,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20405,
+    "szName": "祭火律令",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      16,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      16,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20406,
+    "szName": "南明离炎",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20407,
+    "szName": "食为天鼎(活动）",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20408,
+    "szName": "乾坤浑天(活动）",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      16,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      16,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      16,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20409,
+    "szName": "火3-1异",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      17,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20410,
+    "szName": "火3-2刀",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      16,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10501,
+    "szName": "玄黄令",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      32,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10502,
+    "szName": "破岩锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10503,
+    "szName": "撼地重锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10504,
+    "szName": "憾地震魄锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      32,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10505,
+    "szName": "坤元大钟",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      32,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10506,
+    "szName": "坤元生息铠",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10507,
+    "szName": "崩山长枪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10508,
+    "szName": "崩山裂魂枪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      32,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      32,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10509,
+    "szName": "破岩枪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      32,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20501,
+    "szName": "宣花裂地",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      32,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20502,
+    "szName": "十方大山",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      33,
+      33,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      32,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      32,
+      0,
+      0,
+      32,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      32,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20503,
+    "szName": "逐日镇岳",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20504,
+    "szName": "五色炼天",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      32,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20505,
+    "szName": "遁地奇行",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      32,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      32,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20506,
+    "szName": "霸王崩山",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      32,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20507,
+    "szName": "土3-1锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20508,
+    "szName": "土3-2御",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      32,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20509,
+    "szName": "限时土4格锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      32,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      32,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20510,
+    "szName": "限时土5格锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      33,
+      33,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      32,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      32,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      32,
+      32,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10601,
+    "szName": "雷灵珠",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      64,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10602,
+    "szName": "天诛令",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      64,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      64,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10603,
+    "szName": "鸣雷长剑",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      64,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      64,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10604,
+    "szName": "鸣雷诛邪剑",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      64,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      64,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10605,
+    "szName": "玄阴锁链（正式版）",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      65,
+      65,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      64,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      0,
+      0,
+      64,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      64,
+      64,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10606,
+    "szName": "玄阴霹雳袋",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10607,
+    "szName": "雷元腿甲",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      64,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10608,
+    "szName": "雷元乌龙旗",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      64,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      64,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      64,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10609,
+    "szName": "雷灵剑",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20601,
+    "szName": "神谕裁罪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      64,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      64,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20602,
+    "szName": "阳雷裂空",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      64,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      64,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20603,
+    "szName": "截雷断运",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20604,
+    "szName": "阴雷回响",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      64,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20605,
+    "szName": "九霄镇魔",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      64,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      64,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      64,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20606,
+    "szName": "五雷号令",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      64,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      64,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20607,
+    "szName": "雷3-1剑",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      65,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      0,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      64,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      64,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20608,
+    "szName": "雷3-2异",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      65,
+      65,
+      65,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      64,
+      64,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      64,
+      0,
+      0,
+      0,
+      64,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      64,
+      64,
+      64,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10701,
+    "szName": "邪源珠",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10702,
+    "szName": "玄阴枪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10703,
+    "szName": "血灵短矛",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10704,
+    "szName": "血灵钻魂枪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10705,
+    "szName": "欢愉短匕",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      128,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      128,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10706,
+    "szName": "欢愉蚀骨刃",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      128,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10707,
+    "szName": "炼魂小幡",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      128,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10708,
+    "szName": "炼魂万千幡",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      128,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      128,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      128,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10709,
+    "szName": "玄阴旗",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      128,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      128,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20701,
+    "szName": "邪4-1枪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20702,
+    "szName": "邪5-1枪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      128,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20703,
+    "szName": "邪4-2刀",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      128,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20704,
+    "szName": "邪5-2刀",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      128,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      128,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20705,
+    "szName": "邪4-3幡",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      128,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      128,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      128,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20706,
+    "szName": "邪5-3幡",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      128,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20707,
+    "szName": "邪3-1枪",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      128,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      128,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20708,
+    "szName": "邪3-2刀",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      129,
+      129,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      128,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      128,
+      128,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10801,
+    "szName": "大力丸",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      256,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10802,
+    "szName": "灵兽肉",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10803,
+    "szName": "罡体腰带",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      257,
+      257,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      256,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      0,
+      0,
+      256,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      256,
+      256,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10804,
+    "szName": "罡体不破甲",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10805,
+    "szName": "百炼短锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      256,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10806,
+    "szName": "百炼成金锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      257,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      256,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      256,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10807,
+    "szName": "无相念珠",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      256,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10808,
+    "szName": "无相渡敌钵",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      256,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      256,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 10809,
+    "szName": "九宫牌",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      256,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20801,
+    "szName": "体4-1御",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20802,
+    "szName": "体5-1御",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      257,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      256,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      256,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20803,
+    "szName": "体4-2锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      257,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      256,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      256,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20804,
+    "szName": "体5-2锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      256,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20805,
+    "szName": "体4-3异",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      256,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      256,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20806,
+    "szName": "体5-3异",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      257,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      256,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      256,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20807,
+    "szName": "体3-1御",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      257,
+      257,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      256,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      0,
+      0,
+      256,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      256,
+      256,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20808,
+    "szName": "体3-2锤",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      256,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20809,
+    "szName": "鸣玉无极",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20810,
+    "szName": "无相无我",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      257,
+      257,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      256,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      256,
+      0,
+      0,
+      256,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      256,
+      256,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20000,
+    "szName": "3*3扩散铁",
+    "arrEmitRow0": [
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20001,
+    "szName": "      初始格子位图",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20002,
+    "szName": "一型位图",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20003,
+    "szName": "背包格子1*1",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 20004,
+    "szName": "背包格子2*2",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 90001,
+    "szName": "背包格子1格",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 90002,
+    "szName": "背包格子2格（横）",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 90003,
+    "szName": "背包格子2格（竖）",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 90004,
+    "szName": "背包格子3格（┌）",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 90005,
+    "szName": "背包格子3格（┘）",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 90006,
+    "szName": "背包格子3格（—）",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 90007,
+    "szName": "背包格子3格（|）",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "iLayoutID": 90008,
+    "szName": "背包格子4格（田）",
+    "arrEmitRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow1": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow2": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow3": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrEmitRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow1": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow2": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow3": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arrAbsorbRow5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

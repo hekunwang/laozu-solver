@@ -1,0 +1,9943 @@
+[
+  {
+    "iID": 22101,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【蕴金戒】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 1,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152101,
+      152100
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150109,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 22101,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【蕴金戒】</color>",
+    "iIcon": 2,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2201
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152101,
+      152100
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150109,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 22101,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 3,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152101,
+      152100
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150109,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 22101,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 4,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2401
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152101,
+      152100
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150109,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 22101,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152101,
+      152100
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150109,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 22102,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【蕴金戒】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152102,
+      152100
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150110,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 22102,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【蕴金戒】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2201
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152102,
+      152100
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150110,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 22102,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152102,
+      152100
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150110,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 22102,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2401
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152102,
+      152100
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150110,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 22102,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152102,
+      152100
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150110,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 22201,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【枯荣种】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152201,
+      152200
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150209,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 22201,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【枯荣种】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2202
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152201,
+      152200
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150209,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 22201,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152201,
+      152200
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150209,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 22201,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2402
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152201,
+      152200
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150209,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 22201,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152201,
+      152200
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150209,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 22202,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【枯荣种】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152202,
+      152200
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150210,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 22202,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【枯荣种】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2202
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152202,
+      152200
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150210,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 22202,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152202,
+      152200
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150210,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 22202,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2402
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152202,
+      152200
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150210,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 22202,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152202,
+      152200
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150210,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 22301,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#92d0dd>【流水散】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152301,
+      152300
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150309,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 22301,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【流水散】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2203
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152301,
+      152300
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150309,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 22301,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152301,
+      152300
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150309,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 22301,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2403
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152301,
+      152300
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150309,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 22301,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152301,
+      152300
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150309,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 22302,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#92d0dd>【流水散】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152302,
+      152300
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150310,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 22302,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【流水散】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2203
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152302,
+      152300
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150310,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 22302,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152302,
+      152300
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150310,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 22302,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2403
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152302,
+      152300
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150310,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 22302,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152302,
+      152300
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150310,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 22401,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【炎脉髓】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152401,
+      152400
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150409,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 22401,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【炎脉髓】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2204
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152401,
+      152400
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150409,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 22401,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152401,
+      152400
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150409,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 22401,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2404
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152401,
+      152400
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150409,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 22401,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152401,
+      152400
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150409,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 22402,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【炎脉髓】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152402,
+      152400
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150410,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 22402,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【炎脉髓】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2204
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152402,
+      152400
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150410,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 22402,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152402,
+      152400
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150410,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 22402,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2404
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152402,
+      152400
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150410,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 22402,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152402,
+      152400
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150410,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 22501,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【玄黄令】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152501,
+      152500
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150509,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 22501,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【玄黄令】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2205
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152501,
+      152500
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150509,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 22501,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152501,
+      152500
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150509,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 22501,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2405
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152501,
+      152500
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150509,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 22501,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152501,
+      152500
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150509,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 22502,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【玄黄令】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152502,
+      152500
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150510,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 22502,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【玄黄令】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2205
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152502,
+      152500
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150510,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 22502,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152502,
+      152500
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150510,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 22502,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2405
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152502,
+      152500
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150510,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 22502,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152502,
+      152500
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150510,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 22601,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【雷灵珠】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152601,
+      152600
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150609,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 22601,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【雷灵珠】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2206
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152601,
+      152600
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150609,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 22601,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152601,
+      152600
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150609,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 22601,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2406
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152601,
+      152600
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150609,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 22601,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152601,
+      152600
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150609,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 22602,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【雷灵珠】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152602,
+      152600
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150610,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 22602,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【雷灵珠】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2206
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152602,
+      152600
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150610,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 22602,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152602,
+      152600
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150610,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 22602,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2406
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152602,
+      152600
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150610,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 22602,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152602,
+      152600
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150610,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 22701,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【邪源珠】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152701,
+      152700
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150709,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 22701,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【邪源珠】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2207
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152701,
+      152700
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150709,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 22701,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152701,
+      152700
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150709,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 22701,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2407
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152701,
+      152700
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150709,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 22701,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152701,
+      152700
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150709,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 22702,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【邪源珠】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152702,
+      152700
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150710,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 22702,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【邪源珠】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2207
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152702,
+      152700
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150710,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 22702,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152702,
+      152700
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150710,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 22702,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2407
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152702,
+      152700
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150710,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 22702,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152702,
+      152700
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150710,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 22801,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【大力丸】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152801,
+      152800
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150809,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 22801,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【大力丸】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2208
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152801,
+      152800
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150809,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 22801,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152801,
+      152800
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150809,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 22801,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2408
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152801,
+      152800
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150809,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 22801,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152801,
+      152800
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150809,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 22802,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【大力丸】</color>觉醒后获得效果：本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 10,
+    "arrAwakenEffect": [
+      2101
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152802,
+      152800
+    ],
+    "iReduceGoodsNum": 30,
+    "iEquip": 150810,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 22802,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#92d0dd>【大力丸】</color>",
+    "iIcon": 5,
+    "iExp": 20,
+    "arrAwakenEffect": [
+      2208
+    ],
+    "iPower": 1000,
+    "arrReduceGoods": [
+      152802,
+      152800
+    ],
+    "iReduceGoodsNum": 60,
+    "iEquip": 150810,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 22802,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      2301
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152802,
+      152800
+    ],
+    "iReduceGoodsNum": 120,
+    "iEquip": 150810,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 22802,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 40,
+    "arrAwakenEffect": [
+      2408
+    ],
+    "iPower": 1500,
+    "arrReduceGoods": [
+      152802,
+      152800
+    ],
+    "iReduceGoodsNum": 180,
+    "iEquip": 150810,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 22802,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 50,
+    "arrAwakenEffect": [],
+    "iPower": 2500,
+    "arrReduceGoods": [
+      152802,
+      152800
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150810,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23101,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【蕴金戒】</color>觉醒后获得效果：每有一件相邻金系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3101
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153101,
+      153100
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150103,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23101,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3201,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153101,
+      153100
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150103,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23101,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻金系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3301
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153101,
+      153100
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150103,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23101,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3401
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153101,
+      153100
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150103,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23101,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153101,
+      153100
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150103,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23102,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【蕴金戒】</color>觉醒后获得效果：每有一件相邻金系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3103
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153102,
+      153100
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150105,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23102,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3201,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153102,
+      153100
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150105,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23102,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻金系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3303
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153102,
+      153100
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150105,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23102,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3401
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153102,
+      153100
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150105,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23102,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153102,
+      153100
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150105,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23103,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【蕴金戒】</color>觉醒后获得效果：每有一件相邻金系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3104
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153103,
+      153100
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150107,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23103,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3201,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153103,
+      153100
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150107,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23103,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻金系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3304
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153103,
+      153100
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150107,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23103,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3401
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153103,
+      153100
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150107,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23103,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153103,
+      153100
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150107,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23104,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【蕴金戒】</color>觉醒后获得效果：每有一件相邻金系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3102
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153104,
+      153100
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 250103,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23104,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3201,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153104,
+      153100
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 250103,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23104,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻金系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3302
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153104,
+      153100
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 250103,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23104,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3401
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153104,
+      153100
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 250103,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23104,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153104,
+      153100
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 250103,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 23201,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【枯荣种】</color>觉醒后获得效果：每有一件相邻木系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3105
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153201,
+      153200
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150203,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23201,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3202,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153201,
+      153200
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150203,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23201,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻木系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3305
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153201,
+      153200
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150203,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23201,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3402
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153201,
+      153200
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150203,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23201,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153201,
+      153200
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150203,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23202,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【枯荣种】</color>觉醒后获得效果：每有一件相邻木系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3107
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153202,
+      153200
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150207,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23202,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3202,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153202,
+      153200
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150207,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23202,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻木系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3307
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153202,
+      153200
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150207,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23202,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3402
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153202,
+      153200
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150207,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23202,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153202,
+      153200
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150207,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23203,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【枯荣种】</color>觉醒后获得效果：每有一件相邻木系法宝给本法宝提供30%生命值加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3108
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153203,
+      153200
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150205,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23203,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3202,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153203,
+      153200
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150205,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23203,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻木系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3308
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153203,
+      153200
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150205,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23203,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3402
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153203,
+      153200
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150205,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23203,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153203,
+      153200
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150205,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23204,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【枯荣种】</color>觉醒后获得效果：每有一件相邻木系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3106
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153204,
+      153200
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 250203,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23204,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3202,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153204,
+      153200
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 250203,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23204,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻木系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3306
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153204,
+      153200
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 250203,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23204,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3402
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153204,
+      153200
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 250203,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23204,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153204,
+      153200
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 250203,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 23301,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【流水散】</color>觉醒后获得效果：每有一件相邻水系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3109
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153301,
+      153300
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150303,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23301,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3203,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153301,
+      153300
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150303,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23301,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻水系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3309
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153301,
+      153300
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150303,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23301,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3403
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153301,
+      153300
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150303,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23301,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153301,
+      153300
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150303,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23302,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【流水散】</color>觉醒后获得效果：每有一件相邻水系法宝给本法宝提供10%护盾值加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3111
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153302,
+      153300
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150305,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23302,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3203,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153302,
+      153300
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150305,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23302,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻水系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3311
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153302,
+      153300
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150305,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23302,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3403
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153302,
+      153300
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150305,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23302,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153302,
+      153300
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150305,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23303,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【流水散】</color>觉醒后获得效果：每有一件相邻水系法宝给本法宝提供75%防御加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3113
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153303,
+      153300
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150307,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23303,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3203,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153303,
+      153300
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150307,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23303,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻水系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3313
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153303,
+      153300
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150307,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23303,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3403
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153303,
+      153300
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150307,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23303,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153303,
+      153300
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150307,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23304,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【流水散】</color>觉醒后获得效果：每有一件相邻水系法宝给本法宝提供10%护盾值加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3112
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153304,
+      153300
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 250303,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23304,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3203,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153304,
+      153300
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 250303,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23304,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻水系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3312
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153304,
+      153300
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 250303,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23304,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3403
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153304,
+      153300
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 250303,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23304,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153304,
+      153300
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 250303,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 23401,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【炎脉髓】</color>觉醒后获得效果：每有一件相邻火系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3114
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153401,
+      153400
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150403,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23401,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【炎脉髓】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3204,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153401,
+      153400
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150403,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23401,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻火系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3314
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153401,
+      153400
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150403,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23401,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3404
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153401,
+      153400
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150403,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23401,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153401,
+      153400
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150403,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23402,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【炎脉髓】</color>觉醒后获得效果：每有一件相邻火系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3116
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153402,
+      153400
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150405,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23402,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【炎脉髓】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3204,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153402,
+      153400
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150405,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23402,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻火系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3316
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153402,
+      153400
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150405,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23402,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3404
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153402,
+      153400
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150405,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23402,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153402,
+      153400
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150405,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23403,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【炎脉髓】</color>觉醒后获得效果：每有一件相邻火系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3118
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153403,
+      153400
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150407,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23403,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【炎脉髓】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3204,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153403,
+      153400
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150407,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23403,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻火系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3318
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153403,
+      153400
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150407,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23403,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3404
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153403,
+      153400
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150407,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23403,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153403,
+      153400
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150407,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23404,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【炎脉髓】</color>觉醒后获得效果：每有一件相邻火系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3115
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153404,
+      153400
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 250403,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23404,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【炎脉髓】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3204,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153404,
+      153400
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 250403,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23404,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻火系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3315
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153404,
+      153400
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 250403,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23404,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3404
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153404,
+      153400
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 250403,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23404,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153404,
+      153400
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 250403,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 23501,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【玄黄令】</color>觉醒后获得效果：每有一件相邻土系法宝给本法宝提供75%防御加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3119
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153501,
+      153500
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150503,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23501,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3205,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153501,
+      153500
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150503,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23501,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻土系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3319
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153501,
+      153500
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150503,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23501,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3405
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153501,
+      153500
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150503,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23501,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153501,
+      153500
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150503,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23502,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【玄黄令】</color>觉醒后获得效果：每有一件相邻土系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3122
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153502,
+      153500
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150507,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23502,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3205,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153502,
+      153500
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150507,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23502,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻土系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3322
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153502,
+      153500
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150507,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23502,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3405
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153502,
+      153500
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150507,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23502,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153502,
+      153500
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150507,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23503,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【玄黄令】</color>觉醒后获得效果：每有一件相邻土系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3121
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153503,
+      153500
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150505,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23503,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3205,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153503,
+      153500
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150505,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23503,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻土系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3321
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153503,
+      153500
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150505,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23503,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3405
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153503,
+      153500
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150505,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23503,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153503,
+      153500
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150505,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23504,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【玄黄令】</color>觉醒后获得效果：每有一件相邻土系法宝给本法宝提供75%防御加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3120
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153504,
+      153500
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 250503,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23504,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3205,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153504,
+      153500
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 250503,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23504,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻土系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3320
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153504,
+      153500
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 250503,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23504,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3405
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153504,
+      153500
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 250503,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23504,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153504,
+      153500
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 250503,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 23601,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【雷灵珠】</color>觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3123
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153601,
+      153600
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150603,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23601,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3206,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153601,
+      153600
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150603,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23601,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻雷系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3323
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153601,
+      153600
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150603,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23601,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3406
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153601,
+      153600
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150603,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23601,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153601,
+      153600
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150603,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23602,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【雷灵珠】</color>觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3125
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153602,
+      153600
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150605,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23602,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3206,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153602,
+      153600
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150605,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23602,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻雷系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3325
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153602,
+      153600
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150605,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23602,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3406
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153602,
+      153600
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150605,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23602,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153602,
+      153600
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150605,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23603,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【雷灵珠】</color>觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供30%生命值加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3126
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153603,
+      153600
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150607,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23603,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3206,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153603,
+      153600
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150607,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23603,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻雷系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3326
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153603,
+      153600
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150607,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23603,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3406
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153603,
+      153600
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150607,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23603,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153603,
+      153600
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150607,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23604,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【雷灵珠】</color>觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3124
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153604,
+      153600
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 250603,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23604,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3206,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153604,
+      153600
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 250603,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23604,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻雷系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3324
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153604,
+      153600
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 250603,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23604,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3406
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153604,
+      153600
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 250603,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23604,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153604,
+      153600
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 250603,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 23701,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【邪源珠】</color>觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3127
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153701,
+      153700
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150703,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23701,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3207,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153701,
+      153700
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150703,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23701,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻邪系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3327
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153701,
+      153700
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150703,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23701,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3407
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153701,
+      153700
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150703,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23701,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153701,
+      153700
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150703,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23702,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【邪源珠】</color>觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3128
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153702,
+      153700
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150705,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23702,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3207,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153702,
+      153700
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150705,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23702,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻邪系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3328
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153702,
+      153700
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150705,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23702,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3407
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153702,
+      153700
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150705,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23702,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153702,
+      153700
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150705,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23703,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【邪源珠】</color>觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3129
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153703,
+      153700
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150707,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23703,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3207,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153703,
+      153700
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150707,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23703,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻邪系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3329
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153703,
+      153700
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150707,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23703,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3407
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153703,
+      153700
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150707,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23703,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153703,
+      153700
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150707,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23704,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【邪源珠】</color>觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      1
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [],
+    "iReduceGoodsNum": 40,
+    "iEquip": 0,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23704,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3207,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [],
+    "iReduceGoodsNum": 80,
+    "iEquip": 0,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23704,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻邪系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3307,
+      3200
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [],
+    "iReduceGoodsNum": 160,
+    "iEquip": 0,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23704,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [],
+    "iPower": 3000,
+    "arrReduceGoods": [],
+    "iReduceGoodsNum": 240,
+    "iEquip": 0,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23704,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [],
+    "iReduceGoodsNum": 400,
+    "iEquip": 0,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 23801,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【大力丸】</color>觉醒后获得效果：每有一件相邻体系法宝给本法宝提供30%生命值加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3130
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153801,
+      153800
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150803,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23801,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3208,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153801,
+      153800
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150803,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23801,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻体系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3330
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153801,
+      153800
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150803,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23801,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3408
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153801,
+      153800
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150803,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23801,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153801,
+      153800
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150803,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23802,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【大力丸】</color>觉醒后获得效果：每有一件相邻体系法宝给本法宝提供30%生命值加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3133
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153802,
+      153800
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150807,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23802,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3208,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153802,
+      153800
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150807,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23802,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻体系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3333
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153802,
+      153800
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150807,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23802,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3408
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153802,
+      153800
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150807,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23802,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153802,
+      153800
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150807,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23803,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【大力丸】</color>觉醒后获得效果：每有一件相邻体系法宝给本法宝提供75%防御加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3132
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153803,
+      153800
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 150805,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23803,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3208,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153803,
+      153800
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 150805,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23803,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻体系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3332
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153803,
+      153800
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 150805,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23803,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3408
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153803,
+      153800
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 150805,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23803,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153803,
+      153800
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 150805,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23804,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【大力丸】</color>觉醒后获得效果：每有一件相邻体系法宝给本法宝提供30%生命值加成",
+    "iIcon": 5,
+    "iExp": 15,
+    "arrAwakenEffect": [
+      3131
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153804,
+      153800
+    ],
+    "iReduceGoodsNum": 40,
+    "iEquip": 250803,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23804,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      3208,
+      3200
+    ],
+    "iPower": 2000,
+    "arrReduceGoods": [
+      153804,
+      153800
+    ],
+    "iReduceGoodsNum": 80,
+    "iEquip": 250803,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23804,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得效果：使相邻体系法宝攻防血增加8%",
+    "iIcon": 5,
+    "iExp": 45,
+    "arrAwakenEffect": [
+      3331
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153804,
+      153800
+    ],
+    "iReduceGoodsNum": 160,
+    "iEquip": 250803,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23804,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      3408
+    ],
+    "iPower": 3000,
+    "arrReduceGoods": [
+      153804,
+      153800
+    ],
+    "iReduceGoodsNum": 240,
+    "iEquip": 250803,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 23804,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 75,
+    "arrAwakenEffect": [],
+    "iPower": 5000,
+    "arrReduceGoods": [
+      153804,
+      153800
+    ],
+    "iReduceGoodsNum": 400,
+    "iEquip": 250803,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24101,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【蕴金戒】</color>觉醒后获得效果：每有一件相邻金系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4101
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154101,
+      154100
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150104,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24101,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4201,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154101,
+      154100
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150104,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24101,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4306
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154101,
+      154100
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150104,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24101,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4401,
+      4400
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154101,
+      154100
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150104,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24101,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4501
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154101,
+      154100
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150104,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24102,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【蕴金戒】</color>觉醒后获得效果：每有一件相邻金系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4103
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154102,
+      154100
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150106,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24102,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4201,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154102,
+      154100
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150106,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24102,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4302
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154102,
+      154100
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150106,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24102,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4401,
+      4400
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154102,
+      154100
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150106,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24102,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4501
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154102,
+      154100
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150106,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24103,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【蕴金戒】</color>觉醒后获得效果：每有一件相邻金系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4104
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154103,
+      154100
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150108,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24103,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4201,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154103,
+      154100
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150108,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24103,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4307
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154103,
+      154100
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150108,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24103,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4401,
+      4400
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154103,
+      154100
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150108,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24103,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4501
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154103,
+      154100
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150108,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24104,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【蕴金戒】</color>觉醒后获得效果：每有一件相邻金系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4102
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154104,
+      154100
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 250104,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24104,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4201,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154104,
+      154100
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 250104,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24104,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有枪、斗法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4306
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154104,
+      154100
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 250104,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24104,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4401,
+      4400
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154104,
+      154100
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 250104,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24104,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4501
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154104,
+      154100
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 250104,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1076
+  },
+  {
+    "iID": 24201,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【枯荣种】</color>觉醒后获得效果：每有一件相邻木系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4105
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154201,
+      154200
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150204,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24201,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4202,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154201,
+      154200
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150204,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24201,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4302
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154201,
+      154200
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150204,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24201,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4402
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154201,
+      154200
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150204,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24201,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4502
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154201,
+      154200
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150204,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24202,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【枯荣种】</color>觉醒后获得效果：每有一件相邻木系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4107
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154202,
+      154200
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150208,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24202,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4202,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154202,
+      154200
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150208,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24202,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4303
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154202,
+      154200
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150208,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24202,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4402
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154202,
+      154200
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150208,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24202,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4502
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154202,
+      154200
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150208,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24203,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【枯荣种】</color>觉醒后获得效果：每有一件相邻木系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4108
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154203,
+      154200
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150206,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24203,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4202,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154203,
+      154200
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150206,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24203,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4304
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154203,
+      154200
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150206,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24203,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4402
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154203,
+      154200
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150206,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24203,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4502
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154203,
+      154200
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150206,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24204,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【枯荣种】</color>觉醒后获得效果：每有一件相邻木系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4106
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154204,
+      154200
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 250204,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24204,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4202,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154204,
+      154200
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 250204,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24204,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4302
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154204,
+      154200
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 250204,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24204,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4402
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154204,
+      154200
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 250204,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24204,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4502
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154204,
+      154200
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 250204,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1077
+  },
+  {
+    "iID": 24301,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【流水散】</color>觉醒后获得效果：每有一件相邻水系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4109
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154301,
+      154300
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150304,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24301,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4203,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154301,
+      154300
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150304,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24301,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4302
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154301,
+      154300
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150304,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24301,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4403
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154301,
+      154300
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150304,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24301,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4503
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154301,
+      154300
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150304,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24302,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【流水散】</color>觉醒后获得效果：每有一件相邻水系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4111
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154302,
+      154300
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150306,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24302,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4203,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154302,
+      154300
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150306,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24302,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4305
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154302,
+      154300
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150306,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24302,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4403
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154302,
+      154300
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150306,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24302,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4503
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154302,
+      154300
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150306,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24303,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【流水散】</color>觉醒后获得效果：每有一件相邻水系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4113
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154303,
+      154300
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150308,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24303,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4203,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154303,
+      154300
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150308,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24303,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4308
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154303,
+      154300
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150308,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24303,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4403
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154303,
+      154300
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150308,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24303,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4503
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154303,
+      154300
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150308,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24304,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【流水散】</color>觉醒后获得效果：每有一件相邻水系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4112
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154304,
+      154300
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 250304,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24304,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4203,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154304,
+      154300
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 250304,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24304,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4305
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154304,
+      154300
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 250304,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24304,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4403
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154304,
+      154300
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 250304,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24304,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4503
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154304,
+      154300
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 250304,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1078
+  },
+  {
+    "iID": 24401,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【炎脉髓】</color>觉醒后获得效果：每有一件相邻火系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4114
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154401,
+      154400
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150404,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24401,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【炎脉髓】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4204,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154401,
+      154400
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150404,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24401,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4304
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154401,
+      154400
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150404,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24401,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4404
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154401,
+      154400
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150404,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24401,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4504
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154401,
+      154400
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150404,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24402,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【炎脉髓】</color>觉醒后获得效果：每有一件相邻火系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4116
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154402,
+      154400
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150406,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24402,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【炎脉髓】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4204,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154402,
+      154400
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150406,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24402,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4307
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154402,
+      154400
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150406,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24402,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4404
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154402,
+      154400
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150406,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24402,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4504
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154402,
+      154400
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150406,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24403,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【炎脉髓】</color>觉醒后获得效果：每有一件相邻火系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4118
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154403,
+      154400
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150408,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24403,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【炎脉髓】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4204,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154403,
+      154400
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150408,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24403,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4303
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154403,
+      154400
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150408,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24403,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4404
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154403,
+      154400
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150408,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24403,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4504
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154403,
+      154400
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150408,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24404,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【炎脉髓】</color>觉醒后获得效果：每有一件相邻火系法宝提供1%汲取率",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4115
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154404,
+      154400
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 250404,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24404,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【炎脉髓】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4204,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154404,
+      154400
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 250404,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24404,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4304
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154404,
+      154400
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 250404,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24404,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4404
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154404,
+      154400
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 250404,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24404,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4504
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154404,
+      154400
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 250404,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1079
+  },
+  {
+    "iID": 24501,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【玄黄令】</color>觉醒后获得效果：每有一件相邻土系法宝给本法宝提供100%防御加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4119
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154501,
+      154500
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150504,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24501,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4205,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154501,
+      154500
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150504,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24501,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4308
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154501,
+      154500
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150504,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24501,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4405
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154501,
+      154500
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150504,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24501,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4505
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154501,
+      154500
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150504,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24502,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【玄黄令】</color>觉醒后获得效果：每有一件相邻土系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4122
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154502,
+      154500
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150506,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24502,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4205,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154502,
+      154500
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150506,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24502,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4305
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154502,
+      154500
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150506,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24502,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4405
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154502,
+      154500
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150506,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24502,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4505
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154502,
+      154500
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150506,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24503,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【玄黄令】</color>觉醒后获得效果：每有一件相邻土系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4121
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154503,
+      154500
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150508,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24503,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4205,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154503,
+      154500
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150508,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24503,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4309
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154503,
+      154500
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150508,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24503,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4405
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154503,
+      154500
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150508,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24503,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4505
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154503,
+      154500
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150508,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24504,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【玄黄令】</color>觉醒后获得效果：每有一件相邻土系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4120
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154504,
+      154500
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 250504,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24504,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4205,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154504,
+      154500
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 250504,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24504,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4308
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154504,
+      154500
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 250504,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24504,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4405
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154504,
+      154500
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 250504,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24504,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4505
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154504,
+      154500
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 250504,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1080
+  },
+  {
+    "iID": 24601,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【雷灵珠】</color>觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4123
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154601,
+      154600
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150604,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24601,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4206,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154601,
+      154600
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150604,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24601,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4306
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154601,
+      154600
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150604,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24601,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4406
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154601,
+      154600
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150604,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24601,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4506
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154601,
+      154600
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150604,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24602,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【雷灵珠】</color>觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4125
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154602,
+      154600
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150606,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24602,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4206,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154602,
+      154600
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150606,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24602,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4303
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154602,
+      154600
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150606,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24602,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4406
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154602,
+      154600
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150606,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24602,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4506
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154602,
+      154600
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150606,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24603,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【雷灵珠】</color>觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供10%护盾值加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4126
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154603,
+      154600
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150608,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24603,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4206,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154603,
+      154600
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150608,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24603,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4309
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154603,
+      154600
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150608,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24603,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4406
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154603,
+      154600
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150608,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24603,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4506
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154603,
+      154600
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150608,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24604,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【雷灵珠】</color>觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4124
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154604,
+      154600
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 250604,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24604,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4206,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154604,
+      154600
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 250604,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24604,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4306
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154604,
+      154600
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 250604,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24604,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4406
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154604,
+      154600
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 250604,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24604,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4506
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154604,
+      154600
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 250604,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1081
+  },
+  {
+    "iID": 24701,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【邪源珠】</color>觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4127
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154701,
+      154700
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150704,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24701,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4207,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154701,
+      154700
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150704,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24701,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4306
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154701,
+      154700
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150704,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24701,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4407
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154701,
+      154700
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150704,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24701,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4507
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154701,
+      154700
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150704,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24702,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【邪源珠】</color>觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4128
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154702,
+      154700
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150706,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24702,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4207,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154702,
+      154700
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150706,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24702,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4307
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154702,
+      154700
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150706,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24702,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4407
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154702,
+      154700
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150706,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24702,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4507
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154702,
+      154700
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150706,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24703,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【邪源珠】</color>觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供40%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4129
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154703,
+      154700
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150708,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24703,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4207,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154703,
+      154700
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150708,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24703,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4309
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154703,
+      154700
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150708,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24703,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4407
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154703,
+      154700
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150708,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24703,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4507
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154703,
+      154700
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150708,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24704,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【邪源珠】</color>觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供30%攻击力加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      1001
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [],
+    "iReduceGoodsNum": 50,
+    "iEquip": 0,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24704,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4207,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [],
+    "iReduceGoodsNum": 100,
+    "iEquip": 0,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24704,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有同形态法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      3
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [],
+    "iReduceGoodsNum": 200,
+    "iEquip": 0,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24704,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4407
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [],
+    "iReduceGoodsNum": 300,
+    "iEquip": 0,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24704,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4507
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [],
+    "iReduceGoodsNum": 500,
+    "iEquip": 0,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1082
+  },
+  {
+    "iID": 24801,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【大力丸】</color>觉醒后获得效果：每有一件相邻体系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4130
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154801,
+      154800
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150804,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24801,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4208,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154801,
+      154800
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150804,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24801,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4305
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154801,
+      154800
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150804,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24801,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4408
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154801,
+      154800
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150804,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24801,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4508
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154801,
+      154800
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150804,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24802,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【大力丸】</color>觉醒后获得效果：每有一件相邻体系法宝给本法宝提供60%生命值加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4133
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154802,
+      154800
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150808,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24802,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4208,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154802,
+      154800
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150808,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24802,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4304
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154802,
+      154800
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150808,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24802,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4408
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154802,
+      154800
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150808,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24802,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4508
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154802,
+      154800
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150808,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24803,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【大力丸】</color>觉醒后获得效果：每有一件相邻体系法宝给本法宝提供10%伤害加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4132
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154803,
+      154800
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 150806,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24803,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4208,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154803,
+      154800
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 150806,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24803,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4308
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154803,
+      154800
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 150806,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24803,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4408
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154803,
+      154800
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 150806,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24803,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4508
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154803,
+      154800
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 150806,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24804,
+    "iAwakenLevel": 1,
+    "szName": "觉醒一",
+    "szDes": "吞噬<color=#e7ad63>【大力丸】</color>觉醒后获得效果：每有一件相邻体系法宝给本法宝提供10%护盾值加成",
+    "iIcon": 5,
+    "iExp": 30,
+    "arrAwakenEffect": [
+      4131
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154804,
+      154800
+    ],
+    "iReduceGoodsNum": 50,
+    "iEquip": 250804,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24804,
+    "iAwakenLevel": 2,
+    "szName": "觉醒二",
+    "szDes": "法宝觉醒后返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升20%",
+    "iIcon": 5,
+    "iExp": 60,
+    "arrAwakenEffect": [
+      4208,
+      4200
+    ],
+    "iPower": 4000,
+    "arrReduceGoods": [
+      154804,
+      154800
+    ],
+    "iReduceGoodsNum": 100,
+    "iEquip": 250804,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24804,
+    "iAwakenLevel": 3,
+    "szName": "觉醒三",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）",
+    "iIcon": 5,
+    "iExp": 90,
+    "arrAwakenEffect": [
+      4305
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154804,
+      154800
+    ],
+    "iReduceGoodsNum": 200,
+    "iEquip": 250804,
+    "iFunctionOpenID": 319,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24804,
+    "iAwakenLevel": 4,
+    "szName": "觉醒四",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 120,
+    "arrAwakenEffect": [
+      4408
+    ],
+    "iPower": 6000,
+    "arrReduceGoods": [
+      154804,
+      154800
+    ],
+    "iReduceGoodsNum": 300,
+    "iEquip": 250804,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  },
+  {
+    "iID": 24804,
+    "iAwakenLevel": 5,
+    "szName": "觉醒五",
+    "szDes": "敬请期待",
+    "iIcon": 5,
+    "iExp": 150,
+    "arrAwakenEffect": [
+      4508
+    ],
+    "iPower": 10000,
+    "arrReduceGoods": [
+      154804,
+      154800
+    ],
+    "iReduceGoodsNum": 500,
+    "iEquip": 250804,
+    "iFunctionOpenID": 320,
+    "arrEquipStyle": [
+      0,
+      0,
+      70
+    ],
+    "iBgEffect": 1083
+  }
+]

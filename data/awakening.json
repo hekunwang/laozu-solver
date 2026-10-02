@@ -1,0 +1,3267 @@
+{
+  "150109": {
+    "teacherId": 22101,
+    "teacherName": "大鹏",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【蕴金戒】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【蕴金戒】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150110": {
+    "teacherId": 22102,
+    "teacherName": "亢金龙",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【蕴金戒】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【蕴金戒】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150209": {
+    "teacherId": 22201,
+    "teacherName": "木吒",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【枯荣种】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【枯荣种】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150210": {
+    "teacherId": 22202,
+    "teacherName": "韩湘子",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【枯荣种】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【枯荣种】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150309": {
+    "teacherId": 22301,
+    "teacherName": "谛听",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【流水散】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【流水散】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150310": {
+    "teacherId": 22302,
+    "teacherName": "冰夷",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【流水散】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【流水散】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150409": {
+    "teacherId": 22401,
+    "teacherName": "赤烟驹",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【炎脉髓】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【炎脉髓】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150410": {
+    "teacherId": 22402,
+    "teacherName": "天照",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【炎脉髓】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【炎脉髓】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150509": {
+    "teacherId": 22501,
+    "teacherName": "山鬼",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【玄黄令】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【玄黄令】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150510": {
+    "teacherId": 22502,
+    "teacherName": "石敢当",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【玄黄令】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【玄黄令】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150609": {
+    "teacherId": 22601,
+    "teacherName": "辛环",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【雷灵珠】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【雷灵珠】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150610": {
+    "teacherId": 22602,
+    "teacherName": "妙音天",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【雷灵珠】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【雷灵珠】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150709": {
+    "teacherId": 22701,
+    "teacherName": "罗刹",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【邪源珠】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【邪源珠】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150710": {
+    "teacherId": 22702,
+    "teacherName": "桃妖",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【邪源珠】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【邪源珠】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150809": {
+    "teacherId": 22801,
+    "teacherName": "哈将",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【大力丸】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【大力丸】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150810": {
+    "teacherId": 22802,
+    "teacherName": "哼将",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "吞噬【大力丸】觉醒后获得效果：本法宝攻防血提升20%"
+      },
+      "2": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【大力丸】"
+      },
+      "3": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "觉醒后本法宝攻防血提升至50%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150103": {
+    "teacherId": 23101,
+    "teacherName": "魁拔",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          10501
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【蕴金戒】觉醒后获得效果：每有一件相邻金系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【蕴金戒】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          10501,
+          10502
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻金系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150105": {
+    "teacherId": 23102,
+    "teacherName": "夜游仙",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          10701
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【蕴金戒】觉醒后获得效果：每有一件相邻金系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【蕴金戒】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          10701,
+          10702
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻金系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150107": {
+    "teacherId": 23103,
+    "teacherName": "邓婵玉",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          10801
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【蕴金戒】觉醒后获得效果：每有一件相邻金系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【蕴金戒】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          10801,
+          10802
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻金系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "250103": {
+    "teacherId": 23104,
+    "teacherName": "斗姆元君",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          10601
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【蕴金戒】觉醒后获得效果：每有一件相邻金系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【蕴金戒】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          10601,
+          10602
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻金系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150203": {
+    "teacherId": 23201,
+    "teacherName": "刑天",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          20601
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【枯荣种】觉醒后获得效果：每有一件相邻木系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【枯荣种】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          20601,
+          20602
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻木系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150207": {
+    "teacherId": 23202,
+    "teacherName": "七色鹿",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          20801
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【枯荣种】觉醒后获得效果：每有一件相邻木系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【枯荣种】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          20801,
+          20802
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻木系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150205": {
+    "teacherId": 23203,
+    "teacherName": "瓶灵",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          21001
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【枯荣种】觉醒后获得效果：每有一件相邻木系法宝给本法宝提供30%生命值加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【枯荣种】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          21001,
+          21002
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻木系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "250203": {
+    "teacherId": 23204,
+    "teacherName": "若木",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          20701
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【枯荣种】觉醒后获得效果：每有一件相邻木系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【枯荣种】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          20701,
+          20702
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻木系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150303": {
+    "teacherId": 23301,
+    "teacherName": "洛神",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          30601
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【流水散】觉醒后获得效果：每有一件相邻水系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【流水散】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          30601,
+          30602
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻水系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150305": {
+    "teacherId": 23302,
+    "teacherName": "玄女",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          30801
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【流水散】觉醒后获得效果：每有一件相邻水系法宝给本法宝提供10%护盾值加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【流水散】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          30801,
+          30802
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻水系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150307": {
+    "teacherId": 23303,
+    "teacherName": "龙女",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          31001
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【流水散】觉醒后获得效果：每有一件相邻水系法宝给本法宝提供75%防御加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【流水散】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          31001,
+          31002
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻水系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "250303": {
+    "teacherId": 23304,
+    "teacherName": "鲲",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          30901
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【流水散】觉醒后获得效果：每有一件相邻水系法宝给本法宝提供10%护盾值加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【流水散】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          30901,
+          30902
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻水系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150403": {
+    "teacherId": 23401,
+    "teacherName": "燧人氏",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          40601
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【炎脉髓】觉醒后获得效果：每有一件相邻火系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【炎脉髓】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          40601,
+          40602
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻火系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150405": {
+    "teacherId": 23402,
+    "teacherName": "日游仙",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          40801
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【炎脉髓】觉醒后获得效果：每有一件相邻火系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【炎脉髓】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          40801,
+          40802
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻火系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150407": {
+    "teacherId": 23403,
+    "teacherName": "焰中仙",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          41001
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【炎脉髓】觉醒后获得效果：每有一件相邻火系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【炎脉髓】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          41001,
+          41002
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻火系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "250403": {
+    "teacherId": 23404,
+    "teacherName": "灶神",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          40701
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【炎脉髓】觉醒后获得效果：每有一件相邻火系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【炎脉髓】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          40701,
+          40702
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻火系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150503": {
+    "teacherId": 23501,
+    "teacherName": "柳土獐",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          50501
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【玄黄令】觉醒后获得效果：每有一件相邻土系法宝给本法宝提供75%防御加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【玄黄令】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          50501,
+          50502
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻土系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150507": {
+    "teacherId": 23502,
+    "teacherName": "夸父",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          50801
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【玄黄令】觉醒后获得效果：每有一件相邻土系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【玄黄令】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          50801,
+          50802
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻土系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150505": {
+    "teacherId": 23503,
+    "teacherName": "土行孙",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          50701
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【玄黄令】觉醒后获得效果：每有一件相邻土系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【玄黄令】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          50701,
+          50702
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻土系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "250503": {
+    "teacherId": 23504,
+    "teacherName": "大禹",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          50601
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【玄黄令】觉醒后获得效果：每有一件相邻土系法宝给本法宝提供75%防御加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【玄黄令】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          50601,
+          50602
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻土系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150603": {
+    "teacherId": 23601,
+    "teacherName": "雷兽",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          60501
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【雷灵珠】觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【雷灵珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          60501,
+          60502
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻雷系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150605": {
+    "teacherId": 23602,
+    "teacherName": "碧霄",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          60701
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【雷灵珠】觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【雷灵珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          60701,
+          60702
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻雷系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150607": {
+    "teacherId": 23603,
+    "teacherName": "李天王",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          60801
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【雷灵珠】觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供30%生命值加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【雷灵珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          60801,
+          60802
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻雷系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "250603": {
+    "teacherId": 23604,
+    "teacherName": "王灵官",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          60601
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【雷灵珠】觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【雷灵珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          60601,
+          60602
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻雷系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150703": {
+    "teacherId": 23701,
+    "teacherName": "夜叉",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          70401
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【邪源珠】觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【邪源珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          70401,
+          70402
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻邪系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150705": {
+    "teacherId": 23702,
+    "teacherName": "画皮",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          70501
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【邪源珠】觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【邪源珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          70501,
+          70502
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻邪系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150707": {
+    "teacherId": 23703,
+    "teacherName": "白无常",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          70601
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【邪源珠】觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【邪源珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          70601,
+          70602
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻邪系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150803": {
+    "teacherId": 23801,
+    "teacherName": "姬发",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          80501
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【大力丸】觉醒后获得效果：每有一件相邻体系法宝给本法宝提供30%生命值加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【大力丸】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          80501,
+          80502
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻体系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150807": {
+    "teacherId": 23802,
+    "teacherName": "杜康",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          80801
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【大力丸】觉醒后获得效果：每有一件相邻体系法宝给本法宝提供30%生命值加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【大力丸】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          80801,
+          80802
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻体系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150805": {
+    "teacherId": 23803,
+    "teacherName": "无艳",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          80701
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【大力丸】觉醒后获得效果：每有一件相邻体系法宝给本法宝提供75%防御加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【大力丸】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          80701,
+          80702
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻体系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "250803": {
+    "teacherId": 23804,
+    "teacherName": "武罗",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          80601
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【大力丸】觉醒后获得效果：每有一件相邻体系法宝给本法宝提供30%生命值加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【大力丸】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          80601,
+          80602
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻体系法宝攻防血增加8%"
+      }
+    },
+    "missingEffects": []
+  },
+  "150104": {
+    "teacherId": 24101,
+    "teacherName": "杨戬",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          1045,
+          10101
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【蕴金戒】觉醒后获得效果：每有一件相邻金系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【蕴金戒】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 6,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 6,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 6,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150106": {
+    "teacherId": 24102,
+    "teacherName": "酒剑仙",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          1065,
+          10301
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【蕴金戒】觉醒后获得效果：每有一件相邻金系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【蕴金戒】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 2,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 2,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 2,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150108": {
+    "teacherId": 24103,
+    "teacherName": "白虎",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          1085,
+          10401
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【蕴金戒】觉醒后获得效果：每有一件相邻金系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【蕴金戒】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 7,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 7,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 7,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "250104": {
+    "teacherId": 24104,
+    "teacherName": "孙悟空",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          1046,
+          10201
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【蕴金戒】觉醒后获得效果：每有一件相邻金系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【蕴金戒】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 6,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 6,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 6,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有枪、斗法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150204": {
+    "teacherId": 24201,
+    "teacherName": "句芒",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          2045,
+          20101
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【枯荣种】觉醒后获得效果：每有一件相邻木系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【枯荣种】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 2,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 2,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 2,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150208": {
+    "teacherId": 24202,
+    "teacherName": "灵山巫祖",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          2085,
+          20301
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【枯荣种】觉醒后获得效果：每有一件相邻木系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【枯荣种】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 3,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 3,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 3,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150206": {
+    "teacherId": 24203,
+    "teacherName": "蛊神",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          2065,
+          20501
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【枯荣种】觉醒后获得效果：每有一件相邻木系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【枯荣种】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 4,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 4,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 4,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "250204": {
+    "teacherId": 24204,
+    "teacherName": "青帝",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          2046,
+          20201
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【枯荣种】觉醒后获得效果：每有一件相邻木系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【枯荣种】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 2,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 2,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 2,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150304": {
+    "teacherId": 24301,
+    "teacherName": "嫦娥",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          3045,
+          30101
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【流水散】觉醒后获得效果：每有一件相邻水系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【流水散】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 2,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 2,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 2,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150306": {
+    "teacherId": 24302,
+    "teacherName": "姜子牙",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          3065,
+          30301
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【流水散】觉醒后获得效果：每有一件相邻水系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【流水散】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 5,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 5,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 5,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150308": {
+    "teacherId": 24303,
+    "teacherName": "玄冥",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          3085,
+          30501
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【流水散】觉醒后获得效果：每有一件相邻水系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【流水散】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 8,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 8,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 8,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "250304": {
+    "teacherId": 24304,
+    "teacherName": "共工",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          3065,
+          30401
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【流水散】觉醒后获得效果：每有一件相邻水系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【流水散】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 5,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 5,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 5,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150404": {
+    "teacherId": 24401,
+    "teacherName": "妲己",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          4065,
+          40101
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【炎脉髓】觉醒后获得效果：每有一件相邻火系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【炎脉髓】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 4,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 4,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 4,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150406": {
+    "teacherId": 24402,
+    "teacherName": "朱雀",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          4045,
+          40301
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【炎脉髓】觉醒后获得效果：每有一件相邻火系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【炎脉髓】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 7,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 7,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 7,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150408": {
+    "teacherId": 24403,
+    "teacherName": "祝融",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          4085,
+          40501
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【炎脉髓】觉醒后获得效果：每有一件相邻火系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【炎脉髓】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 3,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 3,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 3,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "250404": {
+    "teacherId": 24404,
+    "teacherName": "哪吒",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          4115,
+          40201
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【炎脉髓】觉醒后获得效果：每有一件相邻火系法宝提供1%汲取率"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【炎脉髓】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 4,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 4,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 4,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150504": {
+    "teacherId": 24501,
+    "teacherName": "土地",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          5045,
+          50101
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【玄黄令】觉醒后获得效果：每有一件相邻土系法宝给本法宝提供100%防御加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【玄黄令】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 8,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 8,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 8,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150506": {
+    "teacherId": 24502,
+    "teacherName": "女娲",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          5085,
+          50401
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【玄黄令】觉醒后获得效果：每有一件相邻土系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【玄黄令】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 5,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 5,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 5,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150508": {
+    "teacherId": 24503,
+    "teacherName": "泰山府君",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          5065,
+          50301
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【玄黄令】觉醒后获得效果：每有一件相邻土系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【玄黄令】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 9,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 9,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 9,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "250504": {
+    "teacherId": 24504,
+    "teacherName": "后土",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          5115,
+          50201
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【玄黄令】觉醒后获得效果：每有一件相邻土系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【玄黄令】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 8,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 8,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 8,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150604": {
+    "teacherId": 24601,
+    "teacherName": "申公豹",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          6025,
+          60101
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【雷灵珠】觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【雷灵珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 6,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 6,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 6,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150606": {
+    "teacherId": 24602,
+    "teacherName": "电母",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          6065,
+          60301
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【雷灵珠】觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【雷灵珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 3,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 3,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 3,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150608": {
+    "teacherId": 24603,
+    "teacherName": "雷声天尊",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          6085,
+          60401
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【雷灵珠】觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供10%护盾值加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【雷灵珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 9,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 9,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 9,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "250604": {
+    "teacherId": 24604,
+    "teacherName": "玉枢雷",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          6045,
+          60201
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【雷灵珠】觉醒后获得效果：每有一件相邻雷系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【雷灵珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 6,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 6,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 6,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150704": {
+    "teacherId": 24701,
+    "teacherName": "罗喉",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          7045,
+          70101
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【邪源珠】觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【邪源珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 6,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 6,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 6,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150706": {
+    "teacherId": 24702,
+    "teacherName": "羲和与望舒",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          7065,
+          70201
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【邪源珠】觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【邪源珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 7,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 7,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 7,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150708": {
+    "teacherId": 24703,
+    "teacherName": "北阴",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          7085,
+          70301
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【邪源珠】觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供40%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【邪源珠】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 9,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 9,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 9,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150804": {
+    "teacherId": 24801,
+    "teacherName": "玄武",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          8025,
+          80101
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【大力丸】觉醒后获得效果：每有一件相邻体系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【大力丸】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 5,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 5,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 5,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150808": {
+    "teacherId": 24802,
+    "teacherName": "金刚手",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          8065,
+          80401
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【大力丸】觉醒后获得效果：每有一件相邻体系法宝给本法宝提供60%生命值加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【大力丸】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 4,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 4,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 4,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "150806": {
+    "teacherId": 24803,
+    "teacherName": "巨灵",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          8045,
+          80301
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【大力丸】觉醒后获得效果：每有一件相邻体系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【大力丸】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 8,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 8,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 8,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "250804": {
+    "teacherId": 24804,
+    "teacherName": "执夷山主",
+    "maxLevel": 3,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          8105,
+          80201
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【大力丸】觉醒后获得效果：每有一件相邻体系法宝给本法宝提供10%护盾值加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【大力丸】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 5,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 5,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 5,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "250305": {
+    "teacherId": 23305,
+    "teacherName": "鲲·剑",
+    "maxLevel": 0,
+    "levels": {},
+    "missingEffects": [
+      {
+        "level": 1,
+        "effectId": "官方快照未配置觉醒"
+      }
+    ]
+  },
+  "250306": {
+    "teacherId": 24305,
+    "teacherName": "共工·剑",
+    "maxLevel": 0,
+    "levels": {},
+    "missingEffects": [
+      {
+        "level": 1,
+        "effectId": "官方快照未配置觉醒"
+      }
+    ]
+  }
+}
