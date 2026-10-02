@@ -88,7 +88,8 @@ if(s.hasGlobal)for(let source=0;source<a.length;source++){const profile=a[source
 // The small white glyph masks contain only the game's digit strokes, no
 // screenshot, player information, or external OCR service.
 const AW_GLYPHS={
-  1:['   ##  ','  ###  ',' ####  ','   ##  ','   ##  ','   ##  ','   ##  ','   ##  ','   ##  ','   ##  ','   ##  ','   ##  ','   ##  ',' ######',' ######'],
+  // The game uses a narrow 1 without a bottom foot, unlike a generic font.
+  1:['#### ','#####','#####','  ###','  ###','  ###','  ###','  ###','  ###','  ###','  ###','  ###','  ###','  ###','  ###','   ##'],
   2:['     ##    ','   ######  ',' ########  ',' ###  #### ',' ##    ### ','###    ### ',' #     ### ','      ###  ','      ###  ','     ###   ','    ####   ','   ####    ','  ####     ',' ####      ',' ######### ','###########',' ######### '],
   3:['    ##    ','  ######  ',' ######## ',' ##    ## ',' ##    ## ','       ## ','      ### ','    ####  ','    ##### ','      ####','       ###','        ##','##     ###','####  ####',' ######## ','  ######  ']
 };

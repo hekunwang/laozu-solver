@@ -23,7 +23,7 @@ function uncertain(reading,label){
   assert.equal(reading.awakenStatus,'uncertain',label+' must require confirmation');
 }
 let pixelCases=0;
-assert.deepEqual(fixture.samples.map(sample=>sample.expected),[3,2,3,2,0,0]);
+assert.deepEqual(fixture.samples.map(sample=>sample.expected),[3,2,3,2,0,0,1,2,2]);
 for(const sample of fixture.samples){
   const result=read(sampleBitmap(sample),sample.grid);
   assert.equal(result.awakenLevel,sample.expected,'Real isolated fixture: '+sample.name);
@@ -35,7 +35,7 @@ for(const sample of fixture.samples){
 // cannot assign a level, and a present flame cannot become "unawakened".
 for(const sample of fixture.samples.filter(sample=>sample.expected>0)){
   const image=sampleBitmap(sample),bytes=Buffer.from(image.rgb);
-  const paint=sample.expected===3?[180,80,235]:[40,160,230];
+  const paint=sample.expected===3?[180,80,235]:sample.expected===2?[40,160,230]:[40,190,130];
   for(let offset=0;offset<bytes.length;offset+=3){
     const pixel=[bytes[offset],bytes[offset+1],bytes[offset+2]];
     if(Math.min(...pixel)>205&&Math.max(...pixel)-Math.min(...pixel)<45)
@@ -44,8 +44,8 @@ for(const sample of fixture.samples.filter(sample=>sample.expected>0)){
   uncertain(read(bitmap(image.w,image.h,bytes),sample.grid),sample.name+' flame without readable digit');pixelCases++;
 }
 
-// Recolor the REAL flames while keeping the original digit. A blue 3 or a
-// purple 2 is contradictory evidence, so neither color nor digit wins.
+// Recolor the REAL flames while keeping the original digit. Contradictory
+// evidence must remain unknown, including a purple 1.
 for(const sample of fixture.samples.filter(sample=>sample.expected>0)){
   const image=sampleBitmap(sample),bytes=Buffer.from(image.rgb);
   const paint=sample.expected===3?[40,160,230]:[180,80,235];
