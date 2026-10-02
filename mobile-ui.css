@@ -1,0 +1,36 @@
+/* The recognition bitmap stays at its original resolution; only the preview
+   shrinks. Keep scroll gestures outside the draggable calibration overlay. */
+.import-dialog{display:flex;flex-direction:column;overflow:hidden}
+.import-dialog>h2{flex:none}
+.import-scroll-shell{position:relative;display:flex;flex:1 1 auto;min-height:0}
+.import-scroll{flex:1 1 auto;min-width:0;min-height:0;overflow-y:auto;overflow-x:hidden;padding:0 24px 12px 0;overscroll-behavior:contain;scrollbar-width:auto;scrollbar-color:var(--accent) var(--line);scrollbar-gutter:stable}
+.import-scroll::-webkit-scrollbar{width:10px}
+.import-scroll::-webkit-scrollbar-track{background:var(--line);border-radius:10px}
+.import-scroll::-webkit-scrollbar-thumb{background:var(--accent);border-radius:10px;border:2px solid var(--line)}
+.import-scroll-track{position:absolute;top:4px;bottom:4px;right:1px;width:8px;border-radius:8px;background:var(--line);cursor:pointer;touch-action:none}
+.import-scroll-track[hidden]{display:none}
+.import-scroll-thumb{display:block;width:100%;min-height:32px;border-radius:8px;background:var(--accent);box-shadow:0 0 0 1px color-mix(in srgb,var(--accent) 25%,transparent)}
+.import-footer{flex:none;background:var(--panel);padding:.65rem 0 0;margin-top:0;box-shadow:0 -5px 10px color-mix(in srgb,var(--fg) 5%,transparent)}
+.import-footer>button{min-height:42px}
+.import-preview{min-width:0}
+.import-preview-tools{display:none}
+#board{scroll-margin-top:12px}
+@media(max-width:700px){
+  .import-dialog{padding:.75rem .75rem max(.75rem,env(safe-area-inset-bottom))}
+  .import-dialog>h2{margin-bottom:.65rem}
+  .import-scroll{padding-right:26px;scrollbar-width:none;scrollbar-gutter:auto}
+  .import-scroll::-webkit-scrollbar{width:0}
+  .import-stage{margin:0 auto}
+  .import-preview-tools{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:.45rem;margin:0 0 .6rem}
+  .import-preview-tools button{min-height:36px}
+  .import-preview>p{margin:.65rem .4rem;font-size:.75rem;line-height:1.5}
+  .import-footer{display:grid;grid-template-columns:1fr 1.4fr;gap:.5rem;padding-top:.55rem}
+  .import-footer>.small{grid-column:1 / -1;line-height:1.5}
+  .import-footer>.right{display:none}
+  .import-footer>button{width:100%;min-height:44px}
+  .import-side .elder-row{display:grid;grid-template-columns:48px minmax(0,1fr) auto;align-items:center;column-gap:.45rem;row-gap:.15rem;white-space:normal;padding:.35rem 0;border-bottom:1px solid var(--line)}
+  .import-side .elder-row .name{min-width:0;line-height:1.4;font-size:.8rem;overflow-wrap:anywhere}
+  .import-side .elder-row>canvas{grid-row:1 / 3}
+  .import-side .elder-row>select{min-height:36px;max-width:100%;font-size:.8rem}
+  .import-side .elder-row>.small{grid-column:2 / -1;font-size:.72rem;line-height:1.4}
+}

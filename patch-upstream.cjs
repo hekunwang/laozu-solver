@@ -108,6 +108,8 @@ app = change(app, 'const Dl=(t,e)=>', extension + '\nconst Dl=(t,e)=>');
 ({app,worker}=require('./patch-instance-engine.cjs')({app,worker,change}));
 app=require('./patch-instance-ui.cjs')({app,change});
 app=require('./patch-awakening-import.cjs')({app,change,recognizerSource:read('awakening-recognizer.js')});
+app=require('./patch-mobile-import.cjs')({app,change});
+app=require('./patch-interaction.cjs')({app,change});
 app = change(app, '__LOCAL_WORKER__', JSON.stringify(worker));
 new vm.Script(worker, { filename: 'embedded-solver-worker.js' });
 new vm.Script(app, { filename: 'app.js' });

@@ -6,3 +6,6 @@ export-official-tables.py
 __pycache__/
 *.pyc
 .venv/
+
+# Keep verification scripts and fixtures local.
+tests/
