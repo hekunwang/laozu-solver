@@ -26,6 +26,7 @@ app = app.slice(0, catalogStart) + `const z=${JSON.stringify(catalog)}` + app.sl
 const shared = `
 const AWDB=${JSON.stringify(awakening)};
 function awEffects(eq,level){
+  if(Number.isInteger(eq.awakenLevel))level=eq.awakenLevel;
   const data=AWDB[eq.id],out={baseBonus:{},skillIds:null,globalBuffs:[]};
   if(!data)return out;
   const limit=Math.min(data.maxLevel??3,Math.max(0,Number(level)||0));
@@ -37,7 +38,10 @@ function awEffects(eq,level){
   return out;
 }
 function awSkills(eq,level){return [...new Set(awEffects(eq,level).skillIds??eq.skillIds)];}
-function awValidate(input){const out={};if(input&&typeof input==='object'&&!Array.isArray(input))for(const [id,lv]of Object.entries(input)){const max=AWDB[id]?.maxLevel??0;if(AWDB[id]&&Number.isInteger(lv)&&lv>=0&&lv<=max)out[id]=lv;}return out;}
+function awLevel(options,id,copyIndex=0){const input=options?.awaken?.[id],lv=Array.isArray(input)?input[copyIndex]:input,max=AWDB[id]?.maxLevel??0;return Number.isInteger(lv)&&lv>=0&&lv<=max?lv:0;}
+function awPieceLevel(piece,options){return Number.isInteger(piece.awakenLevel)?awLevel({awaken:{[piece.equipId]:piece.awakenLevel}},piece.equipId):awLevel(options,piece.equipId,piece.copyIndex??0);}
+function awValidate(input){const out={};if(input&&typeof input==='object'&&!Array.isArray(input))for(const [id,lv]of Object.entries(input)){const max=AWDB[id]?.maxLevel??0;if(!AWDB[id])continue;if(Array.isArray(lv))out[id]=lv.slice(0,99).map(n=>Number.isInteger(n)&&n>=0&&n<=max?n:0);else if(Number.isInteger(lv)&&lv>=0&&lv<=max)out[id]=lv;}return out;}
+function awRestore(input,holdings){const valid=awValidate(input),out={};for(const [id,count]of Object.entries(holdings||{})){if(!AWDB[id]||!Number.isInteger(count)||count<=0)continue;out[id]=Array.from({length:Math.min(99,count)},(_,copy)=>awLevel({awaken:valid},id,copy));}return out;}
 `;
 app = change(app, 'const z=', shared + '\nconst z=');
 worker = change(worker, '(function(){"use strict";', '(function(){"use strict";' + shared);
@@ -47,7 +51,7 @@ app = change(app, 'elderStars:e,talents:s}', 'elderStars:e,talents:s,awaken:Aw.v
 app = change(app, 'elderStars:Ne.value,talentPicks:De.value', 'elderStars:Ne.value,awaken:Aw.value,talentPicks:De.value');
 app = change(app, 'Ne.value=nr(t.elderStars),De.value=', 'Ne.value=nr(t.elderStars),Aw.value=awValidate(t.awaken),De.value=');
 app = change(app, 'Ne.value={},De.value=', 'Ne.value={},Aw.value={},De.value=');
-app = change(app, 'l1=(t,e,s,a,n)=>{const l=_t(t,e),i=(s?.[t.weaponForm]?.[a]??0)/de,o=l+i;', 'l1=(t,e,s,a,n,level=Aw.value[t.id]||0,extraGlobal=0)=>{const l=_t(t,e),i=(s?.[t.weaponForm]?.[a]??0)/de,o=l+i+(awEffects(t,level).baseBonus[a]||0)/de+extraGlobal;');
+app = change(app, 'l1=(t,e,s,a,n)=>{const l=_t(t,e),i=(s?.[t.weaponForm]?.[a]??0)/de,o=l+i;', 'l1=(t,e,s,a,n,level=awLevel({awaken:Aw.value},t.id),extraGlobal=0)=>{const l=_t(t,e),i=(s?.[t.weaponForm]?.[a]??0)/de,o=l+i+(awEffects(t,level).baseBonus[a]||0)/de+extraGlobal;');
 worker = change(worker, 'ft=(n,t,e,s,o)=>{const i=pt(n,t),r=(e?.[n.weaponForm]?.[s]??0)/E,l=i+r;', 'ft=(n,t,e,s,o,level=0,extraGlobal=0)=>{const i=pt(n,t),r=(e?.[n.weaponForm]?.[s]??0)/E,l=i+r+(awEffects(n,level).baseBonus[s]||0)/E+extraGlobal;');
 
 // Detailed scorer (including product weighting) and the fast profile compiler
@@ -101,6 +105,9 @@ function bl(){
 window.laozuLocal={catalog:z,awakening:AWDB,awaken:Aw,score:Q1,compile:_n,Scoring:Mn,Layout:Fn,tableBuilder:kn,workerSource:ra,objective:We,save:K,load:Ia,validateAwaken:awValidate};
 `;
 app = change(app, 'const Dl=(t,e)=>', extension + '\nconst Dl=(t,e)=>');
+({app,worker}=require('./patch-instance-engine.cjs')({app,worker,change}));
+app=require('./patch-instance-ui.cjs')({app,change});
+app=require('./patch-awakening-import.cjs')({app,change,recognizerSource:read('awakening-recognizer.js')});
 app = change(app, '__LOCAL_WORKER__', JSON.stringify(worker));
 new vm.Script(worker, { filename: 'embedded-solver-worker.js' });
 new vm.Script(app, { filename: 'app.js' });
