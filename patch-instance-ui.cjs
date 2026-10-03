@@ -14,6 +14,7 @@ module.exports=function patchInstanceUI({app,change}){
   const panel=`
 function awSetCopy(id,copy,level){const normalized=awRestore(Aw.value,ae.value),items=normalized[id]||[];if(copy<0||copy>=items.length)return;items[copy]=level;Aw.value=awValidate(normalized);K();}
 function awLevelForPiece(piece){return awPieceLevel(piece,{awaken:Aw.value});}
+function awLayoutAwakenMatches(pieces){return pieces.every(piece=>awLevelForPiece(piece)===awLevel({awaken:Aw.value},piece.equipId,piece.copyIndex??0));}
 function awMetadata(piece,fallbackCopy=0){const out={copyIndex:Number.isInteger(piece.copyIndex)?piece.copyIndex:fallbackCopy};if(Number.isInteger(piece.awakenLevel))out.awakenLevel=piece.awakenLevel;return out;}
 function bl(){
   const levels=Aw.value,items=wl().filter(eq=>AWDB[eq.id]);
@@ -28,6 +29,15 @@ function bl(){
 }
 `;
   app=change(app,app.slice(start,end),panel);
+  app=change(app,'ls=({score:t,live:e})=>e===null?null:',
+    'ls=({score:t,live:e,mismatch:s})=>s?r("span",{class:"warn",children:" · 觉醒等级与当前配置不同，暂不比较"}):e===null?null:');
+  app=change(app,'r(ls,{score:b,live:y})',
+    'r(ls,{score:b,live:y,mismatch:!awLayoutAwakenMatches(A)||(t&&!awLayoutAwakenMatches(t.pieces))})',2);
+  app=change(app,'按当前口径得分 ','摆盘得分 ',2);
+  app=change(app,'p=ie.value,g=$0.value,w=g?null:ns.value',
+    'p=ie.value,g=$0.value||(ns.value&&(!awLayoutAwakenMatches(ns.value)||!awLayoutAwakenMatches(t.pieces))?"觉醒等级与当前配置不同":null),w=g?null:ns.value');
+  app=change(app,'之前摆盘与背包配置不符（','摆盘与当前配置不符（');
+  app=change(app,'改回背包配置或重新截图导入即可恢复','调整配置或重新截图导入即可恢复');
 
   // Preserve identity and level in imported, bookmarked and restored layouts.
   app=change(app,'const e=new Set,s=[];for(const a of t){',

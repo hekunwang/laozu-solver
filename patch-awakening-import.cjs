@@ -86,6 +86,8 @@ function awImportControls({result}){
     'awakenPending:a.filter(piece=>piece.awakenPending).length,layout:{pieces:a,missing:n.length+l,savedAt:');
   app=change(app,'const e=Tt(t);pr(e.counts,e.layout),',
     'const e=Tt(t);if(e.awakenPending)return;Aw.value=awImportAwaken(e.layout);pr(e.counts,e.layout),');
+  app=change(app,'F1.value&&e.lockedCells.length>0&&hr(e.lockedCells)',
+    'e.lockedCells.length===0?(ke.value=le,he.value=J,hr([])):F1.value&&hr(e.lockedCells)');
   app=change(app,'return r("div",{class:"import-side",children:[t.redViolation',
     'return r("div",{class:"import-side",children:[r(awImportControls,{result:t}),t.redViolation');
   app=change(app,'disabled:!e||e.countList.length===0||!!me.value,onClick:nl',

@@ -70,7 +70,15 @@ function awRecognizeBitmap(bitmap,grid,piece){
   }
   candidates.sort((a,b)=>b.confidence-a.confidence);
   if(candidates.length){const best=candidates[0];if(candidates.some(c=>c.level!==best.level&&best.confidence-c.confidence<.08))return result(null,best.confidence,'uncertain');return result(best.level,best.confidence,'recognized',{awakenGlyphBox:best.glyph});}
-  // At low resolution a missing colored glyph cannot establish level zero.
-  if(pw>=45&&ph>=45&&colorPixels<Math.max(5,pw*ph*.001))return result(0,.9,'none');
+  // Missing color cannot establish level zero in a low-resolution or very
+  // dark crop. In the latter case the flame may have fallen below the color
+  // threshold too, so leave it for manual confirmation.
+  if(pw>=45&&ph>=45&&colorPixels<Math.max(5,pw*ph*.001)){
+    let luminance=0;
+    for(let cy=0;cy<height;cy++)for(let cx=0;cx<width;cx++){
+      const [r,g,b]=rgb(cx,cy);luminance+=.2126*r+.7152*g+.0722*b;
+    }
+    if(luminance/(width*height)>=80)return result(0,.9,'none');
+  }
   return result(null,0,'uncertain');
 }
