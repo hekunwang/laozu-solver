@@ -4,11 +4,15 @@
 // sticker only; the original resonance-number and equipment recognizers remain
 // unchanged. The recognizer is supplied by the build, with no network or OCR
 // runtime dependency.
-module.exports=function patchAwakeningImport({app,change,recognizerSource}){
+module.exports=function patchAwakeningImport({app,change,recognizerSource,zeroSamples}){
   if(typeof recognizerSource!=='string'||!recognizerSource.includes('awRecognizeBitmap')){
     throw new Error('Awakening screenshot recognizer source is missing');
   }
+  if(zeroSamples?.version!==1||zeroSamples.columns!==8||zeroSamples.rows!==8||!Array.isArray(zeroSamples.samples)||zeroSamples.samples.some(s=>!Number.isInteger(s.equipId)||!Array.isArray(s.sig)||s.sig.length!==192||s.sig.some(v=>!Number.isFinite(v)||v<0||v>255))){
+    throw new Error('Invalid unawakened appearance samples');
+  }
   const helpers=`
+const AW_ZERO_SAMPLES=${JSON.stringify(zeroSamples)};
 ${recognizerSource}
 function awScreenshotIsRed(piece){return piece.status!=='suspect'&&(piece.equip?.quality===5||piece.candidates?.some(eq=>eq.quality===5));}
 function awScreenshotLevelValid(level){return Number.isInteger(level)&&level>=0&&level<=3;}

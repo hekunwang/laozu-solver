@@ -106,8 +106,13 @@ window.laozuLocal={catalog:z,awakening:AWDB,awaken:Aw,score:Q1,compile:_n,Scorin
 `;
 app = change(app, 'const Dl=(t,e)=>', extension + '\nconst Dl=(t,e)=>');
 ({app,worker}=require('./patch-instance-engine.cjs')({app,worker,change}));
+({app,worker}=require('./patch-active-aura.cjs')({app,worker,change}));
+({app,worker}=require('./patch-solver-search.cjs')({app,worker,change}));
+({app,worker}=require('./patch-solver-core.cjs')({app,worker,change}));
+({app,worker}=require('./patch-solver-incumbent.cjs')({app,worker,change}));
 app=require('./patch-instance-ui.cjs')({app,change});
-app=require('./patch-awakening-import.cjs')({app,change,recognizerSource:read('awakening-recognizer.js')});
+app=require('./patch-recognition-samples.cjs')({app,change,catalog,samples:JSON.parse(read('data/recognition-samples.json'))});
+app=require('./patch-awakening-import.cjs')({app,change,recognizerSource:read('awakening-recognizer.js'),zeroSamples:JSON.parse(read('data/awakening-zero-samples.json'))});
 app=require('./patch-mobile-import.cjs')({app,change});
 app=require('./patch-interaction.cjs')({app,change});
 app = change(app, '__LOCAL_WORKER__', JSON.stringify(worker));
