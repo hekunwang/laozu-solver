@@ -1,0 +1,827 @@
+[
+  {
+    "nID": 1,
+    "szDesc": "丁",
+    "iLowerLimit": 0,
+    "iUpperLimit": 1000,
+    "iSectProgress": 100,
+    "iRewardNum": 100,
+    "iAdventureBonus": 2000,
+    "iFarmDefenderIncome": 500,
+    "iFarmThiefIncome": 500,
+    "arrMineItemBoost": [
+      1004,
+      30
+    ]
+  },
+  {
+    "nID": 2,
+    "szDesc": "丙",
+    "iLowerLimit": 1001,
+    "iUpperLimit": 1500,
+    "iSectProgress": 150,
+    "iRewardNum": 150,
+    "iAdventureBonus": 2000,
+    "iFarmDefenderIncome": 500,
+    "iFarmThiefIncome": 500,
+    "arrMineItemBoost": [
+      1004,
+      30
+    ]
+  },
+  {
+    "nID": 3,
+    "szDesc": "乙",
+    "iLowerLimit": 1501,
+    "iUpperLimit": 2000,
+    "iSectProgress": 200,
+    "iRewardNum": 200,
+    "iAdventureBonus": 2000,
+    "iFarmDefenderIncome": 500,
+    "iFarmThiefIncome": 500,
+    "arrMineItemBoost": [
+      1004,
+      30
+    ]
+  },
+  {
+    "nID": 4,
+    "szDesc": "乙+",
+    "iLowerLimit": 2001,
+    "iUpperLimit": 2500,
+    "iSectProgress": 250,
+    "iRewardNum": 250,
+    "iAdventureBonus": 2200,
+    "iFarmDefenderIncome": 550,
+    "iFarmThiefIncome": 600,
+    "arrMineItemBoost": [
+      1004,
+      60
+    ]
+  },
+  {
+    "nID": 5,
+    "szDesc": "甲-",
+    "iLowerLimit": 2501,
+    "iUpperLimit": 3000,
+    "iSectProgress": 300,
+    "iRewardNum": 300,
+    "iAdventureBonus": 2400,
+    "iFarmDefenderIncome": 600,
+    "iFarmThiefIncome": 600,
+    "arrMineItemBoost": [
+      1004,
+      90
+    ]
+  },
+  {
+    "nID": 6,
+    "szDesc": "甲",
+    "iLowerLimit": 3001,
+    "iUpperLimit": 3500,
+    "iSectProgress": 350,
+    "iRewardNum": 350,
+    "iAdventureBonus": 2600,
+    "iFarmDefenderIncome": 650,
+    "iFarmThiefIncome": 700,
+    "arrMineItemBoost": [
+      1004,
+      120
+    ]
+  },
+  {
+    "nID": 7,
+    "szDesc": "甲+",
+    "iLowerLimit": 3501,
+    "iUpperLimit": 4000,
+    "iSectProgress": 400,
+    "iRewardNum": 400,
+    "iAdventureBonus": 2800,
+    "iFarmDefenderIncome": 700,
+    "iFarmThiefIncome": 700,
+    "arrMineItemBoost": [
+      1004,
+      150
+    ]
+  },
+  {
+    "nID": 8,
+    "szDesc": "黄-",
+    "iLowerLimit": 4001,
+    "iUpperLimit": 4500,
+    "iSectProgress": 500,
+    "iRewardNum": 450,
+    "iAdventureBonus": 3000,
+    "iFarmDefenderIncome": 750,
+    "iFarmThiefIncome": 800,
+    "arrMineItemBoost": [
+      1004,
+      180
+    ]
+  },
+  {
+    "nID": 9,
+    "szDesc": "黄",
+    "iLowerLimit": 4501,
+    "iUpperLimit": 5000,
+    "iSectProgress": 600,
+    "iRewardNum": 500,
+    "iAdventureBonus": 3200,
+    "iFarmDefenderIncome": 800,
+    "iFarmThiefIncome": 800,
+    "arrMineItemBoost": [
+      1004,
+      210
+    ]
+  },
+  {
+    "nID": 10,
+    "szDesc": "黄+",
+    "iLowerLimit": 5001,
+    "iUpperLimit": 5500,
+    "iSectProgress": 700,
+    "iRewardNum": 550,
+    "iAdventureBonus": 3400,
+    "iFarmDefenderIncome": 850,
+    "iFarmThiefIncome": 900,
+    "arrMineItemBoost": [
+      1004,
+      240
+    ]
+  },
+  {
+    "nID": 11,
+    "szDesc": "玄-",
+    "iLowerLimit": 5501,
+    "iUpperLimit": 6000,
+    "iSectProgress": 800,
+    "iRewardNum": 600,
+    "iAdventureBonus": 3600,
+    "iFarmDefenderIncome": 900,
+    "iFarmThiefIncome": 900,
+    "arrMineItemBoost": [
+      1004,
+      270
+    ]
+  },
+  {
+    "nID": 12,
+    "szDesc": "玄",
+    "iLowerLimit": 6001,
+    "iUpperLimit": 6400,
+    "iSectProgress": 900,
+    "iRewardNum": 650,
+    "iAdventureBonus": 3800,
+    "iFarmDefenderIncome": 950,
+    "iFarmThiefIncome": 1000,
+    "arrMineItemBoost": [
+      1004,
+      300
+    ]
+  },
+  {
+    "nID": 13,
+    "szDesc": "玄+",
+    "iLowerLimit": 6401,
+    "iUpperLimit": 6800,
+    "iSectProgress": 1000,
+    "iRewardNum": 700,
+    "iAdventureBonus": 4000,
+    "iFarmDefenderIncome": 1000,
+    "iFarmThiefIncome": 1000,
+    "arrMineItemBoost": [
+      1004,
+      330
+    ]
+  },
+  {
+    "nID": 14,
+    "szDesc": "地-",
+    "iLowerLimit": 6801,
+    "iUpperLimit": 7100,
+    "iSectProgress": 1150,
+    "iRewardNum": 750,
+    "iAdventureBonus": 4200,
+    "iFarmDefenderIncome": 1050,
+    "iFarmThiefIncome": 1100,
+    "arrMineItemBoost": [
+      1004,
+      360
+    ]
+  },
+  {
+    "nID": 15,
+    "szDesc": "地",
+    "iLowerLimit": 7101,
+    "iUpperLimit": 7400,
+    "iSectProgress": 1300,
+    "iRewardNum": 800,
+    "iAdventureBonus": 4400,
+    "iFarmDefenderIncome": 1100,
+    "iFarmThiefIncome": 1100,
+    "arrMineItemBoost": [
+      1004,
+      390
+    ]
+  },
+  {
+    "nID": 16,
+    "szDesc": "地+",
+    "iLowerLimit": 7401,
+    "iUpperLimit": 7700,
+    "iSectProgress": 1450,
+    "iRewardNum": 850,
+    "iAdventureBonus": 4600,
+    "iFarmDefenderIncome": 1150,
+    "iFarmThiefIncome": 1200,
+    "arrMineItemBoost": [
+      1004,
+      420
+    ]
+  },
+  {
+    "nID": 17,
+    "szDesc": "天-",
+    "iLowerLimit": 7701,
+    "iUpperLimit": 8000,
+    "iSectProgress": 1680,
+    "iRewardNum": 900,
+    "iAdventureBonus": 4800,
+    "iFarmDefenderIncome": 1200,
+    "iFarmThiefIncome": 1200,
+    "arrMineItemBoost": [
+      1004,
+      450
+    ]
+  },
+  {
+    "nID": 18,
+    "szDesc": "天",
+    "iLowerLimit": 8001,
+    "iUpperLimit": 8300,
+    "iSectProgress": 1910,
+    "iRewardNum": 950,
+    "iAdventureBonus": 5000,
+    "iFarmDefenderIncome": 1250,
+    "iFarmThiefIncome": 1300,
+    "arrMineItemBoost": [
+      1004,
+      480
+    ]
+  },
+  {
+    "nID": 19,
+    "szDesc": "天+",
+    "iLowerLimit": 8301,
+    "iUpperLimit": 8600,
+    "iSectProgress": 2140,
+    "iRewardNum": 1000,
+    "iAdventureBonus": 5200,
+    "iFarmDefenderIncome": 1300,
+    "iFarmThiefIncome": 1300,
+    "arrMineItemBoost": [
+      1004,
+      510
+    ]
+  },
+  {
+    "nID": 20,
+    "szDesc": "荒-",
+    "iLowerLimit": 8601,
+    "iUpperLimit": 8900,
+    "iSectProgress": 2440,
+    "iRewardNum": 1050,
+    "iAdventureBonus": 5400,
+    "iFarmDefenderIncome": 1350,
+    "iFarmThiefIncome": 1400,
+    "arrMineItemBoost": [
+      1004,
+      540
+    ]
+  },
+  {
+    "nID": 21,
+    "szDesc": "荒",
+    "iLowerLimit": 8901,
+    "iUpperLimit": 9200,
+    "iSectProgress": 2740,
+    "iRewardNum": 1100,
+    "iAdventureBonus": 5600,
+    "iFarmDefenderIncome": 1400,
+    "iFarmThiefIncome": 1400,
+    "arrMineItemBoost": [
+      1004,
+      570
+    ]
+  },
+  {
+    "nID": 22,
+    "szDesc": "荒+",
+    "iLowerLimit": 9201,
+    "iUpperLimit": 9500,
+    "iSectProgress": 3040,
+    "iRewardNum": 1150,
+    "iAdventureBonus": 5800,
+    "iFarmDefenderIncome": 1450,
+    "iFarmThiefIncome": 1500,
+    "arrMineItemBoost": [
+      1004,
+      600
+    ]
+  },
+  {
+    "nID": 23,
+    "szDesc": "洪-",
+    "iLowerLimit": 9501,
+    "iUpperLimit": 9800,
+    "iSectProgress": 3390,
+    "iRewardNum": 1200,
+    "iAdventureBonus": 6000,
+    "iFarmDefenderIncome": 1500,
+    "iFarmThiefIncome": 1500,
+    "arrMineItemBoost": [
+      1004,
+      630
+    ]
+  },
+  {
+    "nID": 24,
+    "szDesc": "洪",
+    "iLowerLimit": 9801,
+    "iUpperLimit": 10200,
+    "iSectProgress": 3740,
+    "iRewardNum": 1250,
+    "iAdventureBonus": 6200,
+    "iFarmDefenderIncome": 1550,
+    "iFarmThiefIncome": 1600,
+    "arrMineItemBoost": [
+      1004,
+      660
+    ]
+  },
+  {
+    "nID": 25,
+    "szDesc": "洪+",
+    "iLowerLimit": 10201,
+    "iUpperLimit": 10600,
+    "iSectProgress": 4090,
+    "iRewardNum": 1300,
+    "iAdventureBonus": 6400,
+    "iFarmDefenderIncome": 1600,
+    "iFarmThiefIncome": 1600,
+    "arrMineItemBoost": [
+      1004,
+      690
+    ]
+  },
+  {
+    "nID": 26,
+    "szDesc": "宙-",
+    "iLowerLimit": 10601,
+    "iUpperLimit": 11000,
+    "iSectProgress": 4490,
+    "iRewardNum": 1350,
+    "iAdventureBonus": 6600,
+    "iFarmDefenderIncome": 1650,
+    "iFarmThiefIncome": 1700,
+    "arrMineItemBoost": [
+      1004,
+      720
+    ]
+  },
+  {
+    "nID": 27,
+    "szDesc": "宙",
+    "iLowerLimit": 11001,
+    "iUpperLimit": 11500,
+    "iSectProgress": 4890,
+    "iRewardNum": 1400,
+    "iAdventureBonus": 6800,
+    "iFarmDefenderIncome": 1700,
+    "iFarmThiefIncome": 1700,
+    "arrMineItemBoost": [
+      1004,
+      750
+    ]
+  },
+  {
+    "nID": 28,
+    "szDesc": "宙+",
+    "iLowerLimit": 11501,
+    "iUpperLimit": 12000,
+    "iSectProgress": 5290,
+    "iRewardNum": 1450,
+    "iAdventureBonus": 7000,
+    "iFarmDefenderIncome": 1750,
+    "iFarmThiefIncome": 1800,
+    "arrMineItemBoost": [
+      1004,
+      780
+    ]
+  },
+  {
+    "nID": 29,
+    "szDesc": "宇-",
+    "iLowerLimit": 12001,
+    "iUpperLimit": 12500,
+    "iSectProgress": 5740,
+    "iRewardNum": 1500,
+    "iAdventureBonus": 7200,
+    "iFarmDefenderIncome": 1800,
+    "iFarmThiefIncome": 1800,
+    "arrMineItemBoost": [
+      1004,
+      810
+    ]
+  },
+  {
+    "nID": 30,
+    "szDesc": "宇",
+    "iLowerLimit": 12501,
+    "iUpperLimit": 13000,
+    "iSectProgress": 6190,
+    "iRewardNum": 1550,
+    "iAdventureBonus": 7400,
+    "iFarmDefenderIncome": 1850,
+    "iFarmThiefIncome": 1900,
+    "arrMineItemBoost": [
+      1004,
+      840
+    ]
+  },
+  {
+    "nID": 31,
+    "szDesc": "宇+",
+    "iLowerLimit": 13001,
+    "iUpperLimit": 13500,
+    "iSectProgress": 6640,
+    "iRewardNum": 1600,
+    "iAdventureBonus": 7600,
+    "iFarmDefenderIncome": 1900,
+    "iFarmThiefIncome": 1900,
+    "arrMineItemBoost": [
+      1004,
+      870
+    ]
+  },
+  {
+    "nID": 32,
+    "szDesc": "虚-",
+    "iLowerLimit": 13501,
+    "iUpperLimit": 14000,
+    "iSectProgress": 7000,
+    "iRewardNum": 1650,
+    "iAdventureBonus": 7800,
+    "iFarmDefenderIncome": 1950,
+    "iFarmThiefIncome": 2000,
+    "arrMineItemBoost": [
+      1004,
+      900
+    ]
+  },
+  {
+    "nID": 33,
+    "szDesc": "虚",
+    "iLowerLimit": 14001,
+    "iUpperLimit": 14500,
+    "iSectProgress": 7500,
+    "iRewardNum": 1700,
+    "iAdventureBonus": 8000,
+    "iFarmDefenderIncome": 2000,
+    "iFarmThiefIncome": 2000,
+    "arrMineItemBoost": [
+      1004,
+      930
+    ]
+  },
+  {
+    "nID": 34,
+    "szDesc": "虚+",
+    "iLowerLimit": 14501,
+    "iUpperLimit": 15000,
+    "iSectProgress": 8000,
+    "iRewardNum": 1750,
+    "iAdventureBonus": 8200,
+    "iFarmDefenderIncome": 2050,
+    "iFarmThiefIncome": 2100,
+    "arrMineItemBoost": [
+      1004,
+      960
+    ]
+  },
+  {
+    "nID": 35,
+    "szDesc": "真-",
+    "iLowerLimit": 15001,
+    "iUpperLimit": 15500,
+    "iSectProgress": 8500,
+    "iRewardNum": 1800,
+    "iAdventureBonus": 8400,
+    "iFarmDefenderIncome": 2100,
+    "iFarmThiefIncome": 2100,
+    "arrMineItemBoost": [
+      1004,
+      990
+    ]
+  },
+  {
+    "nID": 36,
+    "szDesc": "真",
+    "iLowerLimit": 15501,
+    "iUpperLimit": 16000,
+    "iSectProgress": 9000,
+    "iRewardNum": 1850,
+    "iAdventureBonus": 8600,
+    "iFarmDefenderIncome": 2150,
+    "iFarmThiefIncome": 2200,
+    "arrMineItemBoost": [
+      1004,
+      1020
+    ]
+  },
+  {
+    "nID": 37,
+    "szDesc": "真+",
+    "iLowerLimit": 16001,
+    "iUpperLimit": 16500,
+    "iSectProgress": 9500,
+    "iRewardNum": 1900,
+    "iAdventureBonus": 8800,
+    "iFarmDefenderIncome": 2200,
+    "iFarmThiefIncome": 2200,
+    "arrMineItemBoost": [
+      1004,
+      1050
+    ]
+  },
+  {
+    "nID": 38,
+    "szDesc": "妙-",
+    "iLowerLimit": 16501,
+    "iUpperLimit": 17000,
+    "iSectProgress": 10000,
+    "iRewardNum": 1950,
+    "iAdventureBonus": 9000,
+    "iFarmDefenderIncome": 2250,
+    "iFarmThiefIncome": 2300,
+    "arrMineItemBoost": [
+      1004,
+      1080
+    ]
+  },
+  {
+    "nID": 39,
+    "szDesc": "妙",
+    "iLowerLimit": 17001,
+    "iUpperLimit": 17500,
+    "iSectProgress": 10500,
+    "iRewardNum": 2000,
+    "iAdventureBonus": 9200,
+    "iFarmDefenderIncome": 2300,
+    "iFarmThiefIncome": 2300,
+    "arrMineItemBoost": [
+      1004,
+      1110
+    ]
+  },
+  {
+    "nID": 40,
+    "szDesc": "妙+",
+    "iLowerLimit": 17501,
+    "iUpperLimit": 18000,
+    "iSectProgress": 11000,
+    "iRewardNum": 2050,
+    "iAdventureBonus": 9400,
+    "iFarmDefenderIncome": 2350,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1140
+    ]
+  },
+  {
+    "nID": 41,
+    "szDesc": "道-",
+    "iLowerLimit": 18001,
+    "iUpperLimit": 19000,
+    "iSectProgress": 12000,
+    "iRewardNum": 2100,
+    "iAdventureBonus": 9600,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1170
+    ]
+  },
+  {
+    "nID": 42,
+    "szDesc": "道",
+    "iLowerLimit": 19001,
+    "iUpperLimit": 20000,
+    "iSectProgress": 13000,
+    "iRewardNum": 2150,
+    "iAdventureBonus": 9800,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1200
+    ]
+  },
+  {
+    "nID": 43,
+    "szDesc": "道+",
+    "iLowerLimit": 20001,
+    "iUpperLimit": 21000,
+    "iSectProgress": 14000,
+    "iRewardNum": 2200,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  },
+  {
+    "nID": 44,
+    "szDesc": "始-",
+    "iLowerLimit": 21001,
+    "iUpperLimit": 22500,
+    "iSectProgress": 15000,
+    "iRewardNum": 2250,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  },
+  {
+    "nID": 45,
+    "szDesc": "始",
+    "iLowerLimit": 22501,
+    "iUpperLimit": 24000,
+    "iSectProgress": 16000,
+    "iRewardNum": 2300,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  },
+  {
+    "nID": 46,
+    "szDesc": "始+",
+    "iLowerLimit": 24001,
+    "iUpperLimit": 25500,
+    "iSectProgress": 17000,
+    "iRewardNum": 2350,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  },
+  {
+    "nID": 47,
+    "szDesc": "太-",
+    "iLowerLimit": 25501,
+    "iUpperLimit": 27500,
+    "iSectProgress": 18000,
+    "iRewardNum": 2400,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  },
+  {
+    "nID": 48,
+    "szDesc": "太",
+    "iLowerLimit": 27501,
+    "iUpperLimit": 29500,
+    "iSectProgress": 19000,
+    "iRewardNum": 2450,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  },
+  {
+    "nID": 49,
+    "szDesc": "太+",
+    "iLowerLimit": 29501,
+    "iUpperLimit": 31500,
+    "iSectProgress": 20000,
+    "iRewardNum": 2500,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  },
+  {
+    "nID": 50,
+    "szDesc": "初-",
+    "iLowerLimit": 31501,
+    "iUpperLimit": 34000,
+    "iSectProgress": 21000,
+    "iRewardNum": 2550,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  },
+  {
+    "nID": 51,
+    "szDesc": "初",
+    "iLowerLimit": 34001,
+    "iUpperLimit": 36500,
+    "iSectProgress": 22000,
+    "iRewardNum": 2600,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  },
+  {
+    "nID": 52,
+    "szDesc": "初+",
+    "iLowerLimit": 36501,
+    "iUpperLimit": 39000,
+    "iSectProgress": 23000,
+    "iRewardNum": 2650,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  },
+  {
+    "nID": 53,
+    "szDesc": "源-",
+    "iLowerLimit": 39001,
+    "iUpperLimit": 42000,
+    "iSectProgress": 24000,
+    "iRewardNum": 2700,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  },
+  {
+    "nID": 54,
+    "szDesc": "源",
+    "iLowerLimit": 42001,
+    "iUpperLimit": 45000,
+    "iSectProgress": 25000,
+    "iRewardNum": 2750,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  },
+  {
+    "nID": 55,
+    "szDesc": "源+",
+    "iLowerLimit": 45001,
+    "iUpperLimit": 48000,
+    "iSectProgress": 26000,
+    "iRewardNum": 2800,
+    "iAdventureBonus": 10000,
+    "iFarmDefenderIncome": 2400,
+    "iFarmThiefIncome": 2400,
+    "arrMineItemBoost": [
+      1004,
+      1230
+    ]
+  }
+]

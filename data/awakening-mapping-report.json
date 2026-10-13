@@ -1,4 +1,7 @@
 {
+  "historicalSnapshot": "2609241624",
+  "historicalOnly": true,
+  "notice": "历史映射审计原样保留，不代表当前正式配置。当前来源见manifest.json和export-manifest.json。",
   "sources": {
     "dataDirectory": "laozu_solver_local/data/",
     "assembly": "research/live-2609241624-daily/text-assets-data/2yad24y/6492748507895474314-Assembly-CSharp",

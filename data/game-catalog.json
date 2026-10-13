@@ -1,10 +1,10 @@
 {
   "meta": {
-    "extractedAt": "2026-10-02",
-    "resourceVersion": "2609241624 · 本地觉醒版",
+    "extractedAt": "2026-10-13",
+    "resourceVersion": "2609291708 正式配置 + 2610092018 四五觉预适配",
     "equipCount": 375,
     "shapeCount": 150,
-    "skillCount": 269,
+    "skillCount": 316,
     "shapeDeviations": [
       20110,
       20312
@@ -17,13 +17,13 @@
       "id": 2001,
       "name": "攻击力",
       "kind": 1,
-      "nPower": 10
+      "nPower": 10.0
     },
     {
       "id": 2002,
       "name": "防御",
       "kind": 1,
-      "nPower": 10
+      "nPower": 10.0
     },
     {
       "id": 2003,
@@ -35,55 +35,55 @@
       "id": 2004,
       "name": "攻击力百分比",
       "kind": 2,
-      "nPower": 0
+      "nPower": 0.0
     },
     {
       "id": 2005,
       "name": "防御百分比",
       "kind": 2,
-      "nPower": 0
+      "nPower": 0.0
     },
     {
       "id": 2006,
       "name": "生命值百分比",
       "kind": 2,
-      "nPower": 0
+      "nPower": 0.0
     },
     {
       "id": 2025,
       "name": "增伤",
       "kind": 2,
-      "nPower": 10
+      "nPower": 10.0
     },
     {
       "id": 2027,
       "name": "暴击增伤",
       "kind": 2,
-      "nPower": 5
+      "nPower": 5.0
     },
     {
       "id": 2045,
       "name": "治疗效果",
       "kind": 2,
-      "nPower": 10
+      "nPower": 10.0
     },
     {
       "id": 2047,
       "name": "汲取",
       "kind": 2,
-      "nPower": 0
+      "nPower": 0.0
     },
     {
       "id": 2049,
       "name": "汲取率",
       "kind": 2,
-      "nPower": 10
+      "nPower": 10.0
     },
     {
       "id": 2069,
       "name": "护盾效果",
       "kind": 2,
-      "nPower": 5
+      "nPower": 5.0
     }
   ],
   "shapes": [
@@ -5754,6 +5754,214 @@
       ]
     },
     {
+      "id": 10901,
+      "name": "金翎荡云",
+      "desc": "每有一件相邻金系装备给本装备提供40%攻击力加成",
+      "scope": "self",
+      "elementMask": 2,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 4000
+        }
+      ]
+    },
+    {
+      "id": 11001,
+      "name": "亢金贯甲",
+      "desc": "每有一件相邻金系装备给本装备提供40%攻击力加成",
+      "scope": "self",
+      "elementMask": 2,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 4000
+        }
+      ]
+    },
+    {
+      "id": 21101,
+      "name": "唤生吴钩",
+      "desc": "每有一件相邻木系装备给本装备提供120%生命值加成",
+      "scope": "self",
+      "elementMask": 4,
+      "buffs": [
+        {
+          "attr": 2006,
+          "value": 12000
+        }
+      ]
+    },
+    {
+      "id": 21201,
+      "name": "引仙破道",
+      "desc": "每有一件相邻木系装备给本装备提供40%攻击力加成",
+      "scope": "self",
+      "elementMask": 4,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 4000
+        }
+      ]
+    },
+    {
+      "id": 31101,
+      "name": "断流绝响",
+      "desc": "每有一件相邻水系装备给本装备提供40%攻击力加成",
+      "scope": "self",
+      "elementMask": 8,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 4000
+        }
+      ]
+    },
+    {
+      "id": 31201,
+      "name": "逆流河珠",
+      "desc": "每有一件相邻水系装备给本装备提供120%生命值加成",
+      "scope": "self",
+      "elementMask": 8,
+      "buffs": [
+        {
+          "attr": 2006,
+          "value": 12000
+        }
+      ]
+    },
+    {
+      "id": 41101,
+      "name": "炎驹驰天",
+      "desc": "每有一件相邻火系装备给本装备提供40%攻击力加成",
+      "scope": "self",
+      "elementMask": 16,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 4000
+        }
+      ]
+    },
+    {
+      "id": 41201,
+      "name": "赤霄斩浪",
+      "desc": "每有一件相邻火系装备给本装备提供40%攻击力加成",
+      "scope": "self",
+      "elementMask": 16,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 4000
+        }
+      ]
+    },
+    {
+      "id": 50901,
+      "name": "萱花裂地",
+      "desc": "每有一件相邻土系装备给本装备提供200%防御加成",
+      "scope": "self",
+      "elementMask": 32,
+      "buffs": [
+        {
+          "attr": 2005,
+          "value": 20000
+        }
+      ]
+    },
+    {
+      "id": 51001,
+      "name": "石钟灵佑",
+      "desc": "每有一件相邻土系装备给本装备提供200%防御加成",
+      "scope": "self",
+      "elementMask": 32,
+      "buffs": [
+        {
+          "attr": 2005,
+          "value": 20000
+        }
+      ]
+    },
+    {
+      "id": 60901,
+      "name": "神谕裁罪",
+      "desc": "每有一件相邻雷系装备给本装备提供40%攻击力加成",
+      "scope": "self",
+      "elementMask": 64,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 4000
+        }
+      ]
+    },
+    {
+      "id": 61001,
+      "name": "妙音止戈",
+      "desc": "每有一件相邻雷系装备给本装备提供40%攻击力加成",
+      "scope": "self",
+      "elementMask": 64,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 4000
+        }
+      ]
+    },
+    {
+      "id": 70701,
+      "name": "恶鬼喋血",
+      "desc": "每有一件相邻邪系装备给本装备提供40%攻击力加成",
+      "scope": "self",
+      "elementMask": 128,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 4000
+        }
+      ]
+    },
+    {
+      "id": 70801,
+      "name": "花妖魅匕",
+      "desc": "每有一件相邻邪系装备给本装备提供40%攻击力加成",
+      "scope": "self",
+      "elementMask": 128,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 4000
+        }
+      ]
+    },
+    {
+      "id": 80901,
+      "name": "叱咤玉革",
+      "desc": "每有一件相邻体系装备给本装备提供120%生命值加成",
+      "scope": "self",
+      "elementMask": 256,
+      "buffs": [
+        {
+          "attr": 2006,
+          "value": 12000
+        }
+      ]
+    },
+    {
+      "id": 81001,
+      "name": "叱咤玉锤",
+      "desc": "每有一件相邻体系装备给本装备提供200%防御加成",
+      "scope": "self",
+      "elementMask": 256,
+      "buffs": [
+        {
+          "attr": 2005,
+          "value": 20000
+        }
+      ]
+    },
+    {
       "id": 10501,
       "name": "金辉裂穹",
       "desc": "每有一件相邻金系装备给本装备提供30%攻击力加成",
@@ -5784,6 +5992,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 10503,
+      "name": "金辉裂穹",
+      "desc": "使相邻金系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 2,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -5822,6 +6051,27 @@
       ]
     },
     {
+      "id": 10703,
+      "name": "断虹残影",
+      "desc": "使相邻金系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 2,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 10801,
       "name": "朔气飞星",
       "desc": "每有一件相邻金系装备给本装备提供30%攻击力加成",
@@ -5852,6 +6102,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 10803,
+      "name": "朔气飞星",
+      "desc": "使相邻金系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 2,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -5890,6 +6161,27 @@
       ]
     },
     {
+      "id": 10603,
+      "name": "北斗天罡枪",
+      "desc": "使相邻金系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 2,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 20601,
       "name": "蕴剑葫芦",
       "desc": "每有一件相邻木系装备给本装备提供30%攻击力加成",
@@ -5920,6 +6212,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 20603,
+      "name": "蕴剑葫芦",
+      "desc": "使相邻木系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 4,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -5958,6 +6271,27 @@
       ]
     },
     {
+      "id": 20803,
+      "name": "灵泽衔瑞",
+      "desc": "使相邻木系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 4,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 21001,
       "name": "掌天奇韵",
       "desc": "每有一件相邻木系装备给本装备提供30%生命值加成",
@@ -5988,6 +6322,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 21003,
+      "name": "掌天奇韵",
+      "desc": "使相邻木系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 4,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -6026,6 +6381,27 @@
       ]
     },
     {
+      "id": 20703,
+      "name": "青枝栖日",
+      "desc": "使相邻木系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 4,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 30601,
       "name": "凌波惊鸿",
       "desc": "每有一件相邻水系装备给本装备提供30%攻击力加成",
@@ -6056,6 +6432,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 30603,
+      "name": "凌波惊鸿",
+      "desc": "使相邻水系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 8,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -6094,6 +6491,27 @@
       ]
     },
     {
+      "id": 30803,
+      "name": "玄水护心",
+      "desc": "使相邻水系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 8,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 31001,
       "name": "沧溟凝冰",
       "desc": "每有一件相邻水系装备给本装备提供75%防御加成",
@@ -6124,6 +6542,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 31003,
+      "name": "沧溟凝冰",
+      "desc": "使相邻水系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 8,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -6162,6 +6601,27 @@
       ]
     },
     {
+      "id": 30903,
+      "name": "晴水华盖",
+      "desc": "使相邻水系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 8,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 40601,
       "name": "燧火传薪",
       "desc": "每有一件相邻火系装备给本装备提供30%攻击力加成",
@@ -6192,6 +6652,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 40603,
+      "name": "燧火传薪",
+      "desc": "使相邻火系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 16,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -6230,6 +6711,27 @@
       ]
     },
     {
+      "id": 40803,
+      "name": "日巡灼恶",
+      "desc": "使相邻火系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 16,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 41001,
       "name": "祭火律令",
       "desc": "每有一件相邻火系装备给本装备提供30%攻击力加成",
@@ -6260,6 +6762,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 41003,
+      "name": "祭火律令",
+      "desc": "使相邻火系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 16,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -6298,6 +6821,27 @@
       ]
     },
     {
+      "id": 40703,
+      "name": "食为天鼎",
+      "desc": "使相邻火系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 16,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 50501,
       "name": "灵獐啸岩",
       "desc": "每有一件相邻土系装备给本装备提供75%防御加成",
@@ -6328,6 +6872,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 50503,
+      "name": "灵獐啸岩",
+      "desc": "使相邻土系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 32,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -6366,6 +6931,27 @@
       ]
     },
     {
+      "id": 50803,
+      "name": "逐日镇岳",
+      "desc": "使相邻土系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 32,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 50701,
       "name": "遁地奇行",
       "desc": "每有一件相邻土系装备给本装备提供30%攻击力加成",
@@ -6396,6 +6982,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 50703,
+      "name": "遁地奇行",
+      "desc": "使相邻土系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 32,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -6434,6 +7041,27 @@
       ]
     },
     {
+      "id": 50603,
+      "name": "九州定海",
+      "desc": "使相邻土系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 32,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 60501,
       "name": "惊雷兽吼",
       "desc": "每有一件相邻雷系装备给本装备提供30%攻击力加成",
@@ -6464,6 +7092,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 60503,
+      "name": "惊雷兽吼",
+      "desc": "使相邻雷系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 64,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -6502,6 +7151,27 @@
       ]
     },
     {
+      "id": 60703,
+      "name": "截雷断运",
+      "desc": "使相邻雷系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 64,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 60801,
       "name": "九霄镇魔",
       "desc": "每有一件相邻雷系装备给本装备提供30%生命值加成",
@@ -6532,6 +7202,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 60803,
+      "name": "九霄镇魔",
+      "desc": "使相邻雷系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 64,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -6570,6 +7261,27 @@
       ]
     },
     {
+      "id": 60603,
+      "name": "免罪阳雷(紫)",
+      "desc": "使相邻雷系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 64,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 70401,
       "name": "煞魔血叉",
       "desc": "每有一件相邻邪系装备给本装备提供30%攻击力加成",
@@ -6600,6 +7312,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 70403,
+      "name": "煞魔血叉",
+      "desc": "使相邻邪系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 128,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -6638,6 +7371,27 @@
       ]
     },
     {
+      "id": 70503,
+      "name": "剖心夺爱",
+      "desc": "使相邻邪系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 128,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 70601,
       "name": "勾魂索命",
       "desc": "每有一件相邻邪系装备给本装备提供30%攻击力加成",
@@ -6668,6 +7422,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 70603,
+      "name": "勾魂索命",
+      "desc": "使相邻邪系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 128,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -6706,6 +7481,27 @@
       ]
     },
     {
+      "id": 80503,
+      "name": "天骄伟冠",
+      "desc": "使相邻体系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 256,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 80801,
       "name": "酒祖酿厄",
       "desc": "每有一件相邻体系装备给本装备提供30%生命值加成",
@@ -6736,6 +7532,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 80803,
+      "name": "酒祖酿厄",
+      "desc": "使相邻体系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 256,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -6774,6 +7591,27 @@
       ]
     },
     {
+      "id": 80703,
+      "name": "丑将破阵",
+      "desc": "使相邻体系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 256,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
+        }
+      ]
+    },
+    {
       "id": 80601,
       "name": "鸣玉无极",
       "desc": "每有一件相邻体系装备给本装备提供30%生命值加成",
@@ -6804,6 +7642,27 @@
         {
           "attr": 2006,
           "value": 800
+        }
+      ]
+    },
+    {
+      "id": 80603,
+      "name": "鸣玉无极",
+      "desc": "使相邻体系装备攻防血增加15%",
+      "scope": "adjacent",
+      "elementMask": 256,
+      "buffs": [
+        {
+          "attr": 2004,
+          "value": 1500
+        },
+        {
+          "attr": 2005,
+          "value": 1500
+        },
+        {
+          "attr": 2006,
+          "value": 1500
         }
       ]
     },
@@ -7033,8 +7892,8 @@
       ]
     },
     {
-      "id": 50401,
-      "name": "泰山压顶",
+      "id": 50301,
+      "name": "五色炼天",
       "desc": "每有一件相邻土系装备给本装备提供40%攻击力加成",
       "scope": "self",
       "elementMask": 32,
@@ -7046,8 +7905,8 @@
       ]
     },
     {
-      "id": 50301,
-      "name": "五色炼天",
+      "id": 50401,
+      "name": "泰山压顶",
       "desc": "每有一件相邻土系装备给本装备提供40%攻击力加成",
       "scope": "self",
       "elementMask": 32,
@@ -22501,8 +23360,8 @@
       "id": 41,
       "name": "道-",
       "min": 18001,
-      "max": 18500,
-      "sectProgress": 11500,
+      "max": 19000,
+      "sectProgress": 12000,
       "rewardNum": 2100,
       "adventureBonus": 9600,
       "farmDefender": 2400,
@@ -22515,9 +23374,9 @@
     {
       "id": 42,
       "name": "道",
-      "min": 18501,
-      "max": 19000,
-      "sectProgress": 12000,
+      "min": 19001,
+      "max": 20000,
+      "sectProgress": 13000,
       "rewardNum": 2150,
       "adventureBonus": 9800,
       "farmDefender": 2400,
@@ -22530,10 +23389,190 @@
     {
       "id": 43,
       "name": "道+",
-      "min": 19001,
-      "max": 19500,
-      "sectProgress": 12500,
+      "min": 20001,
+      "max": 21000,
+      "sectProgress": 14000,
       "rewardNum": 2200,
+      "adventureBonus": 10000,
+      "farmDefender": 2400,
+      "farmThief": 2400,
+      "mineBoost": [
+        1004,
+        1230
+      ]
+    },
+    {
+      "id": 44,
+      "name": "始-",
+      "min": 21001,
+      "max": 22500,
+      "sectProgress": 15000,
+      "rewardNum": 2250,
+      "adventureBonus": 10000,
+      "farmDefender": 2400,
+      "farmThief": 2400,
+      "mineBoost": [
+        1004,
+        1230
+      ]
+    },
+    {
+      "id": 45,
+      "name": "始",
+      "min": 22501,
+      "max": 24000,
+      "sectProgress": 16000,
+      "rewardNum": 2300,
+      "adventureBonus": 10000,
+      "farmDefender": 2400,
+      "farmThief": 2400,
+      "mineBoost": [
+        1004,
+        1230
+      ]
+    },
+    {
+      "id": 46,
+      "name": "始+",
+      "min": 24001,
+      "max": 25500,
+      "sectProgress": 17000,
+      "rewardNum": 2350,
+      "adventureBonus": 10000,
+      "farmDefender": 2400,
+      "farmThief": 2400,
+      "mineBoost": [
+        1004,
+        1230
+      ]
+    },
+    {
+      "id": 47,
+      "name": "太-",
+      "min": 25501,
+      "max": 27500,
+      "sectProgress": 18000,
+      "rewardNum": 2400,
+      "adventureBonus": 10000,
+      "farmDefender": 2400,
+      "farmThief": 2400,
+      "mineBoost": [
+        1004,
+        1230
+      ]
+    },
+    {
+      "id": 48,
+      "name": "太",
+      "min": 27501,
+      "max": 29500,
+      "sectProgress": 19000,
+      "rewardNum": 2450,
+      "adventureBonus": 10000,
+      "farmDefender": 2400,
+      "farmThief": 2400,
+      "mineBoost": [
+        1004,
+        1230
+      ]
+    },
+    {
+      "id": 49,
+      "name": "太+",
+      "min": 29501,
+      "max": 31500,
+      "sectProgress": 20000,
+      "rewardNum": 2500,
+      "adventureBonus": 10000,
+      "farmDefender": 2400,
+      "farmThief": 2400,
+      "mineBoost": [
+        1004,
+        1230
+      ]
+    },
+    {
+      "id": 50,
+      "name": "初-",
+      "min": 31501,
+      "max": 34000,
+      "sectProgress": 21000,
+      "rewardNum": 2550,
+      "adventureBonus": 10000,
+      "farmDefender": 2400,
+      "farmThief": 2400,
+      "mineBoost": [
+        1004,
+        1230
+      ]
+    },
+    {
+      "id": 51,
+      "name": "初",
+      "min": 34001,
+      "max": 36500,
+      "sectProgress": 22000,
+      "rewardNum": 2600,
+      "adventureBonus": 10000,
+      "farmDefender": 2400,
+      "farmThief": 2400,
+      "mineBoost": [
+        1004,
+        1230
+      ]
+    },
+    {
+      "id": 52,
+      "name": "初+",
+      "min": 36501,
+      "max": 39000,
+      "sectProgress": 23000,
+      "rewardNum": 2650,
+      "adventureBonus": 10000,
+      "farmDefender": 2400,
+      "farmThief": 2400,
+      "mineBoost": [
+        1004,
+        1230
+      ]
+    },
+    {
+      "id": 53,
+      "name": "源-",
+      "min": 39001,
+      "max": 42000,
+      "sectProgress": 24000,
+      "rewardNum": 2700,
+      "adventureBonus": 10000,
+      "farmDefender": 2400,
+      "farmThief": 2400,
+      "mineBoost": [
+        1004,
+        1230
+      ]
+    },
+    {
+      "id": 54,
+      "name": "源",
+      "min": 42001,
+      "max": 45000,
+      "sectProgress": 25000,
+      "rewardNum": 2750,
+      "adventureBonus": 10000,
+      "farmDefender": 2400,
+      "farmThief": 2400,
+      "mineBoost": [
+        1004,
+        1230
+      ]
+    },
+    {
+      "id": 55,
+      "name": "源+",
+      "min": 45001,
+      "max": 48000,
+      "sectProgress": 26000,
+      "rewardNum": 2800,
       "adventureBonus": 10000,
       "farmDefender": 2400,
       "farmThief": 2400,

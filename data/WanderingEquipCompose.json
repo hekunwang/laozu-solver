@@ -1,0 +1,5498 @@
+[
+  {
+    "iFormID": 1001,
+    "szName": "灵肘",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 100001,
+    "iMaterial1": 100001,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120001,
+      120002,
+      120003,
+      120004,
+      120005,
+      120006
+    ],
+    "arrProductProb": [
+      1600,
+      1600,
+      1600,
+      1600,
+      1600,
+      2000
+    ]
+  },
+  {
+    "iFormID": 1002,
+    "szName": "灵羽",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 100002,
+    "iMaterial1": 100002,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120001,
+      120002,
+      120003,
+      120004,
+      120005,
+      120006
+    ],
+    "arrProductProb": [
+      1600,
+      1600,
+      1600,
+      1600,
+      1600,
+      2000
+    ]
+  },
+  {
+    "iFormID": 1003,
+    "szName": "手镯",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 100003,
+    "iMaterial1": 100003,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120001,
+      120002,
+      120003,
+      120004,
+      120005,
+      120006
+    ],
+    "arrProductProb": [
+      1600,
+      1600,
+      1600,
+      1600,
+      1600,
+      2000
+    ]
+  },
+  {
+    "iFormID": 1004,
+    "szName": "护腕",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 100004,
+    "iMaterial1": 100004,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120001,
+      120002,
+      120003,
+      120004,
+      120005,
+      120006
+    ],
+    "arrProductProb": [
+      1600,
+      1600,
+      1600,
+      1600,
+      1600,
+      2000
+    ]
+  },
+  {
+    "iFormID": 1005,
+    "szName": "浮尘",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 100005,
+    "iMaterial1": 100005,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120001,
+      120002,
+      120003,
+      120004,
+      120005,
+      120006
+    ],
+    "arrProductProb": [
+      1600,
+      1600,
+      1600,
+      1600,
+      1600,
+      2000
+    ]
+  },
+  {
+    "iFormID": 1006,
+    "szName": "砍刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 100006,
+    "iMaterial1": 100006,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120001,
+      120002,
+      120003,
+      120004,
+      120005,
+      120006
+    ],
+    "arrProductProb": [
+      1600,
+      1600,
+      1600,
+      1600,
+      1600,
+      2000
+    ]
+  },
+  {
+    "iFormID": 10101,
+    "szName": "金戒",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110101,
+    "iMaterial1": 110101,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120101
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10102,
+    "szName": "蕴金枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110102,
+    "iMaterial1": 110102,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120102
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10103,
+    "szName": "重金短矛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110103,
+    "iMaterial1": 110103,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120103
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10104,
+    "szName": "重金破阵矛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110104,
+    "iMaterial1": 110104,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120104
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10105,
+    "szName": "玄金重剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110105,
+    "iMaterial1": 110105,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120105
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10106,
+    "szName": "玄金碎甲剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110106,
+    "iMaterial1": 110106,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120106
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10107,
+    "szName": "曜金寸刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110107,
+    "iMaterial1": 110107,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120107
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10108,
+    "szName": "曜金战身刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110108,
+    "iMaterial1": 110108,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120108
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10109,
+    "szName": "分金刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110109,
+    "iMaterial1": 110109,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120109
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10201,
+    "szName": "枯荣种",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110201,
+    "iMaterial1": 110201,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120201
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10202,
+    "szName": "老山参",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110202,
+    "iMaterial1": 110202,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120202
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10203,
+    "szName": "木灵护臂",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110203,
+    "iMaterial1": 110203,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120203
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10204,
+    "szName": "木灵玉如意",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110204,
+    "iMaterial1": 110204,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120204
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10205,
+    "szName": "千瘴短笛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110205,
+    "iMaterial1": 110205,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120205
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10206,
+    "szName": "千瘴断魂笛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110206,
+    "iMaterial1": 110206,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120206
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10207,
+    "szName": "噬元喷菇",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110207,
+    "iMaterial1": 110207,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120207
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10208,
+    "szName": "噬元大丽花",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110208,
+    "iMaterial1": 110208,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120208
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10209,
+    "szName": "静心木鱼",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110209,
+    "iMaterial1": 110209,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120209
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10301,
+    "szName": "流水散",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110301,
+    "iMaterial1": 110301,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120301
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10302,
+    "szName": "净魂刃",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110302,
+    "iMaterial1": 110302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120302
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10303,
+    "szName": "霜华轻剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110303,
+    "iMaterial1": 110303,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120303
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10304,
+    "szName": "霜华千影剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110304,
+    "iMaterial1": 110304,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120304
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10305,
+    "szName": "冰魄护肩",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110305,
+    "iMaterial1": 110305,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120305
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10306,
+    "szName": "冰魄凝神甲",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110306,
+    "iMaterial1": 110306,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120306
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10307,
+    "szName": "急冻瓜锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110307,
+    "iMaterial1": 110307,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120307
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10308,
+    "szName": "急冻流星锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110308,
+    "iMaterial1": 110308,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120308
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10309,
+    "szName": "净魂锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110309,
+    "iMaterial1": 110309,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120309
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10401,
+    "szName": "炎脉髓",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110401,
+    "iMaterial1": 110401,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120401
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10402,
+    "szName": "燎魂唢呐",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110402,
+    "iMaterial1": 110402,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120402
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10403,
+    "szName": "至阳火鉴",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110403,
+    "iMaterial1": 110403,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120403
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10404,
+    "szName": "至阳风火轮",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110404,
+    "iMaterial1": 110404,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120404
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10405,
+    "szName": "炽影长刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110405,
+    "iMaterial1": 110405,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120405
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10406,
+    "szName": "炽影破锋刃",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110406,
+    "iMaterial1": 110406,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120406
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10407,
+    "szName": "拜火铃铛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110407,
+    "iMaterial1": 110407,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120407
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10408,
+    "szName": "拜火焚星鼓",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110408,
+    "iMaterial1": 110408,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120408
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10409,
+    "szName": "燎魂刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110409,
+    "iMaterial1": 110409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120409
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10501,
+    "szName": "玄黄令",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110501,
+    "iMaterial1": 110501,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120501
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10502,
+    "szName": "破岩锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110502,
+    "iMaterial1": 110502,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120502
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10503,
+    "szName": "撼地重锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110503,
+    "iMaterial1": 110503,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120503
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10504,
+    "szName": "憾地震魄锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110504,
+    "iMaterial1": 110504,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120504
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10505,
+    "szName": "坤元大钟",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110505,
+    "iMaterial1": 110505,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120505
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10506,
+    "szName": "坤元生息铠",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110506,
+    "iMaterial1": 110506,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120506
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10507,
+    "szName": "崩山长枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110507,
+    "iMaterial1": 110507,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120507
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10508,
+    "szName": "崩山裂魂枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110508,
+    "iMaterial1": 110508,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120508
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10509,
+    "szName": "破岩枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110509,
+    "iMaterial1": 110509,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120509
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10601,
+    "szName": "雷灵珠",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110601,
+    "iMaterial1": 110601,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120601
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10602,
+    "szName": "天诛令",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110602,
+    "iMaterial1": 110602,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120602
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10603,
+    "szName": "鸣雷长剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110603,
+    "iMaterial1": 110603,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120603
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10604,
+    "szName": "鸣雷诛邪剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110604,
+    "iMaterial1": 110604,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120604
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10605,
+    "szName": "玄阴锁链",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110605,
+    "iMaterial1": 110605,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120605
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10606,
+    "szName": "玄阴霹雳袋",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110606,
+    "iMaterial1": 110606,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120606
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10607,
+    "szName": "雷元腿甲",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110607,
+    "iMaterial1": 110607,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120607
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10608,
+    "szName": "雷元乌龙旗",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110608,
+    "iMaterial1": 110608,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120608
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10609,
+    "szName": "雷灵剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110609,
+    "iMaterial1": 110609,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120609
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10701,
+    "szName": "邪源珠",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110701,
+    "iMaterial1": 110701,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120701
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10702,
+    "szName": "玄阴枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110702,
+    "iMaterial1": 110702,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120702
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10703,
+    "szName": "血灵短矛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110703,
+    "iMaterial1": 110703,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120703
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10704,
+    "szName": "血灵钻魂枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110704,
+    "iMaterial1": 110704,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120704
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10705,
+    "szName": "欢愉短匕",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110705,
+    "iMaterial1": 110705,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120705
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10706,
+    "szName": "欢愉蚀骨刃",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110706,
+    "iMaterial1": 110706,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120706
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10707,
+    "szName": "炼魂小幡",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110707,
+    "iMaterial1": 110707,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120707
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10708,
+    "szName": "炼魂万千幡",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110708,
+    "iMaterial1": 110708,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120708
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10709,
+    "szName": "玄阴旗",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110709,
+    "iMaterial1": 110709,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120709
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10801,
+    "szName": "大力丸",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110801,
+    "iMaterial1": 110801,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120801
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10802,
+    "szName": "灵兽肉",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110802,
+    "iMaterial1": 110802,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120802
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10803,
+    "szName": "罡体腰带",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110803,
+    "iMaterial1": 110803,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120803
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10804,
+    "szName": "罡体不破甲",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110804,
+    "iMaterial1": 110804,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120804
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10805,
+    "szName": "百炼短锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110805,
+    "iMaterial1": 110805,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120805
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10806,
+    "szName": "百炼成金锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110806,
+    "iMaterial1": 110806,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120806
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10807,
+    "szName": "无相念珠",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110807,
+    "iMaterial1": 110807,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120807
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10808,
+    "szName": "无相渡敌钵",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110808,
+    "iMaterial1": 110808,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120808
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 10809,
+    "szName": "九宫牌",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 110809,
+    "iMaterial1": 110809,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      120809
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20101,
+    "szName": "金戒",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120101,
+    "iMaterial1": 120101,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130101
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20102,
+    "szName": "蕴金枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120102,
+    "iMaterial1": 120102,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130102
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20103,
+    "szName": "重金短矛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120103,
+    "iMaterial1": 120103,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130103
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20104,
+    "szName": "重金破阵矛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120104,
+    "iMaterial1": 120104,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130104
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20105,
+    "szName": "玄金重剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120105,
+    "iMaterial1": 120105,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130105
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20106,
+    "szName": "玄金碎甲剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120106,
+    "iMaterial1": 120106,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130106
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20107,
+    "szName": "曜金寸刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120107,
+    "iMaterial1": 120107,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130107
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20108,
+    "szName": "曜金战身刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120108,
+    "iMaterial1": 120108,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130108
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20109,
+    "szName": "分金刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120109,
+    "iMaterial1": 120109,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130109
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20201,
+    "szName": "枯荣种",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120201,
+    "iMaterial1": 120201,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130201
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20202,
+    "szName": "老山参",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120202,
+    "iMaterial1": 120202,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130202
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20203,
+    "szName": "木灵护臂",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120203,
+    "iMaterial1": 120203,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130203
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20204,
+    "szName": "木灵玉如意",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120204,
+    "iMaterial1": 120204,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130204
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20205,
+    "szName": "千瘴短笛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120205,
+    "iMaterial1": 120205,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130205
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20206,
+    "szName": "千瘴断魂笛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120206,
+    "iMaterial1": 120206,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130206
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20207,
+    "szName": "噬元喷菇",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120207,
+    "iMaterial1": 120207,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130207
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20208,
+    "szName": "噬元大丽花",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120208,
+    "iMaterial1": 120208,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130208
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20209,
+    "szName": "静心木鱼",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120209,
+    "iMaterial1": 120209,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130209
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20301,
+    "szName": "流水散",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120301,
+    "iMaterial1": 120301,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130301
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20302,
+    "szName": "净魂刃",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120302,
+    "iMaterial1": 120302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130302
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20303,
+    "szName": "霜华轻剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120303,
+    "iMaterial1": 120303,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130303
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20304,
+    "szName": "霜华千影剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120304,
+    "iMaterial1": 120304,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130304
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20305,
+    "szName": "冰魄护肩",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120305,
+    "iMaterial1": 120305,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130305
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20306,
+    "szName": "冰魄凝神甲",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120306,
+    "iMaterial1": 120306,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130306
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20307,
+    "szName": "急冻瓜锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120307,
+    "iMaterial1": 120307,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130307
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20308,
+    "szName": "急冻流星锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120308,
+    "iMaterial1": 120308,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130308
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20309,
+    "szName": "净魂锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120309,
+    "iMaterial1": 120309,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130309
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20401,
+    "szName": "炎脉髓",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120401,
+    "iMaterial1": 120401,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130401
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20402,
+    "szName": "燎魂唢呐",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120402,
+    "iMaterial1": 120402,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130402
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20403,
+    "szName": "至阳火鉴",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120403,
+    "iMaterial1": 120403,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130403
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20404,
+    "szName": "至阳风火轮",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120404,
+    "iMaterial1": 120404,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130404
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20405,
+    "szName": "炽影长刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120405,
+    "iMaterial1": 120405,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130405
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20406,
+    "szName": "炽影破锋刃",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120406,
+    "iMaterial1": 120406,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130406
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20407,
+    "szName": "拜火铃铛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120407,
+    "iMaterial1": 120407,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130407
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20408,
+    "szName": "拜火焚星鼓",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120408,
+    "iMaterial1": 120408,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130408
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20409,
+    "szName": "燎魂刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120409,
+    "iMaterial1": 120409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130409
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20501,
+    "szName": "玄黄令",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120501,
+    "iMaterial1": 120501,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130501
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20502,
+    "szName": "破岩锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120502,
+    "iMaterial1": 120502,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130502
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20503,
+    "szName": "撼地重锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120503,
+    "iMaterial1": 120503,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130503
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20504,
+    "szName": "憾地震魄锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120504,
+    "iMaterial1": 120504,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130504
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20505,
+    "szName": "坤元大钟",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120505,
+    "iMaterial1": 120505,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130505
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20506,
+    "szName": "坤元生息铠",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120506,
+    "iMaterial1": 120506,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130506
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20507,
+    "szName": "崩山长枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120507,
+    "iMaterial1": 120507,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130507
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20508,
+    "szName": "崩山裂魂枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120508,
+    "iMaterial1": 120508,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130508
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20509,
+    "szName": "破岩枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120509,
+    "iMaterial1": 120509,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130509
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20601,
+    "szName": "雷灵珠",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120601,
+    "iMaterial1": 120601,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130601
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20602,
+    "szName": "天诛令",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120602,
+    "iMaterial1": 120602,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130602
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20603,
+    "szName": "鸣雷长剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120603,
+    "iMaterial1": 120603,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130603
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20604,
+    "szName": "鸣雷诛邪剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120604,
+    "iMaterial1": 120604,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130604
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20605,
+    "szName": "玄阴锁链",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120605,
+    "iMaterial1": 120605,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130605
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20606,
+    "szName": "玄阴霹雳袋",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120606,
+    "iMaterial1": 120606,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130606
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20607,
+    "szName": "雷元腿甲",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120607,
+    "iMaterial1": 120607,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130607
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20608,
+    "szName": "雷元乌龙旗",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120608,
+    "iMaterial1": 120608,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130608
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20609,
+    "szName": "雷灵剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120609,
+    "iMaterial1": 120609,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130609
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20701,
+    "szName": "邪源珠",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120701,
+    "iMaterial1": 120701,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130701
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20702,
+    "szName": "玄阴枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120702,
+    "iMaterial1": 120702,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130702
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20703,
+    "szName": "血灵短矛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120703,
+    "iMaterial1": 120703,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130703
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20704,
+    "szName": "血灵钻魂枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120704,
+    "iMaterial1": 120704,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130704
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20705,
+    "szName": "欢愉短匕",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120705,
+    "iMaterial1": 120705,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130705
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20706,
+    "szName": "欢愉蚀骨刃",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120706,
+    "iMaterial1": 120706,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130706
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20707,
+    "szName": "炼魂小幡",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120707,
+    "iMaterial1": 120707,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130707
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20708,
+    "szName": "炼魂万千幡",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120708,
+    "iMaterial1": 120708,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130708
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20709,
+    "szName": "玄阴旗",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120709,
+    "iMaterial1": 120709,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130709
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20801,
+    "szName": "大力丸",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120801,
+    "iMaterial1": 120801,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130801
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20802,
+    "szName": "灵兽肉",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120802,
+    "iMaterial1": 120802,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130802
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20803,
+    "szName": "罡体腰带",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120803,
+    "iMaterial1": 120803,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130803
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20804,
+    "szName": "罡体不破甲",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120804,
+    "iMaterial1": 120804,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130804
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20805,
+    "szName": "百炼短锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120805,
+    "iMaterial1": 120805,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130805
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20806,
+    "szName": "百炼成金锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120806,
+    "iMaterial1": 120806,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130806
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20807,
+    "szName": "无相念珠",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120807,
+    "iMaterial1": 120807,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130807
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20808,
+    "szName": "无相渡敌钵",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120808,
+    "iMaterial1": 120808,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130808
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 20809,
+    "szName": "九宫牌",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 120809,
+    "iMaterial1": 120809,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      130809
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30101,
+    "szName": "金戒",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130101,
+    "iMaterial1": 130101,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140101
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30102,
+    "szName": "蕴金枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130102,
+    "iMaterial1": 130102,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140102
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30103,
+    "szName": "重金短矛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130103,
+    "iMaterial1": 130103,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140103
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30104,
+    "szName": "重金破阵矛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130104,
+    "iMaterial1": 130104,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140104
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30105,
+    "szName": "玄金重剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130105,
+    "iMaterial1": 130105,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140105
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30106,
+    "szName": "玄金碎甲剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130106,
+    "iMaterial1": 130106,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140106
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30107,
+    "szName": "曜金寸刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130107,
+    "iMaterial1": 130107,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140107
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30108,
+    "szName": "曜金战身刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130108,
+    "iMaterial1": 130108,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140108
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30109,
+    "szName": "分金刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130109,
+    "iMaterial1": 130109,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140109
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30201,
+    "szName": "枯荣种",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130201,
+    "iMaterial1": 130201,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140201
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30202,
+    "szName": "老山参",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130202,
+    "iMaterial1": 130202,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140202
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30203,
+    "szName": "木灵护臂",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130203,
+    "iMaterial1": 130203,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140203
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30204,
+    "szName": "木灵玉如意",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130204,
+    "iMaterial1": 130204,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140204
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30205,
+    "szName": "千瘴短笛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130205,
+    "iMaterial1": 130205,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140205
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30206,
+    "szName": "千瘴断魂笛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130206,
+    "iMaterial1": 130206,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140206
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30207,
+    "szName": "噬元喷菇",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130207,
+    "iMaterial1": 130207,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140207
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30208,
+    "szName": "噬元大丽花",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130208,
+    "iMaterial1": 130208,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140208
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30209,
+    "szName": "静心木鱼",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130209,
+    "iMaterial1": 130209,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140209
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30301,
+    "szName": "流水散",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130301,
+    "iMaterial1": 130301,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140301
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30302,
+    "szName": "净魂刃",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130302,
+    "iMaterial1": 130302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140302
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30303,
+    "szName": "霜华轻剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130303,
+    "iMaterial1": 130303,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140303
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30304,
+    "szName": "霜华千影剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130304,
+    "iMaterial1": 130304,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140304
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30305,
+    "szName": "冰魄护肩",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130305,
+    "iMaterial1": 130305,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140305
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30306,
+    "szName": "冰魄凝神甲",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130306,
+    "iMaterial1": 130306,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140306
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30307,
+    "szName": "急冻瓜锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130307,
+    "iMaterial1": 130307,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140307
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30308,
+    "szName": "急冻流星锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130308,
+    "iMaterial1": 130308,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140308
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30309,
+    "szName": "净魂锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130309,
+    "iMaterial1": 130309,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140309
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30401,
+    "szName": "炎脉髓",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130401,
+    "iMaterial1": 130401,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140401
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30402,
+    "szName": "燎魂唢呐",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130402,
+    "iMaterial1": 130402,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140402
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30403,
+    "szName": "至阳火鉴",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130403,
+    "iMaterial1": 130403,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140403
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30404,
+    "szName": "至阳风火轮",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130404,
+    "iMaterial1": 130404,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140404
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30405,
+    "szName": "炽影长刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130405,
+    "iMaterial1": 130405,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140405
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30406,
+    "szName": "炽影破锋刃",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130406,
+    "iMaterial1": 130406,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140406
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30407,
+    "szName": "拜火铃铛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130407,
+    "iMaterial1": 130407,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140407
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30408,
+    "szName": "拜火焚星鼓",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130408,
+    "iMaterial1": 130408,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140408
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30409,
+    "szName": "燎魂刀",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130409,
+    "iMaterial1": 130409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140409
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30501,
+    "szName": "玄黄令",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130501,
+    "iMaterial1": 130501,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140501
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30502,
+    "szName": "破岩锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130502,
+    "iMaterial1": 130502,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140502
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30503,
+    "szName": "撼地重锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130503,
+    "iMaterial1": 130503,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140503
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30504,
+    "szName": "憾地震魄锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130504,
+    "iMaterial1": 130504,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140504
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30505,
+    "szName": "坤元大钟",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130505,
+    "iMaterial1": 130505,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140505
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30506,
+    "szName": "坤元生息铠",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130506,
+    "iMaterial1": 130506,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140506
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30507,
+    "szName": "崩山长枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130507,
+    "iMaterial1": 130507,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140507
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30508,
+    "szName": "崩山裂魂枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130508,
+    "iMaterial1": 130508,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140508
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30509,
+    "szName": "破岩枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130509,
+    "iMaterial1": 130509,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140509
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30601,
+    "szName": "雷灵珠",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130601,
+    "iMaterial1": 130601,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140601
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30602,
+    "szName": "天诛令",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130602,
+    "iMaterial1": 130602,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140602
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30603,
+    "szName": "鸣雷长剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130603,
+    "iMaterial1": 130603,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140603
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30604,
+    "szName": "鸣雷诛邪剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130604,
+    "iMaterial1": 130604,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140604
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30605,
+    "szName": "玄阴锁链",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130605,
+    "iMaterial1": 130605,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140605
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30606,
+    "szName": "玄阴霹雳袋",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130606,
+    "iMaterial1": 130606,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140606
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30607,
+    "szName": "雷元腿甲",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130607,
+    "iMaterial1": 130607,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140607
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30608,
+    "szName": "雷元乌龙旗",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130608,
+    "iMaterial1": 130608,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140608
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30609,
+    "szName": "雷灵剑",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130609,
+    "iMaterial1": 130609,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140609
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30701,
+    "szName": "邪源珠",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130701,
+    "iMaterial1": 130701,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140701
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30702,
+    "szName": "玄阴枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130702,
+    "iMaterial1": 130702,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140702
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30703,
+    "szName": "血灵短矛",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130703,
+    "iMaterial1": 130703,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140703
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30704,
+    "szName": "血灵钻魂枪",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130704,
+    "iMaterial1": 130704,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140704
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30705,
+    "szName": "欢愉短匕",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130705,
+    "iMaterial1": 130705,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140705
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30706,
+    "szName": "欢愉蚀骨刃",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130706,
+    "iMaterial1": 130706,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140706
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30707,
+    "szName": "炼魂小幡",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130707,
+    "iMaterial1": 130707,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140707
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30708,
+    "szName": "炼魂万千幡",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130708,
+    "iMaterial1": 130708,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140708
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30709,
+    "szName": "玄阴旗",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130709,
+    "iMaterial1": 130709,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140709
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30801,
+    "szName": "大力丸",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130801,
+    "iMaterial1": 130801,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140801
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30802,
+    "szName": "灵兽肉",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130802,
+    "iMaterial1": 130802,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140802
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30803,
+    "szName": "罡体腰带",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130803,
+    "iMaterial1": 130803,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140803
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30804,
+    "szName": "罡体不破甲",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130804,
+    "iMaterial1": 130804,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140804
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30805,
+    "szName": "百炼短锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130805,
+    "iMaterial1": 130805,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140805
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30806,
+    "szName": "百炼成金锤",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130806,
+    "iMaterial1": 130806,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140806
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30807,
+    "szName": "无相念珠",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130807,
+    "iMaterial1": 130807,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140807
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30808,
+    "szName": "无相渡敌钵",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130808,
+    "iMaterial1": 130808,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140808
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 30809,
+    "szName": "九宫牌",
+    "szDesc": "",
+    "bSpecFormula": 0,
+    "bExternal": 0,
+    "iMaterial0": 130809,
+    "iMaterial1": 130809,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      140809
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40109,
+    "szName": "大鹏",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140103,
+    "iMaterial1": 140101,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150109
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40110,
+    "szName": "亢金龙",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140105,
+    "iMaterial1": 140101,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150110
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40209,
+    "szName": "木吒",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140203,
+    "iMaterial1": 140201,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150209
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40210,
+    "szName": "韩湘子",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140207,
+    "iMaterial1": 140201,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150210
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40309,
+    "szName": "谛听",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140303,
+    "iMaterial1": 140301,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150309
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40310,
+    "szName": "冰夷",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140305,
+    "iMaterial1": 140301,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150310
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40409,
+    "szName": "赤烟驹",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140403,
+    "iMaterial1": 140401,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150409
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40410,
+    "szName": "日游仙",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140405,
+    "iMaterial1": 140401,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150410
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40509,
+    "szName": "柳土獐",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140503,
+    "iMaterial1": 140501,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150509
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40510,
+    "szName": "石敢当",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140505,
+    "iMaterial1": 140501,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150510
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40609,
+    "szName": "雷兽",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140603,
+    "iMaterial1": 140601,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150609
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40610,
+    "szName": "妙音天",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140605,
+    "iMaterial1": 140601,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150610
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40709,
+    "szName": "罗莎",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140703,
+    "iMaterial1": 140701,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150709
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40710,
+    "szName": "桃妖",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140705,
+    "iMaterial1": 140701,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150710
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40809,
+    "szName": "哈将",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140803,
+    "iMaterial1": 140801,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150809
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40810,
+    "szName": "哼将",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140805,
+    "iMaterial1": 140801,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150810
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40103,
+    "szName": "赛特",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140103,
+    "iMaterial1": 140102,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150103
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40105,
+    "szName": "荆轲",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140105,
+    "iMaterial1": 140102,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150105
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40107,
+    "szName": "花木兰",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140107,
+    "iMaterial1": 140102,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150107
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50103,
+    "szName": "斗姆元君",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140103,
+    "iMaterial1": 140102,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250103
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40203,
+    "szName": "刑天",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140203,
+    "iMaterial1": 140209,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150203
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40207,
+    "szName": "七色鹿",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140207,
+    "iMaterial1": 140209,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150207
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40205,
+    "szName": "瓶灵",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140205,
+    "iMaterial1": 140209,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150205
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50203,
+    "szName": "若木",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140203,
+    "iMaterial1": 140209,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250203
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40303,
+    "szName": "洛神",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140303,
+    "iMaterial1": 140302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150303
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40307,
+    "szName": "九天玄女",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140307,
+    "iMaterial1": 140302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150307
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40305,
+    "szName": "龙女",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140305,
+    "iMaterial1": 140302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150305
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50303,
+    "szName": "鲲",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140305,
+    "iMaterial1": 140302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250303
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50305,
+    "szName": "鲲",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140303,
+    "iMaterial1": 140302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250305
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40403,
+    "szName": "燧人氏",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140403,
+    "iMaterial1": 140409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150403
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40405,
+    "szName": "天照",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140405,
+    "iMaterial1": 140409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150405
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40407,
+    "szName": "火德星君",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140407,
+    "iMaterial1": 140409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150407
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50403,
+    "szName": "灶神",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140403,
+    "iMaterial1": 140409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250403
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40503,
+    "szName": "巨灵神",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140503,
+    "iMaterial1": 140502,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150503
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40505,
+    "szName": "土行孙",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140505,
+    "iMaterial1": 140502,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150505
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40507,
+    "szName": "巨灵神",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140507,
+    "iMaterial1": 140502,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150507
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50503,
+    "szName": "大禹",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140503,
+    "iMaterial1": 140502,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250503
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40603,
+    "szName": "宙斯",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140603,
+    "iMaterial1": 140602,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150603
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40605,
+    "szName": "碧霄仙子",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140605,
+    "iMaterial1": 140602,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150605
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40607,
+    "szName": "李天王",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140607,
+    "iMaterial1": 140602,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150607
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50603,
+    "szName": "玉枢雷",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140603,
+    "iMaterial1": 140602,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250603
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40703,
+    "szName": "夜叉",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140703,
+    "iMaterial1": 140702,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150703
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40705,
+    "szName": "画皮",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140705,
+    "iMaterial1": 140702,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150705
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40707,
+    "szName": "无常",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140707,
+    "iMaterial1": 140702,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150707
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40803,
+    "szName": "大汗",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140803,
+    "iMaterial1": 140802,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150803
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40805,
+    "szName": "杜康",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140807,
+    "iMaterial1": 140802,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150807
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40807,
+    "szName": "钟无艳",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140805,
+    "iMaterial1": 140802,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150805
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50803,
+    "szName": "武罗",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140803,
+    "iMaterial1": 140802,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250803
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40104,
+    "szName": "杨戬",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140104,
+    "iMaterial1": 140102,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150104
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40106,
+    "szName": "李白",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140106,
+    "iMaterial1": 140102,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150106
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40108,
+    "szName": "白虎",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140108,
+    "iMaterial1": 140102,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150108
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50104,
+    "szName": "孙悟空",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140104,
+    "iMaterial1": 140102,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250104
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40204,
+    "szName": "句芒",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140204,
+    "iMaterial1": 140209,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150204
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40206,
+    "szName": "萨满",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140208,
+    "iMaterial1": 140209,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150206
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40208,
+    "szName": "蛊神",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140206,
+    "iMaterial1": 140209,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150208
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50204,
+    "szName": "青帝",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140204,
+    "iMaterial1": 140209,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250204
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40304,
+    "szName": "嫦娥",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140304,
+    "iMaterial1": 140302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150304
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40308,
+    "szName": "姜子牙",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140308,
+    "iMaterial1": 140302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150308
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40306,
+    "szName": "玄冥",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140306,
+    "iMaterial1": 140302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150306
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50304,
+    "szName": "共工",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140306,
+    "iMaterial1": 140302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250304
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50306,
+    "szName": "共工",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140304,
+    "iMaterial1": 140302,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250306
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40404,
+    "szName": "妲己",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140404,
+    "iMaterial1": 140409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150404
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40406,
+    "szName": "朱雀",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140406,
+    "iMaterial1": 140409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150406
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40408,
+    "szName": "祝融",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140408,
+    "iMaterial1": 140409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150408
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50404,
+    "szName": "哪吒",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140404,
+    "iMaterial1": 140409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250404
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40504,
+    "szName": "后土",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140504,
+    "iMaterial1": 140502,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150504
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40506,
+    "szName": "女娲",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140506,
+    "iMaterial1": 140502,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150506
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40508,
+    "szName": "项羽",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140508,
+    "iMaterial1": 140502,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150508
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50504,
+    "szName": "后土",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140504,
+    "iMaterial1": 140502,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250504
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40604,
+    "szName": "申公豹",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140604,
+    "iMaterial1": 140602,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150604
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40606,
+    "szName": "电母",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140606,
+    "iMaterial1": 140602,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150606
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40608,
+    "szName": "雷声天尊",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140608,
+    "iMaterial1": 140602,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150608
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50604,
+    "szName": "王灵官",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140604,
+    "iMaterial1": 140602,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250604
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40704,
+    "szName": "罗睺",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140704,
+    "iMaterial1": 140702,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150704
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40706,
+    "szName": "羲和&望舒",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140706,
+    "iMaterial1": 140702,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150706
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40708,
+    "szName": "北阴",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140708,
+    "iMaterial1": 140702,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150708
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40804,
+    "szName": "玄武",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140804,
+    "iMaterial1": 140802,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150804
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40806,
+    "szName": "金刚手",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140808,
+    "iMaterial1": 140802,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150808
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 40808,
+    "szName": "新巨灵",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140806,
+    "iMaterial1": 140802,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      150806
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50804,
+    "szName": "食铁兽",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140804,
+    "iMaterial1": 140802,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250804
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  }
+]

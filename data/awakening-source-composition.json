@@ -1,0 +1,3640 @@
+{
+  "formalVersion": "2609291708",
+  "prereleaseVersion": "2610092018",
+  "stages": [
+    {
+      "equipId": 150109,
+      "teacherId": 22101,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150109,
+      "teacherId": 22101,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2201
+      ]
+    },
+    {
+      "equipId": 150109,
+      "teacherId": 22101,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150109,
+      "teacherId": 22101,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2401
+      ]
+    },
+    {
+      "equipId": 150109,
+      "teacherId": 22101,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2501
+      ]
+    },
+    {
+      "equipId": 150110,
+      "teacherId": 22102,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150110,
+      "teacherId": 22102,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2201
+      ]
+    },
+    {
+      "equipId": 150110,
+      "teacherId": 22102,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150110,
+      "teacherId": 22102,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2401
+      ]
+    },
+    {
+      "equipId": 150110,
+      "teacherId": 22102,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2502
+      ]
+    },
+    {
+      "equipId": 150209,
+      "teacherId": 22201,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150209,
+      "teacherId": 22201,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2202
+      ]
+    },
+    {
+      "equipId": 150209,
+      "teacherId": 22201,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150209,
+      "teacherId": 22201,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2402
+      ]
+    },
+    {
+      "equipId": 150209,
+      "teacherId": 22201,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2503
+      ]
+    },
+    {
+      "equipId": 150210,
+      "teacherId": 22202,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150210,
+      "teacherId": 22202,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2202
+      ]
+    },
+    {
+      "equipId": 150210,
+      "teacherId": 22202,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150210,
+      "teacherId": 22202,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2402
+      ]
+    },
+    {
+      "equipId": 150210,
+      "teacherId": 22202,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2504
+      ]
+    },
+    {
+      "equipId": 150309,
+      "teacherId": 22301,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150309,
+      "teacherId": 22301,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2203
+      ]
+    },
+    {
+      "equipId": 150309,
+      "teacherId": 22301,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150309,
+      "teacherId": 22301,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2403
+      ]
+    },
+    {
+      "equipId": 150309,
+      "teacherId": 22301,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2505
+      ]
+    },
+    {
+      "equipId": 150310,
+      "teacherId": 22302,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150310,
+      "teacherId": 22302,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2203
+      ]
+    },
+    {
+      "equipId": 150310,
+      "teacherId": 22302,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150310,
+      "teacherId": 22302,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2403
+      ]
+    },
+    {
+      "equipId": 150310,
+      "teacherId": 22302,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2506
+      ]
+    },
+    {
+      "equipId": 150409,
+      "teacherId": 22401,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150409,
+      "teacherId": 22401,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2204
+      ]
+    },
+    {
+      "equipId": 150409,
+      "teacherId": 22401,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150409,
+      "teacherId": 22401,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2404
+      ]
+    },
+    {
+      "equipId": 150409,
+      "teacherId": 22401,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2507
+      ]
+    },
+    {
+      "equipId": 150410,
+      "teacherId": 22402,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150410,
+      "teacherId": 22402,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2204
+      ]
+    },
+    {
+      "equipId": 150410,
+      "teacherId": 22402,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150410,
+      "teacherId": 22402,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2404
+      ]
+    },
+    {
+      "equipId": 150410,
+      "teacherId": 22402,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2508
+      ]
+    },
+    {
+      "equipId": 150509,
+      "teacherId": 22501,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150509,
+      "teacherId": 22501,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2205
+      ]
+    },
+    {
+      "equipId": 150509,
+      "teacherId": 22501,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150509,
+      "teacherId": 22501,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2405
+      ]
+    },
+    {
+      "equipId": 150509,
+      "teacherId": 22501,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2509
+      ]
+    },
+    {
+      "equipId": 150510,
+      "teacherId": 22502,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150510,
+      "teacherId": 22502,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2205
+      ]
+    },
+    {
+      "equipId": 150510,
+      "teacherId": 22502,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150510,
+      "teacherId": 22502,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2405
+      ]
+    },
+    {
+      "equipId": 150510,
+      "teacherId": 22502,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2510
+      ]
+    },
+    {
+      "equipId": 150609,
+      "teacherId": 22601,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150609,
+      "teacherId": 22601,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2206
+      ]
+    },
+    {
+      "equipId": 150609,
+      "teacherId": 22601,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150609,
+      "teacherId": 22601,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2406
+      ]
+    },
+    {
+      "equipId": 150609,
+      "teacherId": 22601,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2511
+      ]
+    },
+    {
+      "equipId": 150610,
+      "teacherId": 22602,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150610,
+      "teacherId": 22602,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2206
+      ]
+    },
+    {
+      "equipId": 150610,
+      "teacherId": 22602,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150610,
+      "teacherId": 22602,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2406
+      ]
+    },
+    {
+      "equipId": 150610,
+      "teacherId": 22602,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2512
+      ]
+    },
+    {
+      "equipId": 150709,
+      "teacherId": 22701,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150709,
+      "teacherId": 22701,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2207
+      ]
+    },
+    {
+      "equipId": 150709,
+      "teacherId": 22701,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150709,
+      "teacherId": 22701,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2407
+      ]
+    },
+    {
+      "equipId": 150709,
+      "teacherId": 22701,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2513
+      ]
+    },
+    {
+      "equipId": 150710,
+      "teacherId": 22702,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150710,
+      "teacherId": 22702,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2207
+      ]
+    },
+    {
+      "equipId": 150710,
+      "teacherId": 22702,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150710,
+      "teacherId": 22702,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2407
+      ]
+    },
+    {
+      "equipId": 150710,
+      "teacherId": 22702,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2514
+      ]
+    },
+    {
+      "equipId": 150809,
+      "teacherId": 22801,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150809,
+      "teacherId": 22801,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2208
+      ]
+    },
+    {
+      "equipId": 150809,
+      "teacherId": 22801,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150809,
+      "teacherId": 22801,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2408
+      ]
+    },
+    {
+      "equipId": 150809,
+      "teacherId": 22801,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2515
+      ]
+    },
+    {
+      "equipId": 150810,
+      "teacherId": 22802,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        2101
+      ]
+    },
+    {
+      "equipId": 150810,
+      "teacherId": 22802,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        2208
+      ]
+    },
+    {
+      "equipId": 150810,
+      "teacherId": 22802,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        2301
+      ]
+    },
+    {
+      "equipId": 150810,
+      "teacherId": 22802,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        2408
+      ]
+    },
+    {
+      "equipId": 150810,
+      "teacherId": 22802,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        2516
+      ]
+    },
+    {
+      "equipId": 150103,
+      "teacherId": 23101,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3101
+      ]
+    },
+    {
+      "equipId": 150103,
+      "teacherId": 23101,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3201,
+        3200
+      ]
+    },
+    {
+      "equipId": 150103,
+      "teacherId": 23101,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3301
+      ]
+    },
+    {
+      "equipId": 150103,
+      "teacherId": 23101,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3401,
+        3400
+      ]
+    },
+    {
+      "equipId": 150103,
+      "teacherId": 23101,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3501
+      ]
+    },
+    {
+      "equipId": 150105,
+      "teacherId": 23102,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3103
+      ]
+    },
+    {
+      "equipId": 150105,
+      "teacherId": 23102,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3201,
+        3200
+      ]
+    },
+    {
+      "equipId": 150105,
+      "teacherId": 23102,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3303
+      ]
+    },
+    {
+      "equipId": 150105,
+      "teacherId": 23102,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3401,
+        3400
+      ]
+    },
+    {
+      "equipId": 150105,
+      "teacherId": 23102,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3503
+      ]
+    },
+    {
+      "equipId": 150107,
+      "teacherId": 23103,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3104
+      ]
+    },
+    {
+      "equipId": 150107,
+      "teacherId": 23103,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3201,
+        3200
+      ]
+    },
+    {
+      "equipId": 150107,
+      "teacherId": 23103,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3304
+      ]
+    },
+    {
+      "equipId": 150107,
+      "teacherId": 23103,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3401,
+        3400
+      ]
+    },
+    {
+      "equipId": 150107,
+      "teacherId": 23103,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3504
+      ]
+    },
+    {
+      "equipId": 250103,
+      "teacherId": 23104,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3102
+      ]
+    },
+    {
+      "equipId": 250103,
+      "teacherId": 23104,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3201,
+        3200
+      ]
+    },
+    {
+      "equipId": 250103,
+      "teacherId": 23104,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3302
+      ]
+    },
+    {
+      "equipId": 250103,
+      "teacherId": 23104,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3401,
+        3400
+      ]
+    },
+    {
+      "equipId": 250103,
+      "teacherId": 23104,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3502
+      ]
+    },
+    {
+      "equipId": 150203,
+      "teacherId": 23201,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3105
+      ]
+    },
+    {
+      "equipId": 150203,
+      "teacherId": 23201,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3202,
+        3200
+      ]
+    },
+    {
+      "equipId": 150203,
+      "teacherId": 23201,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3305
+      ]
+    },
+    {
+      "equipId": 150203,
+      "teacherId": 23201,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3402,
+        3400
+      ]
+    },
+    {
+      "equipId": 150203,
+      "teacherId": 23201,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3505
+      ]
+    },
+    {
+      "equipId": 150207,
+      "teacherId": 23202,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3107
+      ]
+    },
+    {
+      "equipId": 150207,
+      "teacherId": 23202,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3202,
+        3200
+      ]
+    },
+    {
+      "equipId": 150207,
+      "teacherId": 23202,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3307
+      ]
+    },
+    {
+      "equipId": 150207,
+      "teacherId": 23202,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3402,
+        3400
+      ]
+    },
+    {
+      "equipId": 150207,
+      "teacherId": 23202,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3507
+      ]
+    },
+    {
+      "equipId": 150205,
+      "teacherId": 23203,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3108
+      ]
+    },
+    {
+      "equipId": 150205,
+      "teacherId": 23203,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3202,
+        3200
+      ]
+    },
+    {
+      "equipId": 150205,
+      "teacherId": 23203,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3308
+      ]
+    },
+    {
+      "equipId": 150205,
+      "teacherId": 23203,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3402,
+        3400
+      ]
+    },
+    {
+      "equipId": 150205,
+      "teacherId": 23203,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3508
+      ]
+    },
+    {
+      "equipId": 250203,
+      "teacherId": 23204,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3106
+      ]
+    },
+    {
+      "equipId": 250203,
+      "teacherId": 23204,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3202,
+        3200
+      ]
+    },
+    {
+      "equipId": 250203,
+      "teacherId": 23204,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3306
+      ]
+    },
+    {
+      "equipId": 250203,
+      "teacherId": 23204,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3402,
+        3400
+      ]
+    },
+    {
+      "equipId": 250203,
+      "teacherId": 23204,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3506
+      ]
+    },
+    {
+      "equipId": 150303,
+      "teacherId": 23301,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3109
+      ]
+    },
+    {
+      "equipId": 150303,
+      "teacherId": 23301,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3203,
+        3200
+      ]
+    },
+    {
+      "equipId": 150303,
+      "teacherId": 23301,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3309
+      ]
+    },
+    {
+      "equipId": 150303,
+      "teacherId": 23301,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3403,
+        3400
+      ]
+    },
+    {
+      "equipId": 150303,
+      "teacherId": 23301,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3509
+      ]
+    },
+    {
+      "equipId": 150305,
+      "teacherId": 23302,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3111
+      ]
+    },
+    {
+      "equipId": 150305,
+      "teacherId": 23302,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3203,
+        3200
+      ]
+    },
+    {
+      "equipId": 150305,
+      "teacherId": 23302,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3311
+      ]
+    },
+    {
+      "equipId": 150305,
+      "teacherId": 23302,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3403,
+        3400
+      ]
+    },
+    {
+      "equipId": 150305,
+      "teacherId": 23302,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3511
+      ]
+    },
+    {
+      "equipId": 150307,
+      "teacherId": 23303,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3113
+      ]
+    },
+    {
+      "equipId": 150307,
+      "teacherId": 23303,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3203,
+        3200
+      ]
+    },
+    {
+      "equipId": 150307,
+      "teacherId": 23303,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3313
+      ]
+    },
+    {
+      "equipId": 150307,
+      "teacherId": 23303,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3403,
+        3400
+      ]
+    },
+    {
+      "equipId": 150307,
+      "teacherId": 23303,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3513
+      ]
+    },
+    {
+      "equipId": 250303,
+      "teacherId": 23304,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3112
+      ]
+    },
+    {
+      "equipId": 250303,
+      "teacherId": 23304,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3203,
+        3200
+      ]
+    },
+    {
+      "equipId": 250303,
+      "teacherId": 23304,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3312
+      ]
+    },
+    {
+      "equipId": 250303,
+      "teacherId": 23304,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3403,
+        3400
+      ]
+    },
+    {
+      "equipId": 250303,
+      "teacherId": 23304,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3512
+      ]
+    },
+    {
+      "equipId": 150403,
+      "teacherId": 23401,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3114
+      ]
+    },
+    {
+      "equipId": 150403,
+      "teacherId": 23401,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3204,
+        3200
+      ]
+    },
+    {
+      "equipId": 150403,
+      "teacherId": 23401,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3314
+      ]
+    },
+    {
+      "equipId": 150403,
+      "teacherId": 23401,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3404,
+        3400
+      ]
+    },
+    {
+      "equipId": 150403,
+      "teacherId": 23401,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3514
+      ]
+    },
+    {
+      "equipId": 150405,
+      "teacherId": 23402,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3116
+      ]
+    },
+    {
+      "equipId": 150405,
+      "teacherId": 23402,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3204,
+        3200
+      ]
+    },
+    {
+      "equipId": 150405,
+      "teacherId": 23402,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3316
+      ]
+    },
+    {
+      "equipId": 150405,
+      "teacherId": 23402,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3404,
+        3400
+      ]
+    },
+    {
+      "equipId": 150405,
+      "teacherId": 23402,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3516
+      ]
+    },
+    {
+      "equipId": 150407,
+      "teacherId": 23403,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3118
+      ]
+    },
+    {
+      "equipId": 150407,
+      "teacherId": 23403,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3204,
+        3200
+      ]
+    },
+    {
+      "equipId": 150407,
+      "teacherId": 23403,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3318
+      ]
+    },
+    {
+      "equipId": 150407,
+      "teacherId": 23403,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3404,
+        3400
+      ]
+    },
+    {
+      "equipId": 150407,
+      "teacherId": 23403,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3518
+      ]
+    },
+    {
+      "equipId": 250403,
+      "teacherId": 23404,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3115
+      ]
+    },
+    {
+      "equipId": 250403,
+      "teacherId": 23404,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3204,
+        3200
+      ]
+    },
+    {
+      "equipId": 250403,
+      "teacherId": 23404,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3315
+      ]
+    },
+    {
+      "equipId": 250403,
+      "teacherId": 23404,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3404,
+        3400
+      ]
+    },
+    {
+      "equipId": 250403,
+      "teacherId": 23404,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3515
+      ]
+    },
+    {
+      "equipId": 150503,
+      "teacherId": 23501,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3119
+      ]
+    },
+    {
+      "equipId": 150503,
+      "teacherId": 23501,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3205,
+        3200
+      ]
+    },
+    {
+      "equipId": 150503,
+      "teacherId": 23501,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3319
+      ]
+    },
+    {
+      "equipId": 150503,
+      "teacherId": 23501,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3405,
+        3400
+      ]
+    },
+    {
+      "equipId": 150503,
+      "teacherId": 23501,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3519
+      ]
+    },
+    {
+      "equipId": 150507,
+      "teacherId": 23502,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3122
+      ]
+    },
+    {
+      "equipId": 150507,
+      "teacherId": 23502,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3205,
+        3200
+      ]
+    },
+    {
+      "equipId": 150507,
+      "teacherId": 23502,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3322
+      ]
+    },
+    {
+      "equipId": 150507,
+      "teacherId": 23502,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3405,
+        3400
+      ]
+    },
+    {
+      "equipId": 150507,
+      "teacherId": 23502,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3522
+      ]
+    },
+    {
+      "equipId": 150505,
+      "teacherId": 23503,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3121
+      ]
+    },
+    {
+      "equipId": 150505,
+      "teacherId": 23503,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3205,
+        3200
+      ]
+    },
+    {
+      "equipId": 150505,
+      "teacherId": 23503,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3321
+      ]
+    },
+    {
+      "equipId": 150505,
+      "teacherId": 23503,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3405,
+        3400
+      ]
+    },
+    {
+      "equipId": 150505,
+      "teacherId": 23503,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3521
+      ]
+    },
+    {
+      "equipId": 250503,
+      "teacherId": 23504,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3120
+      ]
+    },
+    {
+      "equipId": 250503,
+      "teacherId": 23504,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3205,
+        3200
+      ]
+    },
+    {
+      "equipId": 250503,
+      "teacherId": 23504,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3320
+      ]
+    },
+    {
+      "equipId": 250503,
+      "teacherId": 23504,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3405,
+        3400
+      ]
+    },
+    {
+      "equipId": 250503,
+      "teacherId": 23504,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3520
+      ]
+    },
+    {
+      "equipId": 150603,
+      "teacherId": 23601,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3123
+      ]
+    },
+    {
+      "equipId": 150603,
+      "teacherId": 23601,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3206,
+        3200
+      ]
+    },
+    {
+      "equipId": 150603,
+      "teacherId": 23601,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3323
+      ]
+    },
+    {
+      "equipId": 150603,
+      "teacherId": 23601,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3406,
+        3400
+      ]
+    },
+    {
+      "equipId": 150603,
+      "teacherId": 23601,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3523
+      ]
+    },
+    {
+      "equipId": 150605,
+      "teacherId": 23602,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3125
+      ]
+    },
+    {
+      "equipId": 150605,
+      "teacherId": 23602,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3206,
+        3200
+      ]
+    },
+    {
+      "equipId": 150605,
+      "teacherId": 23602,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3325
+      ]
+    },
+    {
+      "equipId": 150605,
+      "teacherId": 23602,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3406,
+        3400
+      ]
+    },
+    {
+      "equipId": 150605,
+      "teacherId": 23602,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3525
+      ]
+    },
+    {
+      "equipId": 150607,
+      "teacherId": 23603,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3126
+      ]
+    },
+    {
+      "equipId": 150607,
+      "teacherId": 23603,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3206,
+        3200
+      ]
+    },
+    {
+      "equipId": 150607,
+      "teacherId": 23603,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3326
+      ]
+    },
+    {
+      "equipId": 150607,
+      "teacherId": 23603,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3406,
+        3400
+      ]
+    },
+    {
+      "equipId": 150607,
+      "teacherId": 23603,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3526
+      ]
+    },
+    {
+      "equipId": 250603,
+      "teacherId": 23604,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3124
+      ]
+    },
+    {
+      "equipId": 250603,
+      "teacherId": 23604,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3206,
+        3200
+      ]
+    },
+    {
+      "equipId": 250603,
+      "teacherId": 23604,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3324
+      ]
+    },
+    {
+      "equipId": 250603,
+      "teacherId": 23604,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3406,
+        3400
+      ]
+    },
+    {
+      "equipId": 250603,
+      "teacherId": 23604,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3524
+      ]
+    },
+    {
+      "equipId": 150703,
+      "teacherId": 23701,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3127
+      ]
+    },
+    {
+      "equipId": 150703,
+      "teacherId": 23701,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3207,
+        3200
+      ]
+    },
+    {
+      "equipId": 150703,
+      "teacherId": 23701,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3327
+      ]
+    },
+    {
+      "equipId": 150703,
+      "teacherId": 23701,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3407,
+        3400
+      ]
+    },
+    {
+      "equipId": 150703,
+      "teacherId": 23701,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3527
+      ]
+    },
+    {
+      "equipId": 150705,
+      "teacherId": 23702,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3128
+      ]
+    },
+    {
+      "equipId": 150705,
+      "teacherId": 23702,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3207,
+        3200
+      ]
+    },
+    {
+      "equipId": 150705,
+      "teacherId": 23702,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3328
+      ]
+    },
+    {
+      "equipId": 150705,
+      "teacherId": 23702,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3407,
+        3400
+      ]
+    },
+    {
+      "equipId": 150705,
+      "teacherId": 23702,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3528
+      ]
+    },
+    {
+      "equipId": 150707,
+      "teacherId": 23703,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3129
+      ]
+    },
+    {
+      "equipId": 150707,
+      "teacherId": 23703,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3207,
+        3200
+      ]
+    },
+    {
+      "equipId": 150707,
+      "teacherId": 23703,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3329
+      ]
+    },
+    {
+      "equipId": 150707,
+      "teacherId": 23703,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3407,
+        3400
+      ]
+    },
+    {
+      "equipId": 150707,
+      "teacherId": 23703,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3529
+      ]
+    },
+    {
+      "equipId": 150803,
+      "teacherId": 23801,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3130
+      ]
+    },
+    {
+      "equipId": 150803,
+      "teacherId": 23801,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3208,
+        3200
+      ]
+    },
+    {
+      "equipId": 150803,
+      "teacherId": 23801,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3330
+      ]
+    },
+    {
+      "equipId": 150803,
+      "teacherId": 23801,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3408,
+        3400
+      ]
+    },
+    {
+      "equipId": 150803,
+      "teacherId": 23801,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3530
+      ]
+    },
+    {
+      "equipId": 150807,
+      "teacherId": 23802,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3133
+      ]
+    },
+    {
+      "equipId": 150807,
+      "teacherId": 23802,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3208,
+        3200
+      ]
+    },
+    {
+      "equipId": 150807,
+      "teacherId": 23802,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3333
+      ]
+    },
+    {
+      "equipId": 150807,
+      "teacherId": 23802,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3408,
+        3400
+      ]
+    },
+    {
+      "equipId": 150807,
+      "teacherId": 23802,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3533
+      ]
+    },
+    {
+      "equipId": 150805,
+      "teacherId": 23803,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3132
+      ]
+    },
+    {
+      "equipId": 150805,
+      "teacherId": 23803,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3208,
+        3200
+      ]
+    },
+    {
+      "equipId": 150805,
+      "teacherId": 23803,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3332
+      ]
+    },
+    {
+      "equipId": 150805,
+      "teacherId": 23803,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3408,
+        3400
+      ]
+    },
+    {
+      "equipId": 150805,
+      "teacherId": 23803,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3532
+      ]
+    },
+    {
+      "equipId": 250803,
+      "teacherId": 23804,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        3131
+      ]
+    },
+    {
+      "equipId": 250803,
+      "teacherId": 23804,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        3208,
+        3200
+      ]
+    },
+    {
+      "equipId": 250803,
+      "teacherId": 23804,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        3331
+      ]
+    },
+    {
+      "equipId": 250803,
+      "teacherId": 23804,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        3408,
+        3400
+      ]
+    },
+    {
+      "equipId": 250803,
+      "teacherId": 23804,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        3531
+      ]
+    },
+    {
+      "equipId": 150104,
+      "teacherId": 24101,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4101
+      ]
+    },
+    {
+      "equipId": 150104,
+      "teacherId": 24101,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4201,
+        4200
+      ]
+    },
+    {
+      "equipId": 150104,
+      "teacherId": 24101,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4306
+      ]
+    },
+    {
+      "equipId": 150104,
+      "teacherId": 24101,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4401,
+        4400
+      ]
+    },
+    {
+      "equipId": 150104,
+      "teacherId": 24101,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4501
+      ]
+    },
+    {
+      "equipId": 150106,
+      "teacherId": 24102,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4103
+      ]
+    },
+    {
+      "equipId": 150106,
+      "teacherId": 24102,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4201,
+        4200
+      ]
+    },
+    {
+      "equipId": 150106,
+      "teacherId": 24102,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4302
+      ]
+    },
+    {
+      "equipId": 150106,
+      "teacherId": 24102,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4401,
+        4400
+      ]
+    },
+    {
+      "equipId": 150106,
+      "teacherId": 24102,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4501
+      ]
+    },
+    {
+      "equipId": 150108,
+      "teacherId": 24103,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4104
+      ]
+    },
+    {
+      "equipId": 150108,
+      "teacherId": 24103,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4201,
+        4200
+      ]
+    },
+    {
+      "equipId": 150108,
+      "teacherId": 24103,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4307
+      ]
+    },
+    {
+      "equipId": 150108,
+      "teacherId": 24103,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4401,
+        4400
+      ]
+    },
+    {
+      "equipId": 150108,
+      "teacherId": 24103,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4501
+      ]
+    },
+    {
+      "equipId": 250104,
+      "teacherId": 24104,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4102
+      ]
+    },
+    {
+      "equipId": 250104,
+      "teacherId": 24104,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4201,
+        4200
+      ]
+    },
+    {
+      "equipId": 250104,
+      "teacherId": 24104,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4306
+      ]
+    },
+    {
+      "equipId": 250104,
+      "teacherId": 24104,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4401,
+        4400
+      ]
+    },
+    {
+      "equipId": 250104,
+      "teacherId": 24104,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4501
+      ]
+    },
+    {
+      "equipId": 150204,
+      "teacherId": 24201,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4105
+      ]
+    },
+    {
+      "equipId": 150204,
+      "teacherId": 24201,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4202,
+        4200
+      ]
+    },
+    {
+      "equipId": 150204,
+      "teacherId": 24201,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4302
+      ]
+    },
+    {
+      "equipId": 150204,
+      "teacherId": 24201,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4402,
+        4400
+      ]
+    },
+    {
+      "equipId": 150204,
+      "teacherId": 24201,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4502
+      ]
+    },
+    {
+      "equipId": 150208,
+      "teacherId": 24202,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4107
+      ]
+    },
+    {
+      "equipId": 150208,
+      "teacherId": 24202,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4202,
+        4200
+      ]
+    },
+    {
+      "equipId": 150208,
+      "teacherId": 24202,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4303
+      ]
+    },
+    {
+      "equipId": 150208,
+      "teacherId": 24202,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4402,
+        4400
+      ]
+    },
+    {
+      "equipId": 150208,
+      "teacherId": 24202,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4502
+      ]
+    },
+    {
+      "equipId": 150206,
+      "teacherId": 24203,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4108
+      ]
+    },
+    {
+      "equipId": 150206,
+      "teacherId": 24203,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4202,
+        4200
+      ]
+    },
+    {
+      "equipId": 150206,
+      "teacherId": 24203,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4304
+      ]
+    },
+    {
+      "equipId": 150206,
+      "teacherId": 24203,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4402,
+        4400
+      ]
+    },
+    {
+      "equipId": 150206,
+      "teacherId": 24203,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4502
+      ]
+    },
+    {
+      "equipId": 250204,
+      "teacherId": 24204,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4106
+      ]
+    },
+    {
+      "equipId": 250204,
+      "teacherId": 24204,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4202,
+        4200
+      ]
+    },
+    {
+      "equipId": 250204,
+      "teacherId": 24204,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4302
+      ]
+    },
+    {
+      "equipId": 250204,
+      "teacherId": 24204,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4402,
+        4400
+      ]
+    },
+    {
+      "equipId": 250204,
+      "teacherId": 24204,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4502
+      ]
+    },
+    {
+      "equipId": 150304,
+      "teacherId": 24301,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4109
+      ]
+    },
+    {
+      "equipId": 150304,
+      "teacherId": 24301,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4203,
+        4200
+      ]
+    },
+    {
+      "equipId": 150304,
+      "teacherId": 24301,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4302
+      ]
+    },
+    {
+      "equipId": 150304,
+      "teacherId": 24301,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4403,
+        4400
+      ]
+    },
+    {
+      "equipId": 150304,
+      "teacherId": 24301,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4503
+      ]
+    },
+    {
+      "equipId": 150306,
+      "teacherId": 24302,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4111
+      ]
+    },
+    {
+      "equipId": 150306,
+      "teacherId": 24302,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4203,
+        4200
+      ]
+    },
+    {
+      "equipId": 150306,
+      "teacherId": 24302,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4305
+      ]
+    },
+    {
+      "equipId": 150306,
+      "teacherId": 24302,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4403,
+        4400
+      ]
+    },
+    {
+      "equipId": 150306,
+      "teacherId": 24302,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4503
+      ]
+    },
+    {
+      "equipId": 150308,
+      "teacherId": 24303,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4113
+      ]
+    },
+    {
+      "equipId": 150308,
+      "teacherId": 24303,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4203,
+        4200
+      ]
+    },
+    {
+      "equipId": 150308,
+      "teacherId": 24303,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4308
+      ]
+    },
+    {
+      "equipId": 150308,
+      "teacherId": 24303,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4403,
+        4400
+      ]
+    },
+    {
+      "equipId": 150308,
+      "teacherId": 24303,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4503
+      ]
+    },
+    {
+      "equipId": 250304,
+      "teacherId": 24304,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4112
+      ]
+    },
+    {
+      "equipId": 250304,
+      "teacherId": 24304,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4203,
+        4200
+      ]
+    },
+    {
+      "equipId": 250304,
+      "teacherId": 24304,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4305
+      ]
+    },
+    {
+      "equipId": 250304,
+      "teacherId": 24304,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4403,
+        4400
+      ]
+    },
+    {
+      "equipId": 250304,
+      "teacherId": 24304,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4503
+      ]
+    },
+    {
+      "equipId": 150404,
+      "teacherId": 24401,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4114
+      ]
+    },
+    {
+      "equipId": 150404,
+      "teacherId": 24401,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4204,
+        4200
+      ]
+    },
+    {
+      "equipId": 150404,
+      "teacherId": 24401,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4304
+      ]
+    },
+    {
+      "equipId": 150404,
+      "teacherId": 24401,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4404,
+        4400
+      ]
+    },
+    {
+      "equipId": 150404,
+      "teacherId": 24401,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4504
+      ]
+    },
+    {
+      "equipId": 150406,
+      "teacherId": 24402,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4116
+      ]
+    },
+    {
+      "equipId": 150406,
+      "teacherId": 24402,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4204,
+        4200
+      ]
+    },
+    {
+      "equipId": 150406,
+      "teacherId": 24402,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4307
+      ]
+    },
+    {
+      "equipId": 150406,
+      "teacherId": 24402,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4404,
+        4400
+      ]
+    },
+    {
+      "equipId": 150406,
+      "teacherId": 24402,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4504
+      ]
+    },
+    {
+      "equipId": 150408,
+      "teacherId": 24403,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4118
+      ]
+    },
+    {
+      "equipId": 150408,
+      "teacherId": 24403,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4204,
+        4200
+      ]
+    },
+    {
+      "equipId": 150408,
+      "teacherId": 24403,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4303
+      ]
+    },
+    {
+      "equipId": 150408,
+      "teacherId": 24403,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4404,
+        4400
+      ]
+    },
+    {
+      "equipId": 150408,
+      "teacherId": 24403,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4504
+      ]
+    },
+    {
+      "equipId": 250404,
+      "teacherId": 24404,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4115
+      ]
+    },
+    {
+      "equipId": 250404,
+      "teacherId": 24404,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4204,
+        4200
+      ]
+    },
+    {
+      "equipId": 250404,
+      "teacherId": 24404,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4304
+      ]
+    },
+    {
+      "equipId": 250404,
+      "teacherId": 24404,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4404,
+        4400
+      ]
+    },
+    {
+      "equipId": 250404,
+      "teacherId": 24404,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4504
+      ]
+    },
+    {
+      "equipId": 150504,
+      "teacherId": 24501,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4119
+      ]
+    },
+    {
+      "equipId": 150504,
+      "teacherId": 24501,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4205,
+        4200
+      ]
+    },
+    {
+      "equipId": 150504,
+      "teacherId": 24501,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4308
+      ]
+    },
+    {
+      "equipId": 150504,
+      "teacherId": 24501,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4405,
+        4400
+      ]
+    },
+    {
+      "equipId": 150504,
+      "teacherId": 24501,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4505
+      ]
+    },
+    {
+      "equipId": 150506,
+      "teacherId": 24502,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4121
+      ]
+    },
+    {
+      "equipId": 150506,
+      "teacherId": 24502,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4205,
+        4200
+      ]
+    },
+    {
+      "equipId": 150506,
+      "teacherId": 24502,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4305
+      ]
+    },
+    {
+      "equipId": 150506,
+      "teacherId": 24502,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4405,
+        4400
+      ]
+    },
+    {
+      "equipId": 150506,
+      "teacherId": 24502,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4505
+      ]
+    },
+    {
+      "equipId": 150508,
+      "teacherId": 24503,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4122
+      ]
+    },
+    {
+      "equipId": 150508,
+      "teacherId": 24503,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4205,
+        4200
+      ]
+    },
+    {
+      "equipId": 150508,
+      "teacherId": 24503,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4309
+      ]
+    },
+    {
+      "equipId": 150508,
+      "teacherId": 24503,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4405,
+        4400
+      ]
+    },
+    {
+      "equipId": 150508,
+      "teacherId": 24503,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4505
+      ]
+    },
+    {
+      "equipId": 250504,
+      "teacherId": 24504,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4120
+      ]
+    },
+    {
+      "equipId": 250504,
+      "teacherId": 24504,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4205,
+        4200
+      ]
+    },
+    {
+      "equipId": 250504,
+      "teacherId": 24504,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4308
+      ]
+    },
+    {
+      "equipId": 250504,
+      "teacherId": 24504,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4405,
+        4400
+      ]
+    },
+    {
+      "equipId": 250504,
+      "teacherId": 24504,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4505
+      ]
+    },
+    {
+      "equipId": 150604,
+      "teacherId": 24601,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4123
+      ]
+    },
+    {
+      "equipId": 150604,
+      "teacherId": 24601,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4206,
+        4200
+      ]
+    },
+    {
+      "equipId": 150604,
+      "teacherId": 24601,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4306
+      ]
+    },
+    {
+      "equipId": 150604,
+      "teacherId": 24601,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4406,
+        4400
+      ]
+    },
+    {
+      "equipId": 150604,
+      "teacherId": 24601,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4506
+      ]
+    },
+    {
+      "equipId": 150606,
+      "teacherId": 24602,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4125
+      ]
+    },
+    {
+      "equipId": 150606,
+      "teacherId": 24602,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4206,
+        4200
+      ]
+    },
+    {
+      "equipId": 150606,
+      "teacherId": 24602,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4303
+      ]
+    },
+    {
+      "equipId": 150606,
+      "teacherId": 24602,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4406,
+        4400
+      ]
+    },
+    {
+      "equipId": 150606,
+      "teacherId": 24602,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4506
+      ]
+    },
+    {
+      "equipId": 150608,
+      "teacherId": 24603,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4126
+      ]
+    },
+    {
+      "equipId": 150608,
+      "teacherId": 24603,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4206,
+        4200
+      ]
+    },
+    {
+      "equipId": 150608,
+      "teacherId": 24603,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4309
+      ]
+    },
+    {
+      "equipId": 150608,
+      "teacherId": 24603,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4406,
+        4400
+      ]
+    },
+    {
+      "equipId": 150608,
+      "teacherId": 24603,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4506
+      ]
+    },
+    {
+      "equipId": 250604,
+      "teacherId": 24604,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4124
+      ]
+    },
+    {
+      "equipId": 250604,
+      "teacherId": 24604,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4206,
+        4200
+      ]
+    },
+    {
+      "equipId": 250604,
+      "teacherId": 24604,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4306
+      ]
+    },
+    {
+      "equipId": 250604,
+      "teacherId": 24604,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4406,
+        4400
+      ]
+    },
+    {
+      "equipId": 250604,
+      "teacherId": 24604,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4506
+      ]
+    },
+    {
+      "equipId": 150704,
+      "teacherId": 24701,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4127
+      ]
+    },
+    {
+      "equipId": 150704,
+      "teacherId": 24701,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4207,
+        4200
+      ]
+    },
+    {
+      "equipId": 150704,
+      "teacherId": 24701,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4306
+      ]
+    },
+    {
+      "equipId": 150704,
+      "teacherId": 24701,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4407,
+        4400
+      ]
+    },
+    {
+      "equipId": 150704,
+      "teacherId": 24701,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4507
+      ]
+    },
+    {
+      "equipId": 150706,
+      "teacherId": 24702,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4128
+      ]
+    },
+    {
+      "equipId": 150706,
+      "teacherId": 24702,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4207,
+        4200
+      ]
+    },
+    {
+      "equipId": 150706,
+      "teacherId": 24702,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4307
+      ]
+    },
+    {
+      "equipId": 150706,
+      "teacherId": 24702,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4407,
+        4400
+      ]
+    },
+    {
+      "equipId": 150706,
+      "teacherId": 24702,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4507
+      ]
+    },
+    {
+      "equipId": 150708,
+      "teacherId": 24703,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4129
+      ]
+    },
+    {
+      "equipId": 150708,
+      "teacherId": 24703,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4207,
+        4200
+      ]
+    },
+    {
+      "equipId": 150708,
+      "teacherId": 24703,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4309
+      ]
+    },
+    {
+      "equipId": 150708,
+      "teacherId": 24703,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4407,
+        4400
+      ]
+    },
+    {
+      "equipId": 150708,
+      "teacherId": 24703,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4507
+      ]
+    },
+    {
+      "equipId": 150804,
+      "teacherId": 24801,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4130
+      ]
+    },
+    {
+      "equipId": 150804,
+      "teacherId": 24801,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4208,
+        4200
+      ]
+    },
+    {
+      "equipId": 150804,
+      "teacherId": 24801,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4305
+      ]
+    },
+    {
+      "equipId": 150804,
+      "teacherId": 24801,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4408,
+        4400
+      ]
+    },
+    {
+      "equipId": 150804,
+      "teacherId": 24801,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4508
+      ]
+    },
+    {
+      "equipId": 150808,
+      "teacherId": 24802,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4133
+      ]
+    },
+    {
+      "equipId": 150808,
+      "teacherId": 24802,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4208,
+        4200
+      ]
+    },
+    {
+      "equipId": 150808,
+      "teacherId": 24802,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4304
+      ]
+    },
+    {
+      "equipId": 150808,
+      "teacherId": 24802,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4408,
+        4400
+      ]
+    },
+    {
+      "equipId": 150808,
+      "teacherId": 24802,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4508
+      ]
+    },
+    {
+      "equipId": 150806,
+      "teacherId": 24803,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4132
+      ]
+    },
+    {
+      "equipId": 150806,
+      "teacherId": 24803,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4208,
+        4200
+      ]
+    },
+    {
+      "equipId": 150806,
+      "teacherId": 24803,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4308
+      ]
+    },
+    {
+      "equipId": 150806,
+      "teacherId": 24803,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4408,
+        4400
+      ]
+    },
+    {
+      "equipId": 150806,
+      "teacherId": 24803,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4508
+      ]
+    },
+    {
+      "equipId": 250804,
+      "teacherId": 24804,
+      "level": 1,
+      "channel": "formal",
+      "effectIds": [
+        4131
+      ]
+    },
+    {
+      "equipId": 250804,
+      "teacherId": 24804,
+      "level": 2,
+      "channel": "formal",
+      "effectIds": [
+        4208,
+        4200
+      ]
+    },
+    {
+      "equipId": 250804,
+      "teacherId": 24804,
+      "level": 3,
+      "channel": "formal",
+      "effectIds": [
+        4305
+      ]
+    },
+    {
+      "equipId": 250804,
+      "teacherId": 24804,
+      "level": 4,
+      "channel": "prerelease",
+      "effectIds": [
+        4408,
+        4400
+      ]
+    },
+    {
+      "equipId": 250804,
+      "teacherId": 24804,
+      "level": 5,
+      "channel": "prerelease",
+      "effectIds": [
+        4508
+      ]
+    }
+  ]
+}

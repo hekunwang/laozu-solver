@@ -34,9 +34,15 @@ module.exports=function patchSolverNeighborPool({app,worker,change}){
   }
 
   for(const main of [true,false]){
-    const source=change(main?app:worker,
+    let source=change(main?app:worker,
       'awBaseAttribute(a.rawBase[attr],a.starMultiplier,a.baseBonusMultiplier[attr])*(1+values[pct]/10000)',
       'awBaseAttribute(a.rawBase[attr],a.starMultiplier,a.baseBonusMultiplier[attr]+values[pct]/10000)');
+    // The isolated two-piece estimate includes both form and element auras.
+    // a and b are separate physical pieces even when they share one profile.
+    source=change(source,
+      'for(const buff of b.adjBuffs)if(buff.elementMask&a.elementBit)values[buff.attrIndex]+=buff.value;',
+      `for(const buff of b.adjBuffs)if(buff.elementMask&a.elementBit)values[buff.attrIndex]+=buff.value;
+      for(const buff of b.globalBuffs)if(awGlobalMatches(buff,a)){const index=ctx.attrIndex.get(buff.attr);if(index!==undefined)values[index]+=buff.value;}`);
     if(main)app=source;else worker=source;
   }
   return {app,worker};

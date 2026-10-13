@@ -1,45 +1,91 @@
 {
-  "source": "live-2609241624-daily/text-assets-data",
+  "resourceVersion": "2609291708",
+  "channel": "formal",
+  "source": "official-2609291708",
   "tables": {
     "WanderingEquip": {
       "file": "-4833120086416829051-WanderingEquip",
       "rows": 385,
-      "sha256": "5b32e8a1acadaf0ab8ec03faf46344bb5525fc20a72e398d073d807c7285423d"
+      "sha256": "5b32e8a1acadaf0ab8ec03faf46344bb5525fc20a72e398d073d807c7285423d",
+      "jsonSha256": "b89587ebff3fdeb029a9fe7e8648ba0a92ed8c78eb555461d65be4cc18e64cd5"
     },
     "WanderingEquipSlot": {
       "file": "-1326809531308283760-WanderingEquipSlot",
       "rows": 163,
-      "sha256": "b735b5fe6c426f2d7e1658da26b5171a8dcc6033822358e74d096b36bc73ac8b"
+      "sha256": "b735b5fe6c426f2d7e1658da26b5171a8dcc6033822358e74d096b36bc73ac8b",
+      "jsonSha256": "54eefcb583dbb430073270939b7efb72f88896e3985cde603062cd810d9d4112"
     },
     "WanderingEquipSkill": {
       "file": "8798056100292098181-WanderingEquipSkill",
       "rows": 313,
-      "sha256": "e1f0c52f22bef54863f371b713f032364ddf340a240d3f7e24a2a477ed788d5f"
+      "sha256": "e1f0c52f22bef54863f371b713f032364ddf340a240d3f7e24a2a477ed788d5f",
+      "jsonSha256": "31ce2d1c7765d3f908c3daaabee7db0778788d958ba7f27c347b19c2171173ba"
     },
     "Teacher": {
       "file": "-3522409001809722970-Teacher",
       "rows": 80,
-      "sha256": "d5ed207353d1c6e5b47a6319a329cecf5a46e00f0f9a1196215c4bf17d659ea1"
+      "sha256": "d5ed207353d1c6e5b47a6319a329cecf5a46e00f0f9a1196215c4bf17d659ea1",
+      "jsonSha256": "a8026b3826492b94860444ee3d68d391710185c726aa1228eeb5b196393a1c54"
     },
     "TeacherAwakening": {
       "file": "-7884253873344861855-TeacherAwakening",
       "rows": 400,
-      "sha256": "b58749b55b2e25ec4957652f14142a635405fddc0b0a82229f3a53bf9df3bb31"
+      "sha256": "089b23e3ae7ab8702d977da9bcd78e367a434cbb35c6858d54fc527bb326887f",
+      "jsonSha256": "02890d4085dbf248a92b45c80cbbeb8b53df02748637f345ed5e62ca89dbf5a2"
     },
     "TeacherAwakeningLevel": {
       "file": "-7133239195774968083-TeacherAwakeningLevel",
       "rows": 100,
-      "sha256": "d5046b4513d5fde6ca8103feabf4257749f30b39540995031d039dfbabf6fb14"
+      "sha256": "d5046b4513d5fde6ca8103feabf4257749f30b39540995031d039dfbabf6fb14",
+      "jsonSha256": "7aab6a3ed2f2db597bae55ad8ba59150025e3aa7c42d14c3b79bb5fae8985c6a"
     },
     "TeacherAwakenEffect": {
       "file": "-3319907647202158888-TeacherAwakenEffect",
       "rows": 222,
-      "sha256": "6a26af8dba9df36980396801a6d91c3c612ae0c19aff038d32b1b97c9b27f09d"
+      "sha256": "7178b54faaf8a153eb47f768fbca961321784a4abd733409b7f8e2297da76d32",
+      "jsonSha256": "9a19414e7176e4b3df86ff5c13f40065b3b177e6d5ca6a085ce6cbd8b01ee9dd"
     },
     "Attribute": {
       "file": "8790558368658632-Attribute",
       "rows": 465,
-      "sha256": "7db535773cd805ca43d46a94e169d2a6695689b85c77b49265c659227fd5f3c3"
+      "sha256": "7db535773cd805ca43d46a94e169d2a6695689b85c77b49265c659227fd5f3c3",
+      "jsonSha256": "ca64fe80c02ab3c23192c6acb908c856f9c04309986e11e7f1ef86faf6d104ec"
+    },
+    "Ability": {
+      "file": "914992205244235452-Ability",
+      "rows": 664,
+      "sha256": "309b94dbc9b9eb376b4d3623cf2b50723d1b9eada22d5918a9ce77f01c8f653d",
+      "jsonSha256": "28c3976c40ae6a4533771923ff7e6e1fbe7882b2753e9ac58eb823cd57e5541d"
+    },
+    "WanderingEquipCompose": {
+      "file": "8692017759835970771-WanderingEquipCompose",
+      "rows": 302,
+      "sha256": "775e7976f10c9b7f8dfaf3c8ac6eeecf1c1d03a17d8735939bda2e695d7e051a",
+      "jsonSha256": "5e92fbd1fbd5cc51614022561cd39f546874b0b1e74cbde323738941da28ad86"
+    },
+    "WanderScore": {
+      "file": "-116060381417468093-WanderScore",
+      "rows": 55,
+      "sha256": "c940c331756cbe826204cba0b7fa97faf943fc562cbd83c78565480c831db748",
+      "jsonSha256": "7f87aa33aeb08db211a9fd7500c2c66e943fcdc7865d4645896d754033cec087"
+    },
+    "TeacherStarAffect": {
+      "file": "8721879621647939746-TeacherStarAffect",
+      "rows": 92,
+      "sha256": "2ead462a88ed65bd45f72e5ded8b297dabe139d48ca8df1d9ad0f668ad081c65",
+      "jsonSha256": "1c05a1ea8117609ad6cbd11c70f2f4cd6dbc304d4455d585d4f204bede70a4e1"
+    },
+    "BattleSkill": {
+      "file": "-2791601497097961693-BattleSkill",
+      "rows": 2549,
+      "sha256": "7d0c6eaf2b5c37bc37d87109d7151d5c0f818abc6407285358d835448757a815",
+      "jsonSha256": "6a0ae7ae06e2c9d6297478cbb9160e7fb3d4788745ad522f2619e514f4f5afce"
+    },
+    "TextDesc": {
+      "file": "4271161918151018053-TextDesc",
+      "rows": 259,
+      "sha256": "a7c3372bd3534768d1317533c217f040bc32f8c4eaaf7d0f53ecfdb487c7fb5d",
+      "jsonSha256": "e8ad7700cdfab979d2389aff656fff3d56d0c53a423ff27525d9dcbefe717334"
     }
   }
 }

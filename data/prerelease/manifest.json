@@ -1,0 +1,19 @@
+{
+  "resourceVersion": "2610092018",
+  "channel": "prerelease",
+  "scope": "Only awakening levels 4 and 5; lower levels and base catalog use formal 2609291708",
+  "tables": {
+    "Teacher": {
+      "jsonSha256": "a8026b3826492b94860444ee3d68d391710185c726aa1228eeb5b196393a1c54"
+    },
+    "TeacherAwakening": {
+      "jsonSha256": "c4cd75f0ddd541d44ba15568f9b0ef706980b7d4cab21081adeb3ea70cf7a734"
+    },
+    "TeacherAwakenEffect": {
+      "jsonSha256": "25ea61afa60286a1e2f619d626786a886ec36fedd01428c82a729da2201d9bc0"
+    },
+    "WanderingEquipSkill": {
+      "jsonSha256": "0e37fbb1ed6bcaf564d2b4980c8e7a3fb2959c885438048a7abcc6c0b41630c6"
+    }
+  }
+}

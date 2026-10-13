@@ -25,7 +25,7 @@ function bl(){
         r('select',{'aria-label':eq.name+'第'+(copy+1)+'件觉醒等级',class:level?'elder-select on':'elder-select',value:String(level),disabled:data.maxLevel===0,onChange:event=>awSetCopy(eq.id,copy,Number(event.target.value)),children:Array.from({length:data.maxLevel+1},(_,lv)=>r('option',{value:String(lv),children:lv?'觉醒 '+lv:'未觉醒'},lv))}),
         r('span',{class:data.maxLevel===0?'warn small':'muted small',children:data.maxLevel===0?'官方快照暂无觉醒配置':level?Array.from({length:level},(_,i)=>'觉醒'+(i+1)+'：'+(data.levels[i+1]?.description||'')).join('；'):'此件未觉醒'})]},eq.id+':'+copy);
     }))}):r('p',{class:'muted small',children:'添加长老红宝后，可逐件选择觉醒等级。'}),
-    r(v0,{children:'觉醒三保留觉醒一、二效果；技能升级按官方完整技能列表替换，不重复叠加旧值。同名红宝逐件设置；长老星级仍共享。增加的件默认未觉醒，减少数量时从最后一件移除。已选列表的三围预览以第1件为准，摆盘按每件实际等级计算。形态光环叠加与游戏面板的乘算顺序仍待核对。四、五级尚未开放。'})]});
+    r(v0,{children:'支持逐件觉醒 0–5；四、五觉配置来自 2610092018 先遣资源预适配，正式服开放后需核对。技能升级按完整技能列表替换，不重复叠加旧值。同名红宝逐件设置；长老星级仍共享。新增法宝默认未觉醒；摆盘按每件实际等级计算，已选列表三围预览以第1件为准。缺少官方配置的等级不可选。'})]});
 }
 `;
   app=change(app,app.slice(start,end),panel);

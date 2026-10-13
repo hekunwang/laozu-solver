@@ -5,13 +5,16 @@ const AW_GLYPHS={
   // The game uses a narrow 1 without a bottom foot, unlike a generic font.
   1:['#### ','#####','#####','  ###','  ###','  ###','  ###','  ###','  ###','  ###','  ###','  ###','  ###','  ###','  ###','   ##'],
   2:['     ##    ','   ######  ',' ########  ',' ###  #### ',' ##    ### ','###    ### ',' #     ### ','      ###  ','      ###  ','     ###   ','    ####   ','   ####    ','  ####     ',' ####      ',' ######### ','###########',' ######### '],
-  3:['    ##    ','  ######  ',' ######## ',' ##    ## ',' ##    ## ','       ## ','      ### ','    ####  ','    ##### ','      ####','       ###','        ##','##     ###','####  ####',' ######## ','  ######  ']
+  3:['    ##    ','  ######  ',' ######## ',' ##    ## ',' ##    ## ','       ## ','      ### ','    ####  ','    ##### ','      ####','       ###','        ##','##     ###','####  ####',' ######## ','  ######  '],
+  // Digits 4/5 sampled from the original Unity renderer, native white strokes.
+  4:["       ####   ","      ######  ","      ######  ","     #######  ","     #######  ","    ###  ###  ","   ###   ###  ","   ###   ###  ","  ###    ###  ","  ###    ###  "," ###     ###  "," ###    ####  ","##############","##############","##############","        ####  ","         ###  ","         ###  ","         ###  "],
+  5:["   ######## ","  ##########","  ##########","  ###       ","  ###       ","  ###       ","  ###       "," #########  "," ########## ","  ###  #####","        ####","         ###","         ###","         ###","        ####","##      ####","####  ##### ","########### "," #########  ","     #      "]
 };
 function awColorFamily(rgb){
   const [r,g,b]=rgb,max=Math.max(r,g,b),min=Math.min(r,g,b),delta=max-min;
   if(max<100||delta<50||delta/max<.27)return 0;
   const hue=((max===r?(g-b)/delta:max===g?(b-r)/delta+2:(r-g)/delta+4)*60+360)%360;
-  return hue>=245&&hue<=310?3:hue>=170&&hue<=235?2:hue>=70&&hue<=165?1:0;
+  return hue>=245&&hue<=310?3:hue>=170&&hue<=235?2:hue>=70&&hue<=165?1:hue>=25&&hue<70?4:hue>=320?5:0;
 }
 function awComponents(width,height,predicate,gap=1){
   const seen=new Uint8Array(width*height),out=[];
@@ -119,23 +122,60 @@ function awRecognizeBitmap(bitmap,grid,piece){
   if(![pw,ph,x,y,width,height].every(Number.isFinite)||pw<24||ph<24||x<0||y<0||x+width>bitmap.w||y+height>bitmap.h)return result(null,0,'uncertain');
   const rgb=(cx,cy)=>bitmap.px(x+cx,y+cy);
   // Keep a purple flame separate from adjacent blue/green equipment artwork.
-  const colored=[1,2,3].flatMap(family=>awComponents(width,height,(cx,cy)=>awColorFamily(rgb(cx,cy))===family));
+  // Orange/red equipment backgrounds share the new flame hues. A real new
+  // badge is enclosed inside the search box; an edge-connected background
+  // component is not flame evidence and must not turn unawakened into unknown.
+  const flameColors=(gap=1,bright=false)=>(bright?[4,5]:[1,2,3,4,5]).flatMap(family=>awComponents(width,height,(cx,cy)=>{
+    const pixel=rgb(cx,cy);
+    if(awColorFamily(pixel)!==family)return false;
+    if(!bright)return true;
+    const max=Math.max(...pixel),min=Math.min(...pixel);
+    return max>=200&&(max-min)/max>=.45;
+  },gap)
+    .filter(c=>family<4||(c.points.length>=8&&c.width>=pw*.11&&c.height>=ph*.19&&c.x>0&&c.y>0&&c.x+c.width<width&&c.y+c.height<height)));
+  const colored=flameColors();
   // Equipment artwork can enter the broad search box at its top/left edge.
   // Only the flame body can establish color evidence for an unreadable badge.
   const bodyColorPixels=colored.reduce((n,c)=>n+c.points.filter(([px,py])=>
     x+px>=left+.75*pw&&y+py>=top+.30*ph&&y+py<=top+.65*ph).length,0);
+  // New flames can merge with similarly colored artwork or a blurred digit.
+  // Keep their bright, saturated core as negative evidence for level zero,
+  // independently of the enclosed components used to read a digit. This
+  // guard never assigns 4/5 from color alone.
+  let newBadgeCorePixels=0,newBadgeZeroRiskPixels=0;
+  for(let py=0;py<height;py++)for(let px=0;px<width;px++){
+    if(x+px<left+.68*pw||x+px>=left+pw||y+py<top+.30*ph||y+py>top+.65*ph)continue;
+    const pixel=rgb(px,py),max=Math.max(...pixel),min=Math.min(...pixel);
+    if(awColorFamily(pixel)>=4&&max>=215&&(max-min)/max>=.55){
+      newBadgeZeroRiskPixels++;
+      if(x+px>=left+.75*pw)newBadgeCorePixels++;
+    }
+  }
+  const hasNewBadgeCore=newBadgeCorePixels>=Math.max(3,pw*ph*.001);
+  // A slightly shifted grid can move the flame left of the reading core.
+  // This wider guard only prevents a false zero; it cannot enable 4/5 recovery.
+  const hasNewBadgeZeroRisk=newBadgeZeroRiskPixels>=Math.max(3,pw*ph*.001);
   const candidates=[];let hasFlameShape=false,hasDigitEvidence=false,hasConflictingDigit=false;
   // JPEG can split tiny flame outlines and dim the antialiased digit edge.
   // Keep the original pass first; only unresolved small badges get a second
   // pass bridging at most two missing pixels in the colored outline.
-  for(const smallPass of [false,...(pw<=80&&ph<=80?[true]:[])]){
-  if(smallPass&&hasConflictingDigit)break;
-  const colors=smallPass?[1,2,3].flatMap(family=>awComponents(width,height,(cx,cy)=>awColorFamily(rgb(cx,cy))===family,3)):colored;
+  const smallBadge=pw<=80&&ph<=80;
+  // Compression can join a 4/5 flame to darker equipment art of the same hue.
+  // After both original passes fail, separate its bright saturated body. Keep
+  // the same enclosed-component, glyph-score, margin and color-agreement tests.
+  // The independent bright-core guard is required; neither color nor a broken
+  // digit can establish a level through this recovery path.
+  for(const pass of [{small:false,bright:false},...(smallBadge?[{small:true,bright:false}]:[]),
+      {small:false,bright:true},...(smallBadge?[{small:true,bright:true}]:[])]){
+  const smallPass=pass.small;
+  if((smallPass||pass.bright)&&hasConflictingDigit)break;
+  if(pass.bright&&!hasNewBadgeCore)break;
+  const colors=pass.bright?flameColors(smallPass?3:1,true):(smallPass?flameColors(3):colored);
   for(const color of colors){
     const cx=(x+color.x+color.width/2-left)/pw,cy=(y+color.y+color.height/2-top)/ph;
     if(color.points.length<Math.max(8,pw*ph*.005)||color.width<pw*.11||color.width>pw*.48||color.height<ph*.19||color.height>ph*.63||cx<.68||cx>1.03||cy<.28||cy>.65)continue;
     hasFlameShape=true;
-    const familyCounts=[0,0,0,0];for(const [px,py]of color.points)familyCounts[awColorFamily(rgb(px,py))]++;
+    const familyCounts=[0,0,0,0,0,0];for(const [px,py]of color.points)familyCounts[awColorFamily(rgb(px,py))]++;
     const family=familyCounts.indexOf(Math.max(...familyCounts));
     const glyphs=awComponents(width,height,(px,py)=>{
       // One side of a tiny flame may be disconnected across the digit's dark
@@ -151,7 +191,11 @@ function awRecognizeBitmap(bitmap,grid,piece){
       // core. Erased or dimmed digits must still require manual confirmation.
       if(smallPass&&glyph.points.filter(([px,py])=>Math.min(...rgb(px,py))>205).length<5)continue;
       const scores=Object.entries(AW_GLYPHS).map(([level,rows])=>({level:Number(level),score:awGlyphScore(glyph,rows)})).sort((a,b)=>b.score-a.score);
-      const best=scores[0],margin=best.score-scores[1].score;
+      const best=scores[0];
+      // New templates below the existing absolute acceptance threshold cannot
+      // invalidate a previously separated 1–3 glyph merely as weak runners-up.
+      const runner=best.level<=3?scores.slice(1).find(s=>s.level<=3||s.score>=.72):scores[1];
+      const margin=best.score-(runner?.score??0);
       // Normalizing a three-pixel-wide 1 can resemble a 3. The wider digits
       // must retain their width; flame color cannot resolve a collapsed glyph.
       if(glyph.height<14&&best.level>1&&glyph.width/glyph.height<.4)continue;
@@ -168,7 +212,7 @@ function awRecognizeBitmap(bitmap,grid,piece){
   // Missing color cannot establish level zero in a low-resolution or very
   // dark crop. In the latter case the flame may have fallen below the color
   // threshold too, so leave it for manual confirmation.
-  if(!hasDigitEvidence&&pw>=45&&ph>=45){
+  if(!hasDigitEvidence&&!hasNewBadgeZeroRisk&&pw>=45&&ph>=45){
     let luminance=0;
     for(let cy=0;cy<height;cy++)for(let cx=0;cx<width;cx++){
       const [r,g,b]=rgb(cx,cy);luminance+=.2126*r+.7152*g+.0722*b;

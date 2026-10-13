@@ -25,11 +25,12 @@ if (catalogStart < 0 || catalogEnd < 2) throw new Error('Catalog anchor missing'
 app = app.slice(0, catalogStart) + `const z=${JSON.stringify(catalog)}` + app.slice(catalogEnd);
 const shared = `
 const AWDB=${JSON.stringify(awakening)};
+function awGlobalMatches(buff,eq){return (buff.form==null||buff.form===eq.weaponForm)&&(buff.element==null||buff.element===eq.element);}
 function awEffects(eq,level){
   if(Number.isInteger(eq.awakenLevel))level=eq.awakenLevel;
   const data=AWDB[eq.id],out={baseBonus:{},skillIds:null,globalBuffs:[]};
   if(!data)return out;
-  const limit=Math.min(data.maxLevel??3,Math.max(0,Number(level)||0));
+  const limit=Math.min(data.maxLevel??5,Math.max(0,Number(level)||0));
   for(let lv=1;lv<=limit;lv++){
     const row=data.levels[lv];if(!row)continue;
     for(const [attr,value]of Object.entries(row.baseBonus||{}))out.baseBonus[attr]=(out.baseBonus[attr]||0)+value;
@@ -63,8 +64,8 @@ const globalBase={};
 for(let source=0;source<e.length;source++){
   const sourceEq=a.get(e[source].equipId);
   for(const buff of awEffects(sourceEq,s.awaken?.[sourceEq.id]||0).globalBuffs){
-    if(buff.form!==I.weaponForm||(buff.excludeSource&&source===h))continue;
-    const basic={2004:2001,2005:2002,2006:2003}[buff.attr]??buff.attr;globalBase[basic]=(globalBase[basic]||0)+buff.value;S.push({attr:buff.attr,attrName:i(buff.attr),value:buff.value,kind:'neighbor',skillId:0,skillName:'觉醒光环',skillDesc:'背包内指定形态法宝基础属性提升',fromName:e[source].name});
+    if(!awGlobalMatches(buff,I)||(buff.excludeSource&&source===h))continue;
+    const basic={2004:2001,2005:2002,2006:2003}[buff.attr]??buff.attr;globalBase[basic]=(globalBase[basic]||0)+buff.value;S.push({attr:buff.attr,attrName:i(buff.attr),value:buff.value,kind:'neighbor',skillId:0,skillName:'觉醒光环',skillDesc:buff.element==null?'背包内指定形态法宝基础属性提升':'背包内指定属性法宝基础属性提升',fromName:e[source].name});
   }
 }
 const N=k=>l1(I,E,s.talents,k,I.base.find(M=>M.attr===k)?.value??0,s.awaken?.[I.id]||0,(globalBase[k]||0)/de)`);
@@ -80,9 +81,9 @@ worker = change(worker, 'profiles:p,equipIndexById:u', 'profiles:p,hasGlobal:p.s
 app = change(app, 'recomputeSlots(e,s=e.length){for', 'recomputeSlots(e,s=e.length){if(this.ctx.hasGlobal){this.recomputeAll();return;}for');
 worker = change(worker, 'recomputeSlots(t,e=t.length){for', 'recomputeSlots(t,e=t.length){if(this.ctx.hasGlobal){this.recomputeAll();return;}for');
 app = change(app, 'const u=s.profiles[c];n.fill(0);', `const u=s.profiles[c];n.fill(0);const globalBase=new Float64Array(i);
-if(s.hasGlobal)for(let source=0;source<a.length;source++){const profile=a[source];if(profile===W)continue;for(const buff of s.profiles[profile].globalBuffs){if(buff.form===u.weaponForm&&!(buff.excludeSource&&source===e)){const index=s.attrIndex.get({2004:2001,2005:2002,2006:2003}[buff.attr]??buff.attr);if(index!==undefined)globalBase[index]+=buff.value;}}}`);
+if(s.hasGlobal)for(let source=0;source<a.length;source++){const profile=a[source];if(profile===W)continue;for(const buff of s.profiles[profile].globalBuffs){if(awGlobalMatches(buff,u)&&!(buff.excludeSource&&source===e)){const index=s.attrIndex.get({2004:2001,2005:2002,2006:2003}[buff.attr]??buff.attr);if(index!==undefined)globalBase[index]+=buff.value;}}}`);
 worker = change(worker, 'const u=e.profiles[p];o.fill(0);', `const u=e.profiles[p];o.fill(0);const globalBase=new Float64Array(r);
-if(e.hasGlobal)for(let source=0;source<s.length;source++){const profile=s[source];if(profile===-1)continue;for(const buff of e.profiles[profile].globalBuffs){if(buff.form===u.weaponForm&&!(buff.excludeSource&&source===t)){const index=e.attrIndex.get({2004:2001,2005:2002,2006:2003}[buff.attr]??buff.attr);if(index!==undefined)globalBase[index]+=buff.value;}}}`);
+if(e.hasGlobal)for(let source=0;source<s.length;source++){const profile=s[source];if(profile===-1)continue;for(const buff of e.profiles[profile].globalBuffs){if(awGlobalMatches(buff,u)&&!(buff.excludeSource&&source===t)){const index=e.attrIndex.get({2004:2001,2005:2002,2006:2003}[buff.attr]??buff.attr);if(index!==undefined)globalBase[index]+=buff.value;}}}`);
 for(const attr of ['Atk','Def','Hp']){
   app=change(app,`u.base[s.i${attr}]*(1+n[s.i${attr}Pct]/de)`,`Math.floor(u.rawBase[s.i${attr}]*(1+(u.baseBonusMultiplier[s.i${attr}]+globalBase[s.i${attr}]/de)))*(1+n[s.i${attr}Pct]/de)`);
   worker=change(worker,`u.base[e.i${attr}]*(1+o[e.i${attr}Pct]/E)`,`Math.floor(u.rawBase[e.i${attr}]*(1+(u.baseBonusMultiplier[e.i${attr}]+globalBase[e.i${attr}]/E)))*(1+o[e.i${attr}Pct]/E)`);
@@ -119,7 +120,10 @@ app=require('./patch-mobile-import.cjs')({app,change});
 app=require('./patch-grid-speed.cjs')({app,change});
 app=require('./patch-grid-recovery.cjs')({app,change});
 app=require('./patch-grid-sampling-v2.cjs')({app,change});
+app=require('./patch-grid-lattice.cjs')({app,change});
 app=require('./patch-interaction.cjs')({app,change});
+app=change(app,'法宝生效，加成与长老星级相加后向下取整。',
+  '法宝生效。长老星级先单独计算基础属性；天赋与觉醒、光环及邻接属性加成合并相加，再按游戏取整规则计算。');
 app = change(app, '__LOCAL_WORKER__', JSON.stringify(worker));
 new vm.Script(worker, { filename: 'embedded-solver-worker.js' });
 new vm.Script(app, { filename: 'app.js' });

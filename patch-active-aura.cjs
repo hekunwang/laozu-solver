@@ -5,7 +5,7 @@ module.exports = function patchActiveAura({app, worker, change}) {
   const shared = `
 class AwActiveAura {
   constructor(scoring){
-    this.scoring=scoring;this.byForm=new Map;this.deltas=new Map;this.changed=new Set;
+    this.scoring=scoring;this.byScope=new Map;this.deltas=new Map;this.changed=new Set;
     this.zero=new Float64Array(scoring.nAttrs);this.scratch=new Float64Array(scoring.nAttrs);
     this.marked=new Uint8Array(scoring.slotEquip.length);this.dirty=new Int32Array(scoring.slotEquip.length);
     this.count=0;this.batch=0;this.activeSources=0;
@@ -14,14 +14,15 @@ class AwActiveAura {
       for(const buff of profile.globalBuffs){
         const attr=scoring.ctx.attrIndex.get(({2004:2001,2005:2002,2006:2003})[buff.attr]??buff.attr);
         if(attr===undefined)continue;
-        buffs.push({form:buff.form,attr,value:buff.value});
-        if(!this.byForm.has(buff.form)){
-          this.byForm.set(buff.form,new Float64Array(scoring.nAttrs));
-          this.deltas.set(buff.form,new Float64Array(scoring.nAttrs));
+        const scope=buff.element==null?'form:'+buff.form:'element:'+buff.element;
+        buffs.push({scope,attr,value:buff.value});
+        if(!this.byScope.has(scope)){
+          this.byScope.set(scope,new Float64Array(scoring.nAttrs));
+          this.deltas.set(scope,new Float64Array(scoring.nAttrs));
         }
-        if(buff.excludeSource&&buff.form===profile.weaponForm)exclude.push({attr,value:buff.value});
+        if(buff.excludeSource&&awGlobalMatches(buff,profile))exclude.push({attr,value:buff.value});
       }
-      return {form:profile.weaponForm,buffs,exclude};
+      return {scopes:['form:'+profile.weaponForm,'element:'+profile.element],buffs,exclude};
     });
     for(const profile of scoring.slotEquip)if(profile>=0)this.update(profile,1);
   }
@@ -29,15 +30,16 @@ class AwActiveAura {
     const buffs=this.profiles[profile].buffs;
     if(buffs.length)this.activeSources+=direction;
     for(const buff of buffs){
-      this.byForm.get(buff.form)[buff.attr]+=direction*buff.value;
-      this.deltas.get(buff.form)[buff.attr]+=direction*buff.value;
-      this.changed.add(buff.form);
+      this.byScope.get(buff.scope)[buff.attr]+=direction*buff.value;
+      this.deltas.get(buff.scope)[buff.attr]+=direction*buff.value;
+      this.changed.add(buff.scope);
     }
   }
   baseFor(profile){
-    const data=this.profiles[profile],base=this.byForm.get(data.form)||this.zero;
-    if(!data.exclude.length)return base;
-    this.scratch.set(base);
+    const data=this.profiles[profile],form=this.byScope.get(data.scopes[0]),element=this.byScope.get(data.scopes[1]);
+    if(!data.exclude.length&&(!form||!element))return form||element||this.zero;
+    this.scratch.set(form||this.zero);
+    if(element)for(let i=0;i<element.length;i++)this.scratch[i]+=element[i];
     for(const buff of data.exclude)this.scratch[buff.attr]-=buff.value;
     return this.scratch;
   }
@@ -45,7 +47,7 @@ class AwActiveAura {
   reset(){
     for(let i=0;i<this.count;i++)this.marked[this.dirty[i]]=0;
     this.count=0;
-    for(const form of this.changed)this.deltas.get(form).fill(0);
+    for(const scope of this.changed)this.deltas.get(scope).fill(0);
     this.changed.clear();
   }
   recompute(slots,count){
@@ -53,11 +55,11 @@ class AwActiveAura {
     if(this.batch)return;
     const scoring=this.scoring;
     // A remove/place move has no net aura change. Removing the last source does.
-    for(const form of this.changed){
-      if(!this.deltas.get(form).some(value=>value!==0))continue;
+    for(const scope of this.changed){
+      if(!this.deltas.get(scope).some(value=>value!==0))continue;
       for(let slot=0;slot<scoring.slotEquip.length;slot++){
         const profile=scoring.slotEquip[slot];
-        if(profile>=0&&this.profiles[profile].form===form)this.mark(slot);
+        if(profile>=0&&this.profiles[profile].scopes.includes(scope))this.mark(slot);
       }
     }
     for(let i=0;i<this.count;i++){

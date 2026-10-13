@@ -15,7 +15,7 @@ module.exports=function patchAwakeningImport({app,change,recognizerSource,zeroSa
 const AW_ZERO_SAMPLES=${JSON.stringify(zeroSamples)};
 ${recognizerSource}
 function awScreenshotIsRed(piece){return piece.status!=='suspect'&&(piece.equip?.quality===5||piece.candidates?.some(eq=>eq.quality===5));}
-function awScreenshotLevelValid(level){return Number.isInteger(level)&&level>=0&&level<=3;}
+function awScreenshotLevelValid(level){return Number.isInteger(level)&&level>=0&&level<=5;}
 function awAttachScreenshot(bitmap,result){
   for(const piece of result.pieces){
     if(!awScreenshotIsRed(piece))continue;
@@ -45,13 +45,15 @@ function awImportMetadata(eq,piece,index,copies){
 }
 function awImportAwaken(layout){
   const levels={};for(const piece of layout.pieces){
-    if(!AWDB[piece.equipId])continue;
-    if(!awScreenshotLevelValid(piece.awakenLevel))throw new Error('截图觉醒等级尚未确认');
+    const data=AWDB[piece.equipId];
+    if(!data){if(piece.awakenPending||piece.awakenLevel!=null&&piece.awakenLevel!==0)throw new Error('截图觉醒等级尚未确认或暂不支持');continue;}
+    if(piece.awakenPending||!awScreenshotLevelValid(piece.awakenLevel)||piece.awakenLevel>(data.maxLevel??0))throw new Error('截图觉醒等级尚未确认或暂不支持');
     (levels[piece.equipId]??=[])[piece.copyIndex]=piece.awakenLevel;
   }return awValidate(levels);
 }
 function awSetScreenshotLevel(index,level){
-  const result=v1.value;if(!result||!awScreenshotLevelValid(level))return;
+  const result=v1.value;if(!result||!awScreenshotLevelValid(level)||!result.pieces[index]||!awScreenshotIsRed(result.pieces[index]))return;
+  const eq=awScreenshotEquip(result,index);if(eq&&!awScreenshotSupported(eq,level))return;
   v1.value={...result,pieces:result.pieces.map((piece,i)=>i===index?{...piece,awakenLevel:level,awakenConfidence:1,awakenStatus:'recognized',awakenManual:true}:piece)};
 }
 function awScreenshotBox(box){
@@ -69,10 +71,10 @@ function awImportControls({result}){
   if(!items.length)return null;
   return r(R,{children:[r('h3',{children:'逐件觉醒 · 可手动校正'}),r('p',{class:'muted small',children:'同名两件分别识别。看不清的角标必须选定等级后才能导入；不自动按未觉醒计算。'}),r('div',{class:'elder-rows',children:items.map(({piece,index})=>{
     const eq=awScreenshotEquip(result,index),valid=eq?awScreenshotSupported(eq,piece.awakenLevel)&&piece.awakenStatus!=='uncertain':awScreenshotLevelValid(piece.awakenLevel)&&piece.awakenStatus!=='uncertain';
-    const name=eq?.name??piece.candidates.map(candidate=>candidate.name).join(' / '),missing=eq&&!AWDB[eq.id]?.maxLevel;
+    const name=eq?.name??piece.candidates.map(candidate=>candidate.name).join(' / '),missing=eq&&!AWDB[eq.id]?.maxLevel,maxLevel=eq?Math.max(0,Math.min(5,AWDB[eq.id]?.maxLevel??0)):5,unsupported=eq&&awScreenshotLevelValid(piece.awakenLevel)&&!awScreenshotSupported(eq,piece.awakenLevel);
     return r('div',{class:'elder-row',children:[r(awScreenshotCrop,{piece}),r('span',{class:'name',children:name+' · 位置 ('+(piece.row+1)+','+(piece.col+1)+')'}),
-      r('select',{'aria-label':'截图第'+(index+1)+'件觉醒等级',class:valid?'elder-select on':'elder-select',value:valid?String(piece.awakenLevel):'',onChange:event=>{if(event.target.value!=='')awSetScreenshotLevel(index,Number(event.target.value));},children:[r('option',{value:'',disabled:true,children:'待确认'}),...Array.from({length:4},(_,level)=>r('option',{value:String(level),children:level?'觉醒 '+level:'未觉醒'},level))]}),
-      r('span',{class:valid?'muted small':'warn small',children:valid?(piece.awakenManual?'已手动确认':piece.awakenLevel===0?'未觉醒 · 已识别':'识别为觉醒 '+piece.awakenLevel+' · '+Math.round(piece.awakenConfidence*100)+'%'):(missing?'此法宝暂无官方觉醒数据；非零等级目前不能导入':'觉醒角标不确定，请先选择等级')})]},index);
+      r('select',{'aria-label':'截图第'+(index+1)+'件觉醒等级',class:valid?'elder-select on':'elder-select',value:valid?String(piece.awakenLevel):'',onChange:event=>{if(event.target.value!=='')awSetScreenshotLevel(index,Number(event.target.value));},children:[r('option',{value:'',disabled:true,children:'待确认'}),...Array.from({length:maxLevel+1},(_,level)=>r('option',{value:String(level),children:level?'觉醒 '+level:'未觉醒'},level))]}),
+      r('span',{class:valid?'muted small':'warn small',children:valid?(piece.awakenManual?'已手动确认':piece.awakenLevel===0?'未觉醒 · 已识别':'识别为觉醒 '+piece.awakenLevel+' · '+Math.round(piece.awakenConfidence*100)+'%'):(unsupported?'识别为觉醒 '+piece.awakenLevel+'，此法宝暂不支持该等级':missing?'此法宝暂无官方觉醒数据；非零等级目前不能导入':'觉醒角标不确定，请先选择等级')})]},index);
   })})]});
 }
 `;
@@ -80,6 +82,13 @@ function awImportControls({result}){
   // and before the first importer component. No identifiers depend on order
   // beyond runtime access to the existing signals and canvas.
   app=change(app,'function ol(){',helpers+'\nfunction ol(){');
+  // Identity choices already determine the importable list. Reflect the same
+  // resolution on the preview; awakening uncertainty remains independent.
+  app=change(app,'for(const I of u.pieces)if(I.status==="suspect")',
+    'for(const [pieceIndex,I] of u.pieces.entries())if(I.status==="suspect")');
+  app=change(app,'else if(I.status==="ambiguous"&&I.cells)',
+    'else if(I.status==="ambiguous"&&I.cells&&!awScreenshotEquip(u,pieceIndex))');
+  app=change(app,'n.length>0&&r("p",{class:"ok small",children:["歧义红宝已自动认出，无需选择：",n.join("、")]}),','');
   app=change(app,'const e=Jr(V.bitmap,t);re.value=e.grid;',
     'const e=awAttachScreenshot(V.bitmap,Jr(V.bitmap,t));re.value=e.grid;');
   app=change(app,'const e={},s=new Map,a=[],n=[];let l=0;const i=new Map;',
