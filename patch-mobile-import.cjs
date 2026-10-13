@@ -45,6 +45,9 @@ function importPreviewTools(){return r('div',{class:'import-preview-tools',child
   app=change(app,'let ge=null;function rl(){',helpers+'\nlet ge=null;function rl(){');
   app=change(app,'ht=async t=>{N1.value=null,me.value=',
     'ht=async t=>{N1.value=null,importPreviewExpanded.value=false,me.value=');
+  // Subscribe both the bitmap preview and its SVG overlay to resize updates.
+  // Updating the dialog alone does not invalidate these signal-tracked children.
+  app=change(app,'$a=()=>{','$a=()=>{F0.value;');
   app=change(app,'const t=document.querySelector(".import-dialog");if(!t)return As;const e=getComputedStyle(t),s=t.clientWidth-parseFloat(e.paddingLeft)-parseFloat(e.paddingRight);return Math.min(As,Math.max(120,s))',
     `const t=document.querySelector('.import-scroll')||document.querySelector('.import-dialog');if(!t)return As;const e=getComputedStyle(t),s=t.clientWidth-parseFloat(e.paddingLeft)-parseFloat(e.paddingRight);if(window.innerWidth<=700&&!importPreviewExpanded.value&&V){const maxHeight=Math.max(200,Math.min(380,window.innerHeight*.46));return Math.max(96,Math.min(s*.68,s-80,maxHeight*V.bitmap.w/V.bitmap.h));}return Math.min(As,Math.max(120,s))`);
 

@@ -1,6 +1,6 @@
 # 老祖法宝模拟器 · 觉醒版
 
-更新日期：2026-10-11。原作者：[fradwow/laozu-solver](https://github.com/fradwow/laozu-solver)，基线提交 `c3f12d16cc95e1ceb8509cf62296653bba075729`。原仓库公开单文件构建产物，没有原始前端工程。本地以确定性的补丁脚本继续维护，保留作者署名、原版界面、截图识别、背包编辑、方案保存、多线程退火和主线程回退。
+更新日期：2026-10-13。原作者：[fradwow/laozu-solver](https://github.com/fradwow/laozu-solver)，基线提交 `c3f12d16cc95e1ceb8509cf62296653bba075729`。原仓库公开单文件构建产物，没有原始前端工程。本地以确定性的补丁脚本继续维护，保留作者署名、原版界面、截图识别、背包编辑、方案保存、多线程退火和主线程回退。
 
 ## 打开
 
@@ -9,6 +9,46 @@
 双击本目录的 `打开法宝模拟器.command`，或直接用浏览器打开 `index.html`。网页包含全部脚本、数据和 Worker，可离线运行，无须安装依赖或登录游戏。收藏、持有清单和觉醒等级保存在当前浏览器的本地存储；换浏览器或地址不会自动同步。
 
 可选本地预览：在本目录执行 `node serve.cjs`，打开 <http://127.0.0.1:18764>。仅监听本机。
+
+## 2026-10-13 更新
+
+### 1. 公式更改
+
+修正长老星级与属性加成的叠加关系：星级单独计算倍率；对应属性的天赋、觉醒基础加成、形态光环及邻接百分比合并相加。攻击、防御、生命各自计算，预览、详细计分、主线程、Worker 和搜索收益估算同步。
+
+对单件法宝的任一基础属性，设：
+
+- `B`：法宝原始属性；`s`：对应长老星级的加成比例。
+- `t`：该属性的天赋加成；`a`：该件法宝当前觉醒等级的基础属性加成。
+- `g`：实际生效、匹配该法宝的形态光环加成之和；`n`：实际触发的邻接属性百分比之和。
+- 百分比先换成比例，例如 20% 写作 `0.20`；不适用的加成为 0。
+
+公式为：
+
+`星级基础 = floor(B × (1 + s))`
+
+`合并加成 = t + a + g + n`
+
+`最终属性 ≈ 星级基础 × (1 + 合并加成)`，再按下面的单精度规则取整。
+
+实际实现（正属性路径）明确保留分阶段取整：
+
+```js
+const starBase = Math.floor(B * (1 + s));
+const pool = t + a + g + n;
+const boosted = Math.fround(
+  Math.fround(starBase) * Math.fround(1 + Math.fround(pool))
+);
+const finalAttribute = Math.trunc(Math.fround(boosted + 0.5));
+```
+
+长老星级加成仅对有对应长老配置的红色法宝生效；按该法宝配置读取不超过所选星级的最高档，普通法宝不受影响，不同长老的加成档位也可能不同。
+
+例如「燧火传薪」原始攻击 93，长老 4 星加成 100%，觉醒 2 的基础加成 20%，且无其他加成时：先算 `floor(93 × 2) = 186`，再算 `186 × 1.2` 并按上述规则取整，得到攻击 **223**；同条件防御为 **31**、生命为 **12720**。
+
+伤害、暴击增伤等独立通道不并入这个攻防血加成池。此处更新的是法宝模型，界面的模型分不等于弟子完整面板战力。已覆盖的星级、觉醒、邻接和光环组合通过主线程/Worker 一致性及已保存游戏观测对照；未覆盖的游戏取整边界仍待验证。
+
+### 2. 优化识别速度
 
 ## 2026-10-11 更新
 
@@ -34,7 +74,7 @@
 
 ## 维护与重建
 
-`upstream.html` 和 `upstream-bundle.js` 保留原版；`build-catalog.py` 从已解码官方表构建目录和觉醒数据；`patch-upstream.cjs` 将这些数据接入原版网页与内嵌 Worker；`patch-instance-engine.cjs` 与 `patch-instance-ui.cjs` 处理逐件觉醒、保存和角标；`patch-active-aura.cjs` 维护当前光环缓存；`patch-solver-search.cjs`、`patch-solver-core.cjs` 和 `patch-solver-incumbent.cjs` 维护重排搜索、核心邻接引导与已有方案沿用；`patch-recognition-samples.cjs` 接入 `data/recognition-samples.json` 的外观样本；`awakening-recognizer.js` 与 `patch-awakening-import.cjs` 接入 `data/awakening-zero-samples.json` 并处理截图识别和确认；`patch-mobile-import.cjs` 和 `mobile-ui.css` 维护截图导入的移动端布局；`patch-interaction.cjs` 维护更新日志、默认时长与计算结束跳转；`build.cjs` 输出独立 `index.html`。补丁遇到基线结构变化会报错，不会静默套用。
+`upstream.html` 和 `upstream-bundle.js` 保留原版；`build-catalog.py` 从已解码官方表构建目录和觉醒数据；`patch-upstream.cjs` 将这些数据接入原版网页与内嵌 Worker；`patch-instance-engine.cjs` 与 `patch-instance-ui.cjs` 处理逐件觉醒、保存和角标；`patch-active-aura.cjs` 维护当前光环缓存；`patch-solver-search.cjs`、`patch-solver-core.cjs` 和 `patch-solver-incumbent.cjs` 维护重排搜索、核心邻接引导与已有方案沿用；`patch-recognition-samples.cjs` 接入 `data/recognition-samples.json` 的外观样本；`awakening-recognizer.js` 与 `patch-awakening-import.cjs` 接入 `data/awakening-zero-samples.json` 并处理截图识别和确认；`patch-mobile-import.cjs` 和 `mobile-ui.css` 维护截图导入的移动端布局；`patch-solver-star-multiplier.cjs` 和 `patch-solver-neighbor-pool.cjs` 维护星级与属性加成公式；`patch-grid-speed.cjs`、`patch-grid-recovery.cjs` 和 `patch-grid-sampling-v2.cjs` 维护网格定位与采样；`patch-interaction.cjs` 维护更新日志、默认时长与计算结束跳转；`build.cjs` 输出独立 `index.html`。补丁遇到基线结构变化会报错，不会静默套用。
 
 ```sh
 # 已包含目录数据；更新配置表时才需用已选定的 Python 3 解释器运行 build-catalog.py。
