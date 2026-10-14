@@ -50,6 +50,43 @@ function awGlyphScore(component,rows){
   }
   return a+b?2*both/(a+b):0;
 }
+const AW_SOFT_GLYPH_CACHE=new Map();
+function awSoftGlyphScores(glyph,rgb){
+  // A tiny antialiased stroke is not binary: clipping its gray edge can turn
+  // a 3 into a broken 1/2. Compare native grayscale against area-resampled
+  // masks, with only a quarter-pixel phase allowance. No new digit templates.
+  const width=glyph.width,height=glyph.height,key=width+'x'+height;
+  let templates=AW_SOFT_GLYPH_CACHE.get(key);
+  if(!templates){
+    templates=Object.entries(AW_GLYPHS).map(([level,rows])=>{
+      const tw=Math.max(...rows.map(row=>row.length)),th=rows.length,phases=[];
+      for(const dy of [-.25,0,.25])for(const dx of [-.25,0,.25]){
+        const values=new Float64Array(width*height);let sum=0;
+        for(let y=0;y<height;y++)for(let x=0;x<width;x++){
+          const x0=(x+dx)*tw/width,x1=(x+1+dx)*tw/width,y0=(y+dy)*th/height,y1=(y+1+dy)*th/height;let ink=0;
+          for(let sy=Math.floor(y0);sy<Math.ceil(y1);sy++)for(let sx=Math.floor(x0);sx<Math.ceil(x1);sx++){
+            if(rows[sy]?.[sx]==='#')ink+=(Math.min(x1,sx+1)-Math.max(x0,sx))*(Math.min(y1,sy+1)-Math.max(y0,sy));
+          }
+          const value=ink/((x1-x0)*(y1-y0));values[y*width+x]=value;sum+=value;
+        }
+        const mean=sum/values.length;let norm=0;
+        for(let i=0;i<values.length;i++){values[i]-=mean;norm+=values[i]*values[i];}
+        norm=Math.sqrt(norm)||1;for(let i=0;i<values.length;i++)values[i]/=norm;
+        phases.push(values);
+      }
+      return {level:Number(level),phases};
+    });
+    // Lazy, bounded cache: ordinary successful readings never build it.
+    if(AW_SOFT_GLYPH_CACHE.size>=64)AW_SOFT_GLYPH_CACHE.delete(AW_SOFT_GLYPH_CACHE.keys().next().value);
+    AW_SOFT_GLYPH_CACHE.set(key,templates);
+  }
+  const values=new Float64Array(width*height);let sum=0;
+  for(let y=0;y<height;y++)for(let x=0;x<width;x++){const value=Math.min(...rgb(glyph.x+x,glyph.y+y));values[y*width+x]=value;sum+=value;}
+  const mean=sum/values.length;let norm=0;
+  for(let i=0;i<values.length;i++){values[i]-=mean;norm+=values[i]*values[i];}
+  norm=Math.sqrt(norm);if(!norm)return [];
+  return templates.map(({level,phases})=>({level,score:Math.max(...phases.map(template=>{let dot=0;for(let i=0;i<values.length;i++)dot+=values[i]*template[i];return dot/norm;}))})).sort((a,b)=>b.score-a.score);
+}
 function awZeroSignature(bitmap,box,columns=8,rows=8){
   const signature=[];
   for(let row=0;row<rows;row++)for(let col=0;col<columns;col++){
@@ -112,6 +149,39 @@ function awMatchesZeroSample(bitmap,box,piece,small=false){
   }
   return false;
 }
+// Before a would-be zero result, a readable 4/5 digit can contradict absence
+// of a flame in the usual body region. A small vertical grid shift can leave
+// only its upper tip; a genuinely grayscale crop can remove its hue entirely.
+// Require independent digit geometry and strokes; never assign a level here.
+function awHasUnresolvedBadge(bitmap,grid,cell,box){
+  const {pw,ph}=grid,left=grid.ox+cell.col*pw,top=grid.oy+cell.row*ph;
+  const counts=[0,0,0,0,0,0],minimum=Math.max(3,pw*ph*.001);let achromatic=true;
+  const x0=Math.max(box.x,Math.ceil(left+.68*pw)),x1=Math.min(box.x+box.width,Math.ceil(left+pw));
+  const y0=Math.max(box.y,Math.ceil(top+.20*ph)),y1=Math.min(box.y+box.height,Math.ceil(top+.30*ph));
+  for(let y=y0;y<y1;y++)for(let x=x0;x<x1;x++){
+    const pixel=bitmap.px(x,y),max=Math.max(...pixel),min=Math.min(...pixel),family=awColorFamily(pixel);
+    if(max!==min)achromatic=false;
+    if(family>=4&&max>=215&&(max-min)/max>=.55)counts[family]++;
+  }
+  if(counts[4]<minimum&&counts[5]<minimum&&!achromatic)return false;
+  // Reuse the original small-digit antialias pass, including its bright core.
+  for(const smallPass of [false,...(pw<=80&&ph<=80?[true]:[])]){
+  const glyphs=awComponents(box.width,box.height,(x,y)=>{
+    const ax=box.x+x,ay=box.y+y;
+    if(ax<x0||ax>=x1||ay<top+.25*ph||ay>top+.70*ph)return false;
+    const pixel=bitmap.px(ax,ay);return Math.min(...pixel)>(smallPass?190:205)&&Math.max(...pixel)-Math.min(...pixel)<45;
+  });
+  for(const glyph of glyphs){
+    const cx=(box.x+glyph.x+glyph.width/2-left)/pw,cy=(box.y+glyph.y+glyph.height/2-top)/ph;
+    if(glyph.height<Math.max(5,ph*.09)||glyph.height>ph*.30||glyph.width<pw*.025||glyph.width>pw*.25||glyph.points.length<5||glyph.width/glyph.height<.4||cx<.75||cx>1||cy<.30||cy>.65)continue;
+    if(smallPass&&glyph.points.filter(([x,y])=>Math.min(...bitmap.px(box.x+x,box.y+y))>205).length<5)continue;
+    const scores=Object.entries(AW_GLYPHS).map(([level,rows])=>({level:Number(level),score:awGlyphScore(glyph,rows)})).sort((a,b)=>b.score-a.score);
+    const best=scores[0];
+    if(best.level>=4&&(counts[best.level]>=minimum||achromatic)&&best.score>=.72&&best.score-scores[1].score>=.065)return true;
+  }
+  }
+  return false;
+}
 function awRecognizeBitmap(bitmap,grid,piece){
   const cell=piece.numberCell;if(!cell||!grid||!bitmap)return {awakenLevel:null,awakenConfidence:0,awakenStatus:'uncertain'};
   const pw=grid.pw,ph=grid.ph,left=grid.ox+cell.col*pw,top=grid.oy+cell.row*ph;
@@ -160,28 +230,35 @@ function awRecognizeBitmap(bitmap,grid,piece){
   // Keep the original pass first; only unresolved small badges get a second
   // pass bridging at most two missing pixels in the colored outline.
   const smallBadge=pw<=80&&ph<=80;
+  let lastBrightColors;
   // Compression can join a 4/5 flame to darker equipment art of the same hue.
   // After both original passes fail, separate its bright saturated body. Keep
   // the same enclosed-component, glyph-score, margin and color-agreement tests.
   // The independent bright-core guard is required; neither color nor a broken
   // digit can establish a level through this recovery path.
   for(const pass of [{small:false,bright:false},...(smallBadge?[{small:true,bright:false}]:[]),
-      {small:false,bright:true},...(smallBadge?[{small:true,bright:true}]:[])]){
+      {small:false,bright:true},...(smallBadge?[{small:true,bright:true}]:[]),
+      {small:smallBadge,bright:true,extendBottom:true}]){
   const smallPass=pass.small;
   if((smallPass||pass.bright)&&hasConflictingDigit)break;
   if(pass.bright&&!hasNewBadgeCore)break;
-  const colors=pass.bright?flameColors(smallPass?3:1,true):(smallPass?flameColors(3):colored);
+  // A bright flame core may stop above the white digit baseline. Only
+  // after all original passes fail, allow a bounded lower crop extension.
+  // Reuse the last bright components; this does not rerun color extraction.
+  const colors=pass.extendBottom?lastBrightColors:pass.bright?flameColors(smallPass?3:1,true):(smallPass?flameColors(3):colored);
+  if(pass.bright&&!pass.extendBottom)lastBrightColors=colors;
   for(const color of colors){
     const cx=(x+color.x+color.width/2-left)/pw,cy=(y+color.y+color.height/2-top)/ph;
     if(color.points.length<Math.max(8,pw*ph*.005)||color.width<pw*.11||color.width>pw*.48||color.height<ph*.19||color.height>ph*.63||cx<.68||cx>1.03||cy<.28||cy>.65)continue;
     hasFlameShape=true;
     const familyCounts=[0,0,0,0,0,0];for(const [px,py]of color.points)familyCounts[awColorFamily(rgb(px,py))]++;
     const family=familyCounts.indexOf(Math.max(...familyCounts));
+    const glyphBottom=pass.extendBottom?Math.min(color.y+color.height+Math.ceil(ph*.10),top+.70*ph-y):color.y+color.height;
     const glyphs=awComponents(width,height,(px,py)=>{
       // One side of a tiny flame may be disconnected across the digit's dark
       // outline. Include its adjacent two pixels, keeping the center check.
       const pad=smallPass?2:0;
-      if(px<color.x-pad||px>=color.x+color.width+pad||py<color.y+color.height*.33||py>=color.y+color.height)return false;
+      if(px<color.x-pad||px>=color.x+color.width+pad||py<color.y+color.height*.33||py>=glyphBottom)return false;
       const pixel=rgb(px,py);return Math.min(...pixel)>(smallPass?190:205)&&Math.max(...pixel)-Math.min(...pixel)<45;
     });
     for(const glyph of glyphs){
@@ -192,6 +269,14 @@ function awRecognizeBitmap(bitmap,grid,piece){
       if(smallPass&&glyph.points.filter(([px,py])=>Math.min(...rgb(px,py))>205).length<5)continue;
       const scores=Object.entries(AW_GLYPHS).map(([level,rows])=>({level:Number(level),score:awGlyphScore(glyph,rows)})).sort((a,b)=>b.score-a.score);
       const best=scores[0];
+      // A lower color crop can cut the top off a connected white digit and
+      // make the remaining strokes resemble 4/5. Do not accept that fragment
+      // while a bright stroke is still connected just outside the crop.
+      const glyphTop=Math.ceil(color.y+color.height*.33);
+      if(best.level>=4&&glyph.y===glyphTop&&glyphTop>0&&glyph.points.some(([px,py])=>py===glyphTop&&[-1,0,1].some(dx=>{
+        const nx=px+dx;if(nx<0||nx>=width)return false;
+        const pixel=rgb(nx,py-1);return Math.min(...pixel)>(smallPass?190:205)&&Math.max(...pixel)-Math.min(...pixel)<45;
+      })))continue;
       // New templates below the existing absolute acceptance threshold cannot
       // invalidate a previously separated 1–3 glyph merely as weak runners-up.
       const runner=best.level<=3?scores.slice(1).find(s=>s.level<=3||s.score>=.72):scores[1];
@@ -209,15 +294,69 @@ function awRecognizeBitmap(bitmap,grid,piece){
   candidates.sort((a,b)=>b.confidence-a.confidence);
   if(candidates.length){const best=candidates[0];if(candidates.some(c=>c.level!==best.level&&best.confidence-c.confidence<.08))return result(null,best.confidence,'uncertain');return result(best.level,best.confidence,'recognized',{awakenGlyphBox:best.glyph});}
   }
+  // This fallback is confined to unresolved, small purple badges. A gray
+  // outline may complete the component, but at least five original bright
+  // stroke pixels and an independently separated grayscale digit are needed.
+  // Previously recognized 1–5 readings keep their original path and result;
+  // zero still needs the existing independent absence/background evidence.
+  if(smallBadge&&hasFlameShape)for(const color of colored){
+    const cx=(x+color.x+color.width/2-left)/pw,cy=(y+color.y+color.height/2-top)/ph;
+    if(color.points.length<Math.max(8,pw*ph*.005)||color.width<pw*.11||color.width>pw*.48||color.height<ph*.19||color.height>ph*.63||cx<.68||cx>1.03||cy<.28||cy>.65||awColorFamily(rgb(...color.points[0]))!==3)continue;
+    const glyphs=awComponents(width,height,(px,py)=>{
+      if(px<color.x-2||px>=color.x+color.width+2||py<color.y+color.height*.33||py>=color.y+color.height)return false;
+      const pixel=rgb(px,py);return Math.min(...pixel)>180&&Math.max(...pixel)-Math.min(...pixel)<45;
+    });
+    for(const glyph of glyphs){
+      const centerX=glyph.x+glyph.width/2,centerY=glyph.y+glyph.height/2;
+      if(glyph.height<Math.max(5,ph*.09)||glyph.height>Math.min(13,ph*.30)||glyph.width<pw*.025||glyph.width>pw*.25||glyph.width/glyph.height<.4||glyph.points.filter(([px,py])=>Math.min(...rgb(px,py))>205).length<5||Math.abs(centerX-(color.x+color.width/2))>pw*.11||centerY<color.y+color.height*.45)continue;
+      const scores=awSoftGlyphScores(glyph,rgb),best=scores[0],margin=best?.score-(scores[1]?.score??0);
+      if(best?.level!==3||best.score<.72||margin<.15)continue;
+      return result(3,Math.min(.99,.65+.30*best.score+.3*margin),'recognized',{awakenGlyphBox:{x:x+glyph.x,y:y+glyph.y,width:glyph.width,height:glyph.height}});
+    }
+  }
+  // The same antialiased reading can recover a split 2/5, a clipped 4, or
+  // a larger 3. Keep the old purple recovery first. Only unresolved shaped
+  // flames reach these bounded passes; color and all five digit masks must
+  // independently agree, with a stronger margin than the purple-only path.
+  if(hasFlameShape&&!hasConflictingDigit&&pw<=180&&ph<=180){
+    for(const pass of [{gap:1,extend:false},...(smallBadge?[{gap:2,extend:false}]:[]),{gap:1,extend:true}]){
+      for(const color of colored){
+        const family=awColorFamily(rgb(...color.points[0]));
+        const cx=(x+color.x+color.width/2-left)/pw,cy=(y+color.y+color.height/2-top)/ph;
+        if(family<2||color.points.length<Math.max(8,pw*ph*.005)||color.width<pw*.11||color.width>pw*.48||color.height<ph*.19||color.height>ph*.63||cx<.68||cx>1.03||cy<.28||cy>.65)continue;
+        // Extension is for a flame whose color ends above the digit baseline;
+        // it cannot include the white resonance disk below 70% of the cell.
+        if(pass.extend&&family!==4&&family!==5)continue;
+        const bottom=pass.extend?Math.min(color.y+color.height+Math.ceil(ph*.10),top+.70*ph-y):color.y+color.height;
+        const glyphs=awComponents(width,height,(px,py)=>{
+          if(px<color.x-2||px>=color.x+color.width+2||py<color.y+color.height*.33||py>=bottom)return false;
+          const pixel=rgb(px,py);return Math.min(...pixel)>180&&Math.max(...pixel)-Math.min(...pixel)<45;
+        },pass.gap);
+        for(const glyph of glyphs){
+          const centerX=glyph.x+glyph.width/2,centerY=glyph.y+glyph.height/2;
+          if(glyph.height<Math.max(5,ph*.09)||glyph.height>Math.min(28,ph*.30)||glyph.width<pw*.025||glyph.width>pw*.25||glyph.width/glyph.height<.4||glyph.points.filter(([px,py])=>Math.min(...rgb(px,py))>205).length<5||Math.abs(centerX-(color.x+color.width/2))>pw*.11||centerY<color.y+color.height*.45)continue;
+          const scores=awSoftGlyphScores(glyph,rgb),best=scores[0],margin=best?.score-(scores[1]?.score??0);
+          if(best?.level!==family||best.score<(family>=4?.82:.78)||margin<.20)continue;
+          return result(best.level,Math.min(.99,.65+.30*best.score+.3*margin),'recognized',{awakenGlyphBox:{x:x+glyph.x,y:y+glyph.y,width:glyph.width,height:glyph.height}});
+        }
+      }
+    }
+  }
   // Missing color cannot establish level zero in a low-resolution or very
   // dark crop. In the latter case the flame may have fallen below the color
   // threshold too, so leave it for manual confirmation.
-  if(!hasDigitEvidence&&!hasNewBadgeZeroRisk&&pw>=45&&ph>=45){
+  if(!hasDigitEvidence&&pw>=45&&ph>=45){
     let luminance=0;
     for(let cy=0;cy<height;cy++)for(let cx=0;cx<width;cx++){
       const [r,g,b]=rgb(cx,cy);luminance+=.2126*r+.7152*g+.0722*b;
     }
-    if(luminance/(width*height)>=80&&((!hasFlameShape&&bodyColorPixels<Math.max(5,pw*ph*.001))||awMatchesZeroSample(bitmap,awZeroSampleBox(box,grid,cell),piece,pw<=80&&ph<=80)))return result(0,.9,'none');
+    // Orange/red equipment art can itself trigger the 4/5 color guard. That
+    // guard still blocks absence-only zero, but a complete match to an old
+    // independently rendered zero corner is stronger evidence than hue.
+    if(luminance/(width*height)>=80&&((!hasNewBadgeZeroRisk&&!hasFlameShape&&bodyColorPixels<Math.max(5,pw*ph*.001))||awMatchesZeroSample(bitmap,awZeroSampleBox(box,grid,cell),piece,pw<=80&&ph<=80))){
+      if(awHasUnresolvedBadge(bitmap,grid,cell,box))return result(null,0,'uncertain');
+      return result(0,.9,'none');
+    }
   }
   return result(null,0,'uncertain');
 }

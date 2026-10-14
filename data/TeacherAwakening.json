@@ -53,7 +53,7 @@
     "iID": 22101,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 3,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -78,7 +78,7 @@
     "iID": 22101,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【蕴金戒】</color>",
     "iIcon": 4,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -103,10 +103,12 @@
     "iID": 22101,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻金系装备给本装备提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2501
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152101,
@@ -176,7 +178,7 @@
     "iID": 22102,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -201,7 +203,7 @@
     "iID": 22102,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【蕴金戒】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -226,10 +228,12 @@
     "iID": 22102,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻金系装备给本装备提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2502
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152102,
@@ -299,7 +303,7 @@
     "iID": 22201,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -324,7 +328,7 @@
     "iID": 22201,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【枯荣种】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -349,10 +353,12 @@
     "iID": 22201,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻木系装备给本装备提供120%生命值加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2503
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152201,
@@ -422,7 +428,7 @@
     "iID": 22202,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -447,7 +453,7 @@
     "iID": 22202,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【枯荣种】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -472,10 +478,12 @@
     "iID": 22202,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻木系装备给本装备提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2504
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152202,
@@ -545,7 +553,7 @@
     "iID": 22301,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -570,7 +578,7 @@
     "iID": 22301,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【流水散】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -595,10 +603,12 @@
     "iID": 22301,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻水系装备给本装备提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2505
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152301,
@@ -668,7 +678,7 @@
     "iID": 22302,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -693,7 +703,7 @@
     "iID": 22302,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【流水散】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -718,10 +728,12 @@
     "iID": 22302,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻水系装备给本装备提供120%生命值加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2506
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152302,
@@ -791,7 +803,7 @@
     "iID": 22401,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -816,7 +828,7 @@
     "iID": 22401,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【炎脉髓】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -841,10 +853,12 @@
     "iID": 22401,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻火系装备给本装备提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2507
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152401,
@@ -914,7 +928,7 @@
     "iID": 22402,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -939,7 +953,7 @@
     "iID": 22402,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【炎脉髓】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -964,10 +978,12 @@
     "iID": 22402,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻火系装备给本装备提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2508
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152402,
@@ -1037,7 +1053,7 @@
     "iID": 22501,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -1062,7 +1078,7 @@
     "iID": 22501,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【玄黄令】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -1087,10 +1103,12 @@
     "iID": 22501,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻土系装备给本装备提供200%防御加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2509
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152501,
@@ -1160,7 +1178,7 @@
     "iID": 22502,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -1185,7 +1203,7 @@
     "iID": 22502,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【玄黄令】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -1210,10 +1228,12 @@
     "iID": 22502,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻土系装备给本装备提供200%防御加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2510
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152502,
@@ -1283,7 +1303,7 @@
     "iID": 22601,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -1308,7 +1328,7 @@
     "iID": 22601,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【雷灵珠】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -1333,10 +1353,12 @@
     "iID": 22601,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻雷系装备给本装备提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2511
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152601,
@@ -1406,7 +1428,7 @@
     "iID": 22602,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -1431,7 +1453,7 @@
     "iID": 22602,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【雷灵珠】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -1456,10 +1478,12 @@
     "iID": 22602,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻雷系装备给本装备提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2512
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152602,
@@ -1529,7 +1553,7 @@
     "iID": 22701,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -1554,7 +1578,7 @@
     "iID": 22701,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【邪源珠】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -1579,10 +1603,12 @@
     "iID": 22701,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻邪系装备给本装备提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2513
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152701,
@@ -1652,7 +1678,7 @@
     "iID": 22702,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -1677,7 +1703,7 @@
     "iID": 22702,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【邪源珠】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -1702,10 +1728,12 @@
     "iID": 22702,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻邪系装备给本装备提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2514
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152702,
@@ -1775,7 +1803,7 @@
     "iID": 22801,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -1800,7 +1828,7 @@
     "iID": 22801,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【大力丸】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -1825,10 +1853,12 @@
     "iID": 22801,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻体系装备给本装备提供120%生命值加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2515
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152801,
@@ -1898,7 +1928,7 @@
     "iID": 22802,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "觉醒后本法宝攻防血提升至50%",
+    "szDes": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
@@ -1923,7 +1953,7 @@
     "iID": 22802,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#92d0dd>【大力丸】</color>",
     "iIcon": 5,
     "iExp": 40,
     "arrAwakenEffect": [
@@ -1948,10 +1978,12 @@
     "iID": 22802,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻体系装备给本装备提供200%防御加成",
     "iIcon": 5,
     "iExp": 50,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      2516
+    ],
     "iPower": 2500,
     "arrReduceGoods": [
       152802,
@@ -2047,11 +2079,12 @@
     "iID": 23101,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3401
+      3401,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -2072,10 +2105,12 @@
     "iID": 23101,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻金系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3501
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153101,
@@ -2171,11 +2206,12 @@
     "iID": 23102,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3401
+      3401,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -2196,10 +2232,12 @@
     "iID": 23102,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻金系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3503
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153102,
@@ -2295,11 +2333,12 @@
     "iID": 23103,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3401
+      3401,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -2320,10 +2359,12 @@
     "iID": 23103,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻金系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3504
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153103,
@@ -2419,11 +2460,12 @@
     "iID": 23104,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3401
+      3401,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -2444,10 +2486,12 @@
     "iID": 23104,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻金系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3502
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153104,
@@ -2543,11 +2587,12 @@
     "iID": 23201,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3402
+      3402,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -2568,10 +2613,12 @@
     "iID": 23201,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻木系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3505
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153201,
@@ -2667,11 +2714,12 @@
     "iID": 23202,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3402
+      3402,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -2692,10 +2740,12 @@
     "iID": 23202,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻木系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3507
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153202,
@@ -2791,11 +2841,12 @@
     "iID": 23203,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3402
+      3402,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -2816,10 +2867,12 @@
     "iID": 23203,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻木系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3508
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153203,
@@ -2915,11 +2968,12 @@
     "iID": 23204,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3402
+      3402,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -2940,10 +2994,12 @@
     "iID": 23204,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻木系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3506
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153204,
@@ -3039,11 +3095,12 @@
     "iID": 23301,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3403
+      3403,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -3064,10 +3121,12 @@
     "iID": 23301,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻水系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3509
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153301,
@@ -3163,11 +3222,12 @@
     "iID": 23302,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3403
+      3403,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -3188,10 +3248,12 @@
     "iID": 23302,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻水系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3511
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153302,
@@ -3287,11 +3349,12 @@
     "iID": 23303,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3403
+      3403,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -3312,10 +3375,12 @@
     "iID": 23303,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻水系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3513
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153303,
@@ -3411,11 +3476,12 @@
     "iID": 23304,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3403
+      3403,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -3436,10 +3502,12 @@
     "iID": 23304,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻水系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3512
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153304,
@@ -3535,11 +3603,12 @@
     "iID": 23401,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【炎脉髓】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3404
+      3404,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -3560,10 +3629,12 @@
     "iID": 23401,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻火系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3514
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153401,
@@ -3659,11 +3730,12 @@
     "iID": 23402,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【炎脉髓】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3404
+      3404,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -3684,10 +3756,12 @@
     "iID": 23402,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻火系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3516
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153402,
@@ -3783,11 +3857,12 @@
     "iID": 23403,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【炎脉髓】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3404
+      3404,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -3808,10 +3883,12 @@
     "iID": 23403,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻火系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3518
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153403,
@@ -3907,11 +3984,12 @@
     "iID": 23404,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【炎脉髓】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3404
+      3404,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -3932,10 +4010,12 @@
     "iID": 23404,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻火系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3515
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153404,
@@ -4031,11 +4111,12 @@
     "iID": 23501,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3405
+      3405,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -4056,10 +4137,12 @@
     "iID": 23501,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻土系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3519
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153501,
@@ -4155,11 +4238,12 @@
     "iID": 23502,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3405
+      3405,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -4180,10 +4264,12 @@
     "iID": 23502,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻土系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3522
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153502,
@@ -4279,11 +4365,12 @@
     "iID": 23503,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3405
+      3405,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -4304,10 +4391,12 @@
     "iID": 23503,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻土系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3521
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153503,
@@ -4403,11 +4492,12 @@
     "iID": 23504,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3405
+      3405,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -4428,10 +4518,12 @@
     "iID": 23504,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻土系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3520
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153504,
@@ -4527,11 +4619,12 @@
     "iID": 23601,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3406
+      3406,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -4552,10 +4645,12 @@
     "iID": 23601,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻雷系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3523
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153601,
@@ -4651,11 +4746,12 @@
     "iID": 23602,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3406
+      3406,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -4676,10 +4772,12 @@
     "iID": 23602,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻雷系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3525
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153602,
@@ -4775,11 +4873,12 @@
     "iID": 23603,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3406
+      3406,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -4800,10 +4899,12 @@
     "iID": 23603,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻雷系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3526
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153603,
@@ -4899,11 +5000,12 @@
     "iID": 23604,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3406
+      3406,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -4924,10 +5026,12 @@
     "iID": 23604,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻雷系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3524
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153604,
@@ -5023,11 +5127,12 @@
     "iID": 23701,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3407
+      3407,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -5048,10 +5153,12 @@
     "iID": 23701,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻邪系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3527
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153701,
@@ -5147,11 +5254,12 @@
     "iID": 23702,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3407
+      3407,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -5172,10 +5280,12 @@
     "iID": 23702,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻邪系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3528
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153702,
@@ -5271,11 +5381,12 @@
     "iID": 23703,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3407
+      3407,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -5296,10 +5407,12 @@
     "iID": 23703,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻邪系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3529
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153703,
@@ -5410,7 +5523,9 @@
     "szDes": "敬请期待",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      100
+    ],
     "iPower": 5000,
     "arrReduceGoods": [],
     "iReduceGoodsNum": 400,
@@ -5503,11 +5618,12 @@
     "iID": 23801,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3408
+      3408,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -5528,10 +5644,12 @@
     "iID": 23801,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻体系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3530
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153801,
@@ -5627,11 +5745,12 @@
     "iID": 23802,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3408
+      3408,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -5652,10 +5771,12 @@
     "iID": 23802,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻体系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3533
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153802,
@@ -5751,11 +5872,12 @@
     "iID": 23803,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3408
+      3408,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -5776,10 +5898,12 @@
     "iID": 23803,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻体系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3532
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153803,
@@ -5875,11 +5999,12 @@
     "iID": 23804,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
     "arrAwakenEffect": [
-      3408
+      3408,
+      3400
     ],
     "iPower": 3000,
     "arrReduceGoods": [
@@ -5900,10 +6025,12 @@
     "iID": 23804,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻体系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3531
+    ],
     "iPower": 5000,
     "arrReduceGoods": [
       153804,
@@ -5974,7 +6101,7 @@
     "iID": 24101,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -5999,7 +6126,7 @@
     "iID": 24101,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
@@ -6025,7 +6152,7 @@
     "iID": 24101,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有金属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -6101,7 +6228,7 @@
     "iID": 24102,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -6126,7 +6253,7 @@
     "iID": 24102,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
@@ -6152,7 +6279,7 @@
     "iID": 24102,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有金属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -6228,7 +6355,7 @@
     "iID": 24103,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -6253,7 +6380,7 @@
     "iID": 24103,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
@@ -6279,7 +6406,7 @@
     "iID": 24103,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有金属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -6355,7 +6482,7 @@
     "iID": 24104,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有枪、斗法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有枪、斗法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -6380,7 +6507,7 @@
     "iID": 24104,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【蕴金戒】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
@@ -6406,7 +6533,7 @@
     "iID": 24104,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有金属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -6482,7 +6609,7 @@
     "iID": 24201,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -6507,11 +6634,12 @@
     "iID": 24201,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4402
+      4402,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -6532,7 +6660,7 @@
     "iID": 24201,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有木属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -6608,7 +6736,7 @@
     "iID": 24202,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -6633,11 +6761,12 @@
     "iID": 24202,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4402
+      4402,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -6658,7 +6787,7 @@
     "iID": 24202,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有木属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -6734,7 +6863,7 @@
     "iID": 24203,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -6759,11 +6888,12 @@
     "iID": 24203,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4402
+      4402,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -6784,7 +6914,7 @@
     "iID": 24203,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有木属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -6860,7 +6990,7 @@
     "iID": 24204,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -6885,11 +7015,12 @@
     "iID": 24204,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【枯荣种】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4402
+      4402,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -6910,7 +7041,7 @@
     "iID": 24204,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有木属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -6986,7 +7117,7 @@
     "iID": 24301,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -7011,11 +7142,12 @@
     "iID": 24301,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4403
+      4403,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -7036,7 +7168,7 @@
     "iID": 24301,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有水属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -7112,7 +7244,7 @@
     "iID": 24302,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -7137,11 +7269,12 @@
     "iID": 24302,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4403
+      4403,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -7162,7 +7295,7 @@
     "iID": 24302,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有水属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -7238,7 +7371,7 @@
     "iID": 24303,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -7263,11 +7396,12 @@
     "iID": 24303,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4403
+      4403,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -7288,7 +7422,7 @@
     "iID": 24303,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有水属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -7364,7 +7498,7 @@
     "iID": 24304,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -7389,11 +7523,12 @@
     "iID": 24304,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【流水散】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4403
+      4403,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -7414,7 +7549,7 @@
     "iID": 24304,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有水属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -7490,7 +7625,7 @@
     "iID": 24401,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -7515,11 +7650,12 @@
     "iID": 24401,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【炎脉燧】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4404
+      4404,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -7540,7 +7676,7 @@
     "iID": 24401,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有火属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -7616,7 +7752,7 @@
     "iID": 24402,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -7641,11 +7777,12 @@
     "iID": 24402,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【炎脉燧】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4404
+      4404,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -7666,7 +7803,7 @@
     "iID": 24402,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有火属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -7742,7 +7879,7 @@
     "iID": 24403,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -7767,11 +7904,12 @@
     "iID": 24403,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【炎脉燧】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4404
+      4404,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -7792,7 +7930,7 @@
     "iID": 24403,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有火属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -7868,7 +8006,7 @@
     "iID": 24404,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -7893,11 +8031,12 @@
     "iID": 24404,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【炎脉燧】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4404
+      4404,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -7918,7 +8057,7 @@
     "iID": 24404,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有火属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -7994,7 +8133,7 @@
     "iID": 24501,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -8019,11 +8158,12 @@
     "iID": 24501,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4405
+      4405,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -8044,7 +8184,7 @@
     "iID": 24501,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有土属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -8120,7 +8260,7 @@
     "iID": 24502,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -8145,11 +8285,12 @@
     "iID": 24502,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4405
+      4405,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -8170,7 +8311,7 @@
     "iID": 24502,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有土属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -8246,7 +8387,7 @@
     "iID": 24503,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -8271,11 +8412,12 @@
     "iID": 24503,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4405
+      4405,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -8296,7 +8438,7 @@
     "iID": 24503,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有土属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -8372,7 +8514,7 @@
     "iID": 24504,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -8397,11 +8539,12 @@
     "iID": 24504,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【玄黄令】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4405
+      4405,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -8422,7 +8565,7 @@
     "iID": 24504,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有土属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -8498,7 +8641,7 @@
     "iID": 24601,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -8523,11 +8666,12 @@
     "iID": 24601,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4406
+      4406,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -8548,7 +8692,7 @@
     "iID": 24601,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有雷属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -8624,7 +8768,7 @@
     "iID": 24602,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -8649,11 +8793,12 @@
     "iID": 24602,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4406
+      4406,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -8674,7 +8819,7 @@
     "iID": 24602,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有雷属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -8750,7 +8895,7 @@
     "iID": 24603,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -8775,11 +8920,12 @@
     "iID": 24603,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4406
+      4406,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -8800,7 +8946,7 @@
     "iID": 24603,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有雷属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -8876,7 +9022,7 @@
     "iID": 24604,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -8901,11 +9047,12 @@
     "iID": 24604,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【雷灵珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4406
+      4406,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -8926,7 +9073,7 @@
     "iID": 24604,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有雷属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -9002,7 +9149,7 @@
     "iID": 24701,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -9027,11 +9174,12 @@
     "iID": 24701,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4407
+      4407,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -9052,7 +9200,7 @@
     "iID": 24701,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有邪属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -9128,7 +9276,7 @@
     "iID": 24702,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -9153,11 +9301,12 @@
     "iID": 24702,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4407
+      4407,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -9178,7 +9327,7 @@
     "iID": 24702,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有邪属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -9254,7 +9403,7 @@
     "iID": 24703,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -9279,11 +9428,12 @@
     "iID": 24703,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4407
+      4407,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -9304,7 +9454,7 @@
     "iID": 24703,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有邪属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -9374,7 +9524,7 @@
     "iID": 24704,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有同形态法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有同形态法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -9396,7 +9546,7 @@
     "iID": 24704,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后再额外返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升30%",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
@@ -9491,7 +9641,7 @@
     "iID": 24801,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -9516,11 +9666,12 @@
     "iID": 24801,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4408
+      4408,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -9541,7 +9692,7 @@
     "iID": 24801,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有体属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -9617,7 +9768,7 @@
     "iID": 24802,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -9642,11 +9793,12 @@
     "iID": 24802,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4408
+      4408,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -9667,7 +9819,7 @@
     "iID": 24802,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有体属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -9743,7 +9895,7 @@
     "iID": 24803,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -9768,11 +9920,12 @@
     "iID": 24803,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4408
+      4408,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -9793,7 +9946,7 @@
     "iID": 24803,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有体属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
@@ -9869,7 +10022,7 @@
     "iID": 24804,
     "iAwakenLevel": 3,
     "szName": "觉醒三",
-    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
@@ -9894,11 +10047,12 @@
     "iID": 24804,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【大力丸】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4408
+      4408,
+      4400
     ],
     "iPower": 6000,
     "arrReduceGoods": [
@@ -9919,7 +10073,7 @@
     "iID": 24804,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有体属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [

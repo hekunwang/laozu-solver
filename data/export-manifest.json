@@ -1,7 +1,7 @@
 {
-  "resourceVersion": "2609291708",
+  "resourceVersion": "2610131532",
   "channel": "formal",
-  "source": "official-2609291708",
+  "source": "official-2610131532",
   "tables": {
     "WanderingEquip": {
       "file": "-4833120086416829051-WanderingEquip",
@@ -17,9 +17,9 @@
     },
     "WanderingEquipSkill": {
       "file": "8798056100292098181-WanderingEquipSkill",
-      "rows": 313,
-      "sha256": "e1f0c52f22bef54863f371b713f032364ddf340a240d3f7e24a2a477ed788d5f",
-      "jsonSha256": "31ce2d1c7765d3f908c3daaabee7db0778788d958ba7f27c347b19c2171173ba"
+      "rows": 329,
+      "sha256": "3245c76fba1d3f50c561ff6e9f6cd4fef1e46a9036ac6340633a968c4431d9db",
+      "jsonSha256": "0e37fbb1ed6bcaf564d2b4980c8e7a3fb2959c885438048a7abcc6c0b41630c6"
     },
     "Teacher": {
       "file": "-3522409001809722970-Teacher",
@@ -30,8 +30,8 @@
     "TeacherAwakening": {
       "file": "-7884253873344861855-TeacherAwakening",
       "rows": 400,
-      "sha256": "089b23e3ae7ab8702d977da9bcd78e367a434cbb35c6858d54fc527bb326887f",
-      "jsonSha256": "02890d4085dbf248a92b45c80cbbeb8b53df02748637f345ed5e62ca89dbf5a2"
+      "sha256": "ca844c77c3402265a6f95dabe0284806df2f7157e44958c744be1f5e4d8b4177",
+      "jsonSha256": "c4cd75f0ddd541d44ba15568f9b0ef706980b7d4cab21081adeb3ea70cf7a734"
     },
     "TeacherAwakeningLevel": {
       "file": "-7133239195774968083-TeacherAwakeningLevel",
@@ -42,8 +42,8 @@
     "TeacherAwakenEffect": {
       "file": "-3319907647202158888-TeacherAwakenEffect",
       "rows": 222,
-      "sha256": "7178b54faaf8a153eb47f768fbca961321784a4abd733409b7f8e2297da76d32",
-      "jsonSha256": "9a19414e7176e4b3df86ff5c13f40065b3b177e6d5ca6a085ce6cbd8b01ee9dd"
+      "sha256": "8f4ec1d658e5a30d48acb960390c7f26fbf3d2bc05e4040a30b14c205efbe39f",
+      "jsonSha256": "25ea61afa60286a1e2f619d626786a886ec36fedd01428c82a729da2201d9bc0"
     },
     "Attribute": {
       "file": "8790558368658632-Attribute",
@@ -54,8 +54,8 @@
     "Ability": {
       "file": "914992205244235452-Ability",
       "rows": 664,
-      "sha256": "309b94dbc9b9eb376b4d3623cf2b50723d1b9eada22d5918a9ce77f01c8f653d",
-      "jsonSha256": "28c3976c40ae6a4533771923ff7e6e1fbe7882b2753e9ac58eb823cd57e5541d"
+      "sha256": "1c7c699d7ef76bd730bdb4a5c769995ce2ce410d7b46f305e8d9cc4694d8ca66",
+      "jsonSha256": "7b80a271da6a126476d7fdd323e5fd2bed4c9d55da13ae917d675bdc8ca0daa7"
     },
     "WanderingEquipCompose": {
       "file": "8692017759835970771-WanderingEquipCompose",
@@ -66,7 +66,7 @@
     "WanderScore": {
       "file": "-116060381417468093-WanderScore",
       "rows": 55,
-      "sha256": "c940c331756cbe826204cba0b7fa97faf943fc562cbd83c78565480c831db748",
+      "sha256": "a5b0aa3356410845e5799aa2ad18893ead92ae98ae371d1727d05fcbb2e1ea26",
       "jsonSha256": "7f87aa33aeb08db211a9fd7500c2c66e943fcdc7865d4645896d754033cec087"
     },
     "TeacherStarAffect": {
@@ -78,14 +78,20 @@
     "BattleSkill": {
       "file": "-2791601497097961693-BattleSkill",
       "rows": 2549,
-      "sha256": "7d0c6eaf2b5c37bc37d87109d7151d5c0f818abc6407285358d835448757a815",
-      "jsonSha256": "6a0ae7ae06e2c9d6297478cbb9160e7fb3d4788745ad522f2619e514f4f5afce"
+      "sha256": "bb3c5c390d635cdee44a106d8ae0d7e361096844e8f5abd728d7e123d6452869",
+      "jsonSha256": "1cd6b7dd343ff354450078e1756b5cddf5275a1900fc530f0e222b46be1bf716"
     },
     "TextDesc": {
       "file": "4271161918151018053-TextDesc",
-      "rows": 259,
-      "sha256": "a7c3372bd3534768d1317533c217f040bc32f8c4eaaf7d0f53ecfdb487c7fb5d",
-      "jsonSha256": "e8ad7700cdfab979d2389aff656fff3d56d0c53a423ff27525d9dcbefe717334"
+      "rows": 260,
+      "sha256": "1d87c763b53ddd45a8d03268d04c68129790e4ed2cf2392b46be8cdc1f8b32c7",
+      "jsonSha256": "f6731eb8f465c83ab7ca7858c91d62b5204f66f72e0ea83e550f963e4c2f0e73"
     }
+  },
+  "sourceEvidence": {
+    "versioninfoSha256": "f09ed4b806f64ac2abeeaa15ad7177777c621c0b6dd2b978a16174436fc7ed55",
+    "manifestUrl": "https://down-2165-cn.hnkx168.cn/xxjz/immortalfamily/publish/ver_2610131532/updatefileInfo.bin",
+    "manifestSha256": "2dbdb4fa97ed4b62bd5cbdb5e69d0be7ce29c80725bfb50634d768b1f7be08cb",
+    "auditedExtraction": "verification-formal45-20261014/extraction.json"
   }
 }

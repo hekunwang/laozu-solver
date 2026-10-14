@@ -121,9 +121,16 @@ app=require('./patch-grid-speed.cjs')({app,change});
 app=require('./patch-grid-recovery.cjs')({app,change});
 app=require('./patch-grid-sampling-v2.cjs')({app,change});
 app=require('./patch-grid-lattice.cjs')({app,change});
+app=require('./patch-grid-refine-speed.cjs')({app,change});
+app=require('./patch-recognition-element-recovery.cjs')({app,change});
+app=require('./patch-glyph-alignment.cjs')({app,change});
+app=require('./patch-recognition-compressed.cjs')({app,change});
 app=require('./patch-interaction.cjs')({app,change});
 app=change(app,'法宝生效，加成与长老星级相加后向下取整。',
   '法宝生效。长老星级先单独计算基础属性；天赋与觉醒、光环及邻接属性加成合并相加，再按游戏取整规则计算。');
+app=require('./patch-recognition-lifecycle.cjs')({app,change});
+app=require('./patch-recognition-unexplained.cjs')({app,change});
+app=require('./patch-recognition-adjudication.cjs')({app,change});
 app = change(app, '__LOCAL_WORKER__', JSON.stringify(worker));
 new vm.Script(worker, { filename: 'embedded-solver-worker.js' });
 new vm.Script(app, { filename: 'app.js' });

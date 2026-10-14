@@ -1,35 +1,33 @@
 {
-  "resourceVersion": "2609291708",
-  "channel": "formal-with-prerelease-awakening45",
-  "builtForDate": "2026-10-13",
-  "formalBaseVersion": "2609291708",
-  "prereleaseAwakening45Version": "2610092018",
+  "resourceVersion": "2610131532",
+  "channel": "formal",
+  "builtForDate": "2026-10-15",
+  "formalBaseVersion": "2610131532",
   "levelSources": {
-    "0-3": "formal",
-    "4-5": "prerelease"
-  },
-  "prereleaseSourceHashes": {
-    "Teacher.json": "a8026b3826492b94860444ee3d68d391710185c726aa1228eeb5b196393a1c54",
-    "TeacherAwakening.json": "c4cd75f0ddd541d44ba15568f9b0ef706980b7d4cab21081adeb3ea70cf7a734",
-    "TeacherAwakenEffect.json": "25ea61afa60286a1e2f619d626786a886ec36fedd01428c82a729da2201d9bc0",
-    "WanderingEquipSkill.json": "0e37fbb1ed6bcaf564d2b4980c8e7a3fb2959c885438048a7abcc6c0b41630c6"
+    "0-5": "formal"
   },
   "upstream": "https://github.com/fradwow/laozu-solver",
-  "sourceSnapshot": "official-2609291708",
+  "sourceSnapshot": "official-2610131532",
+  "sourceEvidence": {
+    "versioninfoSha256": "f09ed4b806f64ac2abeeaa15ad7177777c621c0b6dd2b978a16174436fc7ed55",
+    "manifestUrl": "https://down-2165-cn.hnkx168.cn/xxjz/immortalfamily/publish/ver_2610131532/updatefileInfo.bin",
+    "manifestSha256": "2dbdb4fa97ed4b62bd5cbdb5e69d0be7ce29c80725bfb50634d768b1f7be08cb",
+    "auditedExtraction": "verification-formal45-20261014/extraction.json"
+  },
   "sourceHashes": {
-    "Ability.json": "28c3976c40ae6a4533771923ff7e6e1fbe7882b2753e9ac58eb823cd57e5541d",
+    "Ability.json": "7b80a271da6a126476d7fdd323e5fd2bed4c9d55da13ae917d675bdc8ca0daa7",
     "Attribute.json": "ca64fe80c02ab3c23192c6acb908c856f9c04309986e11e7f1ef86faf6d104ec",
-    "BattleSkill.json": "6a0ae7ae06e2c9d6297478cbb9160e7fb3d4788745ad522f2619e514f4f5afce",
+    "BattleSkill.json": "1cd6b7dd343ff354450078e1756b5cddf5275a1900fc530f0e222b46be1bf716",
     "Teacher.json": "a8026b3826492b94860444ee3d68d391710185c726aa1228eeb5b196393a1c54",
-    "TeacherAwakenEffect.json": "9a19414e7176e4b3df86ff5c13f40065b3b177e6d5ca6a085ce6cbd8b01ee9dd",
-    "TeacherAwakening.json": "02890d4085dbf248a92b45c80cbbeb8b53df02748637f345ed5e62ca89dbf5a2",
+    "TeacherAwakenEffect.json": "25ea61afa60286a1e2f619d626786a886ec36fedd01428c82a729da2201d9bc0",
+    "TeacherAwakening.json": "c4cd75f0ddd541d44ba15568f9b0ef706980b7d4cab21081adeb3ea70cf7a734",
     "TeacherAwakeningLevel.json": "7aab6a3ed2f2db597bae55ad8ba59150025e3aa7c42d14c3b79bb5fae8985c6a",
     "TeacherStarAffect.json": "1c05a1ea8117609ad6cbd11c70f2f4cd6dbc304d4455d585d4f204bede70a4e1",
-    "TextDesc.json": "e8ad7700cdfab979d2389aff656fff3d56d0c53a423ff27525d9dcbefe717334",
+    "TextDesc.json": "f6731eb8f465c83ab7ca7858c91d62b5204f66f72e0ea83e550f963e4c2f0e73",
     "WanderScore.json": "7f87aa33aeb08db211a9fd7500c2c66e943fcdc7865d4645896d754033cec087",
     "WanderingEquip.json": "b89587ebff3fdeb029a9fe7e8648ba0a92ed8c78eb555461d65be4cc18e64cd5",
     "WanderingEquipCompose.json": "5e92fbd1fbd5cc51614022561cd39f546874b0b1e74cbde323738941da28ad86",
-    "WanderingEquipSkill.json": "31ce2d1c7765d3f908c3daaabee7db0778788d958ba7f27c347b19c2171173ba",
+    "WanderingEquipSkill.json": "0e37fbb1ed6bcaf564d2b4980c8e7a3fb2959c885438048a7abcc6c0b41630c6",
     "WanderingEquipSlot.json": "54eefcb583dbb430073270939b7efb72f88896e3985cde603062cd810d9d4112"
   },
   "counts": {
@@ -57,7 +55,7 @@
   "notes": [
     "原版形状修正与截图识别模板保留",
     "缺失的官方效果不会猜补",
-    "基础配置与0–3觉按正式资源；4–5觉为先遣资源预适配，未宣称正式服运行验证",
+    "基础配置及0–5觉均同步正式资源；已核对公开正式客户端配置，未宣称实战运行验证",
     "只优化法宝属性战力，不模拟战斗或证明全局最优"
   ]
 }

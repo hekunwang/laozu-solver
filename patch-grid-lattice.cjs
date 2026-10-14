@@ -43,23 +43,36 @@ function seamCandidates(bitmap){
 // A lattice needs whole-board evidence. Check row phase after glyph refinement;
 // background score alone and the number of dark glyph-like patches are not enough.
 function fitScreenshotLattice(bitmap, fallback, refine, countAnchors, scoreGrid) {
-  const seams=seamCandidates(bitmap),candidate=seams[0];
-  if(!candidate || candidate.score<200) return fallback(bitmap);
-  const center=refine(bitmap,refine(bitmap,candidate.grid)), rows=[];
-  for(let shift=-2;shift<=2;shift++){
-    const grid={...center,oy:center.oy+shift*center.ph};
-    if(grid.oy<0||grid.oy+6*grid.ph>bitmap.h)continue;
-    rows.push({grid,score:scoreGrid(bitmap,grid)});
+  const seams=seamCandidates(bitmap), first=seams[0];
+  if(!first || first.score<200) return fallback(bitmap);
+  for(let attempt=0;attempt<2;attempt++){
+    // JPEG sampling can leave the leading lattice just below the background
+    // threshold. Keep the successful path unchanged; only on failure try one
+    // similarly strong lattice with a different pitch, using the same checks.
+    const candidate=attempt===0?first:seams.find(row=>
+      row.grid.pw!==first.grid.pw && row.score>=200 && row.score>=first.score*.95);
+    if(!candidate)break;
+    // A pitch retry needs evidence in the original seam as well as the refined
+    // one. If only glyph refinement creates anchors, keep the original fitter
+    // instead of paying for another unsupported refinement.
+    if(attempt===1 && countAnchors(bitmap,first.grid)<3)break;
+    const center=refine(bitmap,refine(bitmap,candidate.grid)), rows=[];
+    for(let shift=-2;shift<=2;shift++){
+      const grid={...center,oy:center.oy+shift*center.ph};
+      if(grid.oy<0||grid.oy+6*grid.ph>bitmap.h)continue;
+      rows.push({grid,score:scoreGrid(bitmap,grid)});
+    }
+    const bestColor=Math.max(...rows.map(row=>row.score));
+    let best=null;
+    for(const row of rows){
+      if(row.score<28||row.score<bestColor-3)continue;
+      row.anchors=countAnchors(bitmap,row.grid);
+      if(row.anchors<3)continue;
+      if(!best||row.anchors>best.anchors||row.anchors===best.anchors&&row.score>best.score)best=row;
+    }
+    if(best)return {...best,converged:true};
   }
-  const bestColor=Math.max(...rows.map(row=>row.score));
-  let best=null;
-  for(const row of rows){
-    if(row.score<28||row.score<bestColor-3)continue;
-    row.anchors=countAnchors(bitmap,row.grid);
-    if(row.anchors<3)continue;
-    if(!best||row.anchors>best.anchors||row.anchors===best.anchors&&row.score>best.score)best=row;
-  }
-  return best?{...best,converged:true}:fallback(bitmap);
+  return fallback(bitmap);
 }
 module.exports=function patchGridLattice({app,change}){
   const start=app.indexOf('function gs(t,e){'),end=app.indexOf('function Jr(t,e){',start);

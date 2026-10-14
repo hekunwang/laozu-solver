@@ -28,7 +28,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -76,7 +76,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -124,7 +124,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -172,7 +172,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -220,7 +220,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -268,7 +268,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -316,7 +316,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -364,7 +364,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -412,7 +412,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -460,7 +460,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -508,7 +508,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -556,7 +556,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -604,7 +604,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -652,7 +652,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -700,7 +700,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -748,7 +748,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "觉醒后本法宝攻防血提升至50%"
+        "description": "觉醒后本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "4": {
         "baseBonus": {},
@@ -2488,7 +2488,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -2575,7 +2575,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -2662,7 +2662,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -2749,7 +2749,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有枪、斗法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有枪、斗法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -2836,7 +2836,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -2923,7 +2923,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -3010,7 +3010,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -3097,7 +3097,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -3184,7 +3184,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有剑法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -3271,7 +3271,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -3358,7 +3358,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -3445,7 +3445,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -3532,7 +3532,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -3619,7 +3619,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -3706,7 +3706,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -3793,7 +3793,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -3880,7 +3880,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -3967,7 +3967,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -4054,7 +4054,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -4141,7 +4141,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -4228,7 +4228,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -4315,7 +4315,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有乐法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -4402,7 +4402,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -4489,7 +4489,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -4576,7 +4576,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有枪法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -4663,7 +4663,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -4750,7 +4750,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有幡法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -4837,7 +4837,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -4924,7 +4924,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有异法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -5011,7 +5011,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有锤法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
@@ -5098,7 +5098,7 @@
             "excludeSource": true
           }
         ],
-        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（自己除外）"
+        "description": "法宝觉醒后获得额外效果：背包内所有御法宝攻防血提升15%（本法宝除外）"
       },
       "4": {
         "baseBonus": {
