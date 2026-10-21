@@ -1,8 +1,8 @@
 # 老祖法宝模拟器 · 正式服版
 
-> 支持觉醒 0–5。基础配置、全部觉醒效果及说明同步正式服资源 `2610131532`；配置核对不等同于游戏实战结算验证。
+> 支持觉醒 0–5。基础配置、全部觉醒效果及说明同步正式服资源 `2610201617`；配置核对不等同于游戏实战结算验证。
 
-更新日期：2026-10-15。原作者：[fradwow/laozu-solver](https://github.com/fradwow/laozu-solver)，基线提交 `c3f12d16cc95e1ceb8509cf62296653bba075729`。原仓库公开单文件构建产物，没有原始前端工程。本地以确定性的补丁脚本继续维护，保留作者署名、原版界面、截图识别、背包编辑、方案保存、多线程退火和主线程回退。
+更新日期：2026-10-21。原作者：[fradwow/laozu-solver](https://github.com/fradwow/laozu-solver)，基线提交 `c3f12d16cc95e1ceb8509cf62296653bba075729`。原仓库公开单文件构建产物，没有原始前端工程。本地以确定性的补丁脚本继续维护，保留作者署名、原版界面、截图识别、背包编辑、方案保存、多线程退火和主线程回退。
 
 ## 打开
 
@@ -11,6 +11,13 @@
 双击本目录的 `打开法宝模拟器.command`，或直接用浏览器打开 `index.html`。网页包含全部脚本、数据和 Worker，可离线运行，无须安装依赖或登录游戏。收藏、持有清单和觉醒等级保存在当前浏览器的本地存储；换浏览器或地址不会自动同步。
 
 可选本地预览：在本目录执行 `node serve.cjs`，打开 <http://127.0.0.1:18764>。仅监听本机。
+
+## 2026-10-21 更新
+
+1. 同步正式服资源，加入八风箕伯、九黎兵主及0–5觉醒配置。
+2. 改善觉醒光效及小图压缩造成的红宝与觉醒数字识别问题；模糊截图仍可手动核对。
+
+八风五觉直接读取正式配置，不再使用先遣时期的手工规则覆盖。新正式版首次打开时逐类兼容当前域名原正式版与先遣版的存档，保留原数据；不同站点或浏览器之间不会自动同步。
 
 ## 2026-10-15 更新
 
@@ -61,8 +68,8 @@ const finalAttribute = Math.trunc(Math.fround(boosted + 0.5));
 
 ## 已有功能
 
-- 375 条法宝记录，保留体系限定「鸣玉无极」「无相无我」及其觉醒计算。
-- 从正式资源 `2610131532` 提取全部一至五觉配置，覆盖 78 件法宝、390 个阶段和 316 条技能。官方未配置的「鲲·剑」「共工·剑」明确显示缺失，不猜补。
+- 377 条法宝记录，保留体系限定「鸣玉无极」「无相无我」及其觉醒计算。
+- 从正式资源 `2610201617` 提取全部一至五觉配置，覆盖 80 件法宝、400 个阶段和 321 条技能。官方未配置的「鲲·剑」「共工·剑」明确显示缺失，不猜补。
 - 觉醒 0–5 按每件法宝单独设置，同名两件也能不同等级；求解、方案保存、载入和收藏均保留单件身份。旧版共享等级自动迁移到已有各件，新增加的一件默认未觉醒。
 - 各觉醒等级保留先前的累计效果；技能列表升级采用完整替换，避免旧、新邻接技能重复叠加。摆盘中觉醒数字显示在整件法宝右下角，左上角保留属性。已选列表的三围预览采用第1件，实际摆盘按每件等级计算。
 - 截图导入自动识别红宝右下角的觉醒火焰及数字，独立于下方共鸣数字。逐件展示角标裁切和等级，可手动校正；模糊、低分辨率或截断而无法确定时，必须确认后才能导入。全程在浏览器本地处理。
@@ -73,9 +80,13 @@ const finalAttribute = Math.trunc(Math.fround(boosted + 0.5));
 - 计算时间默认20秒，旧自动存档首次升级迁移为20秒，之后自行选择的时间正常保存；计算完成或主动停止得到有效结果后自动显示最终摆盘。更新日志保留上游历史并记录本版改动。
 - 保留此前已同步的 8 条旧技能数值及说明，包括金系碎甲剑/龙渊增伤、火系炽影/烈阳增伤、巨灵防御加成。
 
+## 存档兼容
+
+稳定正式存储使用 `wydl-bag:official:v1:*`，在当前站点首次打开时逐类优先读取已有新正式数据、有效先遣数据、有效旧正式数据；空库存和空列表视为用户真实选择。来源数据原样保留，不合并库存数量。迁移完成后，主动清空不会再次恢复旧库存。写入失败时不记录完成状态。
+
 ## 维护与重建
 
-`upstream.html` 和 `upstream-bundle.js` 保留原版；`build-catalog.py` 从已解码官方表构建目录和觉醒数据；`patch-upstream.cjs` 将这些数据接入原版网页与内嵌 Worker；`patch-instance-engine.cjs` 与 `patch-instance-ui.cjs` 处理逐件觉醒、保存和角标；`patch-active-aura.cjs` 维护当前光环缓存；`patch-solver-search.cjs`、`patch-solver-core.cjs` 和 `patch-solver-incumbent.cjs` 维护重排搜索、核心邻接引导与已有方案沿用；`patch-recognition-samples.cjs` 接入 `data/recognition-samples.json` 的外观样本；`awakening-recognizer.js` 与 `patch-awakening-import.cjs` 接入 `data/awakening-zero-samples.json` 并处理截图识别和确认；`patch-mobile-import.cjs` 和 `mobile-ui.css` 维护截图导入的移动端布局；`patch-solver-star-multiplier.cjs` 和 `patch-solver-neighbor-pool.cjs` 维护星级与属性加成公式；`patch-grid-speed.cjs`、`patch-grid-recovery.cjs`、`patch-grid-sampling-v2.cjs` 和 `patch-grid-lattice.cjs` 维护网格定位与采样，补强稀疏背包及整行偏移的自动定位；`patch-interaction.cjs` 维护更新日志、默认时长与计算结束跳转；`build.cjs` 输出独立 `index.html`。补丁遇到基线结构变化会报错，不会静默套用。
+`upstream.html` 和 `upstream-bundle.js` 保留原版；`build-catalog.py` 从已解码官方表构建目录和觉醒数据；`patch-upstream.cjs` 将这些数据接入原版网页与内嵌 Worker；`patch-instance-engine.cjs` 与 `patch-instance-ui.cjs` 处理逐件觉醒、保存和角标；`patch-active-aura.cjs` 维护当前光环缓存；`patch-solver-search.cjs`、`patch-solver-core.cjs` 和 `patch-solver-incumbent-published.cjs` 维护重排搜索、核心邻接引导与已有方案沿用；`patch-recognition-samples.cjs` 接入 `data/recognition-samples.json` 的外观样本；`awakening-recognizer.js` 与 `patch-awakening-import.cjs` 接入 `data/awakening-zero-samples.json` 并处理截图识别和确认；`patch-mobile-import.cjs` 和 `mobile-ui.css` 维护截图导入的移动端布局；`patch-solver-star-multiplier.cjs` 和 `patch-solver-neighbor-pool.cjs` 维护星级与属性加成公式；`patch-grid-speed.cjs`、`patch-grid-recovery.cjs`、`patch-grid-sampling-v2.cjs` 和 `patch-grid-lattice.cjs` 维护网格定位与采样，补强稀疏背包及整行偏移的自动定位；`patch-interaction.cjs` 维护更新日志、默认时长与计算结束跳转；`build.cjs` 输出独立 `index.html`。补丁遇到基线结构变化会报错，不会静默套用。
 
 ```sh
 # 已包含目录数据；更新配置表时才需用已选定的 Python 3 解释器运行 build-catalog.py。

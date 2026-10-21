@@ -110,7 +110,7 @@ app = change(app, 'const Dl=(t,e)=>', extension + '\nconst Dl=(t,e)=>');
 ({app,worker}=require('./patch-active-aura.cjs')({app,worker,change}));
 ({app,worker}=require('./patch-solver-search.cjs')({app,worker,change}));
 ({app,worker}=require('./patch-solver-core.cjs')({app,worker,change}));
-({app,worker}=require('./patch-solver-incumbent.cjs')({app,worker,change}));
+({app,worker}=require('./patch-solver-incumbent-published.cjs')({app,worker,change}));
 ({app,worker}=require('./patch-solver-star-multiplier.cjs')({app,worker,change}));
 ({app,worker}=require('./patch-solver-neighbor-pool.cjs')({app,worker,change}));
 app=require('./patch-instance-ui.cjs')({app,change});
@@ -122,16 +122,27 @@ app=require('./patch-grid-recovery.cjs')({app,change});
 app=require('./patch-grid-sampling-v2.cjs')({app,change});
 app=require('./patch-grid-lattice.cjs')({app,change});
 app=require('./patch-grid-refine-speed.cjs')({app,change});
+app=require('./patch-grid-refinement-guard.cjs')({app,change});
 app=require('./patch-recognition-element-recovery.cjs')({app,change});
 app=require('./patch-glyph-alignment.cjs')({app,change});
 app=require('./patch-recognition-compressed.cjs')({app,change});
+app=require('./patch-recognition-multiband-phase.cjs')({app,change});
 app=require('./patch-interaction.cjs')({app,change});
 app=change(app,'法宝生效，加成与长老星级相加后向下取整。',
   '法宝生效。长老星级先单独计算基础属性；天赋与觉醒、光环及邻接属性加成合并相加，再按游戏取整规则计算。');
 app=require('./patch-recognition-lifecycle.cjs')({app,change});
 app=require('./patch-recognition-unexplained.cjs')({app,change});
 app=require('./patch-recognition-adjudication.cjs')({app,change});
+app=require('./patch-recognition-red-limit.cjs')({app,change});
 app = change(app, '__LOCAL_WORKER__', JSON.stringify(worker));
+const resourceManifest=JSON.parse(read('data/manifest.json'));
+if(resourceManifest.channel==='formal'){
+  app=require('./patch-official-storage.cjs')({app});
+}
+if(resourceManifest.channel==='prerelease'){
+  if(!resourceManifest.localOnly||!process.argv.includes('--local-preview'))throw new Error('Prerelease is local-only');
+  app=app.replaceAll('wydl-bag:v1','wydl-bag:prerelease-'+resourceManifest.resourceVersion+':v1');
+}
 new vm.Script(worker, { filename: 'embedded-solver-worker.js' });
 new vm.Script(app, { filename: 'app.js' });
 fs.writeFileSync(path.join(root, 'app.js'), app);

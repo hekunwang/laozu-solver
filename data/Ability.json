@@ -2661,7 +2661,7 @@
     "iAbilityID": 11308,
     "iLevel": 0,
     "iReson": 0,
-    "szName": "幽邪圣体",
+    "szName": "魔罗圣体",
     "szDesc": "邪系增伤+15%，体系抗性+5%，伤害+2%。",
     "iIcon": 5008,
     "iType": 2,
@@ -3012,7 +3012,7 @@
     "iAbilityID": 11408,
     "iLevel": 0,
     "iReson": 0,
-    "szName": "魔煞化神",
+    "szName": "修罗化神",
     "szDesc": "邪系增伤+20%，体系抗性+10%，最终伤害+2%。",
     "iIcon": 5008,
     "iType": 2,
@@ -4471,7 +4471,7 @@
     "iSkill": 0,
     "arrEffect": [
       5001,
-      300
+      500
     ],
     "arrEffectEquip": [],
     "iFightPower": 0,
@@ -4504,7 +4504,7 @@
     "iSkill": 0,
     "arrEffect": [
       5002,
-      300
+      500
     ],
     "arrEffectEquip": [],
     "iFightPower": 0,
@@ -4537,7 +4537,7 @@
     "iSkill": 0,
     "arrEffect": [
       5003,
-      300
+      500
     ],
     "arrEffectEquip": [],
     "iFightPower": 0,
@@ -4570,7 +4570,7 @@
     "iSkill": 0,
     "arrEffect": [
       5004,
-      300
+      500
     ],
     "arrEffectEquip": [],
     "iFightPower": 0,
@@ -4603,7 +4603,7 @@
     "iSkill": 0,
     "arrEffect": [
       5005,
-      300
+      500
     ],
     "arrEffectEquip": [],
     "iFightPower": 0,
@@ -4636,7 +4636,7 @@
     "iSkill": 0,
     "arrEffect": [
       5006,
-      300
+      500
     ],
     "arrEffectEquip": [],
     "iFightPower": 0,
@@ -5099,7 +5099,7 @@
     "iAbilityID": 12222,
     "iLevel": 0,
     "iReson": 0,
-    "szName": "幽冥传承",
+    "szName": "蜚廉传承",
     "szDesc": "破盾强化+2%，枪形态法宝攻击+8%。",
     "iIcon": 5008,
     "iType": 4,
@@ -5267,7 +5267,7 @@
     "iSkill": 0,
     "arrEffect": [
       5001,
-      300
+      800
     ],
     "arrEffectEquip": [],
     "iFightPower": 0,
@@ -5300,7 +5300,7 @@
     "iSkill": 0,
     "arrEffect": [
       5002,
-      300
+      800
     ],
     "arrEffectEquip": [],
     "iFightPower": 0,
@@ -5333,7 +5333,7 @@
     "iSkill": 0,
     "arrEffect": [
       5003,
-      300
+      800
     ],
     "arrEffectEquip": [],
     "iFightPower": 0,
@@ -5366,7 +5366,7 @@
     "iSkill": 0,
     "arrEffect": [
       5004,
-      300
+      800
     ],
     "arrEffectEquip": [],
     "iFightPower": 0,
@@ -5399,7 +5399,7 @@
     "iSkill": 0,
     "arrEffect": [
       5005,
-      300
+      800
     ],
     "arrEffectEquip": [],
     "iFightPower": 0,
@@ -5432,7 +5432,7 @@
     "iSkill": 0,
     "arrEffect": [
       5006,
-      300
+      800
     ],
     "arrEffectEquip": [],
     "iFightPower": 0,
@@ -6450,7 +6450,7 @@
     "iAbilityID": 12416,
     "iLevel": 0,
     "iReson": 0,
-    "szName": "邪皇转世",
+    "szName": "兵主转世",
     "szDesc": "破盾强化+8%，法宝伤害+4%，枪形态法宝攻击+12%。",
     "iIcon": 5008,
     "iType": 4,

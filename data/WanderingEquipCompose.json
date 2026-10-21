@@ -4848,6 +4848,24 @@
     ]
   },
   {
+    "iFormID": 50703,
+    "szName": "飞廉",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140703,
+    "iMaterial1": 140702,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250703
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
     "iFormID": 40803,
     "szName": "大汗",
     "szDesc": "",
@@ -5418,6 +5436,24 @@
     "iMaterial4": 0,
     "arrProductID": [
       150708
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50704,
+    "szName": "蚩尤",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140704,
+    "iMaterial1": 140702,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250704
     ],
     "arrProductProb": [
       10000

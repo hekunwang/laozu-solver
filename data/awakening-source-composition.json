@@ -1,5 +1,6 @@
 {
-  "formalVersion": "2610131532",
+  "resourceVersion": "2610201617",
+  "formalVersion": "2610201617",
   "channel": "formal",
   "stages": [
     {
@@ -7,7 +8,7 @@
       "teacherId": 22101,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -17,7 +18,7 @@
       "teacherId": 22101,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2201
       ]
@@ -27,7 +28,7 @@
       "teacherId": 22101,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -37,7 +38,7 @@
       "teacherId": 22101,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2401
       ]
@@ -47,7 +48,7 @@
       "teacherId": 22101,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2501
       ]
@@ -57,7 +58,7 @@
       "teacherId": 22102,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -67,7 +68,7 @@
       "teacherId": 22102,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2201
       ]
@@ -77,7 +78,7 @@
       "teacherId": 22102,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -87,7 +88,7 @@
       "teacherId": 22102,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2401
       ]
@@ -97,7 +98,7 @@
       "teacherId": 22102,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2502
       ]
@@ -107,7 +108,7 @@
       "teacherId": 22201,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -117,7 +118,7 @@
       "teacherId": 22201,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2202
       ]
@@ -127,7 +128,7 @@
       "teacherId": 22201,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -137,7 +138,7 @@
       "teacherId": 22201,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2402
       ]
@@ -147,7 +148,7 @@
       "teacherId": 22201,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2503
       ]
@@ -157,7 +158,7 @@
       "teacherId": 22202,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -167,7 +168,7 @@
       "teacherId": 22202,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2202
       ]
@@ -177,7 +178,7 @@
       "teacherId": 22202,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -187,7 +188,7 @@
       "teacherId": 22202,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2402
       ]
@@ -197,7 +198,7 @@
       "teacherId": 22202,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2504
       ]
@@ -207,7 +208,7 @@
       "teacherId": 22301,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -217,7 +218,7 @@
       "teacherId": 22301,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2203
       ]
@@ -227,7 +228,7 @@
       "teacherId": 22301,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -237,7 +238,7 @@
       "teacherId": 22301,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2403
       ]
@@ -247,7 +248,7 @@
       "teacherId": 22301,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2505
       ]
@@ -257,7 +258,7 @@
       "teacherId": 22302,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -267,7 +268,7 @@
       "teacherId": 22302,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2203
       ]
@@ -277,7 +278,7 @@
       "teacherId": 22302,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -287,7 +288,7 @@
       "teacherId": 22302,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2403
       ]
@@ -297,7 +298,7 @@
       "teacherId": 22302,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2506
       ]
@@ -307,7 +308,7 @@
       "teacherId": 22401,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -317,7 +318,7 @@
       "teacherId": 22401,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2204
       ]
@@ -327,7 +328,7 @@
       "teacherId": 22401,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -337,7 +338,7 @@
       "teacherId": 22401,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2404
       ]
@@ -347,7 +348,7 @@
       "teacherId": 22401,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2507
       ]
@@ -357,7 +358,7 @@
       "teacherId": 22402,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -367,7 +368,7 @@
       "teacherId": 22402,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2204
       ]
@@ -377,7 +378,7 @@
       "teacherId": 22402,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -387,7 +388,7 @@
       "teacherId": 22402,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2404
       ]
@@ -397,7 +398,7 @@
       "teacherId": 22402,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2508
       ]
@@ -407,7 +408,7 @@
       "teacherId": 22501,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -417,7 +418,7 @@
       "teacherId": 22501,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2205
       ]
@@ -427,7 +428,7 @@
       "teacherId": 22501,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -437,7 +438,7 @@
       "teacherId": 22501,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2405
       ]
@@ -447,7 +448,7 @@
       "teacherId": 22501,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2509
       ]
@@ -457,7 +458,7 @@
       "teacherId": 22502,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -467,7 +468,7 @@
       "teacherId": 22502,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2205
       ]
@@ -477,7 +478,7 @@
       "teacherId": 22502,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -487,7 +488,7 @@
       "teacherId": 22502,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2405
       ]
@@ -497,7 +498,7 @@
       "teacherId": 22502,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2510
       ]
@@ -507,7 +508,7 @@
       "teacherId": 22601,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -517,7 +518,7 @@
       "teacherId": 22601,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2206
       ]
@@ -527,7 +528,7 @@
       "teacherId": 22601,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -537,7 +538,7 @@
       "teacherId": 22601,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2406
       ]
@@ -547,7 +548,7 @@
       "teacherId": 22601,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2511
       ]
@@ -557,7 +558,7 @@
       "teacherId": 22602,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -567,7 +568,7 @@
       "teacherId": 22602,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2206
       ]
@@ -577,7 +578,7 @@
       "teacherId": 22602,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -587,7 +588,7 @@
       "teacherId": 22602,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2406
       ]
@@ -597,7 +598,7 @@
       "teacherId": 22602,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2512
       ]
@@ -607,7 +608,7 @@
       "teacherId": 22701,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -617,7 +618,7 @@
       "teacherId": 22701,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2207
       ]
@@ -627,7 +628,7 @@
       "teacherId": 22701,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -637,7 +638,7 @@
       "teacherId": 22701,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2407
       ]
@@ -647,7 +648,7 @@
       "teacherId": 22701,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2513
       ]
@@ -657,7 +658,7 @@
       "teacherId": 22702,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -667,7 +668,7 @@
       "teacherId": 22702,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2207
       ]
@@ -677,7 +678,7 @@
       "teacherId": 22702,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -687,7 +688,7 @@
       "teacherId": 22702,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2407
       ]
@@ -697,7 +698,7 @@
       "teacherId": 22702,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2514
       ]
@@ -707,7 +708,7 @@
       "teacherId": 22801,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -717,7 +718,7 @@
       "teacherId": 22801,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2208
       ]
@@ -727,7 +728,7 @@
       "teacherId": 22801,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -737,7 +738,7 @@
       "teacherId": 22801,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2408
       ]
@@ -747,7 +748,7 @@
       "teacherId": 22801,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2515
       ]
@@ -757,7 +758,7 @@
       "teacherId": 22802,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2101
       ]
@@ -767,7 +768,7 @@
       "teacherId": 22802,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2208
       ]
@@ -777,7 +778,7 @@
       "teacherId": 22802,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2301
       ]
@@ -787,7 +788,7 @@
       "teacherId": 22802,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2408
       ]
@@ -797,7 +798,7 @@
       "teacherId": 22802,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         2516
       ]
@@ -807,7 +808,7 @@
       "teacherId": 23101,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3101
       ]
@@ -817,7 +818,7 @@
       "teacherId": 23101,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3201,
         3200
@@ -828,7 +829,7 @@
       "teacherId": 23101,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3301
       ]
@@ -838,7 +839,7 @@
       "teacherId": 23101,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3401,
         3400
@@ -849,7 +850,7 @@
       "teacherId": 23101,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3501
       ]
@@ -859,7 +860,7 @@
       "teacherId": 23102,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3103
       ]
@@ -869,7 +870,7 @@
       "teacherId": 23102,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3201,
         3200
@@ -880,7 +881,7 @@
       "teacherId": 23102,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3303
       ]
@@ -890,7 +891,7 @@
       "teacherId": 23102,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3401,
         3400
@@ -901,7 +902,7 @@
       "teacherId": 23102,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3503
       ]
@@ -911,7 +912,7 @@
       "teacherId": 23103,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3104
       ]
@@ -921,7 +922,7 @@
       "teacherId": 23103,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3201,
         3200
@@ -932,7 +933,7 @@
       "teacherId": 23103,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3304
       ]
@@ -942,7 +943,7 @@
       "teacherId": 23103,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3401,
         3400
@@ -953,7 +954,7 @@
       "teacherId": 23103,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3504
       ]
@@ -963,7 +964,7 @@
       "teacherId": 23104,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3102
       ]
@@ -973,7 +974,7 @@
       "teacherId": 23104,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3201,
         3200
@@ -984,7 +985,7 @@
       "teacherId": 23104,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3302
       ]
@@ -994,7 +995,7 @@
       "teacherId": 23104,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3401,
         3400
@@ -1005,7 +1006,7 @@
       "teacherId": 23104,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3502
       ]
@@ -1015,7 +1016,7 @@
       "teacherId": 23201,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3105
       ]
@@ -1025,7 +1026,7 @@
       "teacherId": 23201,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3202,
         3200
@@ -1036,7 +1037,7 @@
       "teacherId": 23201,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3305
       ]
@@ -1046,7 +1047,7 @@
       "teacherId": 23201,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3402,
         3400
@@ -1057,7 +1058,7 @@
       "teacherId": 23201,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3505
       ]
@@ -1067,7 +1068,7 @@
       "teacherId": 23202,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3107
       ]
@@ -1077,7 +1078,7 @@
       "teacherId": 23202,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3202,
         3200
@@ -1088,7 +1089,7 @@
       "teacherId": 23202,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3307
       ]
@@ -1098,7 +1099,7 @@
       "teacherId": 23202,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3402,
         3400
@@ -1109,7 +1110,7 @@
       "teacherId": 23202,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3507
       ]
@@ -1119,7 +1120,7 @@
       "teacherId": 23203,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3108
       ]
@@ -1129,7 +1130,7 @@
       "teacherId": 23203,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3202,
         3200
@@ -1140,7 +1141,7 @@
       "teacherId": 23203,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3308
       ]
@@ -1150,7 +1151,7 @@
       "teacherId": 23203,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3402,
         3400
@@ -1161,7 +1162,7 @@
       "teacherId": 23203,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3508
       ]
@@ -1171,7 +1172,7 @@
       "teacherId": 23204,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3106
       ]
@@ -1181,7 +1182,7 @@
       "teacherId": 23204,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3202,
         3200
@@ -1192,7 +1193,7 @@
       "teacherId": 23204,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3306
       ]
@@ -1202,7 +1203,7 @@
       "teacherId": 23204,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3402,
         3400
@@ -1213,7 +1214,7 @@
       "teacherId": 23204,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3506
       ]
@@ -1223,7 +1224,7 @@
       "teacherId": 23301,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3109
       ]
@@ -1233,7 +1234,7 @@
       "teacherId": 23301,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3203,
         3200
@@ -1244,7 +1245,7 @@
       "teacherId": 23301,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3309
       ]
@@ -1254,7 +1255,7 @@
       "teacherId": 23301,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3403,
         3400
@@ -1265,7 +1266,7 @@
       "teacherId": 23301,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3509
       ]
@@ -1275,7 +1276,7 @@
       "teacherId": 23302,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3111
       ]
@@ -1285,7 +1286,7 @@
       "teacherId": 23302,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3203,
         3200
@@ -1296,7 +1297,7 @@
       "teacherId": 23302,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3311
       ]
@@ -1306,7 +1307,7 @@
       "teacherId": 23302,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3403,
         3400
@@ -1317,7 +1318,7 @@
       "teacherId": 23302,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3511
       ]
@@ -1327,7 +1328,7 @@
       "teacherId": 23303,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3113
       ]
@@ -1337,7 +1338,7 @@
       "teacherId": 23303,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3203,
         3200
@@ -1348,7 +1349,7 @@
       "teacherId": 23303,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3313
       ]
@@ -1358,7 +1359,7 @@
       "teacherId": 23303,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3403,
         3400
@@ -1369,7 +1370,7 @@
       "teacherId": 23303,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3513
       ]
@@ -1379,7 +1380,7 @@
       "teacherId": 23304,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3112
       ]
@@ -1389,7 +1390,7 @@
       "teacherId": 23304,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3203,
         3200
@@ -1400,7 +1401,7 @@
       "teacherId": 23304,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3312
       ]
@@ -1410,7 +1411,7 @@
       "teacherId": 23304,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3403,
         3400
@@ -1421,7 +1422,7 @@
       "teacherId": 23304,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3512
       ]
@@ -1431,7 +1432,7 @@
       "teacherId": 23401,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3114
       ]
@@ -1441,7 +1442,7 @@
       "teacherId": 23401,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3204,
         3200
@@ -1452,7 +1453,7 @@
       "teacherId": 23401,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3314
       ]
@@ -1462,7 +1463,7 @@
       "teacherId": 23401,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3404,
         3400
@@ -1473,7 +1474,7 @@
       "teacherId": 23401,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3514
       ]
@@ -1483,7 +1484,7 @@
       "teacherId": 23402,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3116
       ]
@@ -1493,7 +1494,7 @@
       "teacherId": 23402,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3204,
         3200
@@ -1504,7 +1505,7 @@
       "teacherId": 23402,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3316
       ]
@@ -1514,7 +1515,7 @@
       "teacherId": 23402,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3404,
         3400
@@ -1525,7 +1526,7 @@
       "teacherId": 23402,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3516
       ]
@@ -1535,7 +1536,7 @@
       "teacherId": 23403,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3118
       ]
@@ -1545,7 +1546,7 @@
       "teacherId": 23403,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3204,
         3200
@@ -1556,7 +1557,7 @@
       "teacherId": 23403,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3318
       ]
@@ -1566,7 +1567,7 @@
       "teacherId": 23403,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3404,
         3400
@@ -1577,7 +1578,7 @@
       "teacherId": 23403,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3518
       ]
@@ -1587,7 +1588,7 @@
       "teacherId": 23404,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3115
       ]
@@ -1597,7 +1598,7 @@
       "teacherId": 23404,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3204,
         3200
@@ -1608,7 +1609,7 @@
       "teacherId": 23404,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3315
       ]
@@ -1618,7 +1619,7 @@
       "teacherId": 23404,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3404,
         3400
@@ -1629,7 +1630,7 @@
       "teacherId": 23404,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3515
       ]
@@ -1639,7 +1640,7 @@
       "teacherId": 23501,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3119
       ]
@@ -1649,7 +1650,7 @@
       "teacherId": 23501,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3205,
         3200
@@ -1660,7 +1661,7 @@
       "teacherId": 23501,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3319
       ]
@@ -1670,7 +1671,7 @@
       "teacherId": 23501,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3405,
         3400
@@ -1681,7 +1682,7 @@
       "teacherId": 23501,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3519
       ]
@@ -1691,7 +1692,7 @@
       "teacherId": 23502,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3122
       ]
@@ -1701,7 +1702,7 @@
       "teacherId": 23502,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3205,
         3200
@@ -1712,7 +1713,7 @@
       "teacherId": 23502,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3322
       ]
@@ -1722,7 +1723,7 @@
       "teacherId": 23502,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3405,
         3400
@@ -1733,7 +1734,7 @@
       "teacherId": 23502,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3522
       ]
@@ -1743,7 +1744,7 @@
       "teacherId": 23503,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3121
       ]
@@ -1753,7 +1754,7 @@
       "teacherId": 23503,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3205,
         3200
@@ -1764,7 +1765,7 @@
       "teacherId": 23503,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3321
       ]
@@ -1774,7 +1775,7 @@
       "teacherId": 23503,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3405,
         3400
@@ -1785,7 +1786,7 @@
       "teacherId": 23503,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3521
       ]
@@ -1795,7 +1796,7 @@
       "teacherId": 23504,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3120
       ]
@@ -1805,7 +1806,7 @@
       "teacherId": 23504,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3205,
         3200
@@ -1816,7 +1817,7 @@
       "teacherId": 23504,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3320
       ]
@@ -1826,7 +1827,7 @@
       "teacherId": 23504,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3405,
         3400
@@ -1837,7 +1838,7 @@
       "teacherId": 23504,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3520
       ]
@@ -1847,7 +1848,7 @@
       "teacherId": 23601,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3123
       ]
@@ -1857,7 +1858,7 @@
       "teacherId": 23601,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3206,
         3200
@@ -1868,7 +1869,7 @@
       "teacherId": 23601,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3323
       ]
@@ -1878,7 +1879,7 @@
       "teacherId": 23601,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3406,
         3400
@@ -1889,7 +1890,7 @@
       "teacherId": 23601,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3523
       ]
@@ -1899,7 +1900,7 @@
       "teacherId": 23602,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3125
       ]
@@ -1909,7 +1910,7 @@
       "teacherId": 23602,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3206,
         3200
@@ -1920,7 +1921,7 @@
       "teacherId": 23602,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3325
       ]
@@ -1930,7 +1931,7 @@
       "teacherId": 23602,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3406,
         3400
@@ -1941,7 +1942,7 @@
       "teacherId": 23602,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3525
       ]
@@ -1951,7 +1952,7 @@
       "teacherId": 23603,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3126
       ]
@@ -1961,7 +1962,7 @@
       "teacherId": 23603,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3206,
         3200
@@ -1972,7 +1973,7 @@
       "teacherId": 23603,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3326
       ]
@@ -1982,7 +1983,7 @@
       "teacherId": 23603,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3406,
         3400
@@ -1993,7 +1994,7 @@
       "teacherId": 23603,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3526
       ]
@@ -2003,7 +2004,7 @@
       "teacherId": 23604,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3124
       ]
@@ -2013,7 +2014,7 @@
       "teacherId": 23604,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3206,
         3200
@@ -2024,7 +2025,7 @@
       "teacherId": 23604,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3324
       ]
@@ -2034,7 +2035,7 @@
       "teacherId": 23604,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3406,
         3400
@@ -2045,7 +2046,7 @@
       "teacherId": 23604,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3524
       ]
@@ -2055,7 +2056,7 @@
       "teacherId": 23701,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3127
       ]
@@ -2065,7 +2066,7 @@
       "teacherId": 23701,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3207,
         3200
@@ -2076,7 +2077,7 @@
       "teacherId": 23701,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3327
       ]
@@ -2086,7 +2087,7 @@
       "teacherId": 23701,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3407,
         3400
@@ -2097,7 +2098,7 @@
       "teacherId": 23701,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3527
       ]
@@ -2107,7 +2108,7 @@
       "teacherId": 23702,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3128
       ]
@@ -2117,7 +2118,7 @@
       "teacherId": 23702,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3207,
         3200
@@ -2128,7 +2129,7 @@
       "teacherId": 23702,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3328
       ]
@@ -2138,7 +2139,7 @@
       "teacherId": 23702,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3407,
         3400
@@ -2149,7 +2150,7 @@
       "teacherId": 23702,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3528
       ]
@@ -2159,7 +2160,7 @@
       "teacherId": 23703,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3129
       ]
@@ -2169,7 +2170,7 @@
       "teacherId": 23703,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3207,
         3200
@@ -2180,7 +2181,7 @@
       "teacherId": 23703,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3329
       ]
@@ -2190,7 +2191,7 @@
       "teacherId": 23703,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3407,
         3400
@@ -2201,7 +2202,7 @@
       "teacherId": 23703,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3529
       ]
@@ -2211,7 +2212,7 @@
       "teacherId": 23801,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3130
       ]
@@ -2221,7 +2222,7 @@
       "teacherId": 23801,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3208,
         3200
@@ -2232,7 +2233,7 @@
       "teacherId": 23801,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3330
       ]
@@ -2242,7 +2243,7 @@
       "teacherId": 23801,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3408,
         3400
@@ -2253,7 +2254,7 @@
       "teacherId": 23801,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3530
       ]
@@ -2263,7 +2264,7 @@
       "teacherId": 23802,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3133
       ]
@@ -2273,7 +2274,7 @@
       "teacherId": 23802,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3208,
         3200
@@ -2284,7 +2285,7 @@
       "teacherId": 23802,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3333
       ]
@@ -2294,7 +2295,7 @@
       "teacherId": 23802,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3408,
         3400
@@ -2305,7 +2306,7 @@
       "teacherId": 23802,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3533
       ]
@@ -2315,7 +2316,7 @@
       "teacherId": 23803,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3132
       ]
@@ -2325,7 +2326,7 @@
       "teacherId": 23803,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3208,
         3200
@@ -2336,7 +2337,7 @@
       "teacherId": 23803,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3332
       ]
@@ -2346,7 +2347,7 @@
       "teacherId": 23803,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3408,
         3400
@@ -2357,7 +2358,7 @@
       "teacherId": 23803,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3532
       ]
@@ -2367,7 +2368,7 @@
       "teacherId": 23804,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3131
       ]
@@ -2377,7 +2378,7 @@
       "teacherId": 23804,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3208,
         3200
@@ -2388,7 +2389,7 @@
       "teacherId": 23804,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3331
       ]
@@ -2398,7 +2399,7 @@
       "teacherId": 23804,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3408,
         3400
@@ -2409,7 +2410,7 @@
       "teacherId": 23804,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         3531
       ]
@@ -2419,7 +2420,7 @@
       "teacherId": 24101,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4101
       ]
@@ -2429,7 +2430,7 @@
       "teacherId": 24101,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4201,
         4200
@@ -2440,7 +2441,7 @@
       "teacherId": 24101,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4306
       ]
@@ -2450,7 +2451,7 @@
       "teacherId": 24101,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4401,
         4400
@@ -2461,7 +2462,7 @@
       "teacherId": 24101,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4501
       ]
@@ -2471,7 +2472,7 @@
       "teacherId": 24102,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4103
       ]
@@ -2481,7 +2482,7 @@
       "teacherId": 24102,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4201,
         4200
@@ -2492,7 +2493,7 @@
       "teacherId": 24102,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4302
       ]
@@ -2502,7 +2503,7 @@
       "teacherId": 24102,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4401,
         4400
@@ -2513,7 +2514,7 @@
       "teacherId": 24102,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4501
       ]
@@ -2523,7 +2524,7 @@
       "teacherId": 24103,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4104
       ]
@@ -2533,7 +2534,7 @@
       "teacherId": 24103,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4201,
         4200
@@ -2544,7 +2545,7 @@
       "teacherId": 24103,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4307
       ]
@@ -2554,7 +2555,7 @@
       "teacherId": 24103,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4401,
         4400
@@ -2565,7 +2566,7 @@
       "teacherId": 24103,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4501
       ]
@@ -2575,7 +2576,7 @@
       "teacherId": 24104,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4102
       ]
@@ -2585,7 +2586,7 @@
       "teacherId": 24104,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4201,
         4200
@@ -2596,7 +2597,7 @@
       "teacherId": 24104,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4306
       ]
@@ -2606,7 +2607,7 @@
       "teacherId": 24104,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4401,
         4400
@@ -2617,7 +2618,7 @@
       "teacherId": 24104,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4501
       ]
@@ -2627,7 +2628,7 @@
       "teacherId": 24201,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4105
       ]
@@ -2637,7 +2638,7 @@
       "teacherId": 24201,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4202,
         4200
@@ -2648,7 +2649,7 @@
       "teacherId": 24201,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4302
       ]
@@ -2658,7 +2659,7 @@
       "teacherId": 24201,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4402,
         4400
@@ -2669,7 +2670,7 @@
       "teacherId": 24201,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4502
       ]
@@ -2679,7 +2680,7 @@
       "teacherId": 24202,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4107
       ]
@@ -2689,7 +2690,7 @@
       "teacherId": 24202,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4202,
         4200
@@ -2700,7 +2701,7 @@
       "teacherId": 24202,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4303
       ]
@@ -2710,7 +2711,7 @@
       "teacherId": 24202,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4402,
         4400
@@ -2721,7 +2722,7 @@
       "teacherId": 24202,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4502
       ]
@@ -2731,7 +2732,7 @@
       "teacherId": 24203,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4108
       ]
@@ -2741,7 +2742,7 @@
       "teacherId": 24203,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4202,
         4200
@@ -2752,7 +2753,7 @@
       "teacherId": 24203,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4304
       ]
@@ -2762,7 +2763,7 @@
       "teacherId": 24203,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4402,
         4400
@@ -2773,7 +2774,7 @@
       "teacherId": 24203,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4502
       ]
@@ -2783,7 +2784,7 @@
       "teacherId": 24204,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4106
       ]
@@ -2793,7 +2794,7 @@
       "teacherId": 24204,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4202,
         4200
@@ -2804,7 +2805,7 @@
       "teacherId": 24204,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4302
       ]
@@ -2814,7 +2815,7 @@
       "teacherId": 24204,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4402,
         4400
@@ -2825,7 +2826,7 @@
       "teacherId": 24204,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4502
       ]
@@ -2835,7 +2836,7 @@
       "teacherId": 24301,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4109
       ]
@@ -2845,7 +2846,7 @@
       "teacherId": 24301,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4203,
         4200
@@ -2856,7 +2857,7 @@
       "teacherId": 24301,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4302
       ]
@@ -2866,7 +2867,7 @@
       "teacherId": 24301,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4403,
         4400
@@ -2877,7 +2878,7 @@
       "teacherId": 24301,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4503
       ]
@@ -2887,7 +2888,7 @@
       "teacherId": 24302,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4111
       ]
@@ -2897,7 +2898,7 @@
       "teacherId": 24302,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4203,
         4200
@@ -2908,7 +2909,7 @@
       "teacherId": 24302,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4305
       ]
@@ -2918,7 +2919,7 @@
       "teacherId": 24302,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4403,
         4400
@@ -2929,7 +2930,7 @@
       "teacherId": 24302,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4503
       ]
@@ -2939,7 +2940,7 @@
       "teacherId": 24303,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4113
       ]
@@ -2949,7 +2950,7 @@
       "teacherId": 24303,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4203,
         4200
@@ -2960,7 +2961,7 @@
       "teacherId": 24303,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4308
       ]
@@ -2970,7 +2971,7 @@
       "teacherId": 24303,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4403,
         4400
@@ -2981,7 +2982,7 @@
       "teacherId": 24303,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4503
       ]
@@ -2991,7 +2992,7 @@
       "teacherId": 24304,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4112
       ]
@@ -3001,7 +3002,7 @@
       "teacherId": 24304,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4203,
         4200
@@ -3012,7 +3013,7 @@
       "teacherId": 24304,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4305
       ]
@@ -3022,7 +3023,7 @@
       "teacherId": 24304,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4403,
         4400
@@ -3033,7 +3034,7 @@
       "teacherId": 24304,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4503
       ]
@@ -3043,7 +3044,7 @@
       "teacherId": 24401,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4114
       ]
@@ -3053,7 +3054,7 @@
       "teacherId": 24401,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4204,
         4200
@@ -3064,7 +3065,7 @@
       "teacherId": 24401,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4304
       ]
@@ -3074,7 +3075,7 @@
       "teacherId": 24401,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4404,
         4400
@@ -3085,7 +3086,7 @@
       "teacherId": 24401,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4504
       ]
@@ -3095,7 +3096,7 @@
       "teacherId": 24402,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4116
       ]
@@ -3105,7 +3106,7 @@
       "teacherId": 24402,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4204,
         4200
@@ -3116,7 +3117,7 @@
       "teacherId": 24402,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4307
       ]
@@ -3126,7 +3127,7 @@
       "teacherId": 24402,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4404,
         4400
@@ -3137,7 +3138,7 @@
       "teacherId": 24402,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4504
       ]
@@ -3147,7 +3148,7 @@
       "teacherId": 24403,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4118
       ]
@@ -3157,7 +3158,7 @@
       "teacherId": 24403,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4204,
         4200
@@ -3168,7 +3169,7 @@
       "teacherId": 24403,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4303
       ]
@@ -3178,7 +3179,7 @@
       "teacherId": 24403,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4404,
         4400
@@ -3189,7 +3190,7 @@
       "teacherId": 24403,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4504
       ]
@@ -3199,7 +3200,7 @@
       "teacherId": 24404,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4115
       ]
@@ -3209,7 +3210,7 @@
       "teacherId": 24404,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4204,
         4200
@@ -3220,7 +3221,7 @@
       "teacherId": 24404,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4304
       ]
@@ -3230,7 +3231,7 @@
       "teacherId": 24404,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4404,
         4400
@@ -3241,7 +3242,7 @@
       "teacherId": 24404,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4504
       ]
@@ -3251,7 +3252,7 @@
       "teacherId": 24501,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4119
       ]
@@ -3261,7 +3262,7 @@
       "teacherId": 24501,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4205,
         4200
@@ -3272,7 +3273,7 @@
       "teacherId": 24501,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4308
       ]
@@ -3282,7 +3283,7 @@
       "teacherId": 24501,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4405,
         4400
@@ -3293,7 +3294,7 @@
       "teacherId": 24501,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4505
       ]
@@ -3303,7 +3304,7 @@
       "teacherId": 24502,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4121
       ]
@@ -3313,7 +3314,7 @@
       "teacherId": 24502,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4205,
         4200
@@ -3324,7 +3325,7 @@
       "teacherId": 24502,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4305
       ]
@@ -3334,7 +3335,7 @@
       "teacherId": 24502,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4405,
         4400
@@ -3345,7 +3346,7 @@
       "teacherId": 24502,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4505
       ]
@@ -3355,7 +3356,7 @@
       "teacherId": 24503,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4122
       ]
@@ -3365,7 +3366,7 @@
       "teacherId": 24503,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4205,
         4200
@@ -3376,7 +3377,7 @@
       "teacherId": 24503,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4309
       ]
@@ -3386,7 +3387,7 @@
       "teacherId": 24503,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4405,
         4400
@@ -3397,7 +3398,7 @@
       "teacherId": 24503,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4505
       ]
@@ -3407,7 +3408,7 @@
       "teacherId": 24504,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4120
       ]
@@ -3417,7 +3418,7 @@
       "teacherId": 24504,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4205,
         4200
@@ -3428,7 +3429,7 @@
       "teacherId": 24504,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4308
       ]
@@ -3438,7 +3439,7 @@
       "teacherId": 24504,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4405,
         4400
@@ -3449,7 +3450,7 @@
       "teacherId": 24504,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4505
       ]
@@ -3459,7 +3460,7 @@
       "teacherId": 24601,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4123
       ]
@@ -3469,7 +3470,7 @@
       "teacherId": 24601,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4206,
         4200
@@ -3480,7 +3481,7 @@
       "teacherId": 24601,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4306
       ]
@@ -3490,7 +3491,7 @@
       "teacherId": 24601,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4406,
         4400
@@ -3501,7 +3502,7 @@
       "teacherId": 24601,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4506
       ]
@@ -3511,7 +3512,7 @@
       "teacherId": 24602,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4125
       ]
@@ -3521,7 +3522,7 @@
       "teacherId": 24602,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4206,
         4200
@@ -3532,7 +3533,7 @@
       "teacherId": 24602,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4303
       ]
@@ -3542,7 +3543,7 @@
       "teacherId": 24602,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4406,
         4400
@@ -3553,7 +3554,7 @@
       "teacherId": 24602,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4506
       ]
@@ -3563,7 +3564,7 @@
       "teacherId": 24603,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4126
       ]
@@ -3573,7 +3574,7 @@
       "teacherId": 24603,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4206,
         4200
@@ -3584,7 +3585,7 @@
       "teacherId": 24603,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4309
       ]
@@ -3594,7 +3595,7 @@
       "teacherId": 24603,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4406,
         4400
@@ -3605,7 +3606,7 @@
       "teacherId": 24603,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4506
       ]
@@ -3615,7 +3616,7 @@
       "teacherId": 24604,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4124
       ]
@@ -3625,7 +3626,7 @@
       "teacherId": 24604,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4206,
         4200
@@ -3636,7 +3637,7 @@
       "teacherId": 24604,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4306
       ]
@@ -3646,7 +3647,7 @@
       "teacherId": 24604,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4406,
         4400
@@ -3657,7 +3658,7 @@
       "teacherId": 24604,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4506
       ]
@@ -3667,7 +3668,7 @@
       "teacherId": 24701,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4127
       ]
@@ -3677,7 +3678,7 @@
       "teacherId": 24701,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4207,
         4200
@@ -3688,7 +3689,7 @@
       "teacherId": 24701,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4306
       ]
@@ -3698,7 +3699,7 @@
       "teacherId": 24701,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4407,
         4400
@@ -3709,7 +3710,7 @@
       "teacherId": 24701,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4507
       ]
@@ -3719,7 +3720,7 @@
       "teacherId": 24702,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4128
       ]
@@ -3729,7 +3730,7 @@
       "teacherId": 24702,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4207,
         4200
@@ -3740,7 +3741,7 @@
       "teacherId": 24702,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4307
       ]
@@ -3750,7 +3751,7 @@
       "teacherId": 24702,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4407,
         4400
@@ -3761,7 +3762,7 @@
       "teacherId": 24702,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4507
       ]
@@ -3771,7 +3772,7 @@
       "teacherId": 24703,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4129
       ]
@@ -3781,7 +3782,7 @@
       "teacherId": 24703,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4207,
         4200
@@ -3792,7 +3793,7 @@
       "teacherId": 24703,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4309
       ]
@@ -3802,7 +3803,7 @@
       "teacherId": 24703,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4407,
         4400
@@ -3813,7 +3814,7 @@
       "teacherId": 24703,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4507
       ]
@@ -3823,7 +3824,7 @@
       "teacherId": 24801,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4130
       ]
@@ -3833,7 +3834,7 @@
       "teacherId": 24801,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4208,
         4200
@@ -3844,7 +3845,7 @@
       "teacherId": 24801,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4305
       ]
@@ -3854,7 +3855,7 @@
       "teacherId": 24801,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4408,
         4400
@@ -3865,7 +3866,7 @@
       "teacherId": 24801,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4508
       ]
@@ -3875,7 +3876,7 @@
       "teacherId": 24802,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4133
       ]
@@ -3885,7 +3886,7 @@
       "teacherId": 24802,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4208,
         4200
@@ -3896,7 +3897,7 @@
       "teacherId": 24802,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4304
       ]
@@ -3906,7 +3907,7 @@
       "teacherId": 24802,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4408,
         4400
@@ -3917,7 +3918,7 @@
       "teacherId": 24802,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4508
       ]
@@ -3927,7 +3928,7 @@
       "teacherId": 24803,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4132
       ]
@@ -3937,7 +3938,7 @@
       "teacherId": 24803,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4208,
         4200
@@ -3948,7 +3949,7 @@
       "teacherId": 24803,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4308
       ]
@@ -3958,7 +3959,7 @@
       "teacherId": 24803,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4408,
         4400
@@ -3969,7 +3970,7 @@
       "teacherId": 24803,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4508
       ]
@@ -3979,7 +3980,7 @@
       "teacherId": 24804,
       "level": 1,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4131
       ]
@@ -3989,7 +3990,7 @@
       "teacherId": 24804,
       "level": 2,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4208,
         4200
@@ -4000,7 +4001,7 @@
       "teacherId": 24804,
       "level": 3,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4305
       ]
@@ -4010,7 +4011,7 @@
       "teacherId": 24804,
       "level": 4,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4408,
         4400
@@ -4021,9 +4022,113 @@
       "teacherId": 24804,
       "level": 5,
       "channel": "formal",
-      "resourceVersion": "2610131532",
+      "resourceVersion": "2610201617",
       "effectIds": [
         4508
+      ]
+    },
+    {
+      "equipId": 250703,
+      "teacherId": 23704,
+      "level": 1,
+      "channel": "formal",
+      "resourceVersion": "2610201617",
+      "effectIds": [
+        3134
+      ]
+    },
+    {
+      "equipId": 250703,
+      "teacherId": 23704,
+      "level": 2,
+      "channel": "formal",
+      "resourceVersion": "2610201617",
+      "effectIds": [
+        3207,
+        3200
+      ]
+    },
+    {
+      "equipId": 250703,
+      "teacherId": 23704,
+      "level": 3,
+      "channel": "formal",
+      "resourceVersion": "2610201617",
+      "effectIds": [
+        3334
+      ]
+    },
+    {
+      "equipId": 250703,
+      "teacherId": 23704,
+      "level": 4,
+      "channel": "formal",
+      "resourceVersion": "2610201617",
+      "effectIds": [
+        3407,
+        3400
+      ]
+    },
+    {
+      "equipId": 250703,
+      "teacherId": 23704,
+      "level": 5,
+      "channel": "formal",
+      "resourceVersion": "2610201617",
+      "effectIds": [
+        3534
+      ]
+    },
+    {
+      "equipId": 250704,
+      "teacherId": 24704,
+      "level": 1,
+      "channel": "formal",
+      "resourceVersion": "2610201617",
+      "effectIds": [
+        4134
+      ]
+    },
+    {
+      "equipId": 250704,
+      "teacherId": 24704,
+      "level": 2,
+      "channel": "formal",
+      "resourceVersion": "2610201617",
+      "effectIds": [
+        4207,
+        4200
+      ]
+    },
+    {
+      "equipId": 250704,
+      "teacherId": 24704,
+      "level": 3,
+      "channel": "formal",
+      "resourceVersion": "2610201617",
+      "effectIds": [
+        4306
+      ]
+    },
+    {
+      "equipId": 250704,
+      "teacherId": 24704,
+      "level": 4,
+      "channel": "formal",
+      "resourceVersion": "2610201617",
+      "effectIds": [
+        4407,
+        4400
+      ]
+    },
+    {
+      "equipId": 250704,
+      "teacherId": 24704,
+      "level": 5,
+      "channel": "formal",
+      "resourceVersion": "2610201617",
+      "effectIds": [
+        4507
       ]
     }
   ]

@@ -2526,6 +2526,26 @@
     "iAudioID": 0
   },
   {
+    "iSkillID": 506,
+    "iIconID": 8252,
+    "szName": "力大砖飞",
+    "iQuality": 0,
+    "szDesc": "每回合末尾获得1层<u><link=\"tips_344\">【力大砖飞】</link></u>",
+    "iDuringTime": 500,
+    "iType": 3,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [],
+    "arrSkillBulletDelay": [],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
     "iSkillID": 1001,
     "iIconID": 0,
     "szName": "小怪普攻-金",
@@ -3710,6 +3730,30 @@
     "iAudioID": 0
   },
   {
+    "iSkillID": 1138,
+    "iIconID": 0,
+    "szName": "限时邪-体BOSS",
+    "iQuality": 0,
+    "szDesc": "普攻：造成200%攻击力的伤害",
+    "iDuringTime": 1500,
+    "iType": 1,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "atk",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      113801
+    ],
+    "arrSkillBulletDelay": [
+      0
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
     "iSkillID": 1203,
     "iIconID": 0,
     "szName": "Boss怪--赢鱼-反击",
@@ -4638,6 +4682,30 @@
     "iAudioID": 0
   },
   {
+    "iSkillID": 2238,
+    "iIconID": 8251,
+    "szName": "战阵咆哮",
+    "iQuality": 0,
+    "szDesc": "每2回合恢复双方100点怒气值",
+    "iDuringTime": 500,
+    "iType": 2,
+    "iSkillCategory": 2,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 1,
+    "szSkillAction": "skill_1",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_2238.prefab#2",
+    "fLaunchEffectTime": 2000.0,
+    "arrSkillBulletList": [
+      223801
+    ],
+    "arrSkillBulletDelay": [
+      0
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
     "iSkillID": 3200,
     "iIconID": 8062,
     "szName": "一念万骨枯",
@@ -5243,6 +5311,30 @@
     "arrSkillBulletDelay": [
       800,
       1000
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 3238,
+    "iIconID": 8254,
+    "szName": "一发入魂",
+    "iQuality": 0,
+    "szDesc": "首次释放造成50%敌方血量上限的真实伤害，第2次释放开始造成70%敌方血量上限的真实伤害。该伤害无法闪避。",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 2,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_3238.prefab#2",
+    "fLaunchEffectTime": 3000.0,
+    "arrSkillBulletList": [
+      323801
+    ],
+    "arrSkillBulletDelay": [
+      50
     ],
     "arrSkillEffectType": [],
     "iAudioID": 0
@@ -6420,6 +6512,54 @@
     "fLaunchEffectTime": 0.0,
     "arrSkillBulletList": [
       404801
+    ],
+    "arrSkillBulletDelay": [
+      0
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 4068,
+    "iIconID": 0,
+    "szName": "力大砖飞",
+    "iQuality": 0,
+    "szDesc": "每回合末尾获得1层<u><link=\"tips_344\">【力大砖飞】</link></u>",
+    "iDuringTime": 500,
+    "iType": 2,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      406801
+    ],
+    "arrSkillBulletDelay": [
+      0
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 4078,
+    "iIconID": 8253,
+    "szName": "轩辕战势",
+    "iQuality": 0,
+    "szDesc": "战斗开始时获得4层<u><link=\"tips_342\">【蓄势】</link></u>;自身回合结束时，每层<u><link=\"tips_342\">【蓄势】</link></u>状态转化<u><link=\"tips_343\">【战势】</link></u>",
+    "iDuringTime": 500,
+    "iType": 3,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      407801
     ],
     "arrSkillBulletDelay": [
       0
@@ -30404,7 +30544,7 @@
     "iIconID": 55006,
     "szName": "五雷禁行诀",
     "iQuality": 0,
-    "szDesc": "自身汲取率提高50%（持续1回合），对目标造成<color=#34932a>250%</color>攻击力的雷系伤害，并有80%概率附加<u><link=\"tips_26\">【缴械】</link></u>，若目标身上已有<u><link=\"tips_26\">【缴械】</link></u>则附加<u><link=\"tips_58\">【雷禁】</link></u>（持续1回合）",
+    "szDesc": "自身汲取率提高50%（持续1回合），对目标造成<color=#34932a>250%</color>攻击力的雷系伤害，并有100%概率附加<u><link=\"tips_26\">【缴械】</link></u>，若目标身上已有<u><link=\"tips_26\">【缴械】</link></u>则附加<u><link=\"tips_58\">【雷禁】</link></u>（持续1回合）",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -30430,7 +30570,7 @@
     "iIconID": 55006,
     "szName": "五雷禁行诀",
     "iQuality": 0,
-    "szDesc": "自身汲取率提高50%（持续1回合），对目标造成<color=#34932a>250%</color>攻击力的雷系伤害，并有80%概率附加<u><link=\"tips_26\">【缴械】</link></u>，若目标身上已有<u><link=\"tips_26\">【缴械】</link></u>则附加<u><link=\"tips_58\">【雷禁】</link></u>（持续1回合）",
+    "szDesc": "自身汲取率提高50%（持续1回合），对目标造成<color=#34932a>250%</color>攻击力的雷系伤害，并有100%概率附加<u><link=\"tips_26\">【缴械】</link></u>，若目标身上已有<u><link=\"tips_26\">【缴械】</link></u>则附加<u><link=\"tips_58\">【雷禁】</link></u>（持续1回合）",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -30456,7 +30596,7 @@
     "iIconID": 55006,
     "szName": "五雷禁行诀",
     "iQuality": 0,
-    "szDesc": "自身汲取率提高50%（持续1回合），对目标造成<color=#34932a>300%</color>攻击力的雷系伤害，并有80%概率附加<u><link=\"tips_26\">【缴械】</link></u>，若目标身上已有<u><link=\"tips_26\">【缴械】</link></u>则附加<u><link=\"tips_58\">【雷禁】</link></u>（持续1回合）",
+    "szDesc": "自身汲取率提高50%（持续1回合），对目标造成<color=#34932a>300%</color>攻击力的雷系伤害，并有100%概率附加<u><link=\"tips_26\">【缴械】</link></u>，若目标身上已有<u><link=\"tips_26\">【缴械】</link></u>则附加<u><link=\"tips_58\">【雷禁】</link></u>（持续1回合）",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -33852,6 +33992,80 @@
     "iAudioID": 0
   },
   {
+    "iSkillID": 81235,
+    "iIconID": 0,
+    "szName": "八风箕伯",
+    "iQuality": 0,
+    "szDesc": "每回合获得2层<u><link=\"tips_114\">【血祭】</link></u>，并用<u><link=\"tips_335\">【血骨钩镰】</link></u>锁定敌方。",
+    "iDuringTime": 500,
+    "iType": 2,
+    "iSkillCategory": 1,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8123501,
+      8123502
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      100
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 81236,
+    "iIconID": 0,
+    "szName": "八风箕伯被动",
+    "iQuality": 0,
+    "szDesc": "计算怒气技次数",
+    "iDuringTime": 500,
+    "iType": 7,
+    "iSkillCategory": 1,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8123601
+    ],
+    "arrSkillBulletDelay": [
+      50
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 81237,
+    "iIconID": 0,
+    "szName": "八风箕伯追加技能",
+    "iQuality": 0,
+    "szDesc": "回合末尾造成x％攻击力的伤害，回合内每次释放怒气技，则增加1段。最多2段",
+    "iDuringTime": 500,
+    "iType": 98,
+    "iSkillCategory": 1,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8123701
+    ],
+    "arrSkillBulletDelay": [
+      100
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
     "iSkillID": 81300,
     "iIconID": 0,
     "szName": "血盾",
@@ -34331,6 +34545,56 @@
       800,
       800,
       1200
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 81335,
+    "iIconID": 0,
+    "szName": "九黎兵主",
+    "iQuality": 0,
+    "szDesc": "被动：战斗中主动消耗血量达到10次时，获得1层<u><link=\"tips_336\">【兵主战魂】</link></u>\n每回合获得2层<u><link=\"tips_114\">【血祭】</link></u>，随后释放1道<u><link=\"tips_337\">【魔狼血戟】</link></u>\n相邻每件邪系法宝使本法宝攻击力+40%",
+    "iDuringTime": 500,
+    "iType": 2,
+    "iSkillCategory": 1,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8133501,
+      8133502
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      100
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 81336,
+    "iIconID": 0,
+    "szName": "九黎兵主被动",
+    "iQuality": 0,
+    "szDesc": "",
+    "iDuringTime": 500,
+    "iType": 3,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8133601
+    ],
+    "arrSkillBulletDelay": [
+      50
     ],
     "arrSkillEffectType": [],
     "iAudioID": 0
@@ -35388,7 +35652,7 @@
     "iIconID": 56001,
     "szName": "血煞叠怨诀",
     "iQuality": 0,
-    "szDesc": "造成攻击力<color=#34932a>150%</color>的伤害，重复释放伤害提升<color=#34932a>40%</color>，最多提升<color=#34932a>80%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
+    "szDesc": "造成攻击力<color=#34932a>150%</color>的邪系伤害，重复释放伤害提升<color=#34932a>40%</color>，最多提升<color=#34932a>80%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -35414,7 +35678,7 @@
     "iIconID": 56001,
     "szName": "血煞叠怨诀",
     "iQuality": 0,
-    "szDesc": "造成攻击力<color=#34932a>150%</color>的伤害，重复释放伤害提升<color=#34932a>50%</color>，最多提升<color=#34932a>100%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
+    "szDesc": "造成攻击力<color=#34932a>150%</color>的邪系伤害，重复释放伤害提升<color=#34932a>50%</color>，最多提升<color=#34932a>100%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -35440,7 +35704,7 @@
     "iIconID": 56001,
     "szName": "血煞叠怨诀",
     "iQuality": 0,
-    "szDesc": "造成攻击力<color=#34932a>175%</color>的伤害，重复释放伤害提升<color=#34932a>50%</color>，最多提升<color=#34932a>100%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
+    "szDesc": "造成攻击力<color=#34932a>175%</color>的邪系伤害，重复释放伤害提升<color=#34932a>50%</color>，最多提升<color=#34932a>100%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -35466,7 +35730,7 @@
     "iIconID": 56001,
     "szName": "血煞叠怨诀",
     "iQuality": 0,
-    "szDesc": "造成攻击力<color=#34932a>175%</color>的伤害，重复释放伤害提升<color=#34932a>50%</color>，最多提升<color=#34932a>150%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
+    "szDesc": "造成攻击力<color=#34932a>175%</color>的邪系伤害，重复释放伤害提升<color=#34932a>50%</color>，最多提升<color=#34932a>150%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -35492,7 +35756,7 @@
     "iIconID": 56001,
     "szName": "血煞叠怨诀",
     "iQuality": 0,
-    "szDesc": "造成攻击力<color=#34932a>200%</color>的伤害，重复释放伤害提升<color=#34932a>50%</color>，最多提升<color=#34932a>150%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
+    "szDesc": "造成攻击力<color=#34932a>200%</color>的邪系伤害，重复释放伤害提升<color=#34932a>50%</color>，最多提升<color=#34932a>150%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -35518,7 +35782,7 @@
     "iIconID": 56002,
     "szName": "真元灌顶功",
     "iQuality": 0,
-    "szDesc": "对目标造成3段攻击力<color=#34932a>90%</color>的伤害，每段叠加1层<u><link=\"tips_126\">【阴】</link></u>",
+    "szDesc": "对目标造成3段攻击力<color=#34932a>90%</color>的邪系伤害，每段叠加1层<u><link=\"tips_126\">【阴】</link></u>",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -35546,7 +35810,7 @@
     "iIconID": 56002,
     "szName": "真元灌顶功",
     "iQuality": 0,
-    "szDesc": "对目标造成5段攻击力<color=#34932a>90%</color>的伤害，每段叠加1层<u><link=\"tips_126\">【阴】</link></u>",
+    "szDesc": "对目标造成5段攻击力<color=#34932a>90%</color>的邪系伤害，每段叠加1层<u><link=\"tips_126\">【阴】</link></u>",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -35578,7 +35842,7 @@
     "iIconID": 56002,
     "szName": "真元灌顶功",
     "iQuality": 0,
-    "szDesc": "对目标造成5段攻击力<color=#34932a>100%</color>的伤害，每段叠加1层<u><link=\"tips_126\">【阴】</link></u>",
+    "szDesc": "对目标造成5段攻击力<color=#34932a>100%</color>的邪系伤害，每段叠加1层<u><link=\"tips_126\">【阴】</link></u>",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -35610,7 +35874,7 @@
     "iIconID": 56002,
     "szName": "真元灌顶功",
     "iQuality": 0,
-    "szDesc": "对目标造成5段攻击力<color=#34932a>110%</color>的伤害，每段叠加1层<u><link=\"tips_126\">【阴】</link></u>",
+    "szDesc": "对目标造成5段攻击力<color=#34932a>110%</color>的邪系伤害，每段叠加1层<u><link=\"tips_126\">【阴】</link></u>",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -35642,7 +35906,7 @@
     "iIconID": 56002,
     "szName": "真元灌顶功",
     "iQuality": 0,
-    "szDesc": "对目标造成5段攻击力<color=#34932a>120%</color>的伤害，每段叠加1层<u><link=\"tips_126\">【阴】</link></u>",
+    "szDesc": "对目标造成5段攻击力<color=#34932a>120%</color>的邪系伤害，每段叠加1层<u><link=\"tips_126\">【阴】</link></u>",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -35795,6 +36059,194 @@
     "arrSkillBulletDelay": [
       1000,
       1600
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83031,
+    "iIconID": 56009,
+    "szName": "蜚廉血岚",
+    "iQuality": 0,
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_339\">【魔血相】</link></u>，造成<color=#34932a>150%</color>攻击力的邪系伤害，重复释放伤害提升150%，最多300%",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8303103,
+      8303101,
+      8303102
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      1000,
+      1050
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83032,
+    "iIconID": 56009,
+    "szName": "蜚廉血岚",
+    "iQuality": 0,
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n主动：获得1层<u><link=\"tips_339\">【魔血相】</link></u>，造成<color=#34932a>150%</color>攻击力的邪系伤害，重复释放伤害提升150%，最多300%",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8303103,
+      8303201,
+      8303202
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      1000,
+      1050
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83033,
+    "iIconID": 56009,
+    "szName": "蜚廉血岚",
+    "iQuality": 0,
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n主动：获得1层<u><link=\"tips_339\">【魔血相】</link></u>，造成<color=#34932a>180%</color>攻击力的邪系伤害，重复释放伤害提升180%，最多360%",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8303103,
+      8303301,
+      8303302
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      1000,
+      1050
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83034,
+    "iIconID": 56009,
+    "szName": "蜚廉血岚",
+    "iQuality": 0,
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n主动：获得1层<u><link=\"tips_339\">【魔血相】</link></u>，造成<color=#34932a>210%</color>攻击力的邪系伤害，重复释放伤害提升210%，最多420%",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8303103,
+      8303401,
+      8303402
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      1000,
+      1050
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83035,
+    "iIconID": 56009,
+    "szName": "蜚廉血岚",
+    "iQuality": 0,
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n主动：获得1层<u><link=\"tips_339\">【魔血相】</link></u>，造成<color=#34932a>240%</color>攻击力的邪系伤害，重复释放伤害提升240%，最多480%",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8303103,
+      8303501,
+      8303502
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      1000,
+      1050
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83036,
+    "iIconID": 0,
+    "szName": "战鬼",
+    "iQuality": 0,
+    "szDesc": "",
+    "iDuringTime": 500,
+    "iType": 3,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8303601
+    ],
+    "arrSkillBulletDelay": [
+      0
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83037,
+    "iIconID": 0,
+    "szName": "被动1",
+    "iQuality": 0,
+    "szDesc": "每回合扣除20%当前血量，获得50怒气",
+    "iDuringTime": 500,
+    "iType": 3,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8303701
+    ],
+    "arrSkillBulletDelay": [
+      0
     ],
     "arrSkillEffectType": [],
     "iAudioID": 0
@@ -36184,7 +36636,7 @@
     "iIconID": 56006,
     "szName": "祭血咒天诀",
     "iQuality": 0,
-    "szDesc": "造成攻击力<color=#34932a>200%</color>的伤害，重复释放伤害提升<color=#34932a>50%</color>，最多提升<color=#34932a>100%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
+    "szDesc": "造成攻击力<color=#34932a>200%</color>的邪系伤害，重复释放伤害提升<color=#34932a>50%</color>，最多提升<color=#34932a>100%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -36210,7 +36662,7 @@
     "iIconID": 56006,
     "szName": "祭血咒天诀",
     "iQuality": 0,
-    "szDesc": "造成攻击力<color=#34932a>200%</color>的伤害，重复释放伤害提升<color=#34932a>60%</color>，最多提升<color=#34932a>120%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
+    "szDesc": "造成攻击力<color=#34932a>200%</color>的邪系伤害，重复释放伤害提升<color=#34932a>60%</color>，最多提升<color=#34932a>120%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -36236,7 +36688,7 @@
     "iIconID": 56006,
     "szName": "祭血咒天诀",
     "iQuality": 0,
-    "szDesc": "造成攻击力<color=#34932a>240%</color>的伤害，重复释放伤害提升<color=#34932a>60%</color>，最多提升<color=#34932a>180%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
+    "szDesc": "造成攻击力<color=#34932a>240%</color>的邪系伤害，重复释放伤害提升<color=#34932a>60%</color>，最多提升<color=#34932a>180%</color>；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -36262,7 +36714,7 @@
     "iIconID": 56006,
     "szName": "祭血咒天诀",
     "iQuality": 0,
-    "szDesc": "造成攻击力<color=#34932a>240%</color>的伤害，重复释放伤害提升<color=#34932a>60%</color>，最多提升<color=#34932a>180%</color>；且每层<u><link=\"tips_114\">【血祭】</link></u>额外造成6%攻击力的邪系伤害；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
+    "szDesc": "造成攻击力<color=#34932a>240%</color>的邪系伤害，重复释放伤害提升<color=#34932a>60%</color>，最多提升<color=#34932a>180%</color>；且每层<u><link=\"tips_114\">【血祭】</link></u>额外造成6%攻击力的邪系伤害；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -36290,7 +36742,7 @@
     "iIconID": 56006,
     "szName": "祭血咒天诀",
     "iQuality": 0,
-    "szDesc": "造成攻击力<color=#34932a>280%</color>的伤害，重复释放伤害提升<color=#34932a>60%</color>，最多提升<color=#34932a>180%</color>；且每层<u><link=\"tips_114\">【血祭】</link></u>额外造成6%攻击力的邪系伤害；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
+    "szDesc": "造成攻击力<color=#34932a>280%</color>的邪系伤害，重复释放伤害提升<color=#34932a>60%</color>，最多提升<color=#34932a>180%</color>；且每层<u><link=\"tips_114\">【血祭】</link></u>额外造成6%攻击力的邪系伤害；前两回合释放时，额外进入<u><link=\"tips_303\">【血魔附身】</link></u>状态",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -36599,6 +37051,170 @@
       500,
       550,
       600
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83231,
+    "iIconID": 56010,
+    "szName": "兵解血罗诀",
+    "iQuality": 0,
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>180%</color>攻击力的邪系伤害，重复释放伤害提升180%，最多360%",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_83231.prefab#2",
+    "fLaunchEffectTime": 3000.0,
+    "arrSkillBulletList": [
+      8323103,
+      8323101,
+      8323102
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      500,
+      550
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83232,
+    "iIconID": 56010,
+    "szName": "兵解血罗诀",
+    "iQuality": 0,
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>180%</color>攻击力的邪系伤害，重复释放伤害提升180%，最多360%",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_83231.prefab#2",
+    "fLaunchEffectTime": 3000.0,
+    "arrSkillBulletList": [
+      8323103,
+      8323201,
+      8323202
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      500,
+      550
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83233,
+    "iIconID": 56010,
+    "szName": "兵解血罗诀",
+    "iQuality": 0,
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>225%</color>攻击力的邪系伤害，重复释放伤害提升225%，最多450%",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_83231.prefab#2",
+    "fLaunchEffectTime": 3000.0,
+    "arrSkillBulletList": [
+      8323103,
+      8323301,
+      8323302
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      500,
+      550
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83234,
+    "iIconID": 56010,
+    "szName": "兵解血罗诀",
+    "iQuality": 0,
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>225%</color>攻击力的邪系伤害，重复释放伤害提升225%，最多450%",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_83231.prefab#2",
+    "fLaunchEffectTime": 3000.0,
+    "arrSkillBulletList": [
+      8323103,
+      8323401,
+      8323402
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      500,
+      550
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83235,
+    "iIconID": 56010,
+    "szName": "兵解血罗诀",
+    "iQuality": 0,
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>270%</color>攻击力的邪系伤害，重复释放伤害提升270%，最多540%",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_83231.prefab#2",
+    "fLaunchEffectTime": 3000.0,
+    "arrSkillBulletList": [
+      8323103,
+      8323501,
+      8323502
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      500,
+      550
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 83236,
+    "iIconID": 0,
+    "szName": "被动2",
+    "iQuality": 0,
+    "szDesc": "被击败时复活自身并恢复30%最大生命值，为自身附加<u><link=\"tips_340\">【兵解】</link></u>",
+    "iDuringTime": 500,
+    "iType": 3,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      8323601
+    ],
+    "arrSkillBulletDelay": [
+      0
     ],
     "arrSkillEffectType": [],
     "iAudioID": 0
@@ -39726,7 +40342,7 @@
     "iIconID": 57006,
     "szName": "奇门遁甲",
     "iQuality": 0,
-    "szDesc": "为目标附加<u><link=\"tips_212\">【破裂】</link></u>，并对目标造成<color=#34932a>240%</color>攻击力的体系伤害，同时恢复自身15%最大生命值的血量，每次释放该恢复的治疗效果提升<color=#34932a>40%40%</color>（最多200%）；自身当前生命值百分比高于目标时，造成双倍伤害",
+    "szDesc": "为目标附加<u><link=\"tips_212\">【破裂】</link></u>，并对目标造成<color=#34932a>240%</color>攻击力的体系伤害，同时恢复自身15%最大生命值的血量，每次释放该恢复的治疗效果提升<color=#34932a>40%</color>（最多200%）；自身当前生命值百分比高于目标时，造成双倍伤害",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,

@@ -1,0 +1,570 @@
+{
+  "version": 1,
+  "channel": "prerelease",
+  "localOnly": true,
+  "resourceVersion": "2610152238",
+  "evidenceKind": "Original Unity offline renderer / synthetic protocol fixture; not official-account or gameplay evidence",
+  "gameplayOrOfficialServerVerified": false,
+  "trainingOriginals": [
+    {
+      "scenario": "train-a",
+      "imageSha256": "4197d45379ac206dde62a870f2a0c1f0e343849b82a5a8ced87617e9968b1d4d",
+      "equipIds": [
+        250703,
+        250704
+      ]
+    },
+    {
+      "scenario": "train-b",
+      "imageSha256": "119a0fe8919355c01f75b252324a6f3c5ab626a95b9e8ecbeffff3830ebe8c03",
+      "equipIds": [
+        250704,
+        250703
+      ]
+    },
+    {
+      "scenario": "train-bloodfork",
+      "imageSha256": "d82a7d90ba1e4396f4366956087e7a37de59f67f59f8e26f6104f805787b7676",
+      "equipIds": [
+        150703
+      ]
+    }
+  ],
+  "holdoutOriginals": [
+    {
+      "scenario": "holdout-03",
+      "imageSha256": "b467376f1f50154fd644fb8c97ba9161ea7d35bbfb23026371395a10f3362582",
+      "pieces": [
+        {
+          "equipId": 250704,
+          "awakening": 3,
+          "cells": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ]
+        },
+        {
+          "equipId": 250703,
+          "awakening": 0,
+          "cells": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "equipId": 250704,
+          "awakening": 0,
+          "cells": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ]
+          ]
+        },
+        {
+          "equipId": 250703,
+          "awakening": 3,
+          "cells": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "scenario": "holdout-12",
+      "imageSha256": "5402f0ee53dd281d61aa9ca787c2afdb289e31a0b0f579f06f63068ed466fa31",
+      "pieces": [
+        {
+          "equipId": 250704,
+          "awakening": 1,
+          "cells": [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ]
+        },
+        {
+          "equipId": 250703,
+          "awakening": 2,
+          "cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ]
+          ]
+        },
+        {
+          "equipId": 250704,
+          "awakening": 2,
+          "cells": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ]
+        },
+        {
+          "equipId": 250703,
+          "awakening": 1,
+          "cells": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "scenario": "holdout-45",
+      "imageSha256": "2544414ff2a4ca05aa38e0d457f7d9faba8041871a64bd894efd4cf90d17099d",
+      "pieces": [
+        {
+          "equipId": 250703,
+          "awakening": 4,
+          "cells": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "equipId": 250704,
+          "awakening": 5,
+          "cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "equipId": 250703,
+          "awakening": 5,
+          "cells": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "equipId": 250704,
+          "awakening": 4,
+          "cells": [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "scenario": "bafeng-bloodfork",
+      "imageSha256": "3a0ef137485dcba4e0d097226a12c8099ad8c544a255d089ad3fe45691469ca7",
+      "pieces": [
+        {
+          "equipId": 250703,
+          "awakening": 0,
+          "cells": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "equipId": 150703,
+          "awakening": 1,
+          "cells": [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "equipId": 250703,
+          "awakening": 5,
+          "cells": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "equipId": 150703,
+          "awakening": 3,
+          "cells": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "scenario": "jiuli-oldgun",
+      "imageSha256": "b816bcc40180cd94998e6f721a45a21a80b18b8b235505ac2c714321183620c8",
+      "pieces": [
+        {
+          "equipId": 250704,
+          "awakening": 0,
+          "cells": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ]
+        },
+        {
+          "equipId": 150704,
+          "awakening": 2,
+          "cells": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "equipId": 250704,
+          "awakening": 5,
+          "cells": [
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "equipId": 150704,
+          "awakening": 4,
+          "cells": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "addedIdentitySignatures": 40,
+  "addedZeroSamples": 20,
+  "variants": [
+    {
+      "id": "native"
+    },
+    {
+      "id": "720",
+      "width": 720
+    },
+    {
+      "id": "576-jpeg85",
+      "width": 576,
+      "jpegQuality": 85
+    },
+    {
+      "id": "432-jpeg80",
+      "width": 432,
+      "jpegQuality": 80
+    }
+  ],
+  "gridModes": [
+    "truth",
+    "auto"
+  ]
+}

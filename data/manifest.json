@@ -1,40 +1,43 @@
 {
-  "resourceVersion": "2610131532",
+  "resourceVersion": "2610201617",
   "channel": "formal",
-  "builtForDate": "2026-10-15",
-  "formalBaseVersion": "2610131532",
+  "localOnly": false,
+  "builtForDate": "2026-10-21",
+  "formalBaseVersion": "2610201617",
   "levelSources": {
     "0-5": "formal"
   },
   "upstream": "https://github.com/fradwow/laozu-solver",
-  "sourceSnapshot": "official-2610131532",
+  "sourceSnapshot": "official-formal-2610201617",
   "sourceEvidence": {
-    "versioninfoSha256": "f09ed4b806f64ac2abeeaa15ad7177777c621c0b6dd2b978a16174436fc7ed55",
-    "manifestUrl": "https://down-2165-cn.hnkx168.cn/xxjz/immortalfamily/publish/ver_2610131532/updatefileInfo.bin",
-    "manifestSha256": "2dbdb4fa97ed4b62bd5cbdb5e69d0be7ce29c80725bfb50634d768b1f7be08cb",
-    "auditedExtraction": "verification-formal45-20261014/extraction.json"
+    "manifestUrl": "https://down-2165-cn.hnkx168.cn/xxjz/immortalfamily/publish/ver_2610201617/updatefileInfo.bin",
+    "assemblySha256": "788ebee0921fe2679f04c016b5caecb1349ab2f91764a5491f49bd932acfa959",
+    "verifiedZipCount": 34,
+    "runtimeVerified": false,
+    "allCoreTableRawHashesVerified": true
   },
   "sourceHashes": {
-    "Ability.json": "7b80a271da6a126476d7fdd323e5fd2bed4c9d55da13ae917d675bdc8ca0daa7",
+    "Ability.json": "0392f02faf0e80b68e7f5703fc60b2e893352a18dfcab843cc0eabf128c37f47",
     "Attribute.json": "ca64fe80c02ab3c23192c6acb908c856f9c04309986e11e7f1ef86faf6d104ec",
-    "BattleSkill.json": "1cd6b7dd343ff354450078e1756b5cddf5275a1900fc530f0e222b46be1bf716",
-    "Teacher.json": "a8026b3826492b94860444ee3d68d391710185c726aa1228eeb5b196393a1c54",
-    "TeacherAwakenEffect.json": "25ea61afa60286a1e2f619d626786a886ec36fedd01428c82a729da2201d9bc0",
-    "TeacherAwakening.json": "c4cd75f0ddd541d44ba15568f9b0ef706980b7d4cab21081adeb3ea70cf7a734",
+    "BattleSkill.json": "238aa944a3b7d50b2f130637dc6de40479e5b1d84833453395f6d69ae69f5a43",
+    "Teacher.json": "654acedb73aa85c0ccc440ab65e346e4fa94efa029e777aa12767c65c555e326",
+    "TeacherAwakenEffect.json": "ffa3226ea98cbd11ceb74cc4c517edb95bad903dbc40510f79e2d25ce81986f9",
+    "TeacherAwakening.json": "7df3ccfbfe870dcbf6db82215b012da98c9aae2cf25589ec1081d9910bdc13ba",
     "TeacherAwakeningLevel.json": "7aab6a3ed2f2db597bae55ad8ba59150025e3aa7c42d14c3b79bb5fae8985c6a",
-    "TeacherStarAffect.json": "1c05a1ea8117609ad6cbd11c70f2f4cd6dbc304d4455d585d4f204bede70a4e1",
-    "TextDesc.json": "f6731eb8f465c83ab7ca7858c91d62b5204f66f72e0ea83e550f963e4c2f0e73",
+    "TeacherStarAffect.json": "6fb66bb6a46fa6e1ca7c8b4ddcb770d6f6e42012ecdea55181bb98a6cbc54b7e",
+    "TextDesc.json": "93acc800fa59942f18e1bb66f01a8205410e695cd44369a5a1b0a1364cbcb5f8",
     "WanderScore.json": "7f87aa33aeb08db211a9fd7500c2c66e943fcdc7865d4645896d754033cec087",
-    "WanderingEquip.json": "b89587ebff3fdeb029a9fe7e8648ba0a92ed8c78eb555461d65be4cc18e64cd5",
-    "WanderingEquipCompose.json": "5e92fbd1fbd5cc51614022561cd39f546874b0b1e74cbde323738941da28ad86",
-    "WanderingEquipSkill.json": "0e37fbb1ed6bcaf564d2b4980c8e7a3fb2959c885438048a7abcc6c0b41630c6",
-    "WanderingEquipSlot.json": "54eefcb583dbb430073270939b7efb72f88896e3985cde603062cd810d9d4112"
+    "WanderingEquip.json": "09cb16a9d8199fc07e5e506c064fe37419fdcb3fa35b5d1673ca7eed6fae5c0e",
+    "WanderingEquipCompose.json": "38611fe52110a42490a2885498b6be81852df3053c4a2174f12968f2cec14909",
+    "WanderingEquipSkill.json": "bd789d37cd2726682eb33d16ec13d4f53afee0cd8ac5dfd502da7fc01b79003b",
+    "WanderingEquipSlot.json": "7214d1c4d31db9059471571b21715ebd23f3cff01bf56500150a49b786e9c4df"
   },
   "counts": {
-    "equips": 375,
-    "skills": 316,
-    "awakeningComplete": 78,
-    "awakeningTotal": 80,
+    "equips": 377,
+    "skills": 321,
+    "awakeningComplete": 80,
+    "awakeningConfigured": 80,
+    "awakeningTotal": 82,
     "talents": 40,
     "scoreTiers": 55
   },
@@ -52,6 +55,8 @@
       }
     ]
   },
+  "ruleOverrides": null,
+  "recognitionPendingEquipIds": [],
   "notes": [
     "原版形状修正与截图识别模板保留",
     "缺失的官方效果不会猜补",

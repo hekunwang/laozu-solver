@@ -6,6 +6,7 @@ No network, account state or game actions are used.
 import hashlib
 import json
 import re
+import sys
 from pathlib import Path
 from catalog_sync import sync_catalog
 
@@ -24,7 +25,14 @@ def write(name, value):
 def main():
     exported = read('export-manifest')
     version = exported['resourceVersion']
-    assert exported['channel'] == 'formal'
+    channel = exported['channel']
+    preview = channel == 'prerelease'
+    assert channel in ('formal', 'prerelease')
+    assert not preview or ('--local-preview' in sys.argv and exported.get('localOnly') is True)
+    assert not preview or version == '2610152238'
+    expected = exported.get('expectedCounts', {'awakeningStages': 400 if preview else 390, 'awakeningTotal': 82 if preview else 80, 'awakeningComplete': 80 if preview else 78})
+    expected_stages, expected_total, expected_complete = (expected[k] for k in ('awakeningStages', 'awakeningTotal', 'awakeningComplete'))
+    date = exported.get('builtForDate', '2026-10-15')
     for name, record in exported['tables'].items():
         assert hashlib.sha256((DATA / (name + '.json')).read_bytes()).hexdigest() == record['jsonSha256'], name
     catalog = read('original-catalog')
@@ -83,13 +91,13 @@ def main():
     equip_ids = {x['id'] for x in catalog['equips']}
     awakening = {}
     skill_ids = {x['id'] for x in catalog['skills']}
-    stages = [(r, effects, skills, 'formal') for r in read('TeacherAwakening')
+    stages = [(r, effects, skills, channel) for r in read('TeacherAwakening')
               if 1 <= r['iAwakenLevel'] <= 5 and r['iEquip'] != 0 and r['iID'] in teachers]
     # Preserve accepted insertion/skill order without using historical overlay
     # content as a data source. This file contains ordering keys only.
     order = read('awakening-stage-order')['stages']
     stage_order = {tuple(key): i for i, key in enumerate(order)}
-    assert len(stage_order) == len(order) == 390
+    assert len(stage_order) == len(order) == expected_stages
     assert {(r['iID'], r['iAwakenLevel']) for r, _, _, _ in stages} == set(stage_order)
     stages.sort(key=lambda entry: stage_order[(entry[0]['iID'], entry[0]['iAwakenLevel'])])
     provenance = []
@@ -139,7 +147,7 @@ def main():
                     stage['globalBuffs'].append({'form': params[0], 'attr': attr,
                                                'value': params[1], 'excludeSource': True})
             elif kind == 5:
-                assert channel == 'formal' and len(params) == 2 and 1 <= params[0] <= 8
+                assert channel in ('formal', 'prerelease') and len(params) == 2 and 1 <= params[0] <= 8
                 for attr in (2004, 2005, 2006):
                     stage['globalBuffs'].append({'element': params[0], 'attr': attr,
                                                'value': params[1], 'excludeSource': True})
@@ -157,23 +165,39 @@ def main():
                 'maxLevel': 0, 'levels': {},
                 'missingEffects': [{'level': 1, 'effectId': '官方快照未配置觉醒'}],
             }
-    assert len(awakening) == 80
-    assert sum(x['maxLevel'] == 5 for x in awakening.values()) == 78
+    if preview:
+        # Original decoded rows remain untouched. This is a separately recorded
+        # user-selected interpretation, not a claim of server verification.
+        policy = read('rule-overrides')
+        assert policy['officialRuntimeVerified'] is False
+        assert len(policy['overrides']) == 1
+        rule = policy['overrides'][0]
+        assert rule == {'equipId': 250703, 'level': 5, 'effectId': 3534,
+                       'rawSkillIds': [71001, 71002, 71003], 'skillIds': [71001, 71003],
+                       'adjacentPercent': 15, 'meaning': 'Five-awakening 15% replaces the earlier 8%, not additive'}
+        stage = awakening['250703']['levels']['5']
+        assert stage['skillIds'] == rule['rawSkillIds']
+        stage['skillIds'] = rule['skillIds']
+        awakening['250703']['ruleOverride'] = {**rule, 'source': policy['source'], 'officialRuntimeVerified': False}
+    assert len(awakening) == expected_total
+    assert sum(x['maxLevel'] == 5 for x in awakening.values()) == expected_complete
     assert all(set(x['levels']) == {'1','2','3','4','5'} for x in awakening.values() if x['maxLevel'] == 5)
     assert len(catalog['talents']) == 40 and all(x['quality'] >= 2 for x in catalog['talents'])
     attrs = {x['id'] for x in catalog['attrs']}
     assert all(b['attr'] in attrs for sk in catalog['skills'] for b in sk['buffs'])
-    assert len(provenance) == 390 and all(row['channel'] == 'formal' for row in provenance)
-    catalog['meta'].update(resourceVersion=version + ' 正式配置（含四五觉）', extractedAt='2026-10-15',
+    assert len(provenance) == expected_stages and all(row['channel'] == channel for row in provenance)
+    catalog['meta'].update(resourceVersion=version + (' 先遣本地验证配置' if preview else ' 正式配置（含四五觉）'), extractedAt=date,
                            skillCount=len(catalog['skills']),
                            awakeningCount=sum(x['maxLevel'] == 5 for x in awakening.values()),
                            awakeningTotal=len(awakening))
+    assert len(catalog['equips']) == expected.get('equips', len(catalog['equips']))
+    assert len(catalog['skills']) == expected.get('skills', len(catalog['skills']))
     write('awakening', awakening)
     write('game-catalog', catalog)
     manifest = {
-        'resourceVersion': version, 'channel': 'formal', 'builtForDate': '2026-10-15',
-        'formalBaseVersion': version,
-        'levelSources': {'0-5': 'formal'},
+        'resourceVersion': version, 'channel': channel, 'localOnly': preview, 'builtForDate': date,
+        'formalBaseVersion': exported.get('formalBaseVersion', version),
+        'levelSources': {'0-5': channel},
         'upstream': 'https://github.com/fradwow/laozu-solver',
         'sourceSnapshot': exported['source'],
         'sourceEvidence': exported['sourceEvidence'],
@@ -182,16 +206,19 @@ def main():
                          if p.stem in exported['tables']},
         'counts': {'equips': len(catalog['equips']), 'skills': len(catalog['skills']),
                    'awakeningComplete': sum(x['maxLevel'] == 5 for x in awakening.values()),
+                   'awakeningConfigured': sum(len(x['levels']) == 5 for x in awakening.values()),
                    'awakeningTotal': len(awakening), 'talents': len(catalog['talents']),
                    'scoreTiers': len(catalog['scoreTiers'])},
         'missing': {k: v['missingEffects'] for k, v in awakening.items() if v['missingEffects']},
+        'ruleOverrides': read('rule-overrides') if preview else None,
+        'recognitionPendingEquipIds': [250703, 250704] if preview else [],
         'notes': ['原版形状修正与截图识别模板保留', '缺失的官方效果不会猜补',
-                  '基础配置及0–5觉均同步正式资源；已核对公开正式客户端配置，未宣称实战运行验证',
+                  ('先遣本地验证：八风五觉按用户指定15%替换8%，非官服实测确认；新宝截图外观样本待补' if preview else '基础配置及0–5觉均同步正式资源；已核对公开正式客户端配置，未宣称实战运行验证'),
                   '只优化法宝属性战力，不模拟战斗或证明全局最优'],
     }
     write('manifest', manifest)
-    write('awakening-source-composition', {'formalVersion': version,
-          'channel': 'formal', 'stages': provenance})
+    write('awakening-source-composition', {'resourceVersion': version, 'formalVersion': exported.get('formalBaseVersion', version),
+          'channel': channel, 'stages': provenance})
     print(json.dumps(manifest['counts'], ensure_ascii=False))
     print('Missing official effects:', manifest['missing'])
 

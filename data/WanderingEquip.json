@@ -53,7 +53,8 @@
     "iEquipDisplay": 103503,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 100002,
@@ -109,7 +110,8 @@
     "iEquipDisplay": 103503,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 100003,
@@ -165,7 +167,8 @@
     "iEquipDisplay": 103503,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 100004,
@@ -221,7 +224,8 @@
     "iEquipDisplay": 103503,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 100005,
@@ -277,7 +281,8 @@
     "iEquipDisplay": 103503,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 100006,
@@ -333,7 +338,8 @@
     "iEquipDisplay": 103503,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110101,
@@ -387,7 +393,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 1,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110102,
@@ -439,7 +446,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110103,
@@ -498,7 +506,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110104,
@@ -559,7 +568,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110105,
@@ -613,7 +623,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110106,
@@ -669,7 +680,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110107,
@@ -721,7 +733,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110108,
@@ -775,7 +788,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110109,
@@ -827,7 +841,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 1
+    "iMainTechnique": 1,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110201,
@@ -879,7 +894,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 1,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110202,
@@ -931,7 +947,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 2
+    "iMainTechnique": 2,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110203,
@@ -985,7 +1002,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110204,
@@ -1041,7 +1059,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110205,
@@ -1095,7 +1114,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110206,
@@ -1151,7 +1171,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110207,
@@ -1205,7 +1226,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110208,
@@ -1261,7 +1283,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110209,
@@ -1313,7 +1336,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110301,
@@ -1367,7 +1391,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 1,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110302,
@@ -1421,7 +1446,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110303,
@@ -1475,7 +1501,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110304,
@@ -1531,7 +1558,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110305,
@@ -1585,7 +1613,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110306,
@@ -1641,7 +1670,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110307,
@@ -1697,7 +1727,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110308,
@@ -1755,7 +1786,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110309,
@@ -1809,7 +1841,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 3
+    "iMainTechnique": 3,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110401,
@@ -1863,7 +1896,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 1,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110402,
@@ -1915,7 +1949,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 4
+    "iMainTechnique": 4,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110403,
@@ -1969,7 +2004,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110404,
@@ -2025,7 +2061,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110405,
@@ -2079,7 +2116,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110406,
@@ -2135,7 +2173,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110407,
@@ -2189,7 +2228,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110408,
@@ -2245,7 +2285,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110409,
@@ -2297,7 +2338,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110501,
@@ -2351,7 +2393,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 1,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110502,
@@ -2403,7 +2446,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110503,
@@ -2462,7 +2506,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110504,
@@ -2523,7 +2568,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110505,
@@ -2577,7 +2623,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110506,
@@ -2633,7 +2680,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110507,
@@ -2689,7 +2737,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110508,
@@ -2747,7 +2796,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110509,
@@ -2799,7 +2849,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 5
+    "iMainTechnique": 5,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110601,
@@ -2853,7 +2904,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 1,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110602,
@@ -2905,7 +2957,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110603,
@@ -2961,7 +3014,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110604,
@@ -3019,7 +3073,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110605,
@@ -3080,7 +3135,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110606,
@@ -3143,7 +3199,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110607,
@@ -3199,7 +3256,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110608,
@@ -3257,7 +3315,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110609,
@@ -3309,7 +3368,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 6
+    "iMainTechnique": 6,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110701,
@@ -3363,7 +3423,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 1,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110702,
@@ -3415,7 +3476,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110703,
@@ -3469,7 +3531,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110704,
@@ -3525,7 +3588,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110705,
@@ -3579,7 +3643,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110706,
@@ -3635,7 +3700,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110707,
@@ -3691,7 +3757,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110708,
@@ -3749,7 +3816,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110709,
@@ -3801,7 +3869,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 7
+    "iMainTechnique": 7,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110801,
@@ -3855,7 +3924,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 1,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110802,
@@ -3909,7 +3979,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110803,
@@ -3963,7 +4034,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110804,
@@ -4019,7 +4091,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110805,
@@ -4073,7 +4146,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110806,
@@ -4129,7 +4203,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110807,
@@ -4183,7 +4258,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 3,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110808,
@@ -4239,7 +4315,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 110809,
@@ -4293,7 +4370,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 8
+    "iMainTechnique": 8,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120101,
@@ -4347,7 +4425,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120102,
@@ -4399,7 +4478,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120103,
@@ -4458,7 +4538,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120104,
@@ -4519,7 +4600,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120105,
@@ -4573,7 +4655,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120106,
@@ -4629,7 +4712,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120107,
@@ -4681,7 +4765,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120108,
@@ -4735,7 +4820,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120109,
@@ -4787,7 +4873,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 1
+    "iMainTechnique": 1,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120201,
@@ -4839,7 +4926,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120202,
@@ -4891,7 +4979,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 2
+    "iMainTechnique": 2,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120203,
@@ -4945,7 +5034,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120204,
@@ -5001,7 +5091,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120205,
@@ -5055,7 +5146,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120206,
@@ -5111,7 +5203,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120207,
@@ -5165,7 +5258,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120208,
@@ -5221,7 +5315,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120209,
@@ -5273,7 +5368,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120301,
@@ -5327,7 +5423,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120302,
@@ -5381,7 +5478,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120303,
@@ -5435,7 +5533,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120304,
@@ -5491,7 +5590,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120305,
@@ -5545,7 +5645,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120306,
@@ -5601,7 +5702,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120307,
@@ -5657,7 +5759,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120308,
@@ -5715,7 +5818,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120309,
@@ -5769,7 +5873,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 3
+    "iMainTechnique": 3,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120401,
@@ -5823,7 +5928,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120402,
@@ -5875,7 +5981,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 4
+    "iMainTechnique": 4,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120403,
@@ -5929,7 +6036,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120404,
@@ -5985,7 +6093,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120405,
@@ -6039,7 +6148,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120406,
@@ -6095,7 +6205,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120407,
@@ -6149,7 +6260,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120408,
@@ -6205,7 +6317,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120409,
@@ -6257,7 +6370,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120501,
@@ -6311,7 +6425,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120502,
@@ -6363,7 +6478,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120503,
@@ -6422,7 +6538,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120504,
@@ -6483,7 +6600,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120505,
@@ -6537,7 +6655,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120506,
@@ -6593,7 +6712,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120507,
@@ -6649,7 +6769,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120508,
@@ -6707,7 +6828,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120509,
@@ -6759,7 +6881,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 5
+    "iMainTechnique": 5,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120601,
@@ -6813,7 +6936,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120602,
@@ -6865,7 +6989,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120603,
@@ -6921,7 +7046,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120604,
@@ -6979,7 +7105,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120605,
@@ -7040,7 +7167,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120606,
@@ -7103,7 +7231,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120607,
@@ -7159,7 +7288,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120608,
@@ -7217,7 +7347,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120609,
@@ -7269,7 +7400,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 6
+    "iMainTechnique": 6,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120701,
@@ -7323,7 +7455,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120702,
@@ -7375,7 +7508,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120703,
@@ -7429,7 +7563,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120704,
@@ -7485,7 +7620,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120705,
@@ -7539,7 +7675,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120706,
@@ -7595,7 +7732,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120707,
@@ -7651,7 +7789,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120708,
@@ -7709,7 +7848,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120709,
@@ -7761,7 +7901,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 7
+    "iMainTechnique": 7,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120801,
@@ -7815,7 +7956,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 2,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120802,
@@ -7869,7 +8011,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120803,
@@ -7923,7 +8066,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120804,
@@ -7979,7 +8123,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120805,
@@ -8033,7 +8178,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120806,
@@ -8089,7 +8235,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120807,
@@ -8143,7 +8290,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 6,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120808,
@@ -8199,7 +8347,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 120809,
@@ -8253,7 +8402,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 8
+    "iMainTechnique": 8,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130101,
@@ -8307,7 +8457,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130102,
@@ -8359,7 +8510,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130103,
@@ -8418,7 +8570,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130104,
@@ -8479,7 +8632,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130105,
@@ -8533,7 +8687,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130106,
@@ -8589,7 +8744,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130107,
@@ -8641,7 +8797,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130108,
@@ -8695,7 +8852,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130109,
@@ -8747,7 +8905,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 1
+    "iMainTechnique": 1,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130201,
@@ -8799,7 +8958,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130202,
@@ -8851,7 +9011,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 2
+    "iMainTechnique": 2,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130203,
@@ -8905,7 +9066,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130204,
@@ -8961,7 +9123,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130205,
@@ -9015,7 +9178,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130206,
@@ -9071,7 +9235,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130207,
@@ -9125,7 +9290,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130208,
@@ -9181,7 +9347,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130209,
@@ -9233,7 +9400,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130301,
@@ -9287,7 +9455,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130302,
@@ -9341,7 +9510,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130303,
@@ -9395,7 +9565,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130304,
@@ -9451,7 +9622,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130305,
@@ -9505,7 +9677,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130306,
@@ -9561,7 +9734,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130307,
@@ -9617,7 +9791,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130308,
@@ -9675,7 +9850,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130309,
@@ -9729,7 +9905,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 3
+    "iMainTechnique": 3,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130401,
@@ -9783,7 +9960,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130402,
@@ -9835,7 +10013,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 4
+    "iMainTechnique": 4,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130403,
@@ -9889,7 +10068,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130404,
@@ -9945,7 +10125,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130405,
@@ -9999,7 +10180,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130406,
@@ -10055,7 +10237,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130407,
@@ -10109,7 +10292,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130408,
@@ -10165,7 +10349,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130409,
@@ -10217,7 +10402,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130501,
@@ -10271,7 +10457,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130502,
@@ -10323,7 +10510,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130503,
@@ -10382,7 +10570,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130504,
@@ -10443,7 +10632,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130505,
@@ -10497,7 +10687,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130506,
@@ -10553,7 +10744,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130507,
@@ -10609,7 +10801,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130508,
@@ -10667,7 +10860,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130509,
@@ -10719,7 +10913,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 5
+    "iMainTechnique": 5,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130601,
@@ -10773,7 +10968,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130602,
@@ -10825,7 +11021,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130603,
@@ -10881,7 +11078,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130604,
@@ -10939,7 +11137,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130605,
@@ -11000,7 +11199,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130606,
@@ -11063,7 +11263,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130607,
@@ -11119,7 +11320,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130608,
@@ -11177,7 +11379,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130609,
@@ -11229,7 +11432,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 6
+    "iMainTechnique": 6,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130701,
@@ -11283,7 +11487,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130702,
@@ -11335,7 +11540,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130703,
@@ -11389,7 +11595,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130704,
@@ -11445,7 +11652,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130705,
@@ -11499,7 +11707,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130706,
@@ -11555,7 +11764,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130707,
@@ -11611,7 +11821,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130708,
@@ -11669,7 +11880,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130709,
@@ -11721,7 +11933,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 7
+    "iMainTechnique": 7,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130801,
@@ -11775,7 +11988,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 4,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130802,
@@ -11829,7 +12043,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130803,
@@ -11883,7 +12098,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130804,
@@ -11939,7 +12155,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130805,
@@ -11993,7 +12210,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130806,
@@ -12049,7 +12267,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130807,
@@ -12103,7 +12322,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 12,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130808,
@@ -12159,7 +12379,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 130809,
@@ -12213,7 +12434,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 8
+    "iMainTechnique": 8,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140101,
@@ -12267,7 +12489,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140102,
@@ -12321,7 +12544,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140103,
@@ -12380,7 +12604,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140104,
@@ -12441,7 +12666,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140105,
@@ -12495,7 +12721,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140106,
@@ -12551,7 +12778,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140107,
@@ -12603,7 +12831,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140108,
@@ -12662,7 +12891,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140109,
@@ -12716,7 +12946,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 1
+    "iMainTechnique": 1,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140201,
@@ -12768,7 +12999,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140202,
@@ -12822,7 +13054,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 2
+    "iMainTechnique": 2,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140203,
@@ -12876,7 +13109,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140204,
@@ -12932,7 +13166,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140205,
@@ -12986,7 +13221,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140206,
@@ -13042,7 +13278,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140207,
@@ -13096,7 +13333,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140208,
@@ -13152,7 +13390,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140209,
@@ -13206,7 +13445,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140301,
@@ -13262,7 +13502,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140302,
@@ -13318,7 +13559,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140303,
@@ -13372,7 +13614,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140304,
@@ -13428,7 +13671,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140305,
@@ -13482,7 +13726,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140306,
@@ -13538,7 +13783,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140307,
@@ -13594,7 +13840,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140308,
@@ -13652,7 +13899,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140309,
@@ -13708,7 +13956,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 3
+    "iMainTechnique": 3,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140401,
@@ -13762,7 +14011,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140402,
@@ -13816,7 +14066,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 4
+    "iMainTechnique": 4,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140403,
@@ -13870,7 +14121,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140404,
@@ -13926,7 +14178,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140405,
@@ -13980,7 +14233,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140406,
@@ -14036,7 +14290,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140407,
@@ -14090,7 +14345,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140408,
@@ -14146,7 +14402,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140409,
@@ -14200,7 +14457,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140501,
@@ -14254,7 +14512,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140502,
@@ -14308,7 +14567,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140503,
@@ -14367,7 +14627,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140504,
@@ -14428,7 +14689,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140505,
@@ -14482,7 +14744,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140506,
@@ -14538,7 +14801,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140507,
@@ -14594,7 +14858,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140508,
@@ -14652,7 +14917,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140509,
@@ -14706,7 +14972,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 5
+    "iMainTechnique": 5,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140601,
@@ -14762,7 +15029,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140602,
@@ -14814,7 +15082,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140603,
@@ -14870,7 +15139,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140604,
@@ -14928,7 +15198,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140605,
@@ -14989,7 +15260,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140606,
@@ -15052,7 +15324,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140607,
@@ -15108,7 +15381,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140608,
@@ -15166,7 +15440,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140609,
@@ -15218,7 +15493,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 6
+    "iMainTechnique": 6,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140701,
@@ -15272,7 +15548,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140702,
@@ -15324,7 +15601,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140703,
@@ -15378,7 +15656,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140704,
@@ -15434,7 +15713,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140705,
@@ -15488,7 +15768,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140706,
@@ -15544,7 +15825,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140707,
@@ -15600,7 +15882,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140708,
@@ -15658,7 +15941,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140709,
@@ -15710,7 +15994,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 7
+    "iMainTechnique": 7,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140801,
@@ -15764,7 +16049,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 8,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140802,
@@ -15818,7 +16104,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140803,
@@ -15872,7 +16159,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140804,
@@ -15928,7 +16216,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140805,
@@ -15982,7 +16271,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140806,
@@ -16038,7 +16328,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140807,
@@ -16092,7 +16383,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 24,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140808,
@@ -16148,7 +16440,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 140809,
@@ -16202,7 +16495,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 16,
-    "iMainTechnique": 8
+    "iMainTechnique": 8,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 150103,
@@ -16263,7 +16557,8 @@
     "iEquipDisplay": 100103,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_02"
   },
   {
     "iID": 150104,
@@ -16326,7 +16621,8 @@
     "iEquipDisplay": 100104,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_06"
   },
   {
     "iID": 150105,
@@ -16382,7 +16678,8 @@
     "iEquipDisplay": 100105,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_11"
   },
   {
     "iID": 150106,
@@ -16440,7 +16737,8 @@
     "iEquipDisplay": 100106,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150107,
@@ -16497,7 +16795,8 @@
     "iEquipDisplay": 100107,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_14"
   },
   {
     "iID": 150108,
@@ -16556,7 +16855,8 @@
     "iEquipDisplay": 100108,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 150109,
@@ -16617,7 +16917,8 @@
     "iEquipDisplay": 100109,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_09"
   },
   {
     "iID": 150110,
@@ -16673,7 +16974,8 @@
     "iEquipDisplay": 100110,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_01"
   },
   {
     "iID": 250103,
@@ -16732,7 +17034,8 @@
     "iEquipDisplay": 100111,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_02"
   },
   {
     "iID": 250104,
@@ -16794,7 +17097,8 @@
     "iEquipDisplay": 100112,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_15"
   },
   {
     "iID": 150203,
@@ -16848,7 +17152,8 @@
     "iEquipDisplay": 100203,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_wood_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_04"
   },
   {
     "iID": 150204,
@@ -16904,7 +17209,8 @@
     "iEquipDisplay": 100204,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_wood_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 150207,
@@ -16958,7 +17264,8 @@
     "iEquipDisplay": 100205,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_wood_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_14"
   },
   {
     "iID": 150206,
@@ -17014,7 +17321,8 @@
     "iEquipDisplay": 100206,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_wood_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150205,
@@ -17068,7 +17376,8 @@
     "iEquipDisplay": 100207,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_wood_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_04"
   },
   {
     "iID": 150208,
@@ -17124,7 +17433,8 @@
     "iEquipDisplay": 100208,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_wood_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150209,
@@ -17180,7 +17490,8 @@
     "iEquipDisplay": 100209,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_wood_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_03"
   },
   {
     "iID": 150210,
@@ -17236,7 +17547,8 @@
     "iEquipDisplay": 100210,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_wood_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_09"
   },
   {
     "iID": 250203,
@@ -17290,7 +17602,8 @@
     "iEquipDisplay": 100211,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_wood_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_04"
   },
   {
     "iID": 250204,
@@ -17348,7 +17661,8 @@
     "iEquipDisplay": 100212,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_wood_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 150303,
@@ -17402,7 +17716,8 @@
     "iEquipDisplay": 100303,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_water_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_11"
   },
   {
     "iID": 150304,
@@ -17458,7 +17773,8 @@
     "iEquipDisplay": 100304,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_water_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150305,
@@ -17512,7 +17828,8 @@
     "iEquipDisplay": 100305,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_water_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_04"
   },
   {
     "iID": 150306,
@@ -17568,7 +17885,8 @@
     "iEquipDisplay": 100306,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_water_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 150307,
@@ -17624,7 +17942,8 @@
     "iEquipDisplay": 100307,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_water_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_14"
   },
   {
     "iID": 150308,
@@ -17682,7 +18001,8 @@
     "iEquipDisplay": 100308,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_water_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150309,
@@ -17738,7 +18058,8 @@
     "iEquipDisplay": 100309,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_water_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_01"
   },
   {
     "iID": 150310,
@@ -17794,7 +18115,8 @@
     "iEquipDisplay": 100310,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_water_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_03"
   },
   {
     "iID": 250303,
@@ -17848,7 +18170,8 @@
     "iEquipDisplay": 100311,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_water_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_04"
   },
   {
     "iID": 250304,
@@ -17906,7 +18229,8 @@
     "iEquipDisplay": 100312,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_water_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 250305,
@@ -17960,7 +18284,8 @@
     "iEquipDisplay": 100313,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_water_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_04"
   },
   {
     "iID": 250306,
@@ -18016,7 +18341,8 @@
     "iEquipDisplay": 100314,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_water_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150403,
@@ -18070,7 +18396,8 @@
     "iEquipDisplay": 100403,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_fire_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_04"
   },
   {
     "iID": 150404,
@@ -18126,7 +18453,8 @@
     "iEquipDisplay": 100404,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_fire_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_15"
   },
   {
     "iID": 150405,
@@ -18180,7 +18508,8 @@
     "iEquipDisplay": 100405,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_fire_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_14"
   },
   {
     "iID": 150406,
@@ -18236,7 +18565,8 @@
     "iEquipDisplay": 100406,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_fire_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 150407,
@@ -18290,7 +18620,8 @@
     "iEquipDisplay": 100407,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_fire_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_11"
   },
   {
     "iID": 150408,
@@ -18346,7 +18677,8 @@
     "iEquipDisplay": 100408,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_fire_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150409,
@@ -18402,7 +18734,8 @@
     "iEquipDisplay": 100409,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_fire_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_03"
   },
   {
     "iID": 150410,
@@ -18458,7 +18791,8 @@
     "iEquipDisplay": 100410,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_fire_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_01"
   },
   {
     "iID": 250403,
@@ -18512,7 +18846,8 @@
     "iEquipDisplay": 100411,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_fire_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_04"
   },
   {
     "iID": 250404,
@@ -18568,7 +18903,8 @@
     "iEquipDisplay": 100412,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_fire_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_15"
   },
   {
     "iID": 150503,
@@ -18628,7 +18964,8 @@
     "iEquipDisplay": 100503,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_earth_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_14"
   },
   {
     "iID": 150504,
@@ -18689,7 +19026,8 @@
     "iEquipDisplay": 100504,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_earth_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_12"
   },
   {
     "iID": 150505,
@@ -18748,7 +19086,8 @@
     "iEquipDisplay": 100507,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_earth_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_04"
   },
   {
     "iID": 150506,
@@ -18804,7 +19143,8 @@
     "iEquipDisplay": 100506,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_earth_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150507,
@@ -18860,7 +19200,8 @@
     "iEquipDisplay": 100505,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_earth_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_11"
   },
   {
     "iID": 150508,
@@ -18918,7 +19259,8 @@
     "iEquipDisplay": 100508,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_earth_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 150509,
@@ -18979,7 +19321,8 @@
     "iEquipDisplay": 100509,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_earth_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_03"
   },
   {
     "iID": 150510,
@@ -19035,7 +19378,8 @@
     "iEquipDisplay": 100510,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_earth_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_09"
   },
   {
     "iID": 250503,
@@ -19095,7 +19439,8 @@
     "iEquipDisplay": 100511,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_11"
   },
   {
     "iID": 250504,
@@ -19157,7 +19502,8 @@
     "iEquipDisplay": 100512,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 150603,
@@ -19213,7 +19559,8 @@
     "iEquipDisplay": 100603,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_11"
   },
   {
     "iID": 150604,
@@ -19271,7 +19618,8 @@
     "iEquipDisplay": 100604,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150605,
@@ -19332,7 +19680,8 @@
     "iEquipDisplay": 100605,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_04"
   },
   {
     "iID": 150606,
@@ -19390,7 +19739,8 @@
     "iEquipDisplay": 100606,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 150607,
@@ -19446,7 +19796,8 @@
     "iEquipDisplay": 100607,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_14"
   },
   {
     "iID": 150608,
@@ -19504,7 +19855,8 @@
     "iEquipDisplay": 100608,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150609,
@@ -19562,7 +19914,8 @@
     "iEquipDisplay": 100609,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_03"
   },
   {
     "iID": 150610,
@@ -19625,7 +19978,8 @@
     "iEquipDisplay": 100610,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_08"
   },
   {
     "iID": 250603,
@@ -19681,7 +20035,8 @@
     "iEquipDisplay": 100611,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_11"
   },
   {
     "iID": 250604,
@@ -19739,7 +20094,8 @@
     "iEquipDisplay": 100612,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150703,
@@ -19793,7 +20149,8 @@
     "iEquipDisplay": 100703,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_02"
   },
   {
     "iID": 150704,
@@ -19849,7 +20206,8 @@
     "iEquipDisplay": 100704,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_06"
   },
   {
     "iID": 150705,
@@ -19908,7 +20266,8 @@
     "iEquipDisplay": 100705,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_14"
   },
   {
     "iID": 150706,
@@ -19969,7 +20328,8 @@
     "iEquipDisplay": 100706,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 150707,
@@ -20025,7 +20385,8 @@
     "iEquipDisplay": 100707,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_11"
   },
   {
     "iID": 150708,
@@ -20084,7 +20445,8 @@
     "iEquipDisplay": 100708,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 150709,
@@ -20140,7 +20502,8 @@
     "iEquipDisplay": 100709,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_01"
   },
   {
     "iID": 150710,
@@ -20196,7 +20559,124 @@
     "iEquipDisplay": 100710,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_09"
+  },
+  {
+    "iID": 250703,
+    "szName": "八风箕伯",
+    "iGroupId": 30703,
+    "iSlotId": 20709,
+    "iIconId": 97115,
+    "iIconEzID": 137115,
+    "iIconShapeId": 509,
+    "iQuality": 5,
+    "iType": 0,
+    "iProvideSkill": 81235,
+    "arrSkillID": [],
+    "arrPassiveSKill": [
+      81236
+    ],
+    "arrBuffParam": [
+      2001,
+      113,
+      2002,
+      11,
+      2003,
+      4400
+    ],
+    "arrFlashBuffParam": [],
+    "iSellPrice": 0,
+    "arrTechnique": [
+      7
+    ],
+    "iPower": 42000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ],
+    "arrWeaponForm": [
+      6
+    ],
+    "iComposeTag": [
+      1,
+      1
+    ],
+    "iStar": 5,
+    "iReson": 56,
+    "iPrice": 144,
+    "szEquipFeature": "伤害",
+    "szEquipSkillDesc": "已达最高阶效果。",
+    "iEquipDisplay": 100711,
+    "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
+    "iBpBrawlPrice": 48,
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_02"
+  },
+  {
+    "iID": 250704,
+    "szName": "九黎兵主",
+    "iGroupId": 30704,
+    "iSlotId": 20710,
+    "iIconId": 97125,
+    "iIconEzID": 137125,
+    "iIconShapeId": 515,
+    "iQuality": 5,
+    "iType": 0,
+    "iProvideSkill": 81335,
+    "arrSkillID": [
+      7046
+    ],
+    "arrPassiveSKill": [
+      81336
+    ],
+    "arrBuffParam": [
+      2001,
+      150,
+      2002,
+      15,
+      2003,
+      5000
+    ],
+    "arrFlashBuffParam": [],
+    "iSellPrice": 0,
+    "arrTechnique": [
+      7
+    ],
+    "iPower": 56000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ],
+    "arrWeaponForm": [
+      6
+    ],
+    "iComposeTag": [
+      1,
+      1
+    ],
+    "iStar": 5,
+    "iReson": 64,
+    "iPrice": 192,
+    "szEquipFeature": "伤害",
+    "szEquipSkillDesc": "已达最高阶效果。",
+    "iEquipDisplay": 100712,
+    "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
+    "iBpBrawlPrice": 64,
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 150803,
@@ -20250,7 +20730,8 @@
     "iEquipDisplay": 100803,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_04"
   },
   {
     "iID": 150804,
@@ -20308,7 +20789,8 @@
     "iEquipDisplay": 100804,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150805,
@@ -20367,7 +20849,8 @@
     "iEquipDisplay": 100805,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_14"
   },
   {
     "iID": 150806,
@@ -20423,7 +20906,8 @@
     "iEquipDisplay": 100806,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 150807,
@@ -20477,7 +20961,8 @@
     "iEquipDisplay": 100807,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_11"
   },
   {
     "iID": 150808,
@@ -20535,7 +21020,8 @@
     "iEquipDisplay": 100808,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_05"
   },
   {
     "iID": 150809,
@@ -20591,7 +21077,8 @@
     "iEquipDisplay": 100809,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_08"
   },
   {
     "iID": 150810,
@@ -20647,7 +21134,8 @@
     "iEquipDisplay": 100810,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 32,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_09"
   },
   {
     "iID": 250803,
@@ -20704,7 +21192,8 @@
     "iEquipDisplay": 100811,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 48,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_04"
   },
   {
     "iID": 250804,
@@ -20765,7 +21254,8 @@
     "iEquipDisplay": 100812,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_metal_001.prefab",
     "iBpBrawlPrice": 64,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
   },
   {
     "iID": 190001,
@@ -20810,7 +21300,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 190002,
@@ -20855,7 +21346,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 200001,
@@ -20911,7 +21403,8 @@
     "iEquipDisplay": 103503,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 190003,
@@ -20956,7 +21449,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 190004,
@@ -21001,7 +21495,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 190005,
@@ -21046,7 +21541,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 190006,
@@ -21091,7 +21587,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 190007,
@@ -21136,7 +21633,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 190008,
@@ -21181,7 +21679,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 190009,
@@ -21226,7 +21725,8 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   },
   {
     "iID": 190010,
@@ -21271,6 +21771,7 @@
     "iEquipDisplay": 0,
     "szDisplayPrefab": "",
     "iBpBrawlPrice": 0,
-    "iMainTechnique": 0
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": ""
   }
 ]

@@ -236,9 +236,15 @@ function awRecognizeBitmap(bitmap,grid,piece){
   // the same enclosed-component, glyph-score, margin and color-agreement tests.
   // The independent bright-core guard is required; neither color nor a broken
   // digit can establish a level through this recovery path.
+  // A compressed bright core can end above the digit's last white strokes.
+  // Keep the original extension first. Only a still-unread small badge gets
+  // one longer bounded crop, with the same bright core, color/digit agreement,
+  // complete-glyph, position and confidence gates; the resonance area remains
+  // excluded by the existing 70%-of-cell limit.
   for(const pass of [{small:false,bright:false},...(smallBadge?[{small:true,bright:false}]:[]),
       {small:false,bright:true},...(smallBadge?[{small:true,bright:true}]:[]),
-      {small:smallBadge,bright:true,extendBottom:true}]){
+      {small:smallBadge,bright:true,extendBottom:true},
+      ...(smallBadge?[{small:true,bright:true,extendBottom:true,lowerExtension:.16}]:[])]){
   const smallPass=pass.small;
   if((smallPass||pass.bright)&&hasConflictingDigit)break;
   if(pass.bright&&!hasNewBadgeCore)break;
@@ -253,7 +259,7 @@ function awRecognizeBitmap(bitmap,grid,piece){
     hasFlameShape=true;
     const familyCounts=[0,0,0,0,0,0];for(const [px,py]of color.points)familyCounts[awColorFamily(rgb(px,py))]++;
     const family=familyCounts.indexOf(Math.max(...familyCounts));
-    const glyphBottom=pass.extendBottom?Math.min(color.y+color.height+Math.ceil(ph*.10),top+.70*ph-y):color.y+color.height;
+    const glyphBottom=pass.extendBottom?Math.min(color.y+color.height+Math.ceil(ph*(pass.lowerExtension||.10)),top+.70*ph-y):color.y+color.height;
     const glyphs=awComponents(width,height,(px,py)=>{
       // One side of a tiny flame may be disconnected across the digit's dark
       // outline. Include its adjacent two pixels, keeping the center check.

@@ -103,7 +103,7 @@
     "iID": 22101,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻金系装备给本装备提供40%攻击力加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻金系法宝给本法宝提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -228,7 +228,7 @@
     "iID": 22102,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻金系装备给本装备提供40%攻击力加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻金系法宝给本法宝提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -353,7 +353,7 @@
     "iID": 22201,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻木系装备给本装备提供120%生命值加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻木系法宝给本法宝提供120%生命值加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -478,7 +478,7 @@
     "iID": 22202,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻木系装备给本装备提供40%攻击力加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻木系法宝给本法宝提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -603,7 +603,7 @@
     "iID": 22301,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻水系装备给本装备提供40%攻击力加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻水系法宝给本法宝提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -728,7 +728,7 @@
     "iID": 22302,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻水系装备给本装备提供120%生命值加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻水系法宝给本法宝提供120%生命值加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -853,7 +853,7 @@
     "iID": 22401,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻火系装备给本装备提供40%攻击力加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻火系法宝给本法宝提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -978,7 +978,7 @@
     "iID": 22402,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻火系装备给本装备提供40%攻击力加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻火系法宝给本法宝提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -1103,7 +1103,7 @@
     "iID": 22501,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻土系装备给本装备提供200%防御加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻土系法宝给本法宝提供200%防御加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -1228,7 +1228,7 @@
     "iID": 22502,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻土系装备给本装备提供200%防御加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻土系法宝给本法宝提供200%防御加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -1353,7 +1353,7 @@
     "iID": 22601,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻雷系装备给本装备提供40%攻击力加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻雷系法宝给本法宝提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -1478,7 +1478,7 @@
     "iID": 22602,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻雷系装备给本装备提供40%攻击力加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻雷系法宝给本法宝提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -1603,7 +1603,7 @@
     "iID": 22701,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻邪系装备给本装备提供40%攻击力加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻邪系法宝给本法宝提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -1728,7 +1728,7 @@
     "iID": 22702,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻邪系装备给本装备提供40%攻击力加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻邪系法宝给本法宝提供40%攻击力加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -1853,7 +1853,7 @@
     "iID": 22801,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻体系装备给本装备提供120%生命值加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻体系法宝给本法宝提供120%生命值加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -1978,7 +1978,7 @@
     "iID": 22802,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "法宝觉醒后获得额外效果：每有一件相邻体系装备给本装备提供200%防御加成",
+    "szDes": "法宝觉醒后获得额外效果：每有一件相邻体系法宝给本法宝提供200%防御加成",
     "iIcon": 5,
     "iExp": 50,
     "arrAwakenEffect": [
@@ -5436,12 +5436,15 @@
     "iIcon": 5,
     "iExp": 15,
     "arrAwakenEffect": [
-      1
+      3134
     ],
     "iPower": 2000,
-    "arrReduceGoods": [],
+    "arrReduceGoods": [
+      153704,
+      153700
+    ],
     "iReduceGoodsNum": 40,
-    "iEquip": 0,
+    "iEquip": 250703,
     "iFunctionOpenID": 319,
     "arrEquipStyle": [
       0,
@@ -5462,9 +5465,12 @@
       3200
     ],
     "iPower": 2000,
-    "arrReduceGoods": [],
+    "arrReduceGoods": [
+      153704,
+      153700
+    ],
     "iReduceGoodsNum": 80,
-    "iEquip": 0,
+    "iEquip": 250703,
     "iFunctionOpenID": 319,
     "arrEquipStyle": [
       0,
@@ -5481,13 +5487,15 @@
     "iIcon": 5,
     "iExp": 45,
     "arrAwakenEffect": [
-      3307,
-      3200
+      3334
     ],
     "iPower": 3000,
-    "arrReduceGoods": [],
+    "arrReduceGoods": [
+      153704,
+      153700
+    ],
     "iReduceGoodsNum": 160,
-    "iEquip": 0,
+    "iEquip": 250703,
     "iFunctionOpenID": 319,
     "arrEquipStyle": [
       0,
@@ -5500,14 +5508,20 @@
     "iID": 23704,
     "iAwakenLevel": 4,
     "szName": "觉醒四",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后额外返还一个<color=#e188e0>【邪源珠】</color>；本法宝攻防血提升30%（与其他觉醒效果叠加）",
     "iIcon": 5,
     "iExp": 60,
-    "arrAwakenEffect": [],
+    "arrAwakenEffect": [
+      3407,
+      3400
+    ],
     "iPower": 3000,
-    "arrReduceGoods": [],
+    "arrReduceGoods": [
+      153704,
+      153700
+    ],
     "iReduceGoodsNum": 240,
-    "iEquip": 0,
+    "iEquip": 250703,
     "iFunctionOpenID": 320,
     "arrEquipStyle": [
       0,
@@ -5520,16 +5534,19 @@
     "iID": 23704,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后原相邻效果强化：使相邻邪系法宝攻防血增加15%",
     "iIcon": 5,
     "iExp": 75,
     "arrAwakenEffect": [
-      100
+      3534
     ],
     "iPower": 5000,
-    "arrReduceGoods": [],
+    "arrReduceGoods": [
+      153704,
+      153700
+    ],
     "iReduceGoodsNum": 400,
-    "iEquip": 0,
+    "iEquip": 250703,
     "iFunctionOpenID": 320,
     "arrEquipStyle": [
       0,
@@ -9479,16 +9496,19 @@
     "iID": 24704,
     "iAwakenLevel": 1,
     "szName": "觉醒一",
-    "szDes": "吞噬<color=#e7ad63>【邪源珠】</color>觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供30%攻击力加成",
+    "szDes": "吞噬<color=#e7ad63>【邪源珠】</color>觉醒后获得效果：每有一件相邻邪系法宝给本法宝提供10%伤害加成",
     "iIcon": 5,
     "iExp": 30,
     "arrAwakenEffect": [
-      1001
+      4134
     ],
     "iPower": 4000,
-    "arrReduceGoods": [],
+    "arrReduceGoods": [
+      154704,
+      154700
+    ],
     "iReduceGoodsNum": 50,
-    "iEquip": 0,
+    "iEquip": 250704,
     "iFunctionOpenID": 319,
     "arrEquipStyle": [
       0,
@@ -9509,9 +9529,12 @@
       4200
     ],
     "iPower": 4000,
-    "arrReduceGoods": [],
+    "arrReduceGoods": [
+      154704,
+      154700
+    ],
     "iReduceGoodsNum": 100,
-    "iEquip": 0,
+    "iEquip": 250704,
     "iFunctionOpenID": 319,
     "arrEquipStyle": [
       0,
@@ -9528,12 +9551,15 @@
     "iIcon": 5,
     "iExp": 90,
     "arrAwakenEffect": [
-      3
+      4306
     ],
     "iPower": 6000,
-    "arrReduceGoods": [],
+    "arrReduceGoods": [
+      154704,
+      154700
+    ],
     "iReduceGoodsNum": 200,
-    "iEquip": 0,
+    "iEquip": 250704,
     "iFunctionOpenID": 319,
     "arrEquipStyle": [
       0,
@@ -9550,12 +9576,16 @@
     "iIcon": 5,
     "iExp": 120,
     "arrAwakenEffect": [
-      4407
+      4407,
+      4400
     ],
     "iPower": 6000,
-    "arrReduceGoods": [],
+    "arrReduceGoods": [
+      154704,
+      154700
+    ],
     "iReduceGoodsNum": 300,
-    "iEquip": 0,
+    "iEquip": 250704,
     "iFunctionOpenID": 320,
     "arrEquipStyle": [
       0,
@@ -9568,16 +9598,19 @@
     "iID": 24704,
     "iAwakenLevel": 5,
     "szName": "觉醒五",
-    "szDes": "敬请期待",
+    "szDes": "法宝觉醒后获得额外效果：背包内所有邪属性法宝攻防血提升15%（本法宝除外）",
     "iIcon": 5,
     "iExp": 150,
     "arrAwakenEffect": [
       4507
     ],
     "iPower": 10000,
-    "arrReduceGoods": [],
+    "arrReduceGoods": [
+      154704,
+      154700
+    ],
     "iReduceGoodsNum": 500,
-    "iEquip": 0,
+    "iEquip": 250704,
     "iFunctionOpenID": 320,
     "arrEquipStyle": [
       0,
