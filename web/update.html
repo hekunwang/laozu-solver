@@ -1,0 +1,31 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>更新 · 老祖法宝模拟器</title><style>body{font:16px system-ui;line-height:1.7;max-width:32em;margin:15vh auto;padding:24px;color:#604833;background:#fff7e8}button,a{font:inherit}button{padding:8px 18px}</style><h1>正在检查更新</h1><p id="state" role="status">更新完成后会自动进入工具，背包和收藏会保留。</p><button id="retry" hidden>重试</button> <a href="./">返回工具</a><script>(function () {
+      const base=new URL('./',location.href),text=document.getElementById('state'),retry=document.getElementById('retry');
+      async function status(worker,pageVersion){
+        if(!worker)return null;
+        return new Promise(resolve=>{
+          const channel=new MessageChannel(),timer=setTimeout(()=>{channel.port1.close();resolve(null);},1000);
+          channel.port1.onmessage=event=>{clearTimeout(timer);channel.port1.close();resolve(event.data);};
+          worker.postMessage({type:'FABAO_OFFLINE_STATUS',pageVersion},[channel.port2]);
+        });
+      }
+      async function run(){
+        retry.hidden=true;text.textContent='正在准备最新版，完成后自动进入工具…';
+        const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),30000);
+        try{
+          const response=await fetch(new URL('manifest.json',base),{cache:'no-store',signal:controller.signal});
+          if(!response.ok)throw Error();
+          const manifest=await response.json(),target=manifest.offline;
+          if(!target?.version||!target.pageVersion)throw Error();
+          const registration=await navigator.serviceWorker.register(new URL('sw.js',base),{scope:base.href,updateViaCache:'none'});
+          await registration.update();
+          while(!controller.signal.aborted){
+            const current=await status(navigator.serviceWorker.controller,target.pageVersion);
+            if(current?.version===target.version&&current.ready){location.replace(base.href);return;}
+            await new Promise(resolve=>setTimeout(resolve,200));
+          }
+          throw Error();
+        }catch{text.textContent='更新暂未完成，请联网后重试；已有背包、收藏和离线缓存均保留。';retry.hidden=false;}
+        finally{clearTimeout(timer);}
+      }
+      retry.onclick=run;run();
+    })();</script></html>

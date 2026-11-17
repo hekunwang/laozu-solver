@@ -1,44 +1,44 @@
 {
-  "resourceVersion": "2610201617",
+  "resourceVersion": "2611031142",
   "channel": "formal",
-  "localOnly": false,
-  "builtForDate": "2026-10-21",
-  "formalBaseVersion": "2610201617",
+  "localOnly": true,
+  "builtForDate": "2026-11-10",
+  "formalBaseVersion": "2611031142",
   "levelSources": {
     "0-5": "formal"
   },
   "upstream": "https://github.com/fradwow/laozu-solver",
-  "sourceSnapshot": "official-formal-2610201617",
+  "sourceSnapshot": "formal-2611031142-with-acquired-names-release-2611061819",
   "sourceEvidence": {
-    "manifestUrl": "https://down-2165-cn.hnkx168.cn/xxjz/immortalfamily/publish/ver_2610201617/updatefileInfo.bin",
-    "assemblySha256": "788ebee0921fe2679f04c016b5caecb1349ab2f91764a5491f49bd932acfa959",
-    "verifiedZipCount": 34,
+    "manifestSha256": "0586c8031274eca4eee7e3874d89543313607e255cb9948438a86d7c0fd6899d",
+    "auditPath": "/Users/wanghekun/Documents/game/outputs/laozu-formal-audit-20261104/README.md",
     "runtimeVerified": false,
-    "allCoreTableRawHashesVerified": true
+    "note": "Raw hashes and decoded table hashes are recorded per table; unchanged raw tables reuse prior decode."
   },
   "sourceHashes": {
-    "Ability.json": "0392f02faf0e80b68e7f5703fc60b2e893352a18dfcab843cc0eabf128c37f47",
+    "Ability.json": "28bac6d2153cfc0d473fe5742e76ad2cb3b7e3bffce2b29f560bfdc643951ff9",
+    "AcquiredAbility.json": "9b495eb2200325529828fef20388899ef8fb07f456a35bda131c0c77da314ee0",
     "Attribute.json": "ca64fe80c02ab3c23192c6acb908c856f9c04309986e11e7f1ef86faf6d104ec",
-    "BattleSkill.json": "238aa944a3b7d50b2f130637dc6de40479e5b1d84833453395f6d69ae69f5a43",
-    "Teacher.json": "654acedb73aa85c0ccc440ab65e346e4fa94efa029e777aa12767c65c555e326",
-    "TeacherAwakenEffect.json": "ffa3226ea98cbd11ceb74cc4c517edb95bad903dbc40510f79e2d25ce81986f9",
-    "TeacherAwakening.json": "7df3ccfbfe870dcbf6db82215b012da98c9aae2cf25589ec1081d9910bdc13ba",
+    "BattleSkill.json": "a853a921a2c4bc1c2f27e82a3d4c61dd423d14b39238f2c2092b874a6e3963d3",
+    "Teacher.json": "037f1d8ccceeb29ec4cbe4ac7b2f923e2e139b2fe40e48abdfd63a7748aca5b4",
+    "TeacherAwakenEffect.json": "eeaf308b358ff2abb54d38da681a7b4e9c7ed0821b2481d8884e45c89a090245",
+    "TeacherAwakening.json": "191f08fa0cc6903a5854732616f96c10c929c336e5f396f8f4fb2a0457dc5319",
     "TeacherAwakeningLevel.json": "7aab6a3ed2f2db597bae55ad8ba59150025e3aa7c42d14c3b79bb5fae8985c6a",
     "TeacherStarAffect.json": "6fb66bb6a46fa6e1ca7c8b4ddcb770d6f6e42012ecdea55181bb98a6cbc54b7e",
-    "TextDesc.json": "93acc800fa59942f18e1bb66f01a8205410e695cd44369a5a1b0a1364cbcb5f8",
+    "TextDesc.json": "3cf27b9cd91993f897dee614299e4e0cfc89b76b49258a88d84d87ce20732c17",
     "WanderScore.json": "7f87aa33aeb08db211a9fd7500c2c66e943fcdc7865d4645896d754033cec087",
-    "WanderingEquip.json": "09cb16a9d8199fc07e5e506c064fe37419fdcb3fa35b5d1673ca7eed6fae5c0e",
-    "WanderingEquipCompose.json": "38611fe52110a42490a2885498b6be81852df3053c4a2174f12968f2cec14909",
+    "WanderingEquip.json": "ce1ebac6ae2d81eb933d0d46dcfaa47f8fead63af8016dec011b53722ca4f012",
+    "WanderingEquipCompose.json": "4ce7d192645e99330e0be2905ce4082563acce147163856b51c139f8e395bd9e",
     "WanderingEquipSkill.json": "bd789d37cd2726682eb33d16ec13d4f53afee0cd8ac5dfd502da7fc01b79003b",
-    "WanderingEquipSlot.json": "7214d1c4d31db9059471571b21715ebd23f3cff01bf56500150a49b786e9c4df"
+    "WanderingEquipSlot.json": "d50741dd9e9ccd39c75bad6349f33c765a5ba48be30b386d987f0d781ac43d94"
   },
   "counts": {
-    "equips": 377,
-    "skills": 321,
-    "awakeningComplete": 80,
-    "awakeningConfigured": 80,
-    "awakeningTotal": 82,
-    "talents": 40,
+    "equips": 379,
+    "skills": 326,
+    "awakeningComplete": 82,
+    "awakeningConfigured": 82,
+    "awakeningTotal": 84,
+    "talents": 42,
     "scoreTiers": 55
   },
   "missing": {
@@ -56,11 +56,24 @@
     ]
   },
   "ruleOverrides": null,
-  "recognitionPendingEquipIds": [],
+  "recognitionPendingEquipIds": [
+    250405,
+    250406
+  ],
   "notes": [
     "原版形状修正与截图识别模板保留",
     "缺失的官方效果不会猜补",
     "基础配置及0–5觉均同步正式资源；已核对公开正式客户端配置，未宣称实战运行验证",
     "只优化法宝属性战力，不模拟战斗或证明全局最优"
-  ]
+  ],
+  "repairRevision": "20261106-r10-yinghuo",
+  "deliveryTarget": "static-browser-web",
+  "talentOcrModelStatus": "rejected-large-model",
+  "talentRecognitionEngine": "talent-lite",
+  "talentRecognitionPolicy": "small-fixed-vocabulary-browser-only",
+  "acquiredTalentNameSource": {
+    "channel": "prerelease",
+    "resourceVersion": "2611061819",
+    "rawTableSha256": "0de966ffd6ea9d0c7cd98ccf148d1e6f64fbf741db89cac8464f4fba116e1b53"
+  }
 }

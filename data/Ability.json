@@ -2731,6 +2731,43 @@
     "iStyle": 0
   },
   {
+    "iID": 2310,
+    "iAbilityID": 11310,
+    "iLevel": 0,
+    "iReson": 0,
+    "szName": "劫火圣体",
+    "szDesc": "火系增伤+15%，金系抗性+5%，伤害+2%。",
+    "iIcon": 5008,
+    "iType": 2,
+    "iQuality": 3,
+    "iSkill": 0,
+    "arrEffect": [
+      2059,
+      1500,
+      2054,
+      500,
+      2025,
+      200
+    ],
+    "arrEffectEquip": [],
+    "iFightPower": 0,
+    "iMaxStack": 1,
+    "iTechnique": 4,
+    "iWeaponForm": 0,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ],
+    "iEffectType": 0,
+    "iStyle": 0
+  },
+  {
     "iID": 0,
     "iAbilityID": 0,
     "iLevel": 0,
@@ -3067,6 +3104,43 @@
     "iFightPower": 0,
     "iMaxStack": 1,
     "iTechnique": 8,
+    "iWeaponForm": 0,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ],
+    "iEffectType": 0,
+    "iStyle": 0
+  },
+  {
+    "iID": 2410,
+    "iAbilityID": 11410,
+    "iLevel": 0,
+    "iReson": 0,
+    "szName": "焚罪化身",
+    "szDesc": "火系增伤+20%，金系抗性+10%，最终伤害+2%。",
+    "iIcon": 5008,
+    "iType": 2,
+    "iQuality": 4,
+    "iSkill": 0,
+    "arrEffect": [
+      2059,
+      2000,
+      2054,
+      1000,
+      2066,
+      200
+    ],
+    "arrEffectEquip": [],
+    "iFightPower": 0,
+    "iMaxStack": 1,
+    "iTechnique": 4,
     "iWeaponForm": 0,
     "arrPowerAttr": [
       2001,
@@ -3755,6 +3829,47 @@
     "iStyle": 0
   },
   {
+    "iID": 3020,
+    "iAbilityID": 12020,
+    "iLevel": 0,
+    "iReson": 0,
+    "szName": "全抗大师",
+    "szDesc": "忽视暴击↑忽视连击↑忽视反击↑忽视闪避↑忽视眩晕↑。",
+    "iIcon": 5008,
+    "iType": 4,
+    "iQuality": 4,
+    "iSkill": 0,
+    "arrEffect": [
+      2010,
+      500,
+      2024,
+      500,
+      2022,
+      500,
+      2018,
+      500,
+      2020,
+      500
+    ],
+    "arrEffectEquip": [],
+    "iFightPower": 0,
+    "iMaxStack": 1,
+    "iTechnique": 0,
+    "iWeaponForm": 0,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ],
+    "iEffectType": 0,
+    "iStyle": 0
+  },
+  {
     "iID": 0,
     "iAbilityID": 0,
     "iLevel": 0,
@@ -3920,7 +4035,7 @@
     "iQuality": 2,
     "iSkill": 0,
     "arrEffect": [
-      5003,
+      2043,
       300
     ],
     "arrEffectEquip": [],
@@ -3953,7 +4068,7 @@
     "iQuality": 2,
     "iSkill": 0,
     "arrEffect": [
-      5004,
+      2044,
       300
     ],
     "arrEffectEquip": [],
@@ -4536,7 +4651,7 @@
     "iQuality": 3,
     "iSkill": 0,
     "arrEffect": [
-      5003,
+      2043,
       500
     ],
     "arrEffectEquip": [],
@@ -4569,7 +4684,7 @@
     "iQuality": 3,
     "iSkill": 0,
     "arrEffect": [
-      5004,
+      2044,
       500
     ],
     "arrEffectEquip": [],
@@ -5100,14 +5215,14 @@
     "iLevel": 0,
     "iReson": 0,
     "szName": "蜚廉传承",
-    "szDesc": "破盾强化+2%，枪形态法宝攻击+8%。",
+    "szDesc": "破盾强化+5%，枪形态法宝攻击+8%。",
     "iIcon": 5008,
     "iType": 4,
     "iQuality": 3,
     "iSkill": 0,
     "arrEffect": [
       2070,
-      200
+      500
     ],
     "arrEffectEquip": [
       2004,
@@ -5164,6 +5279,42 @@
       2000000
     ],
     "iEffectType": 1,
+    "iStyle": 0
+  },
+  {
+    "iID": 3224,
+    "iAbilityID": 12224,
+    "iLevel": 0,
+    "iReson": 0,
+    "szName": "劫麟传承",
+    "szDesc": "刀形态法宝攻击+8%，法宝增伤+2%。",
+    "iIcon": 5008,
+    "iType": 4,
+    "iQuality": 3,
+    "iSkill": 0,
+    "arrEffect": [
+      2037,
+      200
+    ],
+    "arrEffectEquip": [
+      2004,
+      800
+    ],
+    "iFightPower": 6000,
+    "iMaxStack": 1,
+    "iTechnique": 0,
+    "iWeaponForm": 7,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ],
+    "iEffectType": 0,
     "iStyle": 0
   },
   {
@@ -5332,7 +5483,7 @@
     "iQuality": 4,
     "iSkill": 0,
     "arrEffect": [
-      5003,
+      2043,
       800
     ],
     "arrEffectEquip": [],
@@ -5365,7 +5516,7 @@
     "iQuality": 4,
     "iSkill": 0,
     "arrEffect": [
-      5004,
+      2044,
       800
     ],
     "arrEffectEquip": [],
@@ -6383,7 +6534,7 @@
     "arrEffect": [
       2009,
       300,
-      2081,
+      2082,
       500
     ],
     "arrEffectEquip": [
@@ -6508,6 +6659,44 @@
     "iMaxStack": 1,
     "iTechnique": 0,
     "iWeaponForm": 5,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ],
+    "iEffectType": 1,
+    "iStyle": 0
+  },
+  {
+    "iID": 3418,
+    "iAbilityID": 12418,
+    "iLevel": 0,
+    "iReson": 0,
+    "szName": "荧惑转世",
+    "szDesc": "刀形态法宝攻击+12%，法宝增伤+4%，暴击率+3%。",
+    "iIcon": 5008,
+    "iType": 4,
+    "iQuality": 4,
+    "iSkill": 0,
+    "arrEffect": [
+      2037,
+      400,
+      2009,
+      300
+    ],
+    "arrEffectEquip": [
+      2004,
+      1200
+    ],
+    "iFightPower": 12000,
+    "iMaxStack": 1,
+    "iTechnique": 0,
+    "iWeaponForm": 7,
     "arrPowerAttr": [
       2001,
       2002,
@@ -9309,7 +9498,7 @@
     "iLevel": 0,
     "iReson": 0,
     "szName": "炎爆",
-    "szDesc": "<u><link=\"tips_10\">【灼烧】</link></u>伤害+15%；对有<u><link=\"tips_10\">【灼烧】</link></u>的单位造成火系伤害时，有概率提前引爆<u><link=\"tips_10\">【灼烧】</link></u>",
+    "szDesc": "<u><link=\"tips_10\">【灼烧】</link></u>伤害获得提升；对有<u><link=\"tips_10\">【灼烧】</link></u>的单位造成火系伤害时，有概率提前引爆<u><link=\"tips_10\">【灼烧】</link></u>",
     "iIcon": 40406,
     "iType": 3,
     "iQuality": 5,

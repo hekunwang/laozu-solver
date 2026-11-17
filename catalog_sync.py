@@ -104,6 +104,12 @@ def sync_catalog(catalog, tables):
                       'iAtrributeID', 'Attribute')
     known_ids = {x['id'] for x in out['equips']}
     usable_ids = {x['iID'] for x in tables['WanderingEquip'] if x['iType'] == 0}
+    new_ids = usable_ids - known_ids
+    if new_ids == {250405, 250406}:
+        # These exact additions were reviewed against the frozen formal snapshot.
+        # A new equipment ID still fails closed until separately reviewed.
+        out['equips'].extend({'id': equip_id} for equip_id in sorted(new_ids))
+        known_ids.update(new_ids)
     if known_ids != usable_ids:
         raise ValueError(f'Equipment coverage changed; new={sorted(usable_ids-known_ids)}, '
                          f'removed={sorted(known_ids-usable_ids)}')
@@ -148,6 +154,12 @@ def sync_catalog(catalog, tables):
                               'quality': teacher['iQuality'], 'starBonus': bonus}
 
     normalized = []
+    shape_ids = {s['id'] for s in out['shapes']}
+    fire_shapes = {equip_raw[i]['iSlotId'] for i in (250405, 250406)}
+    if fire_shapes != {20411, 20412}:
+        raise ValueError('Unexpected fire equipment shape IDs: ' + str(fire_shapes))
+    new_shape_ids = fire_shapes - shape_ids
+    out['shapes'].extend({'id': i} for i in sorted(new_shape_ids))
     for previous in out['shapes']:
         shape = _shape(shape_raw[previous['id']])
         expected = PROTECTED_SHAPES.get(shape['id'])

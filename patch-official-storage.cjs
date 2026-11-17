@@ -3,7 +3,7 @@
 // Keep this function self-contained: its source is embedded before app startup.
 function migrate(storage) {
   const targetPrefix = 'wydl-bag:official:v1:';
-  const legacyPrefixes = ['wydl-bag:prerelease-2610152238:v1:', 'wydl-bag:v1:'];
+  const legacyPrefixes = ['wydl-bag:local-2611031142:v1:', 'wydl-bag:prerelease-2610152238:v1:', 'wydl-bag:v1:'];
   const suffixes = ['state', 'plans', 'layouts', 'import-decisions'];
   const markerKey = targetPrefix + 'migration';
   const report = {version: 1, complete: false, keys: {}, errors: []};

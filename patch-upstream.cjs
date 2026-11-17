@@ -8,6 +8,16 @@ const root = __dirname;
 const read = name => fs.readFileSync(path.join(root, name), 'utf8');
 const awakening = JSON.parse(read('data/awakening.json'));
 const catalog = JSON.parse(read('data/game-catalog.json'));
+// Include all ordinary innate slots for faithful screenshot/manual recovery.
+// The scorer consumes only supported arrEffectEquip percentages; the separate
+// disciple-wide effects are retained for display and do not enter model score.
+const innateRaw=JSON.parse(read('data/Ability.json')).filter(x=>x.iLevel===0&&x.iType===4);
+if(innateRaw.length!==101||new Set(innateRaw.map(x=>x.iAbilityID)).size!==innateRaw.length)throw Error('Unexpected innate talent source');
+catalog.talents=innateRaw.map(row=>{
+  const equip=row.arrEffectEquip||[];
+  if(equip.length!==0&&(equip.length!==2||![2004,2005,2006].includes(equip[0])||!row.iWeaponForm))throw Error('Unsupported innate equip effect: '+row.iAbilityID);
+  return {id:row.iAbilityID,name:row.szName,desc:row.szDesc,quality:row.iQuality,form:row.iWeaponForm||0,attr:equip[0]||0,value:equip[1]||0,globalEffects:row.arrEffect||[]};
+}).sort((a,b)=>a.id-b.id);
 let app = read('upstream-bundle.js');
 function change(source, old, replacement, expected = 1) {
   const count = source.split(old).length - 1;
@@ -113,6 +123,7 @@ app = change(app, 'const Dl=(t,e)=>', extension + '\nconst Dl=(t,e)=>');
 ({app,worker}=require('./patch-solver-incumbent-published.cjs')({app,worker,change}));
 ({app,worker}=require('./patch-solver-star-multiplier.cjs')({app,worker,change}));
 ({app,worker}=require('./patch-solver-neighbor-pool.cjs')({app,worker,change}));
+({app,worker}=require('./patch-calculation-safety.cjs')({app,worker,change}));
 app=require('./patch-instance-ui.cjs')({app,change});
 app=require('./patch-recognition-samples.cjs')({app,change,catalog,samples:JSON.parse(read('data/recognition-samples.json'))});
 app=require('./patch-awakening-import.cjs')({app,change,recognizerSource:read('awakening-recognizer.js'),zeroSamples:JSON.parse(read('data/awakening-zero-samples.json'))});
@@ -134,7 +145,25 @@ app=require('./patch-recognition-lifecycle.cjs')({app,change});
 app=require('./patch-recognition-unexplained.cjs')({app,change});
 app=require('./patch-recognition-adjudication.cjs')({app,change});
 app=require('./patch-recognition-red-limit.cjs')({app,change});
+app=change(app,'const e=Tt(t);if(e.awakenPending)return;Aw.value=awImportAwaken(e.layout);pr(e.counts,e.layout),e.lockedCells.length===0?(ke.value=le,he.value=J,hr([])):F1.value&&hr(e.lockedCells),Z1()',
+  'commitScreenshotImport(t,mode)');
+// Keep screenshot review in one scrolling flow: image, individual awakenings,
+// talents, then unresolved items. OCR status remains reachable if gear fitting
+// has not produced a result, without a second fixed-height pane above the image.
+app=change(app,'r(awImportControls,{result:t}),',
+  'r(awImportControls,{result:t}),r(unifiedTalentReviewPanel,{}),');
+app=change(app,'function ol(){const t=v1.value;if(!t)return null;',
+  'function ol(){const t=v1.value;if(!t)return r(unifiedTalentReviewPanel,{});');
+app=change(app,'children:"跳过自动定位，手动校正"})]}):r(ol,{})',
+  'children:"跳过自动定位，手动校正"}),r(unifiedTalentReviewPanel,{})]}):r(ol,{})');
+({app,worker}=require('./patch-acquired-talents.cjs')({app,worker,change,catalog,attributes:JSON.parse(read('data/Attribute.json'))}));
+app=require('./talent-picker.cjs')({app,change});
+app=require('./patch-worker-lifecycle.cjs')({app,change});
+app=require('./patch-state-ui-safety.cjs')({app,change});
+app=change(app,'机制与公式见 docs/GAME_DATA.md。本工具不修改游戏、不与服务端交互。','战力目标为法宝模型分，非游戏面板总战力。本工具不修改游戏、不与服务端交互。');
 app = change(app, '__LOCAL_WORKER__', JSON.stringify(worker));
+app=require('./compact-solver-tables.cjs').compactSolverTables(app,worker);
+app=require('./compact-recognition-tables.cjs')(app);
 const resourceManifest=JSON.parse(read('data/manifest.json'));
 if(resourceManifest.channel==='formal'){
   app=require('./patch-official-storage.cjs')({app});
@@ -143,6 +172,23 @@ if(resourceManifest.channel==='prerelease'){
   if(!resourceManifest.localOnly||!process.argv.includes('--local-preview'))throw new Error('Prerelease is local-only');
   app=app.replaceAll('wydl-bag:v1','wydl-bag:prerelease-'+resourceManifest.resourceVersion+':v1');
 }
+app=require('./patch-recognition-reliability.cjs')({app,change,emitWorker:({source})=>{
+  const crypto=require('node:crypto');
+  const name='recognition-worker.'+crypto.createHash('sha256').update(source).digest('hex').slice(0,12)+'.js';
+  const directory=path.join(root,'assets');
+  fs.mkdirSync(directory,{recursive:true});
+  fs.writeFileSync(path.join(directory,name),source);
+  return './assets/'+name;
+}});
+// Show ownership only for red equipment, in both the expanded description and
+// the desktop hover text. Apply after packaging recognition to keep its bytes.
+app=change(app,'function xs({equip:t,descKey:e}){const s=',
+  'function xs({equip:t,descKey:e}){const elderName=t.quality===5?t.elder?.name:null,s=');
+app=change(app,'a=[t.desc,...s.map(l=>`${l.name}：${l.desc}`)]',
+  'a=[...(elderName?["所属长老："+elderName]:[]),t.desc,...s.map(l=>`${l.name}：${l.desc}`)]');
+app=change(app,'class:"equip-desc small",children:[r("div",{class:"desc-text",children:t.desc})',
+  'class:"equip-desc small",children:[elderName&&r("div",{class:"muted",children:["所属长老：",elderName]}),r("div",{class:"desc-text",children:t.desc})');
+app+='\n'+read('config-export.js');
 new vm.Script(worker, { filename: 'embedded-solver-worker.js' });
 new vm.Script(app, { filename: 'app.js' });
 fs.writeFileSync(path.join(root, 'app.js'), app);

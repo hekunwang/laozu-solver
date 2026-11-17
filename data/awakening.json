@@ -3542,7 +3542,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "法宝觉醒后额外返还一个【炎脉燧】；本法宝攻防血提升30%（与其他觉醒效果叠加）"
+        "description": "法宝觉醒后额外返还一个【炎脉髓】；本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "5": {
         "baseBonus": {},
@@ -3629,7 +3629,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "法宝觉醒后额外返还一个【炎脉燧】；本法宝攻防血提升30%（与其他觉醒效果叠加）"
+        "description": "法宝觉醒后额外返还一个【炎脉髓】；本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "5": {
         "baseBonus": {},
@@ -3716,7 +3716,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "法宝觉醒后额外返还一个【炎脉燧】；本法宝攻防血提升30%（与其他觉醒效果叠加）"
+        "description": "法宝觉醒后额外返还一个【炎脉髓】；本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "5": {
         "baseBonus": {},
@@ -3803,7 +3803,7 @@
         },
         "skillIds": null,
         "globalBuffs": [],
-        "description": "法宝觉醒后额外返还一个【炎脉燧】；本法宝攻防血提升30%（与其他觉醒效果叠加）"
+        "description": "法宝觉醒后额外返还一个【炎脉髓】；本法宝攻防血提升30%（与其他觉醒效果叠加）"
       },
       "5": {
         "baseBonus": {},
@@ -5275,6 +5275,147 @@
           }
         ],
         "description": "法宝觉醒后获得额外效果：背包内所有邪属性法宝攻防血提升15%（本法宝除外）"
+      }
+    },
+    "missingEffects": []
+  },
+  "250405": {
+    "teacherId": 23405,
+    "teacherName": "火麒麟",
+    "maxLevel": 5,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          40901
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【炎脉髓】觉醒后获得效果：每有一件相邻火系法宝给本法宝提供30%攻击力加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【炎脉髓】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": [
+          40901,
+          40902
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后获得效果：使相邻火系法宝攻防血增加8%"
+      },
+      "4": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后额外返还一个【炎脉髓】；本法宝攻防血提升30%（与其他觉醒效果叠加）"
+      },
+      "5": {
+        "baseBonus": {},
+        "skillIds": [
+          40901,
+          40903
+        ],
+        "globalBuffs": [],
+        "description": "法宝觉醒后原相邻效果强化：使相邻火系法宝攻防血增加15%"
+      }
+    },
+    "missingEffects": []
+  },
+  "250406": {
+    "teacherId": 24405,
+    "teacherName": "荧惑",
+    "maxLevel": 5,
+    "levels": {
+      "1": {
+        "baseBonus": {},
+        "skillIds": [
+          4046,
+          40401
+        ],
+        "globalBuffs": [],
+        "description": "吞噬【炎脉髓】觉醒后获得效果：每有一件相邻火系法宝给本法宝提供10%伤害加成"
+      },
+      "2": {
+        "baseBonus": {
+          "2001": 2000,
+          "2002": 2000,
+          "2003": 2000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后返还一个【炎脉髓】；本法宝攻防血提升20%"
+      },
+      "3": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "form": 7,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 7,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "form": 7,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有刀法宝攻防血提升15%（本法宝除外）"
+      },
+      "4": {
+        "baseBonus": {
+          "2001": 3000,
+          "2002": 3000,
+          "2003": 3000
+        },
+        "skillIds": null,
+        "globalBuffs": [],
+        "description": "法宝觉醒后额外返还一个【炎脉髓】；本法宝攻防血提升30%（与其他觉醒效果叠加）"
+      },
+      "5": {
+        "baseBonus": {},
+        "skillIds": null,
+        "globalBuffs": [
+          {
+            "element": 4,
+            "attr": 2004,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "element": 4,
+            "attr": 2005,
+            "value": 1500,
+            "excludeSource": true
+          },
+          {
+            "element": 4,
+            "attr": 2006,
+            "value": 1500,
+            "excludeSource": true
+          }
+        ],
+        "description": "法宝觉醒后获得额外效果：背包内所有火属性法宝攻防血提升15%（本法宝除外）"
       }
     },
     "missingEffects": []

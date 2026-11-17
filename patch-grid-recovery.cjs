@@ -8,6 +8,13 @@
 function recoverScreenshotGrid(bitmap, fitOriginal, countAnchors, scoreGrid) {
   const original = fitOriginal(bitmap);
   if (original.anchors >= 3 || bitmap.w <= 576) return original;
+  // Sparse boards cannot manufacture six real anchors. If the original fit is
+  // already supported by two independently identified, nonoverlapping items,
+  // avoid the expensive second search which would be discarded below anyway.
+  // The legacy grid-only Worker lacks the identity library and retains its
+  // original behaviour; the complete recognition Worker has this helper.
+  if (original.converged && typeof recognitionGridEvidence === 'function'
+      && recognitionGridEvidence(bitmap, original.grid).count >= 2) return original;
 
   const width = 576, height = Math.max(1, Math.round(bitmap.h * width / bitmap.w));
   const sx = bitmap.w / width, sy = bitmap.h / height;

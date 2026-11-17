@@ -35,12 +35,16 @@ function awScreenshotEquip(result,index){
     const picked=d1.value[group.key+'#'+cluster];return picked?group.candidates.find(eq=>eq.id===picked.equipId):null;
   }}return null;
 }
+// Neither new fire treasure has an independently labelled zero-awakening
+// screenshot. Absence of a visible flame alone is not enough to auto-import 0.
+// A user can explicitly select 0 with the existing manual control.
+function awZeroNeedsReview(eq,piece){return !!eq&&[250405,250406].includes(eq.id)&&piece.awakenLevel===0&&!piece.awakenManual;}
 function awScreenshotSupported(eq,level){return awScreenshotLevelValid(level)&&level<=(AWDB[eq.id]?.maxLevel??0);}
 function awImportMetadata(eq,piece,index,copies){
   const copyIndex=copies.get(eq.id)||0;copies.set(eq.id,copyIndex+1);
   const out={equipId:eq.id,copyIndex,cells:[...piece.cells]};
   if(eq.quality!==5)return out;
-  const valid=awScreenshotSupported(eq,piece.awakenLevel)&&piece.awakenStatus!=='uncertain';
+  const valid=awScreenshotSupported(eq,piece.awakenLevel)&&piece.awakenStatus!=='uncertain'&&!awZeroNeedsReview(eq,piece);
   return {...out,awakenLevel:valid?piece.awakenLevel:null,awakenPending:!valid,awakenConfidence:piece.awakenConfidence??0,importPieceIndex:index};
 }
 function awImportAwaken(layout){
@@ -70,7 +74,7 @@ function awImportControls({result}){
   const items=result.pieces.map((piece,index)=>({piece,index})).filter(({piece})=>awScreenshotIsRed(piece));
   if(!items.length)return null;
   return r(R,{children:[r('h3',{children:'逐件觉醒 · 可手动校正'}),r('p',{class:'muted small',children:'同名两件分别识别。看不清的角标必须选定等级后才能导入；不自动按未觉醒计算。'}),r('div',{class:'elder-rows',children:items.map(({piece,index})=>{
-    const eq=awScreenshotEquip(result,index),valid=eq?awScreenshotSupported(eq,piece.awakenLevel)&&piece.awakenStatus!=='uncertain':awScreenshotLevelValid(piece.awakenLevel)&&piece.awakenStatus!=='uncertain';
+    const eq=awScreenshotEquip(result,index),valid=eq?awScreenshotSupported(eq,piece.awakenLevel)&&piece.awakenStatus!=='uncertain'&&!awZeroNeedsReview(eq,piece):awScreenshotLevelValid(piece.awakenLevel)&&piece.awakenStatus!=='uncertain';
     const name=eq?.name??piece.candidates.map(candidate=>candidate.name).join(' / '),missing=eq&&!AWDB[eq.id]?.maxLevel,maxLevel=eq?Math.max(0,Math.min(5,AWDB[eq.id]?.maxLevel??0)):5,unsupported=eq&&awScreenshotLevelValid(piece.awakenLevel)&&!awScreenshotSupported(eq,piece.awakenLevel);
     return r('div',{class:'elder-row',children:[r(awScreenshotCrop,{piece}),r('span',{class:'name',children:name+' · 位置 ('+(piece.row+1)+','+(piece.col+1)+')'}),
       r('select',{'aria-label':'截图第'+(index+1)+'件觉醒等级',class:valid?'elder-select on':'elder-select',value:valid?String(piece.awakenLevel):'',onChange:event=>{if(event.target.value!=='')awSetScreenshotLevel(index,Number(event.target.value));},children:[r('option',{value:'',disabled:true,children:'待确认'}),...Array.from({length:maxLevel+1},(_,level)=>r('option',{value:String(level),children:level?'觉醒 '+level:'未觉醒'},level))]}),

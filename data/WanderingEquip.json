@@ -18907,6 +18907,118 @@
     "szEquipEffectLighting": "eff_item_mask_15"
   },
   {
+    "iID": 250405,
+    "szName": "无间辟邪",
+    "iGroupId": 30405,
+    "iSlotId": 20411,
+    "iIconId": 94135,
+    "iIconEzID": 134135,
+    "iIconShapeId": 506,
+    "iQuality": 5,
+    "iType": 0,
+    "iProvideSkill": 41245,
+    "arrSkillID": [],
+    "arrPassiveSKill": [],
+    "arrBuffParam": [
+      2001,
+      120,
+      2002,
+      15,
+      2003,
+      3850
+    ],
+    "arrFlashBuffParam": [],
+    "iSellPrice": 0,
+    "arrTechnique": [
+      4
+    ],
+    "iPower": 42000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ],
+    "arrWeaponForm": [
+      7
+    ],
+    "iComposeTag": [
+      1,
+      1
+    ],
+    "iStar": 5,
+    "iReson": 56,
+    "iPrice": 288,
+    "szEquipFeature": "伤害，增益",
+    "szEquipSkillDesc": "已达最高阶效果。",
+    "iEquipDisplay": 100413,
+    "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_fire_001.prefab",
+    "iBpBrawlPrice": 48,
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_14"
+  },
+  {
+    "iID": 250406,
+    "szName": "永劫焚罪",
+    "iGroupId": 30406,
+    "iSlotId": 20412,
+    "iIconId": 94145,
+    "iIconEzID": 134145,
+    "iIconShapeId": 515,
+    "iQuality": 5,
+    "iType": 0,
+    "iProvideSkill": 41345,
+    "arrSkillID": [
+      4046
+    ],
+    "arrPassiveSKill": [],
+    "arrBuffParam": [
+      2001,
+      157,
+      2002,
+      19,
+      2003,
+      4450
+    ],
+    "arrFlashBuffParam": [],
+    "iSellPrice": 0,
+    "arrTechnique": [
+      4
+    ],
+    "iPower": 56000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ],
+    "arrWeaponForm": [
+      7
+    ],
+    "iComposeTag": [
+      1,
+      1
+    ],
+    "iStar": 5,
+    "iReson": 64,
+    "iPrice": 192,
+    "szEquipFeature": "伤害，增益",
+    "szEquipSkillDesc": "已达最高阶效果。",
+    "iEquipDisplay": 100414,
+    "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_fire_001.prefab",
+    "iBpBrawlPrice": 64,
+    "iMainTechnique": 0,
+    "szEquipEffectLighting": "eff_item_mask_10"
+  },
+  {
     "iID": 150503,
     "szName": "灵獐啸岩",
     "iGroupId": 20503,
@@ -20201,7 +20313,7 @@
     "iStar": 5,
     "iReson": 64,
     "iPrice": 192,
-    "szEquipFeature": "伤害，护盾",
+    "szEquipFeature": "伤害，增益",
     "szEquipSkillDesc": "已达最高阶效果。",
     "iEquipDisplay": 100704,
     "szDisplayPrefab": "Game/ImmortalFamily/GameResources/Artist/Battle/Equip/efx_ui_rainbow_equip_skill_lightning_001.prefab",

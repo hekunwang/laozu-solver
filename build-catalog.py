@@ -77,13 +77,47 @@ def main():
     # Refresh all solver-consumed catalog fields, including low-quality talents.
     # Unsupported new shapes/equipment fail closed instead of silently staying stale.
     catalog = sync_catalog(catalog, {name: read(name) for name in exported['tables']})
+    # Preserve all three distinct effect channels; global disciple effects must
+    # never be implicitly multiplied by the number of equipped treasures.
+    acquired = []
+    for row in read('AcquiredAbility'):
+        if row['iID'] <= 0:
+            continue
+        def pairs(field):
+            values = row[field]
+            assert len(values) % 2 == 0, (row['iID'], field)
+            return [{'attr': values[i], 'value': values[i + 1]}
+                    for i in range(0, len(values), 2)]
+        acquired.append({'id': row['iID'], 'name': row['szName'], 'desc': row['szDesc'],
+                         'quality': row['iQuality'], 'forms': row['arrWeaponForm'],
+                         'effects': pairs('arrEffect'),
+                         'equipBaseEffects': pairs('arrEffectEquip1'),
+                         'equipAdvancedEffects': pairs('arrEffectEquip2')})
+    assert len(acquired) == 193 and len({r['id'] for r in acquired}) == 193
+    catalog['acquiredTalents'] = sorted(acquired, key=lambda r: r['id'])
+    write('acquired-talents', catalog['acquiredTalents'])
+    attribute_rows = {r['iAtrributeID']: r for r in read('Attribute') if r['iAtrributeID'] > 0}
+    attr_ids = {a['id'] for a in catalog['attrs']}
+    for effect in (e for talent in acquired for e in talent['equipAdvancedEffects']):
+        if effect['attr'] not in attr_ids:
+            raw = attribute_rows[effect['attr']]
+            catalog['attrs'].append({'id': effect['attr'], 'name': raw['szAttrName'],
+                                     'kind': raw['iAttrType'], 'nPower': raw['nPower']})
+            attr_ids.add(effect['attr'])
     battle = {row['iSkillID']: row for row in read('BattleSkill')}
     equips = {row['iID']: row for row in read('WanderingEquip')}
     tips = {row['iID']: row for row in read('TextDesc')}
+    tip_names = {}
     for equip in catalog['equips']:
         raw = battle[equips[equip['id']]['iProvideSkill']]['szDesc']
+        for tip_id, label in re.findall(r'<link="tips_(\d+)">([^<]+)</link>', raw):
+            tip_names.setdefault(int(tip_id), label)
         equip['desc'] = re.sub(r'<[^>]+>', '', raw)
         equip['tipIds'] = list(dict.fromkeys(int(v) for v in re.findall(r'tips_(\d+)', raw)))
+    existing_tips = {tip['id'] for tip in catalog['tips']}
+    for tip_id in sorted({i for equip in catalog['equips'] for i in equip['tipIds']} - existing_tips):
+        assert tip_id in tip_names, tip_id
+        catalog['tips'].append({'id': tip_id, 'name': tip_names[tip_id], 'desc': ''})
     for tip in catalog['tips']:
         tip['desc'] = re.sub(r'<[^>]+>', '', tips[tip['id']]['szDetailDesc'])
     available_tips = {tip['id'] for tip in catalog['tips']}
@@ -182,7 +216,7 @@ def main():
     assert len(awakening) == expected_total
     assert sum(x['maxLevel'] == 5 for x in awakening.values()) == expected_complete
     assert all(set(x['levels']) == {'1','2','3','4','5'} for x in awakening.values() if x['maxLevel'] == 5)
-    assert len(catalog['talents']) == 40 and all(x['quality'] >= 2 for x in catalog['talents'])
+    assert len(catalog['talents']) == 42 and all(x['quality'] >= 2 for x in catalog['talents'])
     attrs = {x['id'] for x in catalog['attrs']}
     assert all(b['attr'] in attrs for sk in catalog['skills'] for b in sk['buffs'])
     assert len(provenance) == expected_stages and all(row['channel'] == channel for row in provenance)
@@ -195,7 +229,7 @@ def main():
     write('awakening', awakening)
     write('game-catalog', catalog)
     manifest = {
-        'resourceVersion': version, 'channel': channel, 'localOnly': preview, 'builtForDate': date,
+        'resourceVersion': version, 'channel': channel, 'localOnly': bool(exported.get('localOnly', preview)), 'builtForDate': date,
         'formalBaseVersion': exported.get('formalBaseVersion', version),
         'levelSources': {'0-5': channel},
         'upstream': 'https://github.com/fradwow/laozu-solver',
@@ -211,7 +245,7 @@ def main():
                    'scoreTiers': len(catalog['scoreTiers'])},
         'missing': {k: v['missingEffects'] for k, v in awakening.items() if v['missingEffects']},
         'ruleOverrides': read('rule-overrides') if preview else None,
-        'recognitionPendingEquipIds': [250703, 250704] if preview else [],
+        'recognitionPendingEquipIds': [250703, 250704] if preview else [250405, 250406],
         'notes': ['原版形状修正与截图识别模板保留', '缺失的官方效果不会猜补',
                   ('先遣本地验证：八风五觉按用户指定15%替换8%，非官服实测确认；新宝截图外观样本待补' if preview else '基础配置及0–5觉均同步正式资源；已核对公开正式客户端配置，未宣称实战运行验证'),
                   '只优化法宝属性战力，不模拟战斗或证明全局最优'],

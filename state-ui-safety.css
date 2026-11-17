@@ -1,0 +1,11 @@
+.state-ui-model-controls,.state-ui-persistence{margin:12px 0;padding:12px;border:1px solid var(--line,#d9c3a4);border-radius:8px;background:#fffaf1}
+.state-ui-model-controls p{margin:8px 0 0}
+.state-ui-persistence button{margin:6px 6px 0 0}
+.state-ui-result-stale{padding:10px;border:1px solid #c28b44;border-radius:6px;background:#fff4d9;white-space:normal}
+@media(max-width:640px){.state-ui-persistence button{min-height:36px}}
+html.state-ui-keyboard-open,html.state-ui-keyboard-open .import-scroll,html.state-ui-keyboard-open .talent-ocr-inner{scroll-behavior:auto!important}
+html.state-ui-keyboard-open .bottom-nav{display:none}
+html.state-ui-keyboard-open .import-backdrop{top:var(--state-ui-visible-top,0px);bottom:auto;height:var(--state-ui-visible-height);max-height:var(--state-ui-visible-height)}
+html.state-ui-keyboard-open .import-dialog{min-height:0;max-height:var(--state-ui-visible-height);height:100%}
+html.state-ui-keyboard-open .talent-ocr-dialog{position:fixed;top:calc(var(--state-ui-visible-top,0px) + 12px);bottom:auto;left:0;right:0;margin:0 auto;max-height:calc(var(--state-ui-visible-height) - 24px)}
+html.state-ui-keyboard-open .talent-ocr-inner{max-height:calc(var(--state-ui-visible-height) - 48px)}

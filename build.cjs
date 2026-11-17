@@ -2,21 +2,17 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const {execFileSync} = require('node:child_process');
-const root = __dirname;
+const {createPublicWebArtifacts,readPublicWebInputs,writePublicWeb}=require('./web-build.cjs');
+function build(root=__dirname){
 const manifest = JSON.parse(fs.readFileSync(path.join(root,'data/manifest.json'),'utf8'));
 const preview = manifest.channel === 'prerelease';
 if (manifest.channel !== 'formal' && !(preview && manifest.localOnly && process.argv.includes('--local-preview'))) throw new Error('Prerelease requires explicit --local-preview; release requires formal provenance');
-const edition = preview ? '先遣本地验证版' : '邪限';
 execFileSync(process.execPath, [path.join(root, 'patch-upstream.cjs'), ...(preview ? ['--local-preview'] : [])], {stdio: 'inherit'});
-let html = fs.readFileSync(path.join(root, 'upstream.html'), 'utf8');
-const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
-const matches = [...html.matchAll(/<script[^>]*type="module"[^>]*>[\s\S]*?<\/script>/g)];
-if (matches.length !== 1) throw new Error('Expected exactly one upstream app script');
-html = html.replace(matches[0][0], () => '<script type="module">' + app.replaceAll('</script', '<\\/script') + '</script>');
-html = html.replace(/<title>[\s\S]*?<\/title>/, '<title>老祖法宝模拟器 · ' + edition + '</title>');
-html = html.replace('</head>', '<style>.cell-awaken{position:absolute;bottom:2px;right:2px;min-width:11px;padding:1px 2px;border-radius:3px;background:#5b2c83;color:#fff;border:1px solid #ead4ff;font-size:10px;font-weight:700;line-height:1;text-align:center;pointer-events:none;text-shadow:none;z-index:2}.cell-awaken.aw1{background:#537533;border-color:#d8edb6}.cell-awaken.aw2{background:#267ba0;border-color:#b9ebff}.cell-awaken.aw4{background:#985309;border-color:#ffe0a6}.cell-awaken.aw5{background:#a63131;border-color:#ffd1cf}</style></head>');
-html = html.replace('</head>', '<style>' + fs.readFileSync(path.join(root, 'mobile-ui.css'), 'utf8') + '</style></head>');
-html = html.replace('机制与公式见 docs/GAME_DATA.md。本工具不修改游戏、不与服务端交互。', '战力目标为法宝模型分，非游戏面板总战力。本工具不修改游戏、不与服务端交互。');
-html = html.replace('<div id="app"></div>', `<div style="padding:10px 16px;text-align:center;border-bottom:1px solid #dec9ab;background:#fff7e8;color:#604833;font-size:13px">${edition}${preview ? ' · 支持觉醒 0–5' : ''} · 逐件觉醒与截图识别${preview ? ' · 八风五觉按15%；两件新宝截图样本已补' : ''}<details><summary>来源与版本</summary>${preview ? '先遣资源' : '正式服资源'} ${manifest.resourceVersion}。${preview ? '仅供本地验证；八风五觉按指定口径15%替换三觉8%，未作官服实测确认。两件新宝截图识别已补齐；模糊图片仍需核对。' : ''}原作者 <a href="https://github.com/fradwow/laozu-solver" target="_blank" rel="noopener">fradwow/laozu-solver</a>；本版更新 ${manifest.builtForDate}。<a href="https://github.com/hekunwang/laozu-solver" target="_blank" rel="noopener">项目源码</a>。</details></div><div id="app"></div>`);
-fs.writeFileSync(path.join(root, 'index.html'), html);
-console.log('Built standalone offline page:', path.join(root, 'index.html'));
+const artifacts=createPublicWebArtifacts(readPublicWebInputs(root)),result=writePublicWeb(root,artifacts);
+console.log(JSON.stringify({publicDirectory:result.directory,debugPage:path.join(root,'index.html'),app:artifacts.manifest.app,
+  recognitionWorker:artifacts.manifest.recognitionWorker,talentOcr:artifacts.manifest.talentOcr,files:artifacts.manifest.files.length,
+  ...(result.previous?{previousPublicBuild:result.previous}:{})},null,2));
+return artifacts.manifest;
+}
+if(require.main===module)build();
+module.exports={build};

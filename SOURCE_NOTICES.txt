@@ -1,0 +1,4 @@
+原版代码及界面来源：https://github.com/fradwow/laozu-solver
+本版本源码：https://github.com/hekunwang/laozu-solver
+游戏配置、名称及字形素材归原权利人所有。上游基线未附带 LICENSE 文件；本包保留来源与署名，不为上游代码或游戏数据另行声明许可证。
+天赋识别使用固定词表与字形数据，在浏览器内运行；字库按需加载，不包含通用 OCR 模型或原始字体文件。

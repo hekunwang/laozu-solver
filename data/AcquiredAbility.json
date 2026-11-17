@@ -1,0 +1,6844 @@
+[
+  {
+    "iID": 0,
+    "szName": "",
+    "szDesc": "",
+    "arrAbilityGroup": [],
+    "arrTechnique": [],
+    "arrWeaponForm": [],
+    "iQuality": 0,
+    "iWeight": 0,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 0,
+    "arrPowerAttr": [],
+    "arrPowerParam": []
+  },
+  {
+    "iID": 101001,
+    "szName": "五金店员",
+    "szDesc": "金系增伤+1%，木系抵抗+1%",
+    "arrAbilityGroup": [
+      11001,
+      11002,
+      11003
+    ],
+    "arrTechnique": [
+      1
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [
+      2053,
+      100,
+      2056,
+      100
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 101002,
+    "szName": "好战分子",
+    "szDesc": "忽视闪避+2%，暴击增伤+2%",
+    "arrAbilityGroup": [
+      11001
+    ],
+    "arrTechnique": [
+      1
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2018,
+      200,
+      2027,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 101003,
+    "szName": "背后捅刀",
+    "szDesc": "穿甲+3%，法宝增伤+3%",
+    "arrAbilityGroup": [
+      11002
+    ],
+    "arrTechnique": [
+      1
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2082,
+      300,
+      2037,
+      300
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 101004,
+    "szName": "富家子弟",
+    "szDesc": "金系增伤+2%，木系抵抗+2%",
+    "arrAbilityGroup": [
+      11003
+    ],
+    "arrTechnique": [
+      1
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2053,
+      200,
+      2056,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 101005,
+    "szName": "暗榜刺客",
+    "szDesc": "忽视闪避+4%，暴击增伤+4%",
+    "arrAbilityGroup": [
+      11001
+    ],
+    "arrTechnique": [
+      1
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2018,
+      400,
+      2027,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 101006,
+    "szName": "破甲兵王",
+    "szDesc": "穿甲+6%，法宝增伤+6%",
+    "arrAbilityGroup": [
+      11002
+    ],
+    "arrTechnique": [
+      1
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2082,
+      600,
+      2037,
+      600
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 101007,
+    "szName": "黄金斗士",
+    "szDesc": "金系增伤+4%，火系抵抗+4%",
+    "arrAbilityGroup": [
+      11003
+    ],
+    "arrTechnique": [
+      1
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2053,
+      400,
+      2060,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 102001,
+    "szName": "捣药童子",
+    "szDesc": "木系增伤+1%，土系抵抗+1%",
+    "arrAbilityGroup": [
+      12001,
+      12002,
+      12003
+    ],
+    "arrTechnique": [
+      2
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [
+      2055,
+      100,
+      2062,
+      100
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 102002,
+    "szName": "不倒药翁",
+    "szDesc": "忽视击晕+2%，治疗效果+2%",
+    "arrAbilityGroup": [
+      12001
+    ],
+    "arrTechnique": [
+      2
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2020,
+      200,
+      2045,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 102003,
+    "szName": "炼蛊术士",
+    "szDesc": "毒增伤+3%，法宝减伤+3%",
+    "arrAbilityGroup": [
+      12002
+    ],
+    "arrTechnique": [
+      2
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2126,
+      300,
+      2038,
+      300
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 102004,
+    "szName": "锄禾老农",
+    "szDesc": "木系增伤+2%，土系抵抗+2%",
+    "arrAbilityGroup": [
+      12003
+    ],
+    "arrTechnique": [
+      2
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2055,
+      200,
+      2062,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 102005,
+    "szName": "药王传人",
+    "szDesc": "忽视击晕+4%，治疗效果+4%",
+    "arrAbilityGroup": [
+      12001
+    ],
+    "arrTechnique": [
+      2
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2020,
+      400,
+      2045,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 102006,
+    "szName": "绝命毒师",
+    "szDesc": "毒增伤+6%，法宝减伤+6%",
+    "arrAbilityGroup": [
+      12002
+    ],
+    "arrTechnique": [
+      2
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2126,
+      600,
+      2038,
+      600
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 102007,
+    "szName": "再世神农",
+    "szDesc": "木系增伤+4%，土系抵抗+4%",
+    "arrAbilityGroup": [
+      12003
+    ],
+    "arrTechnique": [
+      2
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2055,
+      400,
+      2062,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 103001,
+    "szName": "浪里白条",
+    "szDesc": "水系增伤+1%，火系抵抗+1%",
+    "arrAbilityGroup": [
+      13001,
+      13002,
+      13003
+    ],
+    "arrTechnique": [
+      3
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [
+      2057,
+      100,
+      2060,
+      100
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 103002,
+    "szName": "灌水狂徒",
+    "szDesc": "忽视连击+2%，反击增伤+2%",
+    "arrAbilityGroup": [
+      13001
+    ],
+    "arrTechnique": [
+      3
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2024,
+      200,
+      2029,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 103003,
+    "szName": "问斧河伯",
+    "szDesc": "护盾效果+4%，普攻减伤+3%",
+    "arrAbilityGroup": [
+      13002
+    ],
+    "arrTechnique": [
+      3
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2069,
+      400,
+      2036,
+      300
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 103004,
+    "szName": "澡堂宗师",
+    "szDesc": "水系增伤+2%，火系抵抗+2%",
+    "arrAbilityGroup": [
+      13003
+    ],
+    "arrTechnique": [
+      3
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2057,
+      200,
+      2060,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 103005,
+    "szName": "海军大将",
+    "szDesc": "忽视连击+4%，反击增伤+4%",
+    "arrAbilityGroup": [
+      13001
+    ],
+    "arrTechnique": [
+      3
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2024,
+      400,
+      2029,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 103006,
+    "szName": "千年玄武",
+    "szDesc": "护盾效果+8%，普攻减伤+6%",
+    "arrAbilityGroup": [
+      13002
+    ],
+    "arrTechnique": [
+      3
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2069,
+      800,
+      2036,
+      600
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 103007,
+    "szName": "归位龙王",
+    "szDesc": "水系增伤+4%，火系抵抗+4%",
+    "arrAbilityGroup": [
+      13003
+    ],
+    "arrTechnique": [
+      3
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2057,
+      400,
+      2060,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 104001,
+    "szName": "鬼火少年",
+    "szDesc": "火系增伤+1%，金系抵抗+1%",
+    "arrAbilityGroup": [
+      14001,
+      14002,
+      14003
+    ],
+    "arrTechnique": [
+      4
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [
+      2059,
+      100,
+      2054,
+      100
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 104002,
+    "szName": "夜市烤官​",
+    "szDesc": "忽视暴击+2%，连击增伤+2%",
+    "arrAbilityGroup": [
+      14001
+    ],
+    "arrTechnique": [
+      4
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2010,
+      200,
+      2031,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 104003,
+    "szName": "爆破鬼才",
+    "szDesc": "灼烧增伤+3%，普攻增伤+3%",
+    "arrAbilityGroup": [
+      14002
+    ],
+    "arrTechnique": [
+      4
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2128,
+      300,
+      2035,
+      300
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 104004,
+    "szName": "火钳流民",
+    "szDesc": "火系增伤+2%，金系抵抗+2%",
+    "arrAbilityGroup": [
+      14003
+    ],
+    "arrTechnique": [
+      4
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2059,
+      200,
+      2054,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 104005,
+    "szName": "火锅英雄",
+    "szDesc": "忽视暴击+4%，连击增伤+4%",
+    "arrAbilityGroup": [
+      14001
+    ],
+    "arrTechnique": [
+      4
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2010,
+      400,
+      2031,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 104006,
+    "szName": "侥幸焚帝",
+    "szDesc": "灼烧增伤+6%，普攻增伤+6%",
+    "arrAbilityGroup": [
+      14002
+    ],
+    "arrTechnique": [
+      4
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2128,
+      600,
+      2035,
+      600
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 104007,
+    "szName": "火云邪神",
+    "szDesc": "火系增伤+4%，金系抵抗+4%",
+    "arrAbilityGroup": [
+      14003
+    ],
+    "arrTechnique": [
+      4
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2059,
+      400,
+      2054,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 105001,
+    "szName": "泥地打滚",
+    "szDesc": "土系增伤+1%，水系抵抗+1%",
+    "arrAbilityGroup": [
+      15001,
+      15002,
+      15003
+    ],
+    "arrTechnique": [
+      5
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [
+      2061,
+      100,
+      2058,
+      100
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 105002,
+    "szName": "搬砖师傅",
+    "szDesc": "忽视反击+2%，击晕增伤+2%",
+    "arrAbilityGroup": [
+      15001
+    ],
+    "arrTechnique": [
+      5
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2022,
+      200,
+      2033,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 105003,
+    "szName": "拆迁队长",
+    "szDesc": "破盾强化+4%，法宝增伤+3%",
+    "arrAbilityGroup": [
+      15002
+    ],
+    "arrTechnique": [
+      5
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2070,
+      400,
+      2037,
+      300
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 105004,
+    "szName": "河坝监工",
+    "szDesc": "土系增伤+2%，水系抵抗+2%",
+    "arrAbilityGroup": [
+      15003
+    ],
+    "arrTechnique": [
+      5
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2061,
+      200,
+      2058,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 105005,
+    "szName": "土木教授",
+    "szDesc": "忽视反击+4%，击晕增伤+4%",
+    "arrAbilityGroup": [
+      15001
+    ],
+    "arrTechnique": [
+      5
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2022,
+      400,
+      2033,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 105006,
+    "szName": "地产大鳄",
+    "szDesc": "破盾强化+8%，法宝增伤+6%",
+    "arrAbilityGroup": [
+      15002
+    ],
+    "arrTechnique": [
+      5
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2070,
+      800,
+      2037,
+      600
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 105007,
+    "szName": "基建狂魔",
+    "szDesc": "土系增伤+4%，木系抵抗+4%",
+    "arrAbilityGroup": [
+      15003
+    ],
+    "arrTechnique": [
+      5
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2061,
+      400,
+      2056,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 106001,
+    "szName": "见习电工",
+    "szDesc": "雷系增伤+1%，邪系抵抗+1%",
+    "arrAbilityGroup": [
+      16001,
+      16002,
+      16003
+    ],
+    "arrTechnique": [
+      6
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [
+      2051,
+      100,
+      2074,
+      100
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 106002,
+    "szName": "超载焊工",
+    "szDesc": "穿甲抵抗+2%，怒气技增伤+8%",
+    "arrAbilityGroup": [
+      16001
+    ],
+    "arrTechnique": [
+      6
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2084,
+      200,
+      2039,
+      800
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 106003,
+    "szName": "阴雷老道",
+    "szDesc": "汲取率+2%，法宝增伤+3%",
+    "arrAbilityGroup": [
+      16002
+    ],
+    "arrTechnique": [
+      6
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2047,
+      200,
+      2037,
+      300
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 106004,
+    "szName": "浑元雷师",
+    "szDesc": "雷系增伤+2%，邪系抵抗+2%",
+    "arrAbilityGroup": [
+      16003
+    ],
+    "arrTechnique": [
+      6
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2051,
+      200,
+      2074,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 106005,
+    "szName": "十万伏特",
+    "szDesc": "穿甲抵抗+4%，怒气技增伤+16%",
+    "arrAbilityGroup": [
+      16001
+    ],
+    "arrTechnique": [
+      6
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2084,
+      400,
+      2039,
+      1600
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 106006,
+    "szName": "线圈狂人",
+    "szDesc": "汲取率+4%，法宝增伤+6%",
+    "arrAbilityGroup": [
+      16002
+    ],
+    "arrTechnique": [
+      6
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2049,
+      400,
+      2037,
+      600
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 106007,
+    "szName": "雷电法王",
+    "szDesc": "雷系增伤+4%，邪系抵抗+4%",
+    "arrAbilityGroup": [
+      16003
+    ],
+    "arrTechnique": [
+      6
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2051,
+      400,
+      2074,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 107001,
+    "szName": "反派路人",
+    "szDesc": "邪系增伤+1%，体系抵抗+1%",
+    "arrAbilityGroup": [
+      17001,
+      17002,
+      17003
+    ],
+    "arrTechnique": [
+      7
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [
+      2073,
+      100,
+      2076,
+      100
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 107002,
+    "szName": "吸血黄牛",
+    "szDesc": "穿甲+2%，汲取率+2%",
+    "arrAbilityGroup": [
+      17001
+    ],
+    "arrTechnique": [
+      7
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2082,
+      200,
+      2047,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 107003,
+    "szName": "双花红棍",
+    "szDesc": "暴击+2%，法宝增伤+2%",
+    "arrAbilityGroup": [
+      17002
+    ],
+    "arrTechnique": [
+      7
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2009,
+      200,
+      2037,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 107004,
+    "szName": "魔教护法",
+    "szDesc": "邪系增伤+2%，体系抵抗+2%",
+    "arrAbilityGroup": [
+      17003
+    ],
+    "arrTechnique": [
+      7
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2073,
+      200,
+      2076,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 107005,
+    "szName": "黑市庄家",
+    "szDesc": "穿甲+4%，汲取率+4%",
+    "arrAbilityGroup": [
+      17001
+    ],
+    "arrTechnique": [
+      7
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2082,
+      400,
+      2049,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 107006,
+    "szName": "极道教父",
+    "szDesc": "暴击+4%，法宝增伤+4%",
+    "arrAbilityGroup": [
+      17002
+    ],
+    "arrTechnique": [
+      7
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2009,
+      400,
+      2037,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 107007,
+    "szName": "混世魔王",
+    "szDesc": "邪系增伤+4%，体系抵抗+4%",
+    "arrAbilityGroup": [
+      17003
+    ],
+    "arrTechnique": [
+      7
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2073,
+      400,
+      2076,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 108001,
+    "szName": "体育委员",
+    "szDesc": "体系增伤+1%，雷系抵抗+1%",
+    "arrAbilityGroup": [
+      18001,
+      18002,
+      18003
+    ],
+    "arrTechnique": [
+      8
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [
+      2075,
+      100,
+      2052,
+      100
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 108002,
+    "szName": "贴身保镖",
+    "szDesc": "治疗效果+2%，护盾效果+4%",
+    "arrAbilityGroup": [
+      18001
+    ],
+    "arrTechnique": [
+      8
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2045,
+      200,
+      2069,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 108003,
+    "szName": "气功大师",
+    "szDesc": "法宝增伤+2%，怒气技减伤+8%",
+    "arrAbilityGroup": [
+      18002
+    ],
+    "arrTechnique": [
+      8
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2037,
+      200,
+      2040,
+      800
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 108004,
+    "szName": "健美先生",
+    "szDesc": "体系增伤+2%，雷系抵抗+2%",
+    "arrAbilityGroup": [
+      18003
+    ],
+    "arrTechnique": [
+      8
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [
+      2075,
+      200,
+      2052,
+      200
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 108005,
+    "szName": "大力水手",
+    "szDesc": "治疗效果+4%，护盾效果+8%",
+    "arrAbilityGroup": [
+      18001
+    ],
+    "arrTechnique": [
+      8
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2045,
+      400,
+      2069,
+      800
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 108006,
+    "szName": "罗汉金刚",
+    "szDesc": "法宝增伤+4%，怒气技减伤+16%",
+    "arrAbilityGroup": [
+      18002
+    ],
+    "arrTechnique": [
+      8
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2037,
+      400,
+      2040,
+      1600
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 108007,
+    "szName": "肉身成圣",
+    "szDesc": "体系增伤+4%，雷系抵抗+4%",
+    "arrAbilityGroup": [
+      18003
+    ],
+    "arrTechnique": [
+      8
+    ],
+    "arrWeaponForm": [],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2075,
+      400,
+      2052,
+      400
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 202001,
+    "szName": "剑窍",
+    "szDesc": "剑形态法宝攻击+5%，生命+5%",
+    "arrAbilityGroup": [
+      22001,
+      22002,
+      22003,
+      32001,
+      32002,
+      32003,
+      32004,
+      32005,
+      32006,
+      31001,
+      31002,
+      31004,
+      31005,
+      31007,
+      31008
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 202002,
+    "szName": "剑道果",
+    "szDesc": "剑形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      22001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 202003,
+    "szName": "白虹剑胎",
+    "szDesc": "剑形态法宝穿甲+3%，增伤+3%",
+    "arrAbilityGroup": [
+      22002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2082,
+      300,
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 202004,
+    "szName": "青竹剑胎",
+    "szDesc": "剑形态法宝治疗效果+3%，增伤+3%",
+    "arrAbilityGroup": [
+      22003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2045,
+      300,
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 202005,
+    "szName": "剑心通明",
+    "szDesc": "剑形态法宝攻击、防御、生命各+10%",
+    "arrAbilityGroup": [
+      22001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      1000,
+      2005,
+      1000,
+      2006,
+      1000
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 202006,
+    "szName": "誓约神剑",
+    "szDesc": "剑形态法宝穿甲+6%，增伤+6%",
+    "arrAbilityGroup": [
+      22002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2082,
+      600,
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 202007,
+    "szName": "剑道灵种",
+    "szDesc": "剑形态法宝治疗效果+6%，增伤+6%",
+    "arrAbilityGroup": [
+      22003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2045,
+      600,
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 203001,
+    "szName": "乐窍",
+    "szDesc": "乐形态法宝攻击+5%，生命+5%",
+    "arrAbilityGroup": [
+      23001,
+      23002,
+      23003,
+      32003,
+      33001,
+      33002,
+      33003,
+      33004,
+      33005,
+      31004,
+      31006,
+      31010,
+      31015,
+      31016
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 203002,
+    "szName": "乐道果",
+    "szDesc": "乐形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      23001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 203003,
+    "szName": "惊鸿乐胎",
+    "szDesc": "乐形态法宝攻击+7.5%，增伤+3%",
+    "arrAbilityGroup": [
+      23002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750
+    ],
+    "arrEffectEquip2": [
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 203004,
+    "szName": "漱玉乐胎",
+    "szDesc": "乐形态法宝汲取率+3%，增伤+3%",
+    "arrAbilityGroup": [
+      23003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2047,
+      300,
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 203005,
+    "szName": "音心化境",
+    "szDesc": "乐形态法宝攻击、防御、生命各+10%",
+    "arrAbilityGroup": [
+      23001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      1000,
+      2005,
+      1000,
+      2006,
+      1000
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 203006,
+    "szName": "大音希声",
+    "szDesc": "乐形态法宝攻击+10%，增伤+6%",
+    "arrAbilityGroup": [
+      23002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      1000
+    ],
+    "arrEffectEquip2": [
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 203007,
+    "szName": "乐道灵种",
+    "szDesc": "乐形态法宝汲取率+6%，增伤+6%",
+    "arrAbilityGroup": [
+      23003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2049,
+      600,
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 204001,
+    "szName": "异窍",
+    "szDesc": "异形态法宝攻击+5%，生命+5%",
+    "arrAbilityGroup": [
+      24001,
+      24002,
+      24003,
+      32004,
+      33001,
+      34001,
+      33003,
+      34002,
+      34003,
+      31005,
+      31006,
+      31011,
+      31018,
+      31019
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 204002,
+    "szName": "异道果",
+    "szDesc": "异形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      24001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 204003,
+    "szName": "千机异胎",
+    "szDesc": "异形态法宝生命+7.5%，增伤+3%",
+    "arrAbilityGroup": [
+      24002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 204004,
+    "szName": "衔珠异胎",
+    "szDesc": "异形态法宝治疗效果+3%，增伤+3%",
+    "arrAbilityGroup": [
+      24003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2045,
+      300,
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 204005,
+    "szName": "异宝千机",
+    "szDesc": "异形态法宝攻击、防御、生命各+10%",
+    "arrAbilityGroup": [
+      24001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      1000,
+      2005,
+      1000,
+      2006,
+      1000
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 204006,
+    "szName": "变形金刚",
+    "szDesc": "异形态法宝生命+10%，增伤+6%",
+    "arrAbilityGroup": [
+      24002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2006,
+      1000
+    ],
+    "arrEffectEquip2": [
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 204007,
+    "szName": "异道灵种",
+    "szDesc": "异形态法宝治疗效果+6%，增伤+6%",
+    "arrAbilityGroup": [
+      24003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2045,
+      600,
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 205001,
+    "szName": "御窍",
+    "szDesc": "御形态法宝防御+5%，生命+5%",
+    "arrAbilityGroup": [
+      32005,
+      35001,
+      35002,
+      35003,
+      35004,
+      34002,
+      31007,
+      31009,
+      31012,
+      31018,
+      25001,
+      25002,
+      25003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 205002,
+    "szName": "御道果",
+    "szDesc": "御形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      25001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 205003,
+    "szName": "天衣御胎",
+    "szDesc": "御形态法宝护盾效果+6%，防御+7.5%",
+    "arrAbilityGroup": [
+      25002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2005,
+      750
+    ],
+    "arrEffectEquip2": [
+      2069,
+      600
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 205004,
+    "szName": "逆鳞御胎",
+    "szDesc": "御形态法宝护盾效果+6%，增伤+3%",
+    "arrAbilityGroup": [
+      25003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2069,
+      600,
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 205005,
+    "szName": "御心守一",
+    "szDesc": "御形态法宝攻击、防御、生命各+10%",
+    "arrAbilityGroup": [
+      25001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      1000,
+      2005,
+      1000,
+      2006,
+      1000
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 205006,
+    "szName": "不动如山",
+    "szDesc": "御形态法宝护盾效果+12%，防御+10%",
+    "arrAbilityGroup": [
+      25002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2005,
+      1000
+    ],
+    "arrEffectEquip2": [
+      2069,
+      1200
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 205007,
+    "szName": "御道灵种",
+    "szDesc": "御形态法宝护盾效果+12%，增伤+6%",
+    "arrAbilityGroup": [
+      25003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2069,
+      1200,
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 206001,
+    "szName": "枪窍",
+    "szDesc": "枪形态法宝攻击+5%，生命+5%",
+    "arrAbilityGroup": [
+      26001,
+      26002,
+      26003,
+      32002,
+      36001,
+      36002,
+      33004,
+      36003,
+      36004,
+      31002,
+      31003,
+      31014,
+      31015
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 206002,
+    "szName": "枪道果",
+    "szDesc": "枪形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      26001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 206003,
+    "szName": "霸王枪胎",
+    "szDesc": "枪形态法宝暴击+3%，暴击增伤+6%",
+    "arrAbilityGroup": [
+      26002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2009,
+      300,
+      2027,
+      600
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 206004,
+    "szName": "沥泉枪胎",
+    "szDesc": "枪形态法宝汲取率+3%，增伤+3%",
+    "arrAbilityGroup": [
+      26003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2047,
+      300,
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 206005,
+    "szName": "枪意凌虚",
+    "szDesc": "枪形态法宝攻击、防御、生命各+10%",
+    "arrAbilityGroup": [
+      26001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      1000,
+      2005,
+      1000,
+      2006,
+      1000
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 206006,
+    "szName": "天翔龙闪",
+    "szDesc": "枪形态法宝暴击+6%，暴击增伤+12%",
+    "arrAbilityGroup": [
+      26002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2009,
+      600,
+      2027,
+      1200
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 206007,
+    "szName": "枪道灵种",
+    "szDesc": "枪形态法宝汲取率+6%，增伤+6%",
+    "arrAbilityGroup": [
+      26003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2049,
+      600,
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 207001,
+    "szName": "刀窍",
+    "szDesc": "刀形态法宝攻击+5%，生命+5%",
+    "arrAbilityGroup": [
+      27001,
+      27002,
+      27003,
+      32001,
+      36001,
+      33002,
+      34001,
+      36003,
+      37001,
+      31001,
+      31003,
+      31010,
+      31011,
+      31017
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 207002,
+    "szName": "刀道果",
+    "szDesc": "刀形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      27001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 207003,
+    "szName": "偃月刀胎",
+    "szDesc": "刀形态法宝攻击+7.5%，增伤+3%",
+    "arrAbilityGroup": [
+      27002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750
+    ],
+    "arrEffectEquip2": [
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 207004,
+    "szName": "雪饮刀胎",
+    "szDesc": "刀形态法宝汲取率+3%，增伤+3%",
+    "arrAbilityGroup": [
+      27003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2047,
+      300,
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 207005,
+    "szName": "刀意归藏",
+    "szDesc": "刀形态法宝攻击、防御、生命各+10%",
+    "arrAbilityGroup": [
+      27001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      1000,
+      2005,
+      1000,
+      2006,
+      1000
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 207006,
+    "szName": "屠龙刀尊",
+    "szDesc": "刀形态法宝攻击+10%，增伤+6%",
+    "arrAbilityGroup": [
+      27002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      1000
+    ],
+    "arrEffectEquip2": [
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 207007,
+    "szName": "刀道灵种",
+    "szDesc": "刀形态法宝汲取率+6%，增伤+6%",
+    "arrAbilityGroup": [
+      27003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2049,
+      600,
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 208001,
+    "szName": "锤窍",
+    "szDesc": "锤形态法宝攻击+5%，防御+5%",
+    "arrAbilityGroup": [
+      28001,
+      28002,
+      28003,
+      32006,
+      35001,
+      35002,
+      38001,
+      35004,
+      34003,
+      31008,
+      31009,
+      31013,
+      31019
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 208002,
+    "szName": "锤道果",
+    "szDesc": "锤形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      28001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 208003,
+    "szName": "博浪锤胎",
+    "szDesc": "锤形态法宝攻击+7.5%，护盾效果+6%",
+    "arrAbilityGroup": [
+      28002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750
+    ],
+    "arrEffectEquip2": [
+      2069,
+      600
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 208004,
+    "szName": "雷公锤胎",
+    "szDesc": "锤形态法宝破盾强化+6%，增伤+3%",
+    "arrAbilityGroup": [
+      28003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2070,
+      600,
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 208005,
+    "szName": "锤魂撼岳",
+    "szDesc": "锤形态法宝攻击、防御、生命各+10%",
+    "arrAbilityGroup": [
+      28001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      1000,
+      2005,
+      1000,
+      2006,
+      1000
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 208006,
+    "szName": "帝皇战锤",
+    "szDesc": "锤形态法宝攻击+10%，护盾效果+12%",
+    "arrAbilityGroup": [
+      28002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      1000
+    ],
+    "arrEffectEquip2": [
+      2069,
+      1200
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 208007,
+    "szName": "锤道灵种",
+    "szDesc": "锤形态法宝破盾强化+12%，增伤+6%",
+    "arrAbilityGroup": [
+      28003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2070,
+      1200,
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 209001,
+    "szName": "幡窍",
+    "szDesc": "幡形态法宝攻击+5%，生命+5%",
+    "arrAbilityGroup": [
+      29001,
+      29002,
+      29003,
+      35003,
+      38001,
+      36002,
+      33005,
+      37001,
+      36004,
+      31012,
+      31013,
+      31014,
+      31016,
+      31017
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      9
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 209002,
+    "szName": "幡道果",
+    "szDesc": "幡形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      29001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      9
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 209003,
+    "szName": "垂云幡胎",
+    "szDesc": "幡形态法宝生命+7.5%，增伤+3%",
+    "arrAbilityGroup": [
+      29002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      9
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 209004,
+    "szName": "招魂幡胎",
+    "szDesc": "幡形态法宝汲取率+3%，增伤+3%",
+    "arrAbilityGroup": [
+      29003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      9
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2047,
+      300,
+      2025,
+      300
+    ],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 209005,
+    "szName": "幡影通幽",
+    "szDesc": "幡形态法宝攻击、防御、生命各+10%",
+    "arrAbilityGroup": [
+      29001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      1000,
+      2005,
+      1000,
+      2006,
+      1000
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 209006,
+    "szName": "尊魂血幡",
+    "szDesc": "幡形态法宝生命+10%，增伤+6%",
+    "arrAbilityGroup": [
+      29002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2006,
+      1000
+    ],
+    "arrEffectEquip2": [
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 209007,
+    "szName": "幡道灵种",
+    "szDesc": "幡形态法宝汲取率+6%，增伤+6%",
+    "arrAbilityGroup": [
+      29003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2049,
+      600,
+      2025,
+      600
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 0,
+    "szName": "",
+    "szDesc": "",
+    "arrAbilityGroup": [],
+    "arrTechnique": [],
+    "arrWeaponForm": [],
+    "iQuality": 0,
+    "iWeight": 0,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 0,
+    "arrPowerAttr": [],
+    "arrPowerParam": []
+  },
+  {
+    "iID": 301001,
+    "szName": "刀剑小成",
+    "szDesc": "【剑】【刀】攻击+3%、生命+3%",
+    "arrAbilityGroup": [
+      31001,
+      32001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      7
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301002,
+    "szName": "枪剑小成",
+    "szDesc": "【剑】【枪】攻击+3%、生命+3%",
+    "arrAbilityGroup": [
+      31002,
+      32002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      6
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301003,
+    "szName": "刀枪小成",
+    "szDesc": "【刀】【枪】攻击+3%、生命+3%",
+    "arrAbilityGroup": [
+      31003,
+      36001,
+      36003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7,
+      6
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301004,
+    "szName": "剑乐小成",
+    "szDesc": "【剑】【乐】攻击+3%、生命+3%",
+    "arrAbilityGroup": [
+      31004,
+      32003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      3
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301005,
+    "szName": "剑异小成",
+    "szDesc": "【剑】【异】攻击+3%、生命+3%",
+    "arrAbilityGroup": [
+      31005,
+      32004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      4
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301006,
+    "szName": "乐异小成",
+    "szDesc": "【乐】【异】攻击+3%、生命+3%",
+    "arrAbilityGroup": [
+      31006,
+      33001,
+      33003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3,
+      4
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301007,
+    "szName": "剑御小成",
+    "szDesc": "【剑】【御】攻击+3%、防御+3%",
+    "arrAbilityGroup": [
+      31007,
+      32005
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      5
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2005,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301008,
+    "szName": "剑锤小成",
+    "szDesc": "【剑】【锤】攻击+3%、防御+3%",
+    "arrAbilityGroup": [
+      31008,
+      32006
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      8
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2005,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301009,
+    "szName": "御锤小成",
+    "szDesc": "【御】【锤】防御+3%、生命+3%",
+    "arrAbilityGroup": [
+      31009,
+      35001,
+      35002,
+      35004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5,
+      8
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2005,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301010,
+    "szName": "刀乐小成",
+    "szDesc": "【刀】【乐】攻击+3%、生命+3%",
+    "arrAbilityGroup": [
+      31010,
+      33002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7,
+      3
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301011,
+    "szName": "刀异小成",
+    "szDesc": "【刀】【异】攻击+3%、生命+3%",
+    "arrAbilityGroup": [
+      31011,
+      34001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7,
+      4
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301014,
+    "szName": "御幡小成",
+    "szDesc": "【御】【幡】攻击+3%、防御+3%",
+    "arrAbilityGroup": [
+      31012,
+      35003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5,
+      9
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2005,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301015,
+    "szName": "锤幡小成",
+    "szDesc": "【锤】【幡】攻击+3%、防御+3%",
+    "arrAbilityGroup": [
+      31013,
+      38001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8,
+      9
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2005,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301016,
+    "szName": "枪幡小成",
+    "szDesc": "【枪】【幡】攻击+3%、生命+3%",
+    "arrAbilityGroup": [
+      31014,
+      36002,
+      36004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6,
+      9
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301017,
+    "szName": "枪乐小成",
+    "szDesc": "【枪】【乐】攻击+3%、生命+3%",
+    "arrAbilityGroup": [
+      31015,
+      33004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6,
+      3
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301018,
+    "szName": "乐幡小成",
+    "szDesc": "【幡】【乐】攻击+3%、生命+3%",
+    "arrAbilityGroup": [
+      31016,
+      33005
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      9,
+      3
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301020,
+    "szName": "刀幡小成",
+    "szDesc": "【刀】【幡】攻击+3%、生命+3%",
+    "arrAbilityGroup": [
+      31017,
+      37001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7,
+      9
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301023,
+    "szName": "御异小成",
+    "szDesc": "【御】【异】防御+3%、生命+3%",
+    "arrAbilityGroup": [
+      31018,
+      34002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5,
+      4
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2005,
+      300,
+      2006,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 301024,
+    "szName": "锤异小成",
+    "szDesc": "【锤】【异】攻击+3%、防御+3%",
+    "arrAbilityGroup": [
+      31019,
+      34003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8,
+      4
+    ],
+    "iQuality": 2,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      300,
+      2005,
+      300
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 1500,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 0,
+    "szName": "",
+    "szDesc": "",
+    "arrAbilityGroup": [],
+    "arrTechnique": [],
+    "arrWeaponForm": [],
+    "iQuality": 0,
+    "iWeight": 0,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 0,
+    "arrPowerAttr": [],
+    "arrPowerParam": []
+  },
+  {
+    "iID": 0,
+    "szName": "",
+    "szDesc": "",
+    "arrAbilityGroup": [],
+    "arrTechnique": [],
+    "arrWeaponForm": [],
+    "iQuality": 0,
+    "iWeight": 0,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 0,
+    "arrPowerAttr": [],
+    "arrPowerParam": []
+  },
+  {
+    "iID": 302001,
+    "szName": "刀剑双绝",
+    "szDesc": "【刀】【剑】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31001,
+      32001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      7
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302002,
+    "szName": "枪剑双绝",
+    "szDesc": "【剑】【枪】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31002,
+      32002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      6
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302003,
+    "szName": "刀枪双绝",
+    "szDesc": "【刀】【枪】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31003,
+      36001,
+      36003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6,
+      7
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302004,
+    "szName": "剑乐双绝",
+    "szDesc": "【剑】【乐】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31004,
+      32003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      3
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302005,
+    "szName": "剑异双绝",
+    "szDesc": "【剑】【异】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31005,
+      32004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      4
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302006,
+    "szName": "乐异双绝",
+    "szDesc": "【乐】【异】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31006,
+      33001,
+      33003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3,
+      4
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302007,
+    "szName": "剑御双绝",
+    "szDesc": "【剑】【御】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31007,
+      32005
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      5
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302008,
+    "szName": "剑锤双绝",
+    "szDesc": "【剑】【锤】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31008,
+      32006
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      8
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302009,
+    "szName": "御锤双绝",
+    "szDesc": "【御】【锤】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31009,
+      35001,
+      35002,
+      35004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5,
+      8
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302010,
+    "szName": "刀乐双绝",
+    "szDesc": "【刀】【乐】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31010,
+      33002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3,
+      7
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302011,
+    "szName": "刀异双绝",
+    "szDesc": "【刀】【异】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31011,
+      34001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4,
+      7
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302014,
+    "szName": "御幡双绝",
+    "szDesc": "【御】【幡】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31012,
+      35003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5,
+      9
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302015,
+    "szName": "锤幡双绝",
+    "szDesc": "【锤】【幡】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31013,
+      38001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8,
+      9
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302016,
+    "szName": "枪幡双绝",
+    "szDesc": "【枪】【幡】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31014,
+      36002,
+      36004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6,
+      9
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302017,
+    "szName": "枪乐双绝",
+    "szDesc": "【枪】【乐】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31015,
+      33004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3,
+      6
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302018,
+    "szName": "幡乐双绝",
+    "szDesc": "【幡】【乐】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31016,
+      33005
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3,
+      9
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302020,
+    "szName": "刀幡双绝",
+    "szDesc": "【刀】【幡】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31017,
+      37001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7,
+      9
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302023,
+    "szName": "御异双绝",
+    "szDesc": "【御】【异】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31018,
+      34002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4,
+      5
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 302024,
+    "szName": "锤异双绝",
+    "szDesc": "【锤】【异】形态法宝攻击、防御、生命各+5%",
+    "arrAbilityGroup": [
+      31019,
+      34003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4,
+      8
+    ],
+    "iQuality": 3,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 3000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 0,
+    "szName": "",
+    "szDesc": "",
+    "arrAbilityGroup": [],
+    "arrTechnique": [],
+    "arrWeaponForm": [],
+    "iQuality": 0,
+    "iWeight": 0,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 0,
+    "arrPowerAttr": [],
+    "arrPowerParam": []
+  },
+  {
+    "iID": 303001,
+    "szName": "刀剑通神",
+    "szDesc": "【刀】【剑】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      7
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303002,
+    "szName": "枪剑通神",
+    "szDesc": "【剑】【枪】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      6
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303003,
+    "szName": "刀枪通神",
+    "szDesc": "【刀】【枪】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7,
+      6
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303004,
+    "szName": "剑乐通神",
+    "szDesc": "【剑】【乐】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      3
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303005,
+    "szName": "剑异通神",
+    "szDesc": "【剑】【异】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31005
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      4
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303006,
+    "szName": "乐异通神",
+    "szDesc": "【乐】【异】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31006
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3,
+      4
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303007,
+    "szName": "剑御通神",
+    "szDesc": "【剑】【御】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31007
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      5
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303008,
+    "szName": "剑锤通神",
+    "szDesc": "【剑】【锤】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31008
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      8
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303009,
+    "szName": "御锤通神",
+    "szDesc": "【御】【锤】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31009
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5,
+      8
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303010,
+    "szName": "刀乐通神",
+    "szDesc": "【刀】【乐】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31010
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7,
+      3
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303011,
+    "szName": "刀异通神",
+    "szDesc": "【刀】【异】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31011
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7,
+      4
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303012,
+    "szName": "御幡通神",
+    "szDesc": "【御】【幡】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31012
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5,
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303013,
+    "szName": "锤幡通神",
+    "szDesc": "【锤】【幡】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31013
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8,
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303014,
+    "szName": "枪幡通神",
+    "szDesc": "【枪】【幡】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31014
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6,
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303015,
+    "szName": "枪乐通神",
+    "szDesc": "【枪】【乐】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31015
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6,
+      3
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303016,
+    "szName": "乐幡通神",
+    "szDesc": "【幡】【乐】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31016
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      9,
+      3
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303017,
+    "szName": "刀幡通神",
+    "szDesc": "【刀】【幡】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31017
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7,
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303018,
+    "szName": "御异通神",
+    "szDesc": "【御】【异】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31018
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5,
+      4
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303019,
+    "szName": "锤异通神",
+    "szDesc": "【锤】【异】形态法宝攻击、防御、生命各+7.5%",
+    "arrAbilityGroup": [
+      31019
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8,
+      4
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2004,
+      750,
+      2005,
+      750,
+      2006,
+      750
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 0,
+    "szName": "",
+    "szDesc": "",
+    "arrAbilityGroup": [],
+    "arrTechnique": [],
+    "arrWeaponForm": [],
+    "iQuality": 0,
+    "iWeight": 0,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [],
+    "iFightPower": 0,
+    "arrPowerAttr": [],
+    "arrPowerParam": []
+  },
+  {
+    "iID": 303101,
+    "szName": "鸣剑饮刀",
+    "szDesc": "【刀】【剑】形态法宝穿甲+5%，汲取率+5%",
+    "arrAbilityGroup": [
+      32001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      7
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2082,
+      500,
+      2049,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303102,
+    "szName": "金戈剑胆",
+    "szDesc": "【剑】【枪】形态法宝穿甲+5%，暴击增伤+10%",
+    "arrAbilityGroup": [
+      32002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      6
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2082,
+      500,
+      2027,
+      1000
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303103,
+    "szName": "铩刃金枪",
+    "szDesc": "【刀】【枪】形态法宝汲取率+5%，暴击增伤+10%",
+    "arrAbilityGroup": [
+      36001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6,
+      7
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2049,
+      500,
+      2027,
+      1000
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303104,
+    "szName": "刃影毒香",
+    "szDesc": "毒增伤+5%，【剑】【乐】形态法宝增伤+5%，",
+    "arrAbilityGroup": [
+      32003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      3
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2126,
+      500
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2025,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303105,
+    "szName": "青芒枯荣",
+    "szDesc": "【剑】【异】形态法宝增伤+5%，生命+10%",
+    "arrAbilityGroup": [
+      32004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      4
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2006,
+      1000
+    ],
+    "arrEffectEquip2": [
+      2025,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303106,
+    "szName": "森罗乐异",
+    "szDesc": "【乐】【异】形态法宝毒增伤+5%，生命+10%",
+    "arrAbilityGroup": [
+      33001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3,
+      4
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2126,
+      500
+    ],
+    "arrEffectEquip1": [
+      2006,
+      1000
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303107,
+    "szName": "剑御潮生",
+    "szDesc": "【剑】【御】形态法宝增伤+5%，护盾效果+5%",
+    "arrAbilityGroup": [
+      32005
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      5
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2025,
+      500,
+      2069,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303108,
+    "szName": "沧刃玄锤",
+    "szDesc": "【剑】【锤】形态法宝增伤+5%，防御+10%",
+    "arrAbilityGroup": [
+      32006
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      2,
+      8
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2005,
+      1000
+    ],
+    "arrEffectEquip2": [
+      2025,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303109,
+    "szName": "玄水御镇",
+    "szDesc": "【御】【锤】形态法宝护盾效果+5%，防御+10%",
+    "arrAbilityGroup": [
+      35001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5,
+      8
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2005,
+      1000
+    ],
+    "arrEffectEquip2": [
+      2069,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303110,
+    "szName": "烈刃琴心",
+    "szDesc": "灼烧增伤+5%，【刀】【乐】形态法宝增伤+5%",
+    "arrAbilityGroup": [
+      33002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3,
+      7
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2128,
+      500
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2025,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303111,
+    "szName": "焚锋疾异",
+    "szDesc": "灼烧增伤+5%，【刀】【异】形态法宝攻击力+10%",
+    "arrAbilityGroup": [
+      34001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4,
+      7
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2128,
+      500
+    ],
+    "arrEffectEquip1": [
+      2004,
+      1000
+    ],
+    "arrEffectEquip2": [],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303112,
+    "szName": "炎律燎异",
+    "szDesc": "连击增伤+10%，【乐】【异】形态法宝增伤+5%",
+    "arrAbilityGroup": [
+      33003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3,
+      4
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [
+      2031,
+      1000
+    ],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2025,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303113,
+    "szName": "磐石御锤",
+    "szDesc": "【御】【锤】形态法宝治疗效果+5%，防御+10%",
+    "arrAbilityGroup": [
+      35002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5,
+      8
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2005,
+      1000
+    ],
+    "arrEffectEquip2": [
+      2045,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303114,
+    "szName": "泰御灵幡",
+    "szDesc": "【御】【幡】形态法宝治疗效果、增伤各+5%",
+    "arrAbilityGroup": [
+      35003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5,
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2045,
+      500,
+      2025,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303115,
+    "szName": "锤幡定岳",
+    "szDesc": "【锤】【幡】形态法宝增伤+5%，防御+10%",
+    "arrAbilityGroup": [
+      38001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      8,
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [
+      2005,
+      1000
+    ],
+    "arrEffectEquip2": [
+      2025,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303116,
+    "szName": "雷锋怒幡",
+    "szDesc": "【枪】【幡】形态法宝怒气回复效率+10%，增伤+5%",
+    "arrAbilityGroup": [
+      36002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6,
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2072,
+      1000,
+      2025,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303117,
+    "szName": "霆律惊戈",
+    "szDesc": "【枪】【乐】形态法宝怒气回复效率+10%，汲取率+5%",
+    "arrAbilityGroup": [
+      33004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3,
+      6
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2072,
+      1000,
+      2049,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303118,
+    "szName": "雷铎神幡",
+    "szDesc": "【幡】【乐】形态法宝增伤、汲取率各+5%",
+    "arrAbilityGroup": [
+      33005
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      3,
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2025,
+      500,
+      2049,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303119,
+    "szName": "裂魂刀枪",
+    "szDesc": "【刀】【枪】形态法宝破盾强化+10%，穿甲+5%",
+    "arrAbilityGroup": [
+      36003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7,
+      6
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2070,
+      1000,
+      2082,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303120,
+    "szName": "邪刃魔幡",
+    "szDesc": "【刀】【幡】形态法宝破盾强化+10%，增伤+5%",
+    "arrAbilityGroup": [
+      37001
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      7,
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2070,
+      1000,
+      2025,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303121,
+    "szName": "冥枪诡旗",
+    "szDesc": "【枪】【幡】形态法宝穿甲+5%，增伤+5%",
+    "arrAbilityGroup": [
+      36004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      6,
+      9
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2082,
+      500,
+      2025,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303122,
+    "szName": "百御千锤",
+    "szDesc": "【御】【锤】形态法宝护盾效果、增伤各+5%",
+    "arrAbilityGroup": [
+      35004
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      5,
+      8
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2069,
+      500,
+      2025,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303123,
+    "szName": "金刚御异",
+    "szDesc": "【御】【异】形态法宝护盾效果、治疗效果各+5%",
+    "arrAbilityGroup": [
+      34002
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4,
+      5
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2069,
+      500,
+      2045,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  },
+  {
+    "iID": 303124,
+    "szName": "无相撼异",
+    "szDesc": "【锤】【异】形态法宝增伤、治疗效果各+5%",
+    "arrAbilityGroup": [
+      34003
+    ],
+    "arrTechnique": [],
+    "arrWeaponForm": [
+      4,
+      8
+    ],
+    "iQuality": 4,
+    "iWeight": 100,
+    "arrEffect": [],
+    "arrEffectEquip1": [],
+    "arrEffectEquip2": [
+      2025,
+      500,
+      2045,
+      500
+    ],
+    "iFightPower": 6000,
+    "arrPowerAttr": [
+      2001,
+      2002,
+      2003
+    ],
+    "arrPowerParam": [
+      20000,
+      10000,
+      2000000
+    ]
+  }
+]

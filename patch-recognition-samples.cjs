@@ -1,7 +1,8 @@
 'use strict';
 
-// Supplement the original appearance matcher with independently labelled
-// offline-game samples. Thresholds and the shape/number checks stay unchanged.
+// Supplement the original matcher with audited appearance samples. Source and
+// holdout status are recorded per image; thresholds and shape/number checks
+// stay unchanged.
 module.exports=function patchRecognitionSamples({app,change,catalog,samples}){
   if(samples?.version!==1||!Array.isArray(samples.signatures)||!samples.signatures.length){
     throw new Error('Recognition samples are missing or have an unsupported version');

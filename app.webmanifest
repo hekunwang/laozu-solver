@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "老祖法宝模拟器",
+  "short_name": "法宝摆盘",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff7e8",
+  "theme_color": "#604833",
+  "icons": [
+    {
+      "src": "./assets/offline-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/offline-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

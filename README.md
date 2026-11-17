@@ -1,4 +1,16 @@
-# 老祖法宝模拟器 · 正式服版
+# 老祖法宝模拟器 · 荧惑与后天天赋
+
+> **2026-11-18 · 荧惑与后天天赋**：红色法宝的详细说明首行增加所属长老，普通法宝保持原样。支持 PWA；联网打开或刷新先检查版本，未变化时复用缓存，有新版时加载新版，断网或检查超时回退完整缓存。正式站与仓库根目录网页使用同一份发布产物。
+
+当前网站：<https://laozu.whk.me/>。使用已有 Node 执行 `node build.cjs`，完整网页输出到 `web/`；执行 `LAOZU_PORT=18778 node serve-web.cjs` 后访问 <http://127.0.0.1:18778/>。离线就绪时抬头显示小绿点；未就绪为灰色。添加到主屏幕或安装网站为可选操作。
+
+发布时将 `web/` 的内容同步到仓库根目录，保持 GitHub Pages 与正式站的首页、资源清单及 Service Worker 相同。构建在根目录生成的 `index.html` 为调试页，应以 `web/index.html` 作为发布首页。网站运行和构建均不需要本机 OCR 服务。
+
+以下保留此前的实现、公式和历史版本说明。
+
+> **2026-11-06 r12 已在 [laozu.whk.me](https://laozu.whk.me/) 上线。** 发布目录为 `web/`。浏览器在选择截图后加载天赋字库并在本机识别。详见 [更新日志](CHANGELOG.md) 和 [通用网页说明](README-通用网页.md)。
+>
+> 下方保留 2026-10-21 发布版的历史说明，包括旧版单文件、本机启动器及 [r2/r3 本地验证说明](README-本地验证.md)。
 
 > 支持觉醒 0–5。基础配置、全部觉醒效果及说明同步正式服资源 `2610201617`；配置核对不等同于游戏实战结算验证。
 
@@ -6,7 +18,7 @@
 
 ## 打开
 
-在线使用：[laozu.whk.me](https://laozu.whk.me/)；[GitHub Pages](https://hekunwang.github.io/laozu-solver/) 同步发布相同版本。源码在 [hekunwang/laozu-solver](https://github.com/hekunwang/laozu-solver)，本仓库 fork 自原作者仓库。
+2026-10-21 版曾同步发布到 [laozu.whk.me](https://laozu.whk.me/) 和 [GitHub Pages](https://hekunwang.github.io/laozu-solver/)。该版源码在 [hekunwang/laozu-solver](https://github.com/hekunwang/laozu-solver)，该仓库 fork 自原作者仓库。
 
 双击本目录的 `打开法宝模拟器.command`，或直接用浏览器打开 `index.html`。网页包含全部脚本、数据和 Worker，可离线运行，无须安装依赖或登录游戏。收藏、持有清单和觉醒等级保存在当前浏览器的本地存储；换浏览器或地址不会自动同步。
 

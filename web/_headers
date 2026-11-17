@@ -1,0 +1,11 @@
+/sw.js
+  Cache-Control: no-cache
+  X-Content-Type-Options: nosniff
+/app.webmanifest
+  Cache-Control: no-cache
+/manifest.json
+  Cache-Control: no-cache
+/update
+  Cache-Control: no-cache
+/update.html
+  Cache-Control: no-cache

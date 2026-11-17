@@ -10,3 +10,14 @@ __pycache__/
 # Keep verification scripts and fixtures local.
 tests/*
 !tests/official-storage.cjs
+
+# Build history and local runtime files stay on the developer machine.
+.web-previous-*
+.web-build-*
+.local-bin/
+.wrangler/
+.env
+.env.*
+.dev.vars*
+!tests/public-web-build.cjs
+!tests/offline-cache.cjs

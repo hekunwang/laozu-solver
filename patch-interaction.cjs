@@ -8,6 +8,7 @@ module.exports = function patchInteraction({app, change}) {
   if (history.some(entry => entry.date === currentRelease.date)) throw new Error('Duplicate current release date');
   const anchor = 'const Dr=[{date:"2026-09-23",';
   app = change(app, anchor, 'const Dr=[' + [currentRelease, ...history.filter(entry => entry.date > '2026-09-23')].map(entry => JSON.stringify(entry)).join(',') + ',{date:"2026-09-23",');
+  app = change(app, 'Dr.map(e=>r("div",{children:[r("h3",{children:e.date})', 'Dr.map(e=>r("div",{children:[r("h3",{children:e.title?e.date+" · "+e.title:e.date})');
 
   app = change(app, 'He=C(8e3),Xe=C(1)', 'He=C(2e4),Xe=C(1)');
   app = change(app, 'He.value=8e3,Xe.value=1', 'He.value=2e4,Xe.value=1');

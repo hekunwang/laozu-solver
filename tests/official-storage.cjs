@@ -9,6 +9,7 @@ const {migrate} = patch;
 const P = 'wydl-bag:prerelease-2610152238:v1:';
 const L = 'wydl-bag:v1:';
 const T = 'wydl-bag:official:v1:';
+const C = 'wydl-bag:local-2611031142:v1:';
 const M = T + 'migration';
 const names = ['state', 'plans', 'layouts', 'import-decisions'];
 const json = JSON.stringify;
@@ -52,6 +53,15 @@ check('existing target including explicit empty always wins', () => {
   const s = store(original), result = migrate(s); assert.equal(result.complete, true);
   for (const name of names) assert.equal(result.keys[name].action, 'keep-target');
   preserved(s, original);
+});
+check('candidate storage is a read-only fallback and never overwrites released data', () => {
+  const original=[...entries(C),...entries(P)],s=store(original),result=migrate(s);
+  assert.equal(result.complete,true);
+  for(const name of names)assert.equal(result.keys[name].source,C+name);
+  preserved(s,original);
+  const target=[T+'state',json({version:1,holdings:{}})],existing=store([...original,target]);
+  assert.equal(migrate(existing).keys.state.action,'keep-target');
+  assert.equal(existing.map.get(T+'state'),target[1]);preserved(existing,original);
 });
 check('explicit empty prerelease is not filled from populated old formal', () => {
   const original = [...entries(L), [P + 'state', json({version: 1, holdings: {}})], ...names.slice(1).map(n => [P + n, '[]'])];

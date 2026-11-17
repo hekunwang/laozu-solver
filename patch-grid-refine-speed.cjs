@@ -4,8 +4,20 @@
 // running it again would select the same anchors and examine the same candidates.
 // A changed grid must still receive the second pass (including after row shifts).
 function refineGridPair(bitmap, grid, refine) {
-  const first = refine(bitmap, grid);
-  return first === grid ? first : refine(bitmap, first);
+  // Within one Worker request, fitting and recognition can reach the same
+  // geometry in different objects. Cache only proven no-ops. A hit returns
+  // this caller's grid, preserving the original object-identity contract.
+  const stable = bitmap?.stableGlyphRefinements;
+  function once(candidate) {
+    if (!stable) return refine(bitmap, candidate);
+    const key = [candidate.ox, candidate.oy, candidate.pw, candidate.ph].join(',');
+    if (stable.has(key)) return candidate;
+    const result = refine(bitmap, candidate);
+    if (result === candidate) stable.add(key);
+    return result;
+  }
+  const first = once(grid);
+  return first === grid ? first : once(first);
 }
 
 // Keep the original coordinate arithmetic, RGB addition order, Float64 values,

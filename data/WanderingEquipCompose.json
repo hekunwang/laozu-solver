@@ -4650,6 +4650,24 @@
     ]
   },
   {
+    "iFormID": 50405,
+    "szName": "火麒麟",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140405,
+    "iMaterial1": 140409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250405
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
     "iFormID": 40503,
     "szName": "巨灵神",
     "szDesc": "",
@@ -5238,6 +5256,24 @@
     "iMaterial4": 0,
     "arrProductID": [
       250404
+    ],
+    "arrProductProb": [
+      10000
+    ]
+  },
+  {
+    "iFormID": 50406,
+    "szName": "荧惑",
+    "szDesc": "",
+    "bSpecFormula": 1,
+    "bExternal": 1,
+    "iMaterial0": 140406,
+    "iMaterial1": 140409,
+    "iMaterial2": 0,
+    "iMaterial3": 0,
+    "iMaterial4": 0,
+    "arrProductID": [
+      250406
     ],
     "arrProductProb": [
       10000

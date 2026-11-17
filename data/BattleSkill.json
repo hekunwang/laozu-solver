@@ -1742,6 +1742,30 @@
     "iAudioID": 0
   },
   {
+    "iSkillID": 302,
+    "iIconID": 0,
+    "szName": "炼狱游历debuff",
+    "iQuality": 0,
+    "szDesc": "目标护盾弱化+50%，治疗弱化+50%持续整场战斗",
+    "iDuringTime": 500,
+    "iType": 3,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      30201
+    ],
+    "arrSkillBulletDelay": [
+      0
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
     "iSkillID": 401,
     "iIconID": 8235,
     "szName": "官子",
@@ -3730,6 +3754,78 @@
     "iAudioID": 0
   },
   {
+    "iSkillID": 1128,
+    "iIconID": 0,
+    "szName": "Boss怪--金刚堕拳",
+    "iQuality": 0,
+    "szDesc": "普攻：造成250%攻击力伤害",
+    "iDuringTime": 1500,
+    "iType": 1,
+    "iSkillCategory": 0,
+    "iCombatType": 1,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "atk",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      112801
+    ],
+    "arrSkillBulletDelay": [
+      200
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 1131,
+    "iIconID": 0,
+    "szName": "Boss怪--昆吾",
+    "iQuality": 0,
+    "szDesc": "普攻：造成200%攻击力的伤害",
+    "iDuringTime": 1500,
+    "iType": 1,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "atk",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      113101
+    ],
+    "arrSkillBulletDelay": [
+      200
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 1133,
+    "iIconID": 0,
+    "szName": "",
+    "iQuality": 0,
+    "szDesc": "普攻：造成200%攻击力的伤害，回怒不受效率影响",
+    "iDuringTime": 1500,
+    "iType": 1,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "atk",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      113301
+    ],
+    "arrSkillBulletDelay": [
+      200
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
     "iSkillID": 1138,
     "iIconID": 0,
     "szName": "限时邪-体BOSS",
@@ -3773,30 +3869,6 @@
     ],
     "arrSkillBulletDelay": [
       500
-    ],
-    "arrSkillEffectType": [],
-    "iAudioID": 0
-  },
-  {
-    "iSkillID": 1128,
-    "iIconID": 0,
-    "szName": "Boss怪--金刚堕拳",
-    "iQuality": 0,
-    "szDesc": "普攻：造成250%攻击力伤害",
-    "iDuringTime": 1500,
-    "iType": 1,
-    "iSkillCategory": 0,
-    "iCombatType": 1,
-    "iCoolDownFirst": 0,
-    "iCoolDown": 0,
-    "szSkillAction": "atk",
-    "szSkillEffect": "",
-    "fLaunchEffectTime": 0.0,
-    "arrSkillBulletList": [
-      112801
-    ],
-    "arrSkillBulletDelay": [
-      200
     ],
     "arrSkillEffectType": [],
     "iAudioID": 0
@@ -4682,6 +4754,30 @@
     "iAudioID": 0
   },
   {
+    "iSkillID": 2231,
+    "iIconID": 8231,
+    "szName": "金刑剑雨",
+    "iQuality": 0,
+    "szDesc": "催动8次法宝，每次造成30%攻击力的伤害",
+    "iDuringTime": 500,
+    "iType": 2,
+    "iSkillCategory": 2,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "skill_1",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      223401
+    ],
+    "arrSkillBulletDelay": [
+      200
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
     "iSkillID": 2238,
     "iIconID": 8251,
     "szName": "战阵咆哮",
@@ -5311,6 +5407,30 @@
     "arrSkillBulletDelay": [
       800,
       1000
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 3231,
+    "iIconID": 8234,
+    "szName": "坠金破御",
+    "iQuality": 0,
+    "szDesc": "造成200%攻击力的伤害，该伤害无视防御",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 2,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      323401
+    ],
+    "arrSkillBulletDelay": [
+      50
     ],
     "arrSkillEffectType": [],
     "iAudioID": 0
@@ -6520,6 +6640,30 @@
     "iAudioID": 0
   },
   {
+    "iSkillID": 4061,
+    "iIconID": 8232,
+    "szName": "鼠鼠得势",
+    "iQuality": 0,
+    "szDesc": "每次暴击回复5点怒气（不受怒气恢复效率影响）",
+    "iDuringTime": 500,
+    "iType": 3,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      406101
+    ],
+    "arrSkillBulletDelay": [
+      0
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
     "iSkillID": 4068,
     "iIconID": 0,
     "szName": "力大砖飞",
@@ -6536,6 +6680,30 @@
     "fLaunchEffectTime": 0.0,
     "arrSkillBulletList": [
       406801
+    ],
+    "arrSkillBulletDelay": [
+      0
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 4071,
+    "iIconID": 8233,
+    "szName": "金钟宝障",
+    "iQuality": 0,
+    "szDesc": "战斗开始和回合结束时获得10层【金光护体】，灼烧和强化灼烧被引爆时减少2层。【金光护体】：每层暴击率+2.5%，减伤+2.5%，最多20层。",
+    "iDuringTime": 500,
+    "iType": 3,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      407101
     ],
     "arrSkillBulletDelay": [
       0
@@ -11831,9 +11999,9 @@
     "szSkillEffect": "",
     "fLaunchEffectTime": 0.0,
     "arrSkillBulletList": [
-      2130501,
+      2130502,
       14601,
-      2130502
+      2130501
     ],
     "arrSkillBulletDelay": [
       0,
@@ -19468,6 +19636,36 @@
     "iAudioID": 0
   },
   {
+    "iSkillID": 41245,
+    "iIconID": 0,
+    "szName": "无间辟邪",
+    "iQuality": 0,
+    "szDesc": "每回合释放，70%概率立即结算所有<u><link=\"tips_10\">【灼烧】</link></u>效果，并释放3道<u><link=\"tips_319\">【劫麟刀】</link></u>",
+    "iDuringTime": 500,
+    "iType": 2,
+    "iSkillCategory": 1,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      4124501,
+      4124502,
+      4124502,
+      4124502
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      300,
+      900,
+      1500
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
     "iSkillID": 41301,
     "iIconID": 8202,
     "szName": "至阳风火轮",
@@ -19881,6 +20079,36 @@
     ],
     "arrSkillBulletDelay": [
       50
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 41345,
+    "iIconID": 0,
+    "szName": "永劫焚罪",
+    "iQuality": 0,
+    "szDesc": "每回合释放，立即结算所有<u><link=\"tips_10\">【灼烧】</link></u>效果，并释放3道<u><link=\"tips_320\">【焚罪陌刀】</link></u>\n相邻每件火系法宝使本法宝攻击力+50%",
+    "iDuringTime": 500,
+    "iType": 2,
+    "iSkillCategory": 1,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_41345.prefab#1",
+    "fLaunchEffectTime": 3000.0,
+    "arrSkillBulletList": [
+      4124501,
+      4134501,
+      4134501,
+      4134501
+    ],
+    "arrSkillBulletDelay": [
+      1000,
+      2000,
+      2600,
+      3200
     ],
     "arrSkillEffectType": [],
     "iAudioID": 0
@@ -21380,6 +21608,188 @@
     "iAudioID": 0
   },
   {
+    "iSkillID": 43040,
+    "iIconID": 0,
+    "szName": "被动",
+    "iQuality": 0,
+    "szDesc": "附加【灼烧】及【强化灼烧】时，50%概率额外附加1层【余烬】",
+    "iDuringTime": 500,
+    "iType": 3,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      4304001
+    ],
+    "arrSkillBulletDelay": [
+      50
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 43041,
+    "iIconID": 53011,
+    "szName": "劫麟战破",
+    "iQuality": 0,
+    "szDesc": "被动：附加<u><link=\"tips_10\">【灼烧】</link></u>及<u><link=\"tips_323\">【强化灼烧】</link></u>时，50%概率额外附加1层<u><link=\"tips_321\">【余烬】</link></u>\n造成<color=#34932a>2</color>段<color=#34932a>30%</color>攻击力的伤害，每段附加3层<u><link=\"tips_10\">【灼烧】</link></u>",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_43041.prefab#2",
+    "fLaunchEffectTime": 3000.0,
+    "arrSkillBulletList": [
+      4304101,
+      4304101
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      500
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 43042,
+    "iIconID": 53011,
+    "szName": "劫麟战破",
+    "iQuality": 0,
+    "szDesc": "被动：附加<u><link=\"tips_10\">【灼烧】</link></u>及<u><link=\"tips_323\">【强化灼烧】</link></u>时，50%概率额外附加1层<u><link=\"tips_321\">【余烬】</link></u>\n造成<color=#34932a>5</color>段<color=#34932a>30%</color>攻击力的伤害，每段附加3层<u><link=\"tips_10\">【灼烧】</link></u>",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_43041.prefab#2",
+    "fLaunchEffectTime": 3000.0,
+    "arrSkillBulletList": [
+      4304101,
+      4304101,
+      4304101,
+      4304101,
+      4304101
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      500,
+      1000,
+      1500,
+      2000
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 43043,
+    "iIconID": 53011,
+    "szName": "劫麟战破",
+    "iQuality": 0,
+    "szDesc": "被动：附加<u><link=\"tips_10\">【灼烧】</link></u>及<u><link=\"tips_323\">【强化灼烧】</link></u>时，50%概率额外附加1层<u><link=\"tips_321\">【余烬】</link></u>\n造成<color=#34932a>5</color>段<color=#34932a>40%</color>攻击力的伤害，每段附加3层<u><link=\"tips_10\">【灼烧】</link></u>",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_43041.prefab#2",
+    "fLaunchEffectTime": 3000.0,
+    "arrSkillBulletList": [
+      4304301,
+      4304301,
+      4304301,
+      4304301,
+      4304301
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      500,
+      1000,
+      1500,
+      2000
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 43044,
+    "iIconID": 53011,
+    "szName": "劫麟战破",
+    "iQuality": 0,
+    "szDesc": "被动：附加<u><link=\"tips_10\">【灼烧】</link></u>及<u><link=\"tips_323\">【强化灼烧】</link></u>时，50%概率额外附加1层<u><link=\"tips_321\">【余烬】</link></u>\n造成<color=#34932a>6</color>段<color=#34932a>40%</color>攻击力的伤害，每段附加3层<u><link=\"tips_10\">【灼烧】</link></u>",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_43041.prefab#2",
+    "fLaunchEffectTime": 3000.0,
+    "arrSkillBulletList": [
+      4304301,
+      4304301,
+      4304301,
+      4304301,
+      4304301,
+      4304301
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      500,
+      1000,
+      1500,
+      2000,
+      2500
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 43045,
+    "iIconID": 53011,
+    "szName": "劫麟战破",
+    "iQuality": 0,
+    "szDesc": "被动：附加<u><link=\"tips_10\">【灼烧】</link></u>及<u><link=\"tips_323\">【强化灼烧】</link></u>时，50%概率额外附加1层<u><link=\"tips_321\">【余烬】</link></u>\n造成<color=#34932a>6</color>段<color=#34932a>50%</color>攻击力的伤害，每段附加3层<u><link=\"tips_10\">【灼烧】</link></u>",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_43041.prefab#2",
+    "fLaunchEffectTime": 3000.0,
+    "arrSkillBulletList": [
+      4304501,
+      4304501,
+      4304501,
+      4304501,
+      4304501,
+      4304501
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      500,
+      1000,
+      1500,
+      2000,
+      2500
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
     "iSkillID": 43101,
     "iIconID": 53004,
     "szName": "炎魂道典",
@@ -22431,6 +22841,224 @@
     ],
     "arrSkillBulletDelay": [
       100
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 43240,
+    "iIconID": 0,
+    "szName": "被动",
+    "iQuality": 0,
+    "szDesc": "附加【灼烧】及【强化灼烧】时，60%概率额外附加1层【焚烬】",
+    "iDuringTime": 500,
+    "iType": 3,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      4324001
+    ],
+    "arrSkillBulletDelay": [
+      50
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 43241,
+    "iIconID": 53012,
+    "szName": "狱火焚冤录",
+    "iQuality": 0,
+    "szDesc": "被动：附加<u><link=\"tips_10\">【灼烧】</link></u>及<u><link=\"tips_323\">【强化灼烧】</link></u>时，60%概率额外附加1层<u><link=\"tips_322\">【焚烬】</link></u>\n造成<color=#34932a>2</color>段<color=#34932a>50%</color>攻击力的伤害，每段附加3层<u><link=\"tips_10\">【灼烧】</link></u>",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_43241.prefab#2",
+    "fLaunchEffectTime": 4000.0,
+    "arrSkillBulletList": [
+      4324102,
+      4324101,
+      4324101
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      2000,
+      2500
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 43242,
+    "iIconID": 53012,
+    "szName": "狱火焚冤录",
+    "iQuality": 0,
+    "szDesc": "被动：附加<u><link=\"tips_10\">【灼烧】</link></u>及<u><link=\"tips_323\">【强化灼烧】</link></u>时，60%概率额外附加1层<u><link=\"tips_322\">【焚烬】</link></u>\n造成<color=#34932a>5</color>段<color=#34932a>50%</color>攻击力的伤害，每段附加3层<u><link=\"tips_10\">【灼烧】</link></u>",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_43241.prefab#2",
+    "fLaunchEffectTime": 4000.0,
+    "arrSkillBulletList": [
+      4324102,
+      4324101,
+      4324101,
+      4324101,
+      4324101,
+      4324101
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      2000,
+      2500,
+      3000,
+      3500,
+      4000
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 43243,
+    "iIconID": 53012,
+    "szName": "狱火焚冤录",
+    "iQuality": 0,
+    "szDesc": "被动：附加<u><link=\"tips_10\">【灼烧】</link></u>及<u><link=\"tips_323\">【强化灼烧】</link></u>时，60%概率额外附加1层<u><link=\"tips_322\">【焚烬】</link></u>\n造成<color=#34932a>6</color>段<color=#34932a>50%</color>攻击力的伤害，每段附加3层<u><link=\"tips_10\">【灼烧】</link></u>",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_43241.prefab#2",
+    "fLaunchEffectTime": 4000.0,
+    "arrSkillBulletList": [
+      4324102,
+      4324101,
+      4324101,
+      4324101,
+      4324101,
+      4324101,
+      4324101
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      2000,
+      2500,
+      3000,
+      3500,
+      4000,
+      4500
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 43244,
+    "iIconID": 53012,
+    "szName": "狱火焚冤录",
+    "iQuality": 0,
+    "szDesc": "被动：附加<u><link=\"tips_10\">【灼烧】</link></u>及<u><link=\"tips_323\">【强化灼烧】</link></u>时，60%概率额外附加1层<u><link=\"tips_322\">【焚烬】</link></u>\n造成<color=#34932a>6</color>段<color=#34932a>50%</color>攻击力的伤害，每段附加3层<u><link=\"tips_10\">【灼烧】</link></u>",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_43241.prefab#2",
+    "fLaunchEffectTime": 4000.0,
+    "arrSkillBulletList": [
+      4324102,
+      4324101,
+      4324101,
+      4324101,
+      4324101,
+      4324101,
+      4324101
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      2000,
+      2500,
+      3000,
+      3500,
+      4000,
+      4500
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 43245,
+    "iIconID": 53012,
+    "szName": "狱火焚冤录",
+    "iQuality": 0,
+    "szDesc": "被动：附加<u><link=\"tips_10\">【灼烧】</link></u>及<u><link=\"tips_323\">【强化灼烧】</link></u>时，60%概率额外附加1层<u><link=\"tips_322\">【焚烬】</link></u>\n造成<color=#34932a>6</color>段<color=#34932a>60%</color>攻击力的伤害，每段附加3层<u><link=\"tips_10\">【灼烧】</link></u>",
+    "iDuringTime": 500,
+    "iType": 5,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 0,
+    "szSkillAction": "shifa",
+    "szSkillEffect": "Game/ImmortalFamily/GameResources/Artist/Battle/Skill/skill_43241.prefab#2",
+    "fLaunchEffectTime": 4000.0,
+    "arrSkillBulletList": [
+      4324102,
+      4324501,
+      4324501,
+      4324501,
+      4324501,
+      4324501,
+      4324501
+    ],
+    "arrSkillBulletDelay": [
+      50,
+      2000,
+      2500,
+      3000,
+      3500,
+      4000,
+      4500
+    ],
+    "arrSkillEffectType": [],
+    "iAudioID": 0
+  },
+  {
+    "iSkillID": 43246,
+    "iIconID": 0,
+    "szName": "3星被动",
+    "iQuality": 0,
+    "szDesc": "为敌方附加灼烧弱化-50%",
+    "iDuringTime": 500,
+    "iType": 3,
+    "iSkillCategory": 0,
+    "iCombatType": 2,
+    "iCoolDownFirst": 0,
+    "iCoolDown": 999,
+    "szSkillAction": "",
+    "szSkillEffect": "",
+    "fLaunchEffectTime": 0.0,
+    "arrSkillBulletList": [
+      4324601
+    ],
+    "arrSkillBulletDelay": [
+      50
     ],
     "arrSkillEffectType": [],
     "iAudioID": 0
@@ -37060,7 +37688,7 @@
     "iIconID": 56010,
     "szName": "兵解血罗诀",
     "iQuality": 0,
-    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>180%</color>攻击力的邪系伤害，重复释放伤害提升180%，最多360%",
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>180%</color>攻击力的邪系伤害，重复释放伤害提升180%，最多360%。攻击拥有护盾的单位时，额外造成20%伤害。",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -37088,7 +37716,7 @@
     "iIconID": 56010,
     "szName": "兵解血罗诀",
     "iQuality": 0,
-    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>180%</color>攻击力的邪系伤害，重复释放伤害提升180%，最多360%",
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>180%</color>攻击力的邪系伤害，重复释放伤害提升180%，最多360%。攻击拥有护盾的单位时，额外造成20%伤害。",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -37116,7 +37744,7 @@
     "iIconID": 56010,
     "szName": "兵解血罗诀",
     "iQuality": 0,
-    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>225%</color>攻击力的邪系伤害，重复释放伤害提升225%，最多450%",
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>225%</color>攻击力的邪系伤害，重复释放伤害提升225%，最多450%。攻击拥有护盾的单位时，额外造成20%伤害。",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -37144,7 +37772,7 @@
     "iIconID": 56010,
     "szName": "兵解血罗诀",
     "iQuality": 0,
-    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>225%</color>攻击力的邪系伤害，重复释放伤害提升225%，最多450%",
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>225%</color>攻击力的邪系伤害，重复释放伤害提升225%，最多450%。攻击拥有护盾的单位时，额外造成20%伤害。",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -37172,7 +37800,7 @@
     "iIconID": 56010,
     "szName": "兵解血罗诀",
     "iQuality": 0,
-    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>270%</color>攻击力的邪系伤害，重复释放伤害提升270%，最多540%",
+    "szDesc": "被动：主修本功法时获得<u><link=\"tips_338\">【战鬼】</link></u>\n获得1层<u><link=\"tips_340\">【修罗血相】</link></u>，造成<color=#34932a>270%</color>攻击力的邪系伤害，重复释放伤害提升270%，最多540%。攻击拥有护盾的单位时，额外造成20%伤害。",
     "iDuringTime": 500,
     "iType": 5,
     "iSkillCategory": 0,
@@ -46198,7 +46826,7 @@
     "iIconID": 35069,
     "szName": "初级贯岳重刺",
     "iQuality": 0,
-    "szDesc": "每回合扣除目标20%当前护盾值，每次释放提升10%扣除当前护盾值（扣除护盾值上限为100%）,并对目标造成弟子攻击力120%的土系伤害",
+    "szDesc": "每回合对目标造成20%当前护盾值的伤害，每次释放提升10%,最多提升至100%,并对目标造成弟子攻击力120%的土系伤害",
     "iDuringTime": 500,
     "iType": 6,
     "iSkillCategory": 0,
@@ -46224,7 +46852,7 @@
     "iIconID": 35069,
     "szName": "中级贯岳重刺",
     "iQuality": 0,
-    "szDesc": "每回合扣除目标25%当前护盾值，每次释放提升10%扣除当前护盾值（扣除护盾值上限为100%）,并对目标造成弟子攻击力150%的土系伤害",
+    "szDesc": "每回合对目标造成25%当前护盾值的伤害，每次释放提升10%,最多提升至100%,并对目标造成弟子攻击力150%的土系伤害",
     "iDuringTime": 500,
     "iType": 6,
     "iSkillCategory": 0,
@@ -46250,7 +46878,7 @@
     "iIconID": 35069,
     "szName": "高级贯岳重刺",
     "iQuality": 0,
-    "szDesc": "每回合扣除目标30%当前护盾值，每次释放提升10%扣除当前护盾值（扣除护盾值上限为100%）,并对目标造成弟子攻击力180%的土系伤害",
+    "szDesc": "每回合对目标造成30%当前护盾值的伤害，每次释放提升10%,最多提升至100%,并对目标造成弟子攻击力180%的土系伤害",
     "iDuringTime": 500,
     "iType": 6,
     "iSkillCategory": 0,
@@ -54774,7 +55402,7 @@
     "iDuringTime": 500,
     "iType": 2,
     "iSkillCategory": 2,
-    "iCombatType": 0,
+    "iCombatType": 2,
     "iCoolDownFirst": 0,
     "iCoolDown": 999,
     "szSkillAction": "",
@@ -54800,7 +55428,7 @@
     "iDuringTime": 500,
     "iType": 3,
     "iSkillCategory": 2,
-    "iCombatType": 0,
+    "iCombatType": 2,
     "iCoolDownFirst": 0,
     "iCoolDown": 999,
     "szSkillAction": "",
@@ -55320,7 +55948,7 @@
     "iIconID": 8203,
     "szName": "被动",
     "iQuality": 0,
-    "szDesc": "每次造成伤害额外附带5%目标生命上限伤害",
+    "szDesc": "每次造成伤害额外附带0.5%目标生命上限伤害",
     "iDuringTime": 500,
     "iType": 3,
     "iSkillCategory": 2,
@@ -57479,7 +58107,7 @@
     "szSkillEffect": "",
     "fLaunchEffectTime": 0.0,
     "arrSkillBulletList": [
-      41303901,
+      41203901,
       12801,
       12801
     ],

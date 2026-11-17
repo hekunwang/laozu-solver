@@ -1,0 +1,102 @@
+{
+  "format": "laozu-public-web-v1",
+  "resourceVersion": "2611031142",
+  "builtForDate": "2026-11-10",
+  "offline": {
+    "version": "d722a9dc6711b7acd589",
+    "pageVersion": "be6aefb901d1dd1f0e37",
+    "serviceWorker": "./sw.js",
+    "manifest": "./app.webmanifest",
+    "resources": 9,
+    "strategy": "manifest-validated navigation; immutable asset cache; offline fallback; nonblocking release activation"
+  },
+  "app": "./assets/app.40ecec47916c.js",
+  "stylesheet": "./assets/app.88f342cd19b7.css",
+  "recognitionWorker": "./assets/recognition-worker.8e710434434e.js",
+  "acquiredTalentNameSource": {
+    "channel": "prerelease",
+    "resourceVersion": "2611061819",
+    "rawTableSha256": "0de966ffd6ea9d0c7cd98ccf148d1e6f64fbf741db89cac8464f4fba116e1b53"
+  },
+  "talentOcr": {
+    "engine": "talent-lite",
+    "ready": true,
+    "status": "ready",
+    "scope": "fixed-vocabulary",
+    "delivery": "bundled-worker-v1",
+    "bundleVersion": "e86d004e555582a0fc6e",
+    "worker": "./assets/talent-worker.e86d004e5555.js",
+    "glyphSchemaVersion": 1,
+    "glyphCount": 517,
+    "wordCount": 569,
+    "glyphSize": 20,
+    "glyphBits": 2
+  },
+  "files": [
+    {
+      "name": "index.html",
+      "bytes": 2131,
+      "sha256": "865ae1b8d4b803c9c7b57f024c782e61ccdd6ac9692948cfbb809560311b8094"
+    },
+    {
+      "name": "assets/app.40ecec47916c.js",
+      "bytes": 988933,
+      "sha256": "40ecec47916cf71cfd4a3e2727a6538d3acb28d0dbfc32dca32e578258727ee9"
+    },
+    {
+      "name": "assets/app.88f342cd19b7.css",
+      "bytes": 35481,
+      "sha256": "88f342cd19b7505eca519eeb4351686a2ac1325f7f0ec92f75baf9b69e4a300f"
+    },
+    {
+      "name": "assets/recognition-worker.8e710434434e.js",
+      "bytes": 974042,
+      "sha256": "8e710434434efd6a6d91213c0c45d1db3f050ce48b03bdd730494180c3c15e4e"
+    },
+    {
+      "name": "assets/talent-worker.e86d004e5555.js",
+      "bytes": 144680,
+      "sha256": "e86d004e555582a0fc6eec21d2ce9bb6829d5a6fbaabcf5cde6b1a2bd963d8ec"
+    },
+    {
+      "name": "SOURCE_NOTICES.txt",
+      "bytes": 461,
+      "sha256": "a1810f396557ef13783db0cfe26fe0b9b885fe3085290d96558d3fabd19aca39"
+    },
+    {
+      "name": "assets/offline-client.acaa86f23880.js",
+      "bytes": 4030,
+      "sha256": "acaa86f238807140b44e72785cf9840e576e33544d4482991c6ce90ce935ae07"
+    },
+    {
+      "name": "app.webmanifest",
+      "bytes": 468,
+      "sha256": "60ace2aae0674641457a77723ad34df02495f98a335284c48b819e4bed499e70"
+    },
+    {
+      "name": "assets/offline-icon-192.png",
+      "bytes": 51911,
+      "sha256": "2bdf58e8f136a549bfe5f8f84358581d5458cfe39718c3998ffc6eec6118d1fd"
+    },
+    {
+      "name": "assets/offline-icon-512.png",
+      "bytes": 347352,
+      "sha256": "0e8bacdc5b936c6dfe6dbecb547fb370a0141085dfb668ef4f446dc79f439996"
+    },
+    {
+      "name": "sw.js",
+      "bytes": 8381,
+      "sha256": "c48a2b8127b29fc71df9435029acef81b8b9d6b071600b37415d9f30d209da4f"
+    },
+    {
+      "name": "update.html",
+      "bytes": 2430,
+      "sha256": "76d141ceab1034394df83eb7e436c30e8cb5f90c4a1e9a9a0c98786897558db3"
+    },
+    {
+      "name": "_headers",
+      "bytes": 224,
+      "sha256": "198cc2f172ef23291748482f942923a10644f8916c7521e67a2641066e533925"
+    }
+  ]
+}
