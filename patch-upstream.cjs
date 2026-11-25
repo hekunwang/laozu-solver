@@ -11,12 +11,20 @@ const catalog = JSON.parse(read('data/game-catalog.json'));
 // Include all ordinary innate slots for faithful screenshot/manual recovery.
 // The scorer consumes only supported arrEffectEquip percentages; the separate
 // disciple-wide effects are retained for display and do not enter model score.
-const innateRaw=JSON.parse(read('data/Ability.json')).filter(x=>x.iLevel===0&&x.iType===4);
-if(innateRaw.length!==101||new Set(innateRaw.map(x=>x.iAbilityID)).size!==innateRaw.length)throw Error('Unexpected innate talent source');
+const innateRaw = JSON.parse(read('data/Ability.json')).filter(row =>
+  row.iLevel === 0 && row.iType === 4 && row.szDesc !== '待补充');
+const innateIds = new Set(innateRaw.map(row => row.iAbilityID));
+const ocrInnateIds = JSON.parse(read('data/talent-glyphs.json')).words
+  .filter(word => word.kind === 'innate').map(word => word.id);
+if (innateIds.size !== innateRaw.length || new Set(ocrInnateIds).size !== ocrInnateIds.length ||
+    ocrInnateIds.length !== innateIds.size || !ocrInnateIds.every(id => innateIds.has(id))) {
+  throw Error('Selectable and OCR innate talent IDs must be unique and match');
+}
 catalog.talents=innateRaw.map(row=>{
   const equip=row.arrEffectEquip||[];
   if(equip.length!==0&&(equip.length!==2||![2004,2005,2006].includes(equip[0])||!row.iWeaponForm))throw Error('Unsupported innate equip effect: '+row.iAbilityID);
-  return {id:row.iAbilityID,name:row.szName,desc:row.szDesc,quality:row.iQuality,form:row.iWeaponForm||0,attr:equip[0]||0,value:equip[1]||0,globalEffects:row.arrEffect||[]};
+  return {id:row.iAbilityID,name:row.szName,desc:row.szDesc,quality:row.iQuality,form:row.iWeaponForm||0,attr:equip[0]||0,value:equip[1]||0,globalEffects:row.arrEffect||[],
+    ...(row.appliesToAllForms === true ? {appliesToAllForms:true} : {})};
 }).sort((a,b)=>a.id-b.id);
 let app = read('upstream-bundle.js');
 function change(source, old, replacement, expected = 1) {
@@ -33,6 +41,26 @@ const catalogStart = app.indexOf('const z=JSON.parse(');
 const catalogEnd = app.indexOf("'),", catalogStart) + 2;
 if (catalogStart < 0 || catalogEnd < 2) throw new Error('Catalog anchor missing');
 app = app.slice(0, catalogStart) + `const z=${JSON.stringify(catalog)}` + app.slice(catalogEnd);
+// The page passes this same per-form map to its previews and to the solver
+// Worker. Each treasure is keyed by its single catalog form, including form 0.
+app = change(app,
+  'pn=(t,e)=>{var l;const s=new Map(t.map(i=>[i.id,i])),a={},n=new Set;for(const i of e){const o=s.get(i);if(!o||n.has(i))continue;n.add(i);const c=cn[o.attr];if(c===void 0)continue;const u=a[l=o.form]??(a[l]={});u[c]=(u[c]??0)+o.value}return a}',
+  `innateEquipmentForms=[...new Set(z.equips.map(equip=>equip.weaponForm))],
+  innateMatchesForm=(row,form)=>row.appliesToAllForms===true||row.form===form,
+  pn=(rows,picks)=>{
+    const byId=new Map(rows.map(row=>[row.id,row])), bonuses={};
+    for(const id of new Set(picks.slice(0,x1))){
+      const row=byId.get(id);
+      if(!row||cn[row.attr]===undefined)continue;
+      const attr=cn[row.attr];
+      for(const form of innateEquipmentForms){
+        if(!innateMatchesForm(row,form))continue;
+        const attrs=bonuses[form]??(bonuses[form]={});
+        attrs[attr]=(attrs[attr]??0)+row.value;
+      }
+    }
+    return bonuses;
+  }`);
 const shared = `
 const AWDB=${JSON.stringify(awakening)};
 function awGlobalMatches(buff,eq){return (buff.form==null||buff.form===eq.weaponForm)&&(buff.element==null||buff.element===eq.element);}

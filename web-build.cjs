@@ -99,7 +99,10 @@ function createPublicWebArtifacts({upstreamHtml,app,resourceManifest,releaseTitl
   html=html.replace(/<title>[\s\S]*?<\/title>/,()=>'<title>老祖法宝模拟器 · '+edition+'</title>');
   html=html.replace('机制与公式见 docs/GAME_DATA.md。本工具不修改游戏、不与服务端交互。','战力目标为法宝模型分，非游戏面板总战力。本工具不修改游戏、不与服务端交互。');
   const talentVersion=resourceManifest.acquiredTalentNameSource?.resourceVersion;
-  const talentSource=/^\d+$/.test(talentVersion||'')?'；后天特性名称来自先遣服 '+talentVersion:'';
+  const talentChannel=resourceManifest.acquiredTalentNameSource?.channel;
+  const separateTalentSource=talentVersion!==resourceManifest.resourceVersion || talentChannel!==resourceManifest.channel;
+  const talentSource=/^\d+$/.test(talentVersion||'') && separateTalentSource
+    ? '；后天特性名称来自'+(talentChannel==='formal'?'正式服':'先遣服')+' '+talentVersion : '';
   html=html.replace('<div id="app"></div>',()=>`<div style="padding:10px 16px;text-align:center;border-bottom:1px solid #dec9ab;background:#fff7e8;color:#604833;font-size:13px">${edition}<details><summary>来源与版本</summary>${preview?'先遣':'正式服'}资源 ${String(resourceManifest.resourceVersion).replace(/[<>&"]/g,'')}${talentSource}。原作者 <a href="https://github.com/fradwow/laozu-solver" target="_blank" rel="noopener">fradwow/laozu-solver</a>；更新 ${String(resourceManifest.builtForDate).replace(/[<>&"]/g,'')}。<a href="https://github.com/hekunwang/laozu-solver" target="_blank" rel="noopener">项目源码</a>。</details></div><div id="app"></div>`);
   const files={'index.html':bytes(html),[appName]:bytes(app),[cssName]:bytes(css),[workerUrl.slice(2)]:bytes(workerSource),...talentLite.files};
   files['SOURCE_NOTICES.txt']=bytes('原版代码及界面来源：https://github.com/fradwow/laozu-solver\n本版本源码：https://github.com/hekunwang/laozu-solver\n游戏配置、名称及字形素材归原权利人所有。上游基线未附带 LICENSE 文件；本包保留来源与署名，不为上游代码或游戏数据另行声明许可证。\n天赋识别使用固定词表与字形数据，在浏览器内运行；字库按需加载，不包含通用 OCR 模型或原始字体文件。\n');

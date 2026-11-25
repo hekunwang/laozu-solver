@@ -331,7 +331,8 @@ function stateUiSourceRows(eq,piece,options,stars,attrName) {
   const level=awPieceLevel(piece,options);
   for(const [attr,value] of Object.entries(awEffects(eq,level).baseBonus))add('awakening','本件觉醒 '+level,Number(attr),value);
   const acquired=acMergeBase({},options.acquiredTalentPicks);
-  const innate=(options.innateTalentPicks||[]).map(id=>z.talents.find(row=>row.id===id)).filter(row=>row&&row.form===eq.weaponForm);
+  const innate=[...new Set((options.innateTalentPicks||[]).slice(0,x1))]
+    .map(id=>z.talents.find(row=>row.id===id)).filter(row=>row&&innateMatchesForm(row,eq.weaponForm));
   if(innate.length){for(const row of innate)add('innate',row.name,({2004:2001,2005:2002,2006:2003})[row.attr],row.value);}
   else for(const attr of [2001,2002,2003])add('innate','先天天赋',attr,(options.talents?.[eq.weaponForm]?.[attr]||0)-(acquired[eq.weaponForm]?.[attr]||0));
   for(const row of acRows(options.acquiredTalentPicks))if((row.forms||[]).includes(eq.weaponForm))for(const effect of row.equipBaseEffects||[])add('acquired-base',row.name,({2004:2001,2005:2002,2006:2003})[effect.attr],effect.value);

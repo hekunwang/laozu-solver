@@ -17,8 +17,10 @@ def build(font_path, size=20):
     root = Path(__file__).resolve().parent
     abilities = json.loads((root / 'data/Ability.json').read_text())
     acquired = json.loads((root / 'data/acquired-talents.json').read_text())
+    # Unreleased placeholders stay in the negative vocabulary. A badge that
+    # matches one of these names must never fill an ordinary innate slot.
     words = [dict(name=r['szName'], id=r['iAbilityID'], quality=r['iQuality'],
-                  kind='innate' if r['iType'] == 4 else 'exclude')
+                  kind='innate' if r['iType'] == 4 and r['szDesc'] != '待补充' else 'exclude')
              for r in abilities if r['iLevel'] == 0 and r.get('szName')]
     words += [dict(name=r['name'], id=r['id'], quality=r['quality'], kind='acquired')
               for r in acquired]

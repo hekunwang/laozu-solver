@@ -192,14 +192,19 @@ def sync_catalog(catalog, tables):
     for raw in tables['Ability']:
         # Explicit user scope: white quality-1 talents do not appear in their
         # use case and must not be added. Keep the existing quality>=2 range.
-        if raw['iLevel'] != 0 or raw['iType'] != 4 or raw['iQuality'] < 2 or not raw['iWeaponForm'] or not raw['arrEffectEquip']:
+        if raw['iLevel'] != 0 or raw['iType'] != 4 or raw['iQuality'] < 2:
+            continue
+        if raw['szDesc'] == '待补充' or not raw['iWeaponForm'] or not raw.get('arrEffectEquip'):
             continue
         values = raw['arrEffectEquip']
         if len(values) != 2 or values[0] not in (2004, 2005, 2006):
             raise ValueError('Unsupported weapon talent: ' + str(raw['iAbilityID']))
-        talents.append({'id': raw['iAbilityID'], 'name': raw['szName'], 'desc': raw['szDesc'],
-                        'quality': raw['iQuality'], 'form': raw['iWeaponForm'],
-                        'attr': values[0], 'value': values[1]})
+        talent = {'id': raw['iAbilityID'], 'name': raw['szName'], 'desc': raw['szDesc'],
+                  'quality': raw['iQuality'], 'form': raw['iWeaponForm'],
+                  'attr': values[0], 'value': values[1]}
+        if raw.get('appliesToAllForms'):
+            talent['appliesToAllForms'] = True
+        talents.append(talent)
     _index(talents, 'id', 'weapon talents')
     out['talents'] = sorted(talents, key=lambda x: x['id'])
 
@@ -242,7 +247,7 @@ def audit_catalog(catalog, tables):
         {'id': r['iAbilityID'], 'name': r['szName'],
          'reason': 'Explicit user exclusion: do not add white quality-1 talents'}
         for r in tables['Ability'] if r['iLevel'] == 0 and r['iType'] == 4
-        and r['iQuality'] == 1 and r['iWeaponForm'] and r['arrEffectEquip']]
+        and r['iQuality'] == 1 and r['iWeaponForm'] and r.get('arrEffectEquip')]
     differences['primaryFormOnly'] = [{'equipId': 250104, 'rawForms': [6, 10], 'catalogForm': 6,
                                       'note': 'Preserve released primary-form model; form-10 aura 4310 exists but has no TeacherAwakening reference; no form-10 equipment talent'}]
     return differences

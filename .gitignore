@@ -21,3 +21,4 @@ tests/*
 .dev.vars*
 !tests/public-web-build.cjs
 !tests/offline-cache.cjs
+!tests/formal-talent-scoring.cjs

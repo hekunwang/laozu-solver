@@ -25,6 +25,7 @@ def write(name, value):
 def main():
     exported = read('export-manifest')
     version = exported['resourceVersion']
+    awakening_version = exported.get('awakeningResourceVersion', version)
     channel = exported['channel']
     preview = channel == 'prerelease'
     assert channel in ('formal', 'prerelease')
@@ -83,12 +84,17 @@ def main():
     for row in read('AcquiredAbility'):
         if row['iID'] <= 0:
             continue
+        description = row['szDesc']
+        # The Nov 25 description omits the percent sign for this specific bonus.
+        if row['iID'] == 204004 and description == '异形态法宝：攻击+7.5，增伤+3%。':
+            assert row['arrEffectEquip1'] == [2004, 750]
+            description = '异形态法宝：攻击+7.5%，增伤+3%。'
         def pairs(field):
             values = row[field]
             assert len(values) % 2 == 0, (row['iID'], field)
             return [{'attr': values[i], 'value': values[i + 1]}
                     for i in range(0, len(values), 2)]
-        acquired.append({'id': row['iID'], 'name': row['szName'], 'desc': row['szDesc'],
+        acquired.append({'id': row['iID'], 'name': row['szName'], 'desc': description,
                          'quality': row['iQuality'], 'forms': row['arrWeaponForm'],
                          'effects': pairs('arrEffect'),
                          'equipBaseEffects': pairs('arrEffectEquip1'),
@@ -190,7 +196,7 @@ def main():
         assert str(level) not in item['levels'], f'Duplicate stage: {eid}/{level}'
         item['levels'][str(level)] = stage
         provenance.append({'equipId': eid, 'teacherId': row['iID'], 'level': level,
-                           'channel': channel, 'resourceVersion': version,
+                           'channel': channel, 'resourceVersion': awakening_version,
                            'effectIds': row['arrAwakenEffect']})
     for equip in catalog['equips']:
         if equip.get('elder') and str(equip['id']) not in awakening:
@@ -216,7 +222,8 @@ def main():
     assert len(awakening) == expected_total
     assert sum(x['maxLevel'] == 5 for x in awakening.values()) == expected_complete
     assert all(set(x['levels']) == {'1','2','3','4','5'} for x in awakening.values() if x['maxLevel'] == 5)
-    assert len(catalog['talents']) == 42 and all(x['quality'] >= 2 for x in catalog['talents'])
+    assert len(catalog['talents']) == expected.get('scoredInnate', 42)
+    assert all(x['quality'] >= 2 for x in catalog['talents'])
     attrs = {x['id'] for x in catalog['attrs']}
     assert all(b['attr'] in attrs for sk in catalog['skills'] for b in sk['buffs'])
     assert len(provenance) == expected_stages and all(row['channel'] == channel for row in provenance)
@@ -250,8 +257,9 @@ def main():
                   ('先遣本地验证：八风五觉按用户指定15%替换8%，非官服实测确认；新宝截图外观样本待补' if preview else '基础配置及0–5觉均同步正式资源；已核对公开正式客户端配置，未宣称实战运行验证'),
                   '只优化法宝属性战力，不模拟战斗或证明全局最优'],
     }
+    manifest.update(exported.get('deliveryMetadata', {}))
     write('manifest', manifest)
-    write('awakening-source-composition', {'resourceVersion': version, 'formalVersion': exported.get('formalBaseVersion', version),
+    write('awakening-source-composition', {'resourceVersion': awakening_version, 'formalVersion': exported.get('formalBaseVersion', version),
           'channel': channel, 'stages': provenance})
     print(json.dumps(manifest['counts'], ensure_ascii=False))
     print('Missing official effects:', manifest['missing'])

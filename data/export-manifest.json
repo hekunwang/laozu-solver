@@ -1,10 +1,10 @@
 {
-  "resourceVersion": "2611031142",
+  "resourceVersion": "2611251133",
   "channel": "formal",
   "localOnly": true,
   "formalBaseVersion": "2611031142",
-  "builtForDate": "2026-11-04",
-  "source": "official-formal-2611031142",
+  "builtForDate": "2026-11-25",
+  "source": "formal-2611251133-talents-and-equipment-tips",
   "tables": {
     "WanderingEquip": {
       "file": "-4833120086416829051-WanderingEquip",
@@ -64,10 +64,28 @@
     },
     "Ability": {
       "file": "914992205244235452-Ability",
-      "rows": 669,
-      "sha256": "f3ba10e920f6864a3951796407acdee687945f0301d43b953e24abebbb828e68",
-      "jsonSha256": "28bac6d2153cfc0d473fe5742e76ad2cb3b7e3bffce2b29f560bfdc643951ff9",
-      "sourceNote": "Decoded from official formal 2611031142"
+      "rows": 813,
+      "sha256": "852d4ae22cf507e5bd92cf3b928bdde9d3a3062a22a713970012bd61dc7cbf4c",
+      "jsonSha256": "c23c21f264caf12e9d52ec67397c0ae7a74a065fa669f062884ad5bde1156d2a",
+      "sourceNote": "Public fields decoded from formal 2611251133. Fields omitted from that client are retained from the matching 2611102000 row. Board-effect interpretations are recorded below.",
+      "retainedFieldsSource": {
+        "resourceVersion": "2611102000",
+        "sha256": "6dcc3bb7ed5060d5b285e1d263f340d2b76c787e711fa0d96597266762343040",
+        "fields": [
+          "arrEffectEquip",
+          "iFightPower",
+          "iMaxStack",
+          "iSkill"
+        ]
+      },
+      "boardEffectInterpretation": {
+        "ids": [
+          12021,
+          12022,
+          12023
+        ],
+        "basis": "All-form scope and 12% are taken from each formal description. iWeaponForm=2 remains the official display category. No runtime verification."
+      }
     },
     "WanderingEquipCompose": {
       "file": "8692017759835970771-WanderingEquipCompose",
@@ -99,29 +117,62 @@
     },
     "TextDesc": {
       "file": "4271161918151018053-TextDesc",
-      "rows": 267,
-      "sha256": "4a62fafac7bf24a2dd26e67f6f6ccd29698b92f7810e458fe773c42c34e2d8bd",
-      "jsonSha256": "3cf27b9cd91993f897dee614299e4e0cfc89b76b49258a88d84d87ce20732c17",
-      "sourceNote": "Decoded from official formal 2611031142"
+      "rows": 292,
+      "sha256": "efc87a9c8d62c8f54d297e6f961e537761363a8d27bb57d8f547f26fe3ab0d64",
+      "jsonSha256": "6ef8c77da5be613104792cd1f0d7052c0e5f910578cdc42340733b15b6ddf1fb",
+      "sourceNote": "Decoded from official formal 2611251133"
     },
     "AcquiredAbility": {
       "file": "2526441776829816966-AcquiredAbility",
       "rows": 199,
-      "sha256": "d0cfdad83748038812181ba9a4d818db52cee4981a39688f26767524a42488de",
-      "jsonSha256": "a27e232ea2e6713d34dc5774aa44a56a20531aaa230269ce64da24c2015d48d2",
-      "sourceNote": "Decoded from official formal 2611031142"
+      "sha256": "af67fca137b8ef2f01b7b818ea8fe2980b30c5fe55833562e22e5b8c90c0ae00",
+      "jsonSha256": "710a974022b879c12fd3653acfaf7c02c04c348d79e0dd0816195fb2a56f130c",
+      "sourceNote": "Public fields decoded from formal 2611251133. Fields omitted from that client are retained from the matching 2611102000 row. Board-effect interpretations are recorded below.",
+      "retainedFieldsSource": {
+        "resourceVersion": "2611102000",
+        "sha256": "0de966ffd6ea9d0c7cd98ccf148d1e6f64fbf741db89cac8464f4fba116e1b53",
+        "fields": [
+          "arrEffectEquip1",
+          "arrEffectEquip2",
+          "iFightPower"
+        ]
+      },
+      "boardEffectInterpretation": {
+        "ids": [
+          204004,
+          204007,
+          208003,
+          208006,
+          303124
+        ],
+        "basis": "Equipment effects follow the 2026-11-25 formal descriptions and update notice. For 204004, the published text omits the percent sign after 7.5. The model uses 7.5% by the matching talent scale."
+      }
     }
   },
   "sourceEvidence": {
-    "manifestSha256": "0586c8031274eca4eee7e3874d89543313607e255cb9948438a86d7c0fd6899d",
-    "auditPath": "/Users/wanghekun/Documents/game/outputs/laozu-formal-audit-20261104/README.md",
+    "manifestSha256": "5f75995453c8837d51f12a4ee7a53373fe95f318e36af3da40c06933fcb07c86",
     "runtimeVerified": false,
-    "note": "Raw hashes and decoded table hashes are recorded per table; unchanged raw tables reuse prior decode."
+    "note": "Ability, AcquiredAbility and TextDesc are synchronized to formal 2611251133. Other inputs retain their pinned 2611031142 snapshot. Full effect fields omitted from the current client use the specified earlier source; interpreted board effects are recorded per table.",
+    "officialNotice": "https://www.taptap.cn/moment/874403958083292682?group_id=942784"
   },
   "expectedCounts": {
     "awakeningStages": 410,
     "awakeningTotal": 84,
     "awakeningComplete": 82,
-    "equips": 379
+    "equips": 379,
+    "scoredInnate": 45
+  },
+  "awakeningResourceVersion": "2611031142",
+  "deliveryMetadata": {
+    "deliveryTarget": "static-browser-web",
+    "talentRecognitionEngine": "talent-lite",
+    "talentRecognitionPolicy": "small-fixed-vocabulary-browser-only",
+    "talentOcrModelStatus": "rejected-large-model",
+    "repairRevision": "20261125-formal-talents",
+    "acquiredTalentNameSource": {
+      "channel": "formal",
+      "resourceVersion": "2611251133",
+      "rawTableSha256": "af67fca137b8ef2f01b7b818ea8fe2980b30c5fe55833562e22e5b8c90c0ae00"
+    }
   }
 }
