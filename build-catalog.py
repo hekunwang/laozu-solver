@@ -238,6 +238,7 @@ def main():
     manifest = {
         'resourceVersion': version, 'channel': channel, 'localOnly': bool(exported.get('localOnly', preview)), 'builtForDate': date,
         'formalBaseVersion': exported.get('formalBaseVersion', version),
+        'awakeningResourceVersion': awakening_version,
         'levelSources': {'0-5': channel},
         'upstream': 'https://github.com/fradwow/laozu-solver',
         'sourceSnapshot': exported['source'],
@@ -257,6 +258,9 @@ def main():
                   ('先遣本地验证：八风五觉按用户指定15%替换8%，非官服实测确认；新宝截图外观样本待补' if preview else '基础配置及0–5觉均同步正式资源；已核对公开正式客户端配置，未宣称实战运行验证'),
                   '只优化法宝属性战力，不模拟战斗或证明全局最优'],
     }
+    ability_hotfix = exported['tables']['Ability'].get('hotfixOverlay')
+    if ability_hotfix:
+        manifest['innateTalentHotfixVersion'] = ability_hotfix['resourceVersion']
     manifest.update(exported.get('deliveryMetadata', {}))
     write('manifest', manifest)
     write('awakening-source-composition', {'resourceVersion': awakening_version, 'formalVersion': exported.get('formalBaseVersion', version),

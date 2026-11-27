@@ -3,8 +3,8 @@
   "channel": "formal",
   "localOnly": true,
   "formalBaseVersion": "2611031142",
-  "builtForDate": "2026-11-25",
-  "source": "formal-2611251133-talents-and-equipment-tips",
+  "builtForDate": "2026-11-27",
+  "source": "formal-2611251133-with-ability-hotfix-2611251802",
   "tables": {
     "WanderingEquip": {
       "file": "-4833120086416829051-WanderingEquip",
@@ -66,7 +66,7 @@
       "file": "914992205244235452-Ability",
       "rows": 813,
       "sha256": "852d4ae22cf507e5bd92cf3b928bdde9d3a3062a22a713970012bd61dc7cbf4c",
-      "jsonSha256": "c23c21f264caf12e9d52ec67397c0ae7a74a065fa669f062884ad5bde1156d2a",
+      "jsonSha256": "20366172ab9d54f45caca46e345ac1b0de07237363bf7d11cc39dc900a43fe59",
       "sourceNote": "Public fields decoded from formal 2611251133. Fields omitted from that client are retained from the matching 2611102000 row. Board-effect interpretations are recorded below.",
       "retainedFieldsSource": {
         "resourceVersion": "2611102000",
@@ -78,13 +78,16 @@
           "iSkill"
         ]
       },
-      "boardEffectInterpretation": {
+      "hotfixOverlay": {
+        "resourceVersion": "2611251802",
         "ids": [
+          12020,
           12021,
           12022,
           12023
         ],
-        "basis": "All-form scope and 12% are taken from each formal description. iWeaponForm=2 remains the official display category. No runtime verification."
+        "abilitySha256": "a3b6eb7aa50a3258ee83320f35c2e34aae19317ff2163a80cfee9649d2d980ca",
+        "note": "The hotfix reclassifies 12020 as a disciple-only talent and replaces the three limited talents’ prior interpreted equipment effects with disciple effects. The descriptions expand the +5% values."
       }
     },
     "WanderingEquipCompose": {
@@ -152,7 +155,7 @@
   "sourceEvidence": {
     "manifestSha256": "5f75995453c8837d51f12a4ee7a53373fe95f318e36af3da40c06933fcb07c86",
     "runtimeVerified": false,
-    "note": "Ability, AcquiredAbility and TextDesc are synchronized to formal 2611251133. Other inputs retain their pinned 2611031142 snapshot. Full effect fields omitted from the current client use the specified earlier source; interpreted board effects are recorded per table.",
+    "note": "Ability, AcquiredAbility and TextDesc are synchronized to formal 2611251133. Other inputs retain their pinned 2611031142 snapshot. Full effect fields omitted from the current client use the specified earlier source; interpreted board effects are recorded per table. Ability applies the 2611251802 hotfix for 12020–12023.",
     "officialNotice": "https://www.taptap.cn/moment/874403958083292682?group_id=942784"
   },
   "expectedCounts": {
@@ -160,7 +163,7 @@
     "awakeningTotal": 84,
     "awakeningComplete": 82,
     "equips": 379,
-    "scoredInnate": 45
+    "scoredInnate": 42
   },
   "awakeningResourceVersion": "2611031142",
   "deliveryMetadata": {
@@ -168,7 +171,7 @@
     "talentRecognitionEngine": "talent-lite",
     "talentRecognitionPolicy": "small-fixed-vocabulary-browser-only",
     "talentOcrModelStatus": "rejected-large-model",
-    "repairRevision": "20261125-formal-talents",
+    "repairRevision": "20261127-three-limited-talents",
     "acquiredTalentNameSource": {
       "channel": "formal",
       "resourceVersion": "2611251133",

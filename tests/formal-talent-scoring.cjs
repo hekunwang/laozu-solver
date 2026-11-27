@@ -37,6 +37,9 @@ const glyphs = JSON.parse(read('data/talent-glyphs.json'));
 const limited = [12021, 12022, 12023];
 const placeholders = JSON.parse(read('data/Ability.json'))
   .filter(row => row.iType === 4 && row.iLevel === 0 && row.szDesc === '待补充');
+const resourceManifest = JSON.parse(read('data/manifest.json'));
+assert.match(bundle, new RegExp('觉醒配置来自正式服资源 ' + resourceManifest.awakeningResourceVersion));
+assert.equal(catalog.talents.find(talent => talent.id === 12020).form, 0);
 assert.equal(catalog.talents.length, 104);
 assert.equal(catalog.acquiredTalents.length, 193);
 assert.equal(placeholders.length, 14);
@@ -44,10 +47,19 @@ for (const row of placeholders) {
   assert(!catalog.talents.some(talent => talent.id === row.iAbilityID));
   assert(!glyphs.words.some(word => word.id === row.iAbilityID && word.kind === 'innate'));
 }
-for (const id of limited) {
+const limitedEffects = [
+  [2082, 500, 2128, 500, 2126, 500, 2070, 500, 2037, 500],
+  [2084, 500, 2129, 500, 2127, 500, 2071, 500, 2038, 500],
+  [2004, 500, 2005, 500, 2006, 500]
+];
+for (const [index, id] of limited.entries()) {
   const row = catalog.talents.find(talent => talent.id === id);
-  assert.equal(row.form, 2);
-  assert(row.appliesToAllForms);
+  assert.equal(row.form, 0);
+  assert.equal(row.attr, 0);
+  assert.equal(row.value, 0);
+  assert.equal(row.appliesToAllForms, undefined);
+  assert.deepEqual(plain(row.globalEffects), limitedEffects[index]);
+  assert.match(row.desc, /弟子.*各 \+5%/);
   assert(glyphs.words.some(word => word.id === id && word.kind === 'innate' && word.name === row.name));
 }
 
@@ -108,8 +120,8 @@ const examples = ids => ids.map(id => {
 const allForms = examples([110101,150106,150208,150205,150506,250104,150108,150504,150508]);
 assert.deepEqual(new Set(allForms.map(eq => eq.weaponForm)), new Set(catalog.equips.map(eq => eq.weaponForm)));
 checkPieces(select([...limited, 12001], []), allForms, equip => ({
-  bonuses: {2001: equip.weaponForm === 2 ? 1500 : 1200, 2002: 1200, 2003: 1200},
-  advanced: [], sourceIds: equip.weaponForm === 2 ? [...limited,12001] : limited
+  bonuses: equip.weaponForm === 2 ? {2001: 300} : {},
+  advanced: [], sourceIds: equip.weaponForm === 2 ? [12001] : []
 }));
 const affected = examples([150205,150504,150106]);
 for (const [id, forms, attr, value, damage] of [
@@ -121,8 +133,8 @@ for (const [id, forms, attr, value, damage] of [
     : {bonuses: {}, advanced: [], sourceIds: []});
 }
 checkPieces(select([12022], [208006]), affected, equip => ({
-  bonuses: {2002: equip.weaponForm === 8 ? 2200 : 1200},
-  advanced: equip.weaponForm === 8 ? [[2025,600]] : [], sourceIds: [12022]
+  bonuses: equip.weaponForm === 8 ? {2002: 1000} : {},
+  advanced: equip.weaponForm === 8 ? [[2025,600]] : [], sourceIds: []
 }));
 for (const [id, rate, attr, value] of [
   [106003,200,2037,300], [106006,400,2037,600], [107002,200,2082,200], [107005,400,2082,400]

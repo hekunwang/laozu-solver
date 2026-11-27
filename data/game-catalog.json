@@ -1,6 +1,6 @@
 {
   "meta": {
-    "extractedAt": "2026-11-25",
+    "extractedAt": "2026-11-27",
     "resourceVersion": "2611251133 正式配置（含四五觉）",
     "equipCount": 379,
     "shapeCount": 154,
@@ -23011,36 +23011,6 @@
       "form": 5,
       "attr": 2005,
       "value": 800
-    },
-    {
-      "id": 12021,
-      "name": "天官赐福",
-      "desc": "全形态法宝攻击+12%",
-      "quality": 4,
-      "form": 2,
-      "attr": 2004,
-      "value": 1200,
-      "appliesToAllForms": true
-    },
-    {
-      "id": 12022,
-      "name": "地官赦罪",
-      "desc": "全形态法宝防御+12%",
-      "quality": 4,
-      "form": 2,
-      "attr": 2005,
-      "value": 1200,
-      "appliesToAllForms": true
-    },
-    {
-      "id": 12023,
-      "name": "水官解厄",
-      "desc": "全形态法宝生命+12%",
-      "quality": 4,
-      "form": 2,
-      "attr": 2006,
-      "value": 1200,
-      "appliesToAllForms": true
     },
     {
       "id": 12118,

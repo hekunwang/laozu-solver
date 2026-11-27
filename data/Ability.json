@@ -4317,7 +4317,7 @@
     "iFightPower": 0,
     "iMaxStack": 1,
     "iTechnique": 0,
-    "iWeaponForm": 2,
+    "iWeaponForm": 0,
     "arrPowerAttr": [
       2001,
       2002,
@@ -4337,13 +4337,24 @@
     "iLevel": 0,
     "iReson": 0,
     "szName": "天官赐福",
-    "szDesc": "全形态法宝攻击+12%",
+    "szDesc": "弟子穿甲、毒强化、灼烧强化、破盾强化、法宝增伤各 +5%。",
     "iIcon": 5008,
     "iType": 4,
     "iQuality": 4,
-    "arrEffect": [],
+    "arrEffect": [
+      2082,
+      500,
+      2128,
+      500,
+      2126,
+      500,
+      2070,
+      500,
+      2037,
+      500
+    ],
     "iTechnique": 0,
-    "iWeaponForm": 2,
+    "iWeaponForm": 0,
     "arrPowerAttr": [
       2001,
       2002,
@@ -4354,13 +4365,9 @@
       10000,
       2000000
     ],
-    "iEffectType": 1,
+    "iEffectType": 0,
     "iStyle": 0,
-    "arrEffectEquip": [
-      2004,
-      1200
-    ],
-    "appliesToAllForms": true
+    "arrEffectEquip": []
   },
   {
     "iID": 3022,
@@ -4368,13 +4375,24 @@
     "iLevel": 0,
     "iReson": 0,
     "szName": "地官赦罪",
-    "szDesc": "全形态法宝防御+12%",
+    "szDesc": "弟子穿甲抵抗、毒弱化、灼烧弱化、破盾抵抗、法宝减伤各 +5%。",
     "iIcon": 5008,
     "iType": 4,
     "iQuality": 4,
-    "arrEffect": [],
+    "arrEffect": [
+      2084,
+      500,
+      2129,
+      500,
+      2127,
+      500,
+      2071,
+      500,
+      2038,
+      500
+    ],
     "iTechnique": 0,
-    "iWeaponForm": 2,
+    "iWeaponForm": 0,
     "arrPowerAttr": [
       2001,
       2002,
@@ -4385,13 +4403,9 @@
       10000,
       2000000
     ],
-    "iEffectType": 1,
+    "iEffectType": 0,
     "iStyle": 0,
-    "arrEffectEquip": [
-      2005,
-      1200
-    ],
-    "appliesToAllForms": true
+    "arrEffectEquip": []
   },
   {
     "iID": 3023,
@@ -4399,13 +4413,20 @@
     "iLevel": 0,
     "iReson": 0,
     "szName": "水官解厄",
-    "szDesc": "全形态法宝生命+12%",
+    "szDesc": "弟子攻击、防御、生命各 +5%。",
     "iIcon": 5008,
     "iType": 4,
     "iQuality": 4,
-    "arrEffect": [],
+    "arrEffect": [
+      2004,
+      500,
+      2005,
+      500,
+      2006,
+      500
+    ],
     "iTechnique": 0,
-    "iWeaponForm": 2,
+    "iWeaponForm": 0,
     "arrPowerAttr": [
       2001,
       2002,
@@ -4416,13 +4437,9 @@
       10000,
       2000000
     ],
-    "iEffectType": 1,
+    "iEffectType": 0,
     "iStyle": 0,
-    "arrEffectEquip": [
-      2006,
-      1200
-    ],
-    "appliesToAllForms": true
+    "arrEffectEquip": []
   },
   {
     "iID": 0,

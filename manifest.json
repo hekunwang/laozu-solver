@@ -1,18 +1,19 @@
 {
   "format": "laozu-public-web-v1",
   "resourceVersion": "2611251133",
-  "builtForDate": "2026-11-25",
+  "builtForDate": "2026-11-27",
   "offline": {
-    "version": "1be14617824a5fb08344",
-    "pageVersion": "523f4c77cfea311d65f5",
+    "version": "2739528852fdfe582b44",
+    "pageVersion": "1f8ffa997de81969ec49",
     "serviceWorker": "./sw.js",
     "manifest": "./app.webmanifest",
     "resources": 9,
     "strategy": "manifest-validated navigation; immutable asset cache; offline fallback; nonblocking release activation"
   },
-  "app": "./assets/app.3c77be6f89b2.js",
+  "app": "./assets/app.0718971e04e4.js",
   "stylesheet": "./assets/app.88f342cd19b7.css",
-  "recognitionWorker": "./assets/recognition-worker.030586aa5aca.js",
+  "recognitionWorker": "./assets/recognition-worker.f75365824ad0.js",
+  "innateTalentHotfixVersion": "2611251802",
   "acquiredTalentNameSource": {
     "channel": "formal",
     "resourceVersion": "2611251133",
@@ -35,13 +36,13 @@
   "files": [
     {
       "name": "index.html",
-      "bytes": 2114,
-      "sha256": "4c380f2cbee9df9cf2a1daa4a2ea62223053e0441ede2f0dc6349d6f67c64e6b"
+      "bytes": 2122,
+      "sha256": "1b4ac0974130ef9bbea5511769a16789c8cf6f59160714d36784c4455ab907d8"
     },
     {
-      "name": "assets/app.3c77be6f89b2.js",
-      "bytes": 991639,
-      "sha256": "3c77be6f89b236df5b92c09b81d65d63fd3d13502df5219a9299eecb0747f407"
+      "name": "assets/app.0718971e04e4.js",
+      "bytes": 991927,
+      "sha256": "0718971e04e4590d307e08ddd127d82f9faa06def6ba61e7780f3075255c7a13"
     },
     {
       "name": "assets/app.88f342cd19b7.css",
@@ -49,9 +50,9 @@
       "sha256": "88f342cd19b7505eca519eeb4351686a2ac1325f7f0ec92f75baf9b69e4a300f"
     },
     {
-      "name": "assets/recognition-worker.030586aa5aca.js",
-      "bytes": 976748,
-      "sha256": "030586aa5acaee90f3b01cf8ca24d0f98d76737d52539e2fd641f68ca15ce3d0"
+      "name": "assets/recognition-worker.f75365824ad0.js",
+      "bytes": 977036,
+      "sha256": "f75365824ad0370f883b115543d7166a691d3c26ad15f4d26446f20284a44ac1"
     },
     {
       "name": "assets/talent-worker.eed6e0a207a6.js",
@@ -86,7 +87,7 @@
     {
       "name": "sw.js",
       "bytes": 8381,
-      "sha256": "37b64153b89d37f7109f9f38f18bef499246390a060232690e5dfcf9dbdb061a"
+      "sha256": "5c59d18131c650fd8d16598b5a6e140b63d53833089cce2b70a6cfea3a66ffdd"
     },
     {
       "name": "update.html",

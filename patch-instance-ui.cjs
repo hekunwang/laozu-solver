@@ -3,6 +3,7 @@
 module.exports=function patchInstanceUI({app,change}){
   const manifest=JSON.parse(require('node:fs').readFileSync(require('node:path').join(__dirname,'data/manifest.json'),'utf8'));
   const preview=manifest.channel==='prerelease'&&manifest.localOnly===true&&process.argv.includes('--local-preview');
+  const awakeningVersion=manifest.awakeningResourceVersion??(preview?manifest.resourceVersion:manifest.formalBaseVersion??manifest.resourceVersion);
   if(manifest.channel!=='formal'&&!preview)throw new Error('Awakening UI requires explicit local-preview provenance');
   app=change(app,'Aw.value=awValidate(t.awaken)','Aw.value=awRestore(t.awaken,ae.value)');
   app=change(app,'e>0?s[t]=e:delete s[t],ae.value=s,K()',
@@ -28,7 +29,7 @@ function bl(){
         r('select',{'aria-label':eq.name+'第'+(copy+1)+'件觉醒等级',class:level?'elder-select on':'elder-select',value:String(level),disabled:data.maxLevel===0,onChange:event=>awSetCopy(eq.id,copy,Number(event.target.value)),children:Array.from({length:data.maxLevel+1},(_,lv)=>r('option',{value:String(lv),children:lv?'觉醒 '+lv:'未觉醒'},lv))}),
         r('span',{class:data.maxLevel===0?'warn small':'muted small',children:data.maxLevel===0?'官方快照暂无觉醒配置':level?Array.from({length:level},(_,i)=>'觉醒'+(i+1)+'：'+(data.levels[i+1]?.description||'')).join('；'):'此件未觉醒'})]},eq.id+':'+copy);
     }))}):r('p',{class:'muted small',children:'添加长老红宝后，可逐件选择觉醒等级。'}),
-    r(v0,{children:'支持逐件觉醒 0–5；配置已同步${preview?'先遣本地验证资源':'正式服资源'} ${manifest.resourceVersion}，支持觉醒0–5。${preview?'八风五觉按指定口径15%替换三觉8%，非官服实测确认。':''}技能升级按完整技能列表替换，不重复叠加旧值。同名红宝逐件设置；长老星级仍共享。新增法宝默认未觉醒；摆盘按每件实际等级计算，已选列表三围预览以第1件为准。缺少官方配置的等级不可选。'})]});
+    r(v0,{children:'支持逐件觉醒 0–5，觉醒配置来自${preview?'先遣本地验证资源':'正式服资源'} ${awakeningVersion}。${preview?'八风五觉按指定口径15%替换三觉8%，非官服实测确认。':''}技能升级按完整技能列表替换，不重复叠加旧值。同名红宝逐件设置；长老星级仍共享。新增法宝默认未觉醒；摆盘按每件实际等级计算，已选列表三围预览以第1件为准。缺少官方配置的等级不可选。'})]});
 }
 `;
   app=change(app,app.slice(start,end),panel);

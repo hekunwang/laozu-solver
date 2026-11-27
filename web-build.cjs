@@ -98,12 +98,14 @@ function createPublicWebArtifacts({upstreamHtml,app,resourceManifest,releaseTitl
   const edition=title.trim().replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
   html=html.replace(/<title>[\s\S]*?<\/title>/,()=>'<title>老祖法宝模拟器 · '+edition+'</title>');
   html=html.replace('机制与公式见 docs/GAME_DATA.md。本工具不修改游戏、不与服务端交互。','战力目标为法宝模型分，非游戏面板总战力。本工具不修改游戏、不与服务端交互。');
+  const innateTalentHotfixVersion=resourceManifest.innateTalentHotfixVersion;
+  const innateTalentSource=/^\d+$/.test(innateTalentHotfixVersion||'') ? '，三官限定热更 '+innateTalentHotfixVersion : '';
   const talentVersion=resourceManifest.acquiredTalentNameSource?.resourceVersion;
   const talentChannel=resourceManifest.acquiredTalentNameSource?.channel;
   const separateTalentSource=talentVersion!==resourceManifest.resourceVersion || talentChannel!==resourceManifest.channel;
   const talentSource=/^\d+$/.test(talentVersion||'') && separateTalentSource
     ? '；后天特性名称来自'+(talentChannel==='formal'?'正式服':'先遣服')+' '+talentVersion : '';
-  html=html.replace('<div id="app"></div>',()=>`<div style="padding:10px 16px;text-align:center;border-bottom:1px solid #dec9ab;background:#fff7e8;color:#604833;font-size:13px">${edition}<details><summary>来源与版本</summary>${preview?'先遣':'正式服'}资源 ${String(resourceManifest.resourceVersion).replace(/[<>&"]/g,'')}${talentSource}。原作者 <a href="https://github.com/fradwow/laozu-solver" target="_blank" rel="noopener">fradwow/laozu-solver</a>；更新 ${String(resourceManifest.builtForDate).replace(/[<>&"]/g,'')}。<a href="https://github.com/hekunwang/laozu-solver" target="_blank" rel="noopener">项目源码</a>。</details></div><div id="app"></div>`);
+  html=html.replace('<div id="app"></div>',()=>`<div style="padding:10px 16px;text-align:center;border-bottom:1px solid #dec9ab;background:#fff7e8;color:#604833;font-size:13px">${edition}<details><summary>来源与版本</summary>${preview?'先遣':'正式服'}资源 ${String(resourceManifest.resourceVersion).replace(/[<>&"]/g,'')}${innateTalentSource}${talentSource}。原作者 <a href="https://github.com/fradwow/laozu-solver" target="_blank" rel="noopener">fradwow/laozu-solver</a>；更新 ${String(resourceManifest.builtForDate).replace(/[<>&"]/g,'')}。<a href="https://github.com/hekunwang/laozu-solver" target="_blank" rel="noopener">项目源码</a>。</details></div><div id="app"></div>`);
   const files={'index.html':bytes(html),[appName]:bytes(app),[cssName]:bytes(css),[workerUrl.slice(2)]:bytes(workerSource),...talentLite.files};
   files['SOURCE_NOTICES.txt']=bytes('原版代码及界面来源：https://github.com/fradwow/laozu-solver\n本版本源码：https://github.com/hekunwang/laozu-solver\n游戏配置、名称及字形素材归原权利人所有。上游基线未附带 LICENSE 文件；本包保留来源与署名，不为上游代码或游戏数据另行声明许可证。\n天赋识别使用固定词表与字形数据，在浏览器内运行；字库按需加载，不包含通用 OCR 模型或原始字体文件。\n');
   for(const [name,value] of Object.entries(notices))files[relativeName(name)]=bytes(value);
@@ -111,6 +113,7 @@ function createPublicWebArtifacts({upstreamHtml,app,resourceManifest,releaseTitl
   html=files['index.html'].toString();
   const manifest={format:'laozu-public-web-v1',resourceVersion:resourceManifest.resourceVersion,builtForDate:resourceManifest.builtForDate,offline,
     app:'./'+appName,stylesheet:'./'+cssName,recognitionWorker:workerUrl,
+    ...(innateTalentSource ? {innateTalentHotfixVersion} : {}),
     ...(talentVersion ? {acquiredTalentNameSource:resourceManifest.acquiredTalentNameSource} : {}),
     talentOcr:talentLite.manifest,
     files:Object.entries(files).map(([name,value])=>({name,bytes:value.length,sha256:hash(value)}))};
@@ -129,14 +132,27 @@ function readPublicWebInputs(root){
     workerUrl,workerSource:read(workerUrl.slice(2)),browserOcrSource:read('browser-talent-ocr.js'),
     talentLiteWorkerSource:read('talent-lite-worker.js'),talentLiteSegmentationSource:read('talent-lite-segmentation.js'),talentLiteCoreSource:read('talent-lite-core.js'),talentGlyphsSource:read('data/talent-glyphs.json'),notices};
 }
-function writePublicWeb(root,artifacts){
+function writeWebFiles(directory,files){
+  for(const [name,value] of Object.entries(files)){
+    const file=path.join(directory,relativeName(name));
+    fs.mkdirSync(path.dirname(file),{recursive:true});
+    fs.writeFileSync(file,value);
+  }
+}
+function writePublicWeb(root,artifacts,{mirrorToRoot=false}={}){
   const suffix=process.pid+'-'+crypto.randomBytes(4).toString('hex'),staging=path.join(root,'.web-build-'+suffix),target=path.join(root,'web');
   fs.mkdirSync(staging);
-  for(const [name,value] of Object.entries(artifacts.files)){const file=path.join(staging,relativeName(name));fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,value);}
+  writeWebFiles(staging,artifacts.files);
   let previous=null;
   if(fs.existsSync(target)){previous=path.join(root,'.web-previous-'+suffix);fs.renameSync(target,previous);}
   try{fs.renameSync(staging,target);}catch(error){if(previous)fs.renameSync(previous,target);throw error;}
-  for(const [name,value] of Object.entries(artifacts.debugFiles)){const file=path.join(root,relativeName(name));fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,value);}
+  if(mirrorToRoot){
+    const {'index.html':index,'manifest.json':manifest,...assets}=artifacts.files;
+    // Older fingerprinted assets stay available to open Pages tabs.
+    writeWebFiles(root,{'app.js':artifacts.debugFiles['app.js'],...assets,'index.html':index,'manifest.json':manifest});
+  }else{
+    writeWebFiles(root,artifacts.debugFiles);
+  }
   return {directory:target,previous};
 }
 module.exports={createPublicWebArtifacts,readPublicWebInputs,writePublicWeb,extractReviewCss,recognitionWorkerReference,prepareTalentLitePackage,validateTalentGlyphs,TALENT_LITE_REQUIRED};

@@ -9,7 +9,7 @@ const workerUrl='./assets/recognition-worker.0123456789ab.js';
 const app='const SCREENSHOT_RECOGNITION_WORKER_URL='+JSON.stringify(workerUrl)+';\n'+"window.loadTalentOcr=()=>import(new URL('./assets/browser-talent-ocr.js',document.baseURI).href);\n"+'/* fixture application */\n'.repeat(100);
 const glyphs={version:1,engine:'talent-lite',size:4,bits:2,chars:'甲乙',data:Buffer.alloc(8).toString('base64'),words:[{name:'甲乙',kind:'innate',id:1,quality:1},{name:'乙',kind:'exclude',id:-1,quality:0}]};
 const input={upstreamHtml:'<!doctype html><html><head><title>Old</title><style>.base{color:black}</style><script type="module" crossorigin>oldApp()</script></head><body><div id="app"></div></body></html>',
- app,resourceManifest:{channel:'formal',resourceVersion:'fixture',builtForDate:'2026-11-06'},releaseTitle:'测试版',extraCss:['.talent-picker{display:block}'],
+ app,resourceManifest:{channel:'formal',resourceVersion:'fixture',innateTalentHotfixVersion:'2611251802',builtForDate:'2026-11-06'},releaseTitle:'测试版',extraCss:['.talent-picker{display:block}'],
  reviewCss:extractReviewCss(fs.readFileSync(path.join(__dirname,'../talent-ocr-ui.js'),'utf8')),workerUrl,workerSource:'self.postMessage({type:"ready"});',
  browserOcrSource:fs.readFileSync(path.join(__dirname,'../browser-talent-ocr.js'),'utf8'),
  talentLiteWorkerSource:fs.readFileSync(path.join(__dirname,'../talent-lite-worker.js'),'utf8'),
@@ -18,6 +18,8 @@ const input={upstreamHtml:'<!doctype html><html><head><title>Old</title><style>.
 const artifacts=createPublicWebArtifacts(input),html=artifacts.files['index.html'].toString(),manifest=artifacts.manifest;
 const outputApp=artifacts.files[manifest.app.slice(2)].toString(),bundleVersion=manifest.talentOcr.bundleVersion;
 let checks=0;const check=fn=>{fn();checks++;};
+check(()=>assert.equal(manifest.innateTalentHotfixVersion,'2611251802'));
+check(()=>assert.match(html,/三官限定热更 2611251802/));
 check(()=>assert.match(manifest.app,/^\.\/assets\/app\.[a-f0-9]{12}\.js$/));
 check(()=>assert.match(html,/<script type="module" src="\.\/assets\/app\.[a-f0-9]{12}\.js"><\/script>/));
 check(()=>assert(!html.includes('oldApp()')&&!html.includes(app),'application is external'));
@@ -103,7 +105,13 @@ function request(port,url,options={}){return new Promise((resolve,reject)=>{
  }
  const first=writePublicWeb(temporary,artifacts);
  fs.writeFileSync(path.join(first.directory,'native.swift'),'private fixture');
- const second=writePublicWeb(temporary,artifacts);
+ const priorAsset='assets/app.000000000000.js';
+ fs.writeFileSync(path.join(temporary,priorAsset),'previous app');
+ const second=writePublicWeb(temporary,artifacts,{mirrorToRoot:true});
+ for(const name of Object.keys(artifacts.files))check(()=>{
+   assert.deepEqual(fs.readFileSync(path.join(temporary,name)),fs.readFileSync(path.join(second.directory,name)),name);
+ });
+ check(()=>assert.equal(fs.readFileSync(path.join(temporary,priorAsset),'utf8'),'previous app'));
  check(()=>assert(second.previous&&fs.existsSync(path.join(second.previous,'native.swift'))&&!fs.existsSync(path.join(second.directory,'native.swift')),'old publish output is preserved outside the clean web directory'));
  fs.writeFileSync(path.join(temporary,'private.txt'),'private fixture');fs.symlinkSync(path.join(temporary,'private.txt'),path.join(second.directory,'assets/private.txt'));
  fs.writeFileSync(path.join(second.directory,'serve.cjs'),'private fixture');

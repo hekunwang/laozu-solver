@@ -8,8 +8,8 @@ const manifest = JSON.parse(fs.readFileSync(path.join(root,'data/manifest.json')
 const preview = manifest.channel === 'prerelease';
 if (manifest.channel !== 'formal' && !(preview && manifest.localOnly && process.argv.includes('--local-preview'))) throw new Error('Prerelease requires explicit --local-preview; release requires formal provenance');
 execFileSync(process.execPath, [path.join(root, 'patch-upstream.cjs'), ...(preview ? ['--local-preview'] : [])], {stdio: 'inherit'});
-const artifacts=createPublicWebArtifacts(readPublicWebInputs(root)),result=writePublicWeb(root,artifacts);
-console.log(JSON.stringify({publicDirectory:result.directory,debugPage:path.join(root,'index.html'),app:artifacts.manifest.app,
+const artifacts=createPublicWebArtifacts(readPublicWebInputs(root)),result=writePublicWeb(root,artifacts,{mirrorToRoot:!preview});
+console.log(JSON.stringify({publicDirectory:result.directory,rootPage:path.join(root,'index.html'),app:artifacts.manifest.app,
   recognitionWorker:artifacts.manifest.recognitionWorker,talentOcr:artifacts.manifest.talentOcr,files:artifacts.manifest.files.length,
   ...(result.previous?{previousPublicBuild:result.previous}:{})},null,2));
 return artifacts.manifest;

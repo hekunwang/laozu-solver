@@ -2,21 +2,22 @@
   "resourceVersion": "2611251133",
   "channel": "formal",
   "localOnly": true,
-  "builtForDate": "2026-11-25",
+  "builtForDate": "2026-11-27",
   "formalBaseVersion": "2611031142",
+  "awakeningResourceVersion": "2611031142",
   "levelSources": {
     "0-5": "formal"
   },
   "upstream": "https://github.com/fradwow/laozu-solver",
-  "sourceSnapshot": "formal-2611251133-talents-and-equipment-tips",
+  "sourceSnapshot": "formal-2611251133-with-ability-hotfix-2611251802",
   "sourceEvidence": {
     "manifestSha256": "5f75995453c8837d51f12a4ee7a53373fe95f318e36af3da40c06933fcb07c86",
     "runtimeVerified": false,
-    "note": "Ability, AcquiredAbility and TextDesc are synchronized to formal 2611251133. Other inputs retain their pinned 2611031142 snapshot. Full effect fields omitted from the current client use the specified earlier source; interpreted board effects are recorded per table.",
+    "note": "Ability, AcquiredAbility and TextDesc are synchronized to formal 2611251133. Other inputs retain their pinned 2611031142 snapshot. Full effect fields omitted from the current client use the specified earlier source; interpreted board effects are recorded per table. Ability applies the 2611251802 hotfix for 12020–12023.",
     "officialNotice": "https://www.taptap.cn/moment/874403958083292682?group_id=942784"
   },
   "sourceHashes": {
-    "Ability.json": "c23c21f264caf12e9d52ec67397c0ae7a74a065fa669f062884ad5bde1156d2a",
+    "Ability.json": "20366172ab9d54f45caca46e345ac1b0de07237363bf7d11cc39dc900a43fe59",
     "AcquiredAbility.json": "710a974022b879c12fd3653acfaf7c02c04c348d79e0dd0816195fb2a56f130c",
     "Attribute.json": "ca64fe80c02ab3c23192c6acb908c856f9c04309986e11e7f1ef86faf6d104ec",
     "BattleSkill.json": "a853a921a2c4bc1c2f27e82a3d4c61dd423d14b39238f2c2092b874a6e3963d3",
@@ -38,7 +39,7 @@
     "awakeningComplete": 82,
     "awakeningConfigured": 82,
     "awakeningTotal": 84,
-    "talents": 45,
+    "talents": 42,
     "scoreTiers": 55
   },
   "missing": {
@@ -66,11 +67,12 @@
     "基础配置及0–5觉均同步正式资源；已核对公开正式客户端配置，未宣称实战运行验证",
     "只优化法宝属性战力，不模拟战斗或证明全局最优"
   ],
+  "innateTalentHotfixVersion": "2611251802",
   "deliveryTarget": "static-browser-web",
   "talentRecognitionEngine": "talent-lite",
   "talentRecognitionPolicy": "small-fixed-vocabulary-browser-only",
   "talentOcrModelStatus": "rejected-large-model",
-  "repairRevision": "20261125-formal-talents",
+  "repairRevision": "20261127-three-limited-talents",
   "acquiredTalentNameSource": {
     "channel": "formal",
     "resourceVersion": "2611251133",
